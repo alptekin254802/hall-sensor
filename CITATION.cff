@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "A Load-Cell Alternative Weighing System Based on Dual-Channel Spatial Hall Sensor Fusion and Multi-Region Hybrid Modeling"
+message: "If you use this data, firmware, or analysis code, please cite the associated manuscript and repository."
+type: software
+authors:
+  - family-names: "Cinbat"
+    given-names: "Alptekin"
+repository-code: "https://github.com/alptekin254802/hall-sensor"
+abstract: "Data, analysis scripts, figures, and STM32 firmware artifacts for a dual-channel Hall-effect sensor weighing system with hybrid calibration and an MLP baseline."
+keywords:
+  - Hall-effect sensor
+  - weighing system
+  - sensor fusion
+  - STM32
+  - hybrid calibration
+  - edge AI
+license: MIT
+version: "1.0.0"
+date-released: "2026-07-02"
