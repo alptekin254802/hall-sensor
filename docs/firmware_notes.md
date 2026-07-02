@@ -30,7 +30,7 @@ The calibration model in `Agirlik_Hesapla` implements:
 - Region II: 1-4 kg cubic regression.
 - A software clamp at 4.00 kg for `adc >= 1187`.
 
-The code computes the fused ADC signal as `abs(s1_temiz + s2_temiz) / 2`. For the current same-polarity sensor mounting, this matches the manuscript's mean-of-absolute-deflections formulation. If future hardware mounts the sensors with opposite polarities, the fusion expression should be reviewed.
+The code computes the fused ADC signal as `(abs(s1_temiz) + abs(s2_temiz)) / 2`, matching the manuscript's mean-of-absolute-deflections formulation.
 
 ## `nn_model.h`
 
@@ -38,7 +38,7 @@ The code computes the fused ADC signal as `abs(s1_temiz + s2_temiz) / 2`. For th
 
 In this firmware snapshot, `main.c` does not include `nn_model.h` and does not call `AI_Agirlik_Tahmin`; the active build uses the analytical hybrid model. Treat `nn_model.h` as the edge-AI baseline artifact unless you intentionally create a firmware variant that calls it.
 
-The MLP inference header (`Core/Inc/nn_model.h`) uses an ADC normalization maximum of `NN_MAX_ADC 1207.0f`, matching the final edge-AI model reported in the manuscript. Running its weights on the plateau data reproduces the reported edge-AI figures (41-point MAE 27.6 g; plateau MAE 67.0 g). This header is provided for reproducibility of the on-device inference; the active `main.c` uses the analytical hybrid model and does not call `AI_Agirlik_Tahmin`.
+The MLP inference header (`Core/Inc/nn_model.h`) uses an ADC normalization maximum of `NN_MAX_ADC 1207.0f`. The cached manuscript MLP metrics are reproduced from `data/mlp_baseline_cache.npz` by `analysis/mlp_baseline.py`; a full retraining/export pipeline is provided in `analysis/train_mlp_baseline.py`. Small differences can occur when retraining because TensorFlow/Keras training may not be bit-exact across environments. The active `main.c` uses the analytical hybrid model and does not call `AI_Agirlik_Tahmin`.
 
 ## STM32CubeIDE Project Files
 
