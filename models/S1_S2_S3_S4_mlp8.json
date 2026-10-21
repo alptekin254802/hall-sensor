@@ -1,0 +1,72 @@
+{
+  "state": {
+    "spec": {
+      "kind": "mlp",
+      "hidden": 8,
+      "epochs": 3000,
+      "learning_rate": 0.01,
+      "seed": 20261016,
+      "out_of_range": "reject",
+      "monotonic": "none"
+    },
+    "bounds": [
+      0.0,
+      1270.6296296296296
+    ],
+    "reference_bounds_N": [
+      0.0,
+      49.033249999999995
+    ],
+    "x_mean": 273.3700051205051,
+    "x_scale": 367.1332990840362,
+    "numpy_version": "2.3.5",
+    "training_rows": 13,
+    "duplicate_inputs": [],
+    "continuity": "Continuous mathematical mapping on fitted support; not hardware validation",
+    "raw_anchor_diagnostics": {
+      "negative_force_steps_with_increasing_input": 0,
+      "positive_force_steps_with_increasing_input": 12,
+      "note": "Raw observed pairs are not corrected; step signs describe sorted inputs, not temporal hysteresis"
+    },
+    "parameters": [
+      [
+        -1.5504515595441253,
+        0.05594921933184264,
+        -0.30912760177201337,
+        -0.2103473962297762,
+        -0.789488139676019,
+        -0.8409563431937539,
+        -0.7418158837812865,
+        -0.8860557723546103
+      ],
+      [
+        -1.346011203953458,
+        0.5345992962261692,
+        0.30276652222979317,
+        -0.4553300267889931,
+        0.7857777187549662,
+        0.8733803582243257,
+        -1.1481157507236246,
+        -1.185845820095714
+      ],
+      [
+        -0.7898930350718466,
+        -0.22562138471164292,
+        -0.6179220043158636,
+        0.4271743756252926,
+        -0.23841923229999498,
+        -0.6203146177922405,
+        -0.6229961336934373,
+        -0.8160928843515696
+      ],
+      [
+        -0.5424948951516344
+      ]
+    ],
+    "y_mean": 14.614171573076923,
+    "y_scale": 15.089048749115522,
+    "training": "Fixed epochs, full-batch weighted MSE, Adam; no validation/early stopping/augmentation",
+    "inference_environment": "Python host; not STM32 execution"
+  },
+  "model_id": "31e0520c3a85bf6834eaec69d7b6fa07785ef5a8ec456060925f358ddc6f75a1"
+}

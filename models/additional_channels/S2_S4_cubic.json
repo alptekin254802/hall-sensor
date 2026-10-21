@@ -1,0 +1,43 @@
+{
+  "state": {
+    "spec": {
+      "kind": "polynomial",
+      "degree": 3,
+      "out_of_range": "reject",
+      "monotonic": "increasing"
+    },
+    "bounds": [
+      0.0,
+      1263.0560560560561
+    ],
+    "reference_bounds_N": [
+      0.0,
+      49.033249999999995
+    ],
+    "x_mean": 273.51145763070764,
+    "x_scale": 366.3574674104358,
+    "numpy_version": "2.3.4",
+    "training_rows": 13,
+    "duplicate_inputs": [],
+    "continuity": "Continuous mathematical mapping on fitted support; not hardware validation",
+    "raw_anchor_diagnostics": {
+      "negative_force_steps_with_increasing_input": 0,
+      "positive_force_steps_with_increasing_input": 12,
+      "note": "Raw observed pairs are not corrected; step signs describe sorted inputs, not temporal hysteresis"
+    },
+    "coefficients": [
+      18.761363256579358,
+      19.804929487321633,
+      -5.652519915674288,
+      0.9200988113887014
+    ],
+    "degree": 3,
+    "condition_number": 24.743608106016367,
+    "derivative_range": [
+      0.022463661596297962,
+      0.08129608829390751
+    ],
+    "monotonic_check": "Polynomial derivative extrema on fitted interval"
+  },
+  "model_id": "250dc29bb3a22c2c5598005aa0b16faefa49eba5f89329dcd5023047d41a7a46"
+}

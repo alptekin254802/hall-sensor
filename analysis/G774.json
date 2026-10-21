@@ -1,0 +1,920 @@
+{
+  "mass_g": 774,
+  "head_probe_rom": "28128e9900000030",
+  "ambient_probe_rom": "28e88f40912506b2",
+  "records": [
+    {
+      "capture_id": "92ac07a2536b456c8d769b9c2bb756f6",
+      "code": "G_RESTART_ZERO_ROOM_EQ",
+      "elapsed_s": 1799.9838442,
+      "samples": 180008,
+      "last10s": {
+        "n": 1001,
+        "raw_mean4_adc": 2451.189060939061,
+        "zero_subtracted_q_adc": -0.37908277203041507,
+        "indication_g": null,
+        "force_N": null,
+        "channel_means_adc": [
+          2500.5254745254747,
+          2375.5774225774226,
+          2362.0859140859143,
+          2566.5674325674327
+        ],
+        "channel_sd_adc": [
+          6.833710587930983,
+          7.082248918969842,
+          7.114254099244103,
+          6.943320408975712
+        ],
+        "head_temperature_mean_c": 24.93125,
+        "head_temperature_span_c": [
+          24.875,
+          24.9375
+        ]
+      },
+      "last60s": {
+        "n": 6001,
+        "raw_mean4_adc": 2451.0550741543075,
+        "zero_subtracted_q_adc": -0.2450959872767271,
+        "indication_g": null,
+        "force_N": null,
+        "channel_means_adc": [
+          2500.2287952008,
+          2375.5315780703218,
+          2361.9880019996667,
+          2566.4719213464423
+        ],
+        "channel_sd_adc": [
+          7.025630033305489,
+          7.030223632712196,
+          7.1869225697788215,
+          6.905185475989176
+        ],
+        "head_temperature_mean_c": 24.936458333333334,
+        "head_temperature_span_c": [
+          24.875,
+          24.9375
+        ]
+      },
+      "last600s": {
+        "n": 60003,
+        "raw_mean4_adc": 2450.8098428411913,
+        "zero_subtracted_q_adc": 0.00013532583943742793,
+        "indication_g": 0.0011883983924376792,
+        "force_N": 1.1654207095198965e-05,
+        "channel_means_adc": [
+          2499.9090378814394,
+          2375.243237838108,
+          2362.0040997950105,
+          2566.0829958502077
+        ],
+        "channel_sd_adc": [
+          7.102821773307783,
+          6.980789688976791,
+          7.210791681476654,
+          6.719134848971621
+        ],
+        "head_temperature_mean_c": 24.935416666666665,
+        "head_temperature_span_c": [
+          24.875,
+          25.0
+        ]
+      },
+      "head_temperature_all_span_c": [
+        24.5,
+        25.0
+      ]
+    },
+    {
+      "capture_id": "d56705333a0c4195bc7c645936a6224a",
+      "code": "G_RESTART_LOAD_ROOM_EQ",
+      "elapsed_s": 1799.9762909,
+      "samples": 180007,
+      "last10s": {
+        "n": 1001,
+        "raw_mean4_adc": 2369.2187812187813,
+        "zero_subtracted_q_adc": 81.59119694824949,
+        "indication_g": 703.600178084652,
+        "force_N": 6.899960686413852,
+        "channel_means_adc": [
+          2430.8981018981017,
+          2306.4175824175823,
+          2267.4845154845157,
+          2472.074925074925
+        ],
+        "channel_sd_adc": [
+          7.500107092142472,
+          7.392120842454494,
+          6.48860616696763,
+          6.473282059309601
+        ],
+        "head_temperature_mean_c": 24.9375,
+        "head_temperature_span_c": [
+          24.9375,
+          24.9375
+        ]
+      },
+      "last60s": {
+        "n": 6001,
+        "raw_mean4_adc": 2369.246500583236,
+        "zero_subtracted_q_adc": 81.56347758379479,
+        "indication_g": 703.4161613017095,
+        "force_N": 6.898156098229409,
+        "channel_means_adc": [
+          2431.2482919513413,
+          2306.2682886185635,
+          2267.708715214131,
+          2471.7607065489087
+        ],
+        "channel_sd_adc": [
+          7.705171910179331,
+          7.459692300670701,
+          6.567227144367587,
+          6.5914132855333465
+        ],
+        "head_temperature_mean_c": 24.9375,
+        "head_temperature_span_c": [
+          24.9375,
+          24.9375
+        ]
+      },
+      "last600s": {
+        "n": 60003,
+        "raw_mean4_adc": 2369.9626018699064,
+        "zero_subtracted_q_adc": 80.84737629712436,
+        "indication_g": 698.3759464923713,
+        "force_N": 6.848728475669413,
+        "channel_means_adc": [
+          2431.9854007299637,
+          2307.0866456677168,
+          2268.5040414645932,
+          2472.2743196173524
+        ],
+        "channel_sd_adc": [
+          7.434846621541536,
+          7.4574317547405995,
+          6.651911096447782,
+          6.648275841593473
+        ],
+        "head_temperature_mean_c": 24.9375,
+        "head_temperature_span_c": [
+          24.875,
+          25.0
+        ]
+      },
+      "head_temperature_all_span_c": [
+        24.875,
+        25.0
+      ]
+    },
+    {
+      "capture_id": "62b0b2b303174c1786ff2a1cb7daf7a1",
+      "code": "G_RESTART_LOAD_COOL_EQ",
+      "elapsed_s": 1919.9784397,
+      "samples": 192008,
+      "last10s": {
+        "n": 1000,
+        "raw_mean4_adc": 2361.685,
+        "zero_subtracted_q_adc": 89.1249781670308,
+        "indication_g": 753.6136690338504,
+        "force_N": 7.390425487430809,
+        "channel_means_adc": [
+          2426.86,
+          2298.948,
+          2257.888,
+          2463.044
+        ],
+        "channel_sd_adc": [
+          7.980356263105442,
+          7.6024399434058765,
+          6.803656792177706,
+          6.70514899335001
+        ],
+        "head_temperature_mean_c": 19.5,
+        "head_temperature_span_c": [
+          19.5,
+          19.5
+        ]
+      },
+      "last60s": {
+        "n": 6001,
+        "raw_mean4_adc": 2361.4413847692053,
+        "zero_subtracted_q_adc": 89.3685933978254,
+        "indication_g": 755.2309244049061,
+        "force_N": 7.406285344815372,
+        "channel_means_adc": [
+          2426.5039160139977,
+          2298.5525745709047,
+          2257.6740543242795,
+          2463.0349941676386
+        ],
+        "channel_sd_adc": [
+          7.451891907134086,
+          7.636509485391936,
+          6.83201349357437,
+          6.714842406003623
+        ],
+        "head_temperature_mean_c": 19.5,
+        "head_temperature_span_c": [
+          19.5,
+          19.5
+        ]
+      },
+      "last600s": {
+        "n": 60003,
+        "raw_mean4_adc": 2359.117548289252,
+        "zero_subtracted_q_adc": 91.69242987777852,
+        "indication_g": 770.6578622708232,
+        "force_N": 7.557571925038168,
+        "channel_means_adc": [
+          2423.9503858140424,
+          2296.186140692965,
+          2255.7524457110476,
+          2460.5812209389533
+        ],
+        "channel_sd_adc": [
+          7.77312084017034,
+          8.07533030560809,
+          7.169890763840856,
+          7.361279941774105
+        ],
+        "head_temperature_mean_c": 19.592083333333335,
+        "head_temperature_span_c": [
+          19.5,
+          19.75
+        ]
+      },
+      "head_temperature_all_span_c": [
+        19.5,
+        24.9375
+      ]
+    },
+    {
+      "capture_id": "08af66d295674366ac18a52ed67261ed",
+      "code": "G_RESTART_LOAD_COOL_EQ",
+      "elapsed_s": 599.9752257,
+      "samples": 60002,
+      "last10s": {
+        "n": 1000,
+        "raw_mean4_adc": 2364.26725,
+        "zero_subtracted_q_adc": 86.54272816703087,
+        "indication_g": 736.4712364023311,
+        "force_N": 7.22231565046492,
+        "channel_means_adc": [
+          2430.074,
+          2301.241,
+          2259.656,
+          2466.098
+        ],
+        "channel_sd_adc": [
+          7.709991437606653,
+          8.026041137219266,
+          6.77817140588874,
+          7.080574166727577
+        ],
+        "head_temperature_mean_c": 19.3125,
+        "head_temperature_span_c": [
+          19.3125,
+          19.3125
+        ]
+      },
+      "last60s": {
+        "n": 6002,
+        "raw_mean4_adc": 2364.1804398533823,
+        "zero_subtracted_q_adc": 86.62953831364848,
+        "indication_g": 737.0475311414635,
+        "force_N": 7.227967171268433,
+        "channel_means_adc": [
+          2429.9571809396866,
+          2300.751249583472,
+          2259.9413528823725,
+          2466.0719760079974
+        ],
+        "channel_sd_adc": [
+          7.3370539403423845,
+          7.813967809156554,
+          6.735849173768014,
+          6.893274368699699
+        ],
+        "head_temperature_mean_c": 19.3125,
+        "head_temperature_span_c": [
+          19.3125,
+          19.3125
+        ]
+      },
+      "last600s": {
+        "n": 60002,
+        "raw_mean4_adc": 2364.1178794040197,
+        "zero_subtracted_q_adc": 86.69209876301102,
+        "indication_g": 737.4628427064146,
+        "force_N": 7.2320399864268605,
+        "channel_means_adc": [
+          2429.8450218326057,
+          2300.8067397753407,
+          2259.8689710342987,
+          2465.9507849738343
+        ],
+        "channel_sd_adc": [
+          7.123095206832007,
+          7.493889506407502,
+          6.6274906345210525,
+          6.6532014886791035
+        ],
+        "head_temperature_mean_c": 19.335520833333334,
+        "head_temperature_span_c": [
+          19.3125,
+          19.375
+        ]
+      },
+      "head_temperature_all_span_c": [
+        19.3125,
+        19.375
+      ]
+    },
+    {
+      "capture_id": "17e444da5d354ab4ad7ad3108d4198c4",
+      "code": "G_RESTART_LOAD_ROOM_RETURN_1_EQ",
+      "elapsed_s": 1919.9803293,
+      "samples": 192008,
+      "last10s": {
+        "n": 1001,
+        "raw_mean4_adc": 2372.2165334665333,
+        "zero_subtracted_q_adc": 78.59344470049746,
+        "indication_g": 682.1294698536306,
+        "force_N": 6.689404965540105,
+        "channel_means_adc": [
+          2436.8901098901097,
+          2307.7922077922076,
+          2268.3996003996003,
+          2475.7842157842156
+        ],
+        "channel_sd_adc": [
+          7.15778681492487,
+          7.274117074998083,
+          6.162480007282736,
+          6.596164840980787
+        ],
+        "head_temperature_mean_c": 22.9375,
+        "head_temperature_span_c": [
+          22.9375,
+          22.9375
+        ]
+      },
+      "last60s": {
+        "n": 6001,
+        "raw_mean4_adc": 2372.136393934344,
+        "zero_subtracted_q_adc": 78.67358423268661,
+        "indication_g": 682.7071204972876,
+        "force_N": 6.695069783224725,
+        "channel_means_adc": [
+          2436.666555574071,
+          2307.517580403266,
+          2268.5135810698216,
+          2475.8478586902183
+        ],
+        "channel_sd_adc": [
+          7.214935639626658,
+          7.261868392127228,
+          6.592687149951389,
+          6.6097162695554985
+        ],
+        "head_temperature_mean_c": 22.929166666666667,
+        "head_temperature_span_c": [
+          22.875,
+          22.9375
+        ]
+      },
+      "last600s": {
+        "n": 60003,
+        "raw_mean4_adc": 2371.566400846624,
+        "zero_subtracted_q_adc": 79.24357732040653,
+        "indication_g": 686.8156654938367,
+        "force_N": 6.7353608460151335,
+        "channel_means_adc": [
+          2436.0075662883523,
+          2306.9966834991583,
+          2267.958702064897,
+          2475.30265153409
+        ],
+        "channel_sd_adc": [
+          7.125434514554834,
+          7.451656734848036,
+          6.636783319664824,
+          6.718598029623752
+        ],
+        "head_temperature_mean_c": 22.770208333333333,
+        "head_temperature_span_c": [
+          22.5625,
+          22.9375
+        ]
+      },
+      "head_temperature_all_span_c": [
+        19.1875,
+        22.9375
+      ]
+    },
+    {
+      "capture_id": "b4b82e6f4b0f4574870688bec8076a76",
+      "code": "G_RESTART_LOAD_ROOM_RETURN_1_EQ",
+      "elapsed_s": 599.9821069,
+      "samples": 60002,
+      "last10s": {
+        "n": 1000,
+        "raw_mean4_adc": 2373.66575,
+        "zero_subtracted_q_adc": 77.14422816703063,
+        "indication_g": 671.6834285493242,
+        "force_N": 6.586964294583229,
+        "channel_means_adc": [
+          2438.089,
+          2309.187,
+          2270.028,
+          2477.359
+        ],
+        "channel_sd_adc": [
+          6.917147238994192,
+          7.255251178950927,
+          6.512882129567067,
+          6.804588262446283
+        ],
+        "head_temperature_mean_c": 23.43125,
+        "head_temperature_span_c": [
+          23.375,
+          23.4375
+        ]
+      },
+      "last60s": {
+        "n": 6001,
+        "raw_mean4_adc": 2373.672262956174,
+        "zero_subtracted_q_adc": 77.13771521085664,
+        "indication_g": 671.6364827633525,
+        "force_N": 6.586503913691231,
+        "channel_means_adc": [
+          2437.7220463256126,
+          2309.1444759206797,
+          2270.235627395434,
+          2477.5869021829694
+        ],
+        "channel_sd_adc": [
+          6.843346808776095,
+          7.372106657041525,
+          6.515095584651273,
+          6.505471165508545
+        ],
+        "head_temperature_mean_c": 23.416666666666668,
+        "head_temperature_span_c": [
+          23.375,
+          23.4375
+        ]
+      },
+      "last600s": {
+        "n": 60002,
+        "raw_mean4_adc": 2373.3190810306323,
+        "zero_subtracted_q_adc": 77.49089713639842,
+        "indication_g": 674.1822396581612,
+        "force_N": 6.611469260543706,
+        "channel_means_adc": [
+          2437.4685843805205,
+          2308.7383420552646,
+          2269.867837738742,
+          2477.201559948002
+        ],
+        "channel_sd_adc": [
+          6.9609444124704725,
+          7.399595953210881,
+          6.517220111763979,
+          6.6211586275206455
+        ],
+        "head_temperature_mean_c": 23.264583333333334,
+        "head_temperature_span_c": [
+          23.0,
+          23.4375
+        ]
+      },
+      "head_temperature_all_span_c": [
+        23.0,
+        23.4375
+      ]
+    },
+    {
+      "capture_id": "debe145672c545e1b22126dbc81054ea",
+      "code": "G_RESTART_LOAD_WARM_EQ",
+      "elapsed_s": 1919.9784489,
+      "samples": 192008,
+      "last10s": {
+        "n": 1001,
+        "raw_mean4_adc": 2393.584915084915,
+        "zero_subtracted_q_adc": 57.22506308211587,
+        "indication_g": 528.1048697769132,
+        "force_N": 5.178939621197765,
+        "channel_means_adc": [
+          2454.3806193806195,
+          2329.904095904096,
+          2292.5854145854146,
+          2497.4695304695306
+        ],
+        "channel_sd_adc": [
+          6.702983217641527,
+          6.722707282545731,
+          6.720487114260907,
+          6.800391215167058
+        ],
+        "head_temperature_mean_c": 29.2625,
+        "head_temperature_span_c": [
+          29.25,
+          29.3125
+        ]
+      },
+      "last60s": {
+        "n": 6001,
+        "raw_mean4_adc": 2393.5649058490253,
+        "zero_subtracted_q_adc": 57.24507231800544,
+        "indication_g": 528.249097571548,
+        "force_N": 5.18035401270002,
+        "channel_means_adc": [
+          2454.594067655391,
+          2329.793701049825,
+          2292.5505749041827,
+          2497.3212797867022
+        ],
+        "channel_sd_adc": [
+          6.905229284251742,
+          6.9071050604876465,
+          6.982894582675869,
+          7.050089509729922
+        ],
+        "head_temperature_mean_c": 29.252083333333335,
+        "head_temperature_span_c": [
+          29.25,
+          29.3125
+        ]
+      },
+      "last600s": {
+        "n": 60003,
+        "raw_mean4_adc": 2392.5385730713465,
+        "zero_subtracted_q_adc": 58.27140509568426,
+        "indication_g": 535.6469669306209,
+        "force_N": 5.252902328250174,
+        "channel_means_adc": [
+          2453.808459577021,
+          2328.7730446810992,
+          2291.375997866773,
+          2496.196790160492
+        ],
+        "channel_sd_adc": [
+          6.864266639155787,
+          6.962863825947947,
+          6.842487940367607,
+          7.101487449279437
+        ],
+        "head_temperature_mean_c": 29.053645833333334,
+        "head_temperature_span_c": [
+          28.8125,
+          29.3125
+        ]
+      },
+      "head_temperature_all_span_c": [
+        23.5,
+        29.3125
+      ]
+    },
+    {
+      "capture_id": "f78495b0ce2444cbbe299082a5580c3a",
+      "code": "G_RESTART_LOAD_ROOM_RETURN_2_EQ",
+      "elapsed_s": 1919.9794107,
+      "samples": 192008,
+      "last10s": {
+        "n": 1000,
+        "raw_mean4_adc": 2382.3455,
+        "zero_subtracted_q_adc": 68.46447816703085,
+        "indication_g": 609.1192603127449,
+        "force_N": 5.97341939414598,
+        "channel_means_adc": [
+          2445.026,
+          2318.313,
+          2279.76,
+          2486.283
+        ],
+        "channel_sd_adc": [
+          7.607706697895391,
+          7.13287522033779,
+          6.677348799260614,
+          7.475345596813008
+        ],
+        "head_temperature_mean_c": 25.5,
+        "head_temperature_span_c": [
+          25.5,
+          25.5
+        ]
+      },
+      "last60s": {
+        "n": 6001,
+        "raw_mean4_adc": 2382.4398016997166,
+        "zero_subtracted_q_adc": 68.3701764673142,
+        "indication_g": 608.439527900398,
+        "force_N": 5.966753496284437,
+        "channel_means_adc": [
+          2445.211131478087,
+          2318.5737377103815,
+          2279.8440259956674,
+          2486.130311614731
+        ],
+        "channel_sd_adc": [
+          6.927547623044176,
+          7.096919766856032,
+          6.640657702516395,
+          7.280729088002163
+        ],
+        "head_temperature_mean_c": 25.501041666666666,
+        "head_temperature_span_c": [
+          25.5,
+          25.5625
+        ]
+      },
+      "last600s": {
+        "n": 60003,
+        "raw_mean4_adc": 2382.7049064213456,
+        "zero_subtracted_q_adc": 68.10507174568511,
+        "indication_g": 606.5286368719335,
+        "force_N": 5.9480140567801465,
+        "channel_means_adc": [
+          2445.536723163842,
+          2318.7062980184323,
+          2280.039731346766,
+          2486.536873156342
+        ],
+        "channel_sd_adc": [
+          6.850793097367366,
+          7.142717798737359,
+          6.739740885542743,
+          7.335050059159449
+        ],
+        "head_temperature_mean_c": 25.5875,
+        "head_temperature_span_c": [
+          25.5,
+          25.6875
+        ]
+      },
+      "head_temperature_all_span_c": [
+        25.5,
+        29.375
+      ]
+    },
+    {
+      "capture_id": "6de98770fe6045a09beb8e8c8eb894ba",
+      "code": "G_RESTART_LOAD_ROOM_RETURN_2_EQ",
+      "elapsed_s": 599.9709265,
+      "samples": 60001,
+      "last10s": {
+        "n": 1001,
+        "raw_mean4_adc": 2400.511238761239,
+        "zero_subtracted_q_adc": 50.29873940579182,
+        "indication_g": 472.6239935511221,
+        "force_N": 4.634858086358111,
+        "channel_means_adc": [
+          2463.3956043956046,
+          2336.4805194805194,
+          2297.902097902098,
+          2504.2667332667334
+        ],
+        "channel_sd_adc": [
+          7.115148674436864,
+          6.9219845514036615,
+          7.102844894435303,
+          6.966044948016154
+        ],
+        "head_temperature_mean_c": 25.3125,
+        "head_temperature_span_c": [
+          25.3125,
+          25.3125
+        ]
+      },
+      "last60s": {
+        "n": 6001,
+        "raw_mean4_adc": 2399.8209881686385,
+        "zero_subtracted_q_adc": 50.9889899983923,
+        "indication_g": 478.8660940245548,
+        "force_N": 4.6960721809659,
+        "channel_means_adc": [
+          2462.5964005999,
+          2335.9515080819865,
+          2297.3654390934844,
+          2503.3706048991835
+        ],
+        "channel_sd_adc": [
+          6.790096737810679,
+          7.24372014059835,
+          7.328205692937327,
+          6.708375047955769
+        ],
+        "head_temperature_mean_c": 25.3125,
+        "head_temperature_span_c": [
+          25.3125,
+          25.3125
+        ]
+      },
+      "last600s": {
+        "n": 60001,
+        "raw_mean4_adc": 2400.2592748454194,
+        "zero_subtracted_q_adc": 50.55070332161131,
+        "indication_g": 474.90256324028303,
+        "force_N": 4.657203221800321,
+        "channel_means_adc": [
+          2463.036099398343,
+          2336.224296261729,
+          2297.8883018616357,
+          2503.888401859969
+        ],
+        "channel_sd_adc": [
+          6.863332291609428,
+          7.153674371619422,
+          7.304600604045546,
+          6.859779805570652
+        ],
+        "head_temperature_mean_c": 25.341041666666666,
+        "head_temperature_span_c": [
+          25.3125,
+          25.375
+        ]
+      },
+      "head_temperature_all_span_c": [
+        25.3125,
+        25.375
+      ]
+    },
+    {
+      "capture_id": "aacef14b1009426a8b5ab599fd5749e4",
+      "code": "G_RESTART_FINAL_UNLOAD",
+      "elapsed_s": 19.9806769,
+      "samples": 1999,
+      "last10s": {
+        "n": 1000,
+        "raw_mean4_adc": 2482.1825,
+        "zero_subtracted_q_adc": -31.37252183296914,
+        "indication_g": null,
+        "force_N": null,
+        "channel_means_adc": [
+          2531.514,
+          2403.46,
+          2394.738,
+          2599.018
+        ],
+        "channel_sd_adc": [
+          6.236721951530387,
+          7.743407541926242,
+          6.335573809490031,
+          6.89632041274444
+        ],
+        "head_temperature_mean_c": 25.25625,
+        "head_temperature_span_c": [
+          25.25,
+          25.3125
+        ]
+      },
+      "last60s": null,
+      "last600s": null,
+      "head_temperature_all_span_c": [
+        25.25,
+        25.3125
+      ]
+    }
+  ],
+  "endpoints": {
+    "initial_zero_mean_adc": 2450.8099781670307,
+    "final_unloaded_mean_adc": 2482.1825,
+    "zero_change_adc": 31.37252183296914,
+    "initial_zero_capture": "92ac07a2536b456c8d769b9c2bb756f6",
+    "initial_loaded_capture": "d56705333a0c4195bc7c645936a6224a",
+    "final_loaded_capture": "6de98770fe6045a09beb8e8c8eb894ba",
+    "final_unloaded_capture": "aacef14b1009426a8b5ab599fd5749e4",
+    "windows": {
+      "last10s": {
+        "initial_loaded_g": 703.600178084652,
+        "final_loaded_fixed_initial_zero_g": 472.6239935511221,
+        "final_loaded_with_final_unloaded_reference_g": 704.1316900243493,
+        "endpoint_difference_using_separate_unloaded_references_g": 0.531511939697225,
+        "initial_temperature_c": 24.9375,
+        "final_loaded_temperature_c": 25.3125,
+        "initial_error_to_774g": -70.39982191534796,
+        "final_local_zero_error_to_774g": -69.86830997565073
+      },
+      "last60s": {
+        "initial_loaded_g": 703.4161613017095,
+        "final_loaded_fixed_initial_zero_g": 478.8660940245548,
+        "final_loaded_with_final_unloaded_reference_g": 708.7139629578454,
+        "endpoint_difference_using_separate_unloaded_references_g": 5.297801656135903,
+        "initial_temperature_c": 24.9375,
+        "final_loaded_temperature_c": 25.3125,
+        "initial_error_to_774g": -70.58383869829049,
+        "final_local_zero_error_to_774g": -65.28603704215459
+      },
+      "last600s": {
+        "initial_loaded_g": 698.3759464923713,
+        "final_loaded_fixed_initial_zero_g": 474.90256324028303,
+        "final_loaded_with_final_unloaded_reference_g": 705.8043686776591,
+        "endpoint_difference_using_separate_unloaded_references_g": 7.428422185287786,
+        "initial_temperature_c": 24.9375,
+        "final_loaded_temperature_c": 25.341041666666666,
+        "initial_error_to_774g": -75.62405350762867,
+        "final_local_zero_error_to_774g": -68.19563132234089
+      }
+    }
+  },
+  "verified_force_results": {
+    "mass_g": 774,
+    "head_range_c": [
+      19.1875,
+      29.375
+    ],
+    "initial_zero_adc": 2450.8099781670307,
+    "final_zero_adc": 2482.1825,
+    "zero_change_adc": 31.37252183296914,
+    "records": [
+      {
+        "capture_id": "d56705333a0c4195bc7c645936a6224a",
+        "code": "G_RESTART_LOAD_ROOM_EQ",
+        "mean_last60s_adc": 2369.2465005832364,
+        "indication_last60s_N": 6.8981560982293795,
+        "head_min_c": 24.875,
+        "head_max_c": 25.0
+      },
+      {
+        "capture_id": "62b0b2b303174c1786ff2a1cb7daf7a1",
+        "code": "G_RESTART_LOAD_COOL_EQ",
+        "mean_last60s_adc": 2361.441384769205,
+        "indication_last60s_N": 7.406285344815402,
+        "head_min_c": 19.5,
+        "head_max_c": 24.9375
+      },
+      {
+        "capture_id": "08af66d295674366ac18a52ed67261ed",
+        "code": "G_RESTART_LOAD_COOL_EQ",
+        "mean_last60s_adc": 2364.1810948175303,
+        "indication_last60s_N": 7.227924531742384,
+        "head_min_c": 19.3125,
+        "head_max_c": 19.375
+      },
+      {
+        "capture_id": "17e444da5d354ab4ad7ad3108d4198c4",
+        "code": "G_RESTART_LOAD_ROOM_RETURN_1_EQ",
+        "mean_last60s_adc": 2372.136393934344,
+        "indication_last60s_N": 6.695069783224725,
+        "head_min_c": 19.1875,
+        "head_max_c": 22.9375
+      },
+      {
+        "capture_id": "b4b82e6f4b0f4574870688bec8076a76",
+        "code": "G_RESTART_LOAD_ROOM_RETURN_1_EQ",
+        "mean_last60s_adc": 2373.672262956174,
+        "indication_last60s_N": 6.586503913691231,
+        "head_min_c": 23.0,
+        "head_max_c": 23.4375
+      },
+      {
+        "capture_id": "debe145672c545e1b22126dbc81054ea",
+        "code": "G_RESTART_LOAD_WARM_EQ",
+        "mean_last60s_adc": 2393.564905849025,
+        "indication_last60s_N": 5.180354012700052,
+        "head_min_c": 23.5,
+        "head_max_c": 29.3125
+      },
+      {
+        "capture_id": "f78495b0ce2444cbbe299082a5580c3a",
+        "code": "G_RESTART_LOAD_ROOM_RETURN_2_EQ",
+        "mean_last60s_adc": 2382.4398016997166,
+        "indication_last60s_N": 5.966753496284437,
+        "head_min_c": 25.5,
+        "head_max_c": 29.375
+      },
+      {
+        "capture_id": "6de98770fe6045a09beb8e8c8eb894ba",
+        "code": "G_RESTART_LOAD_ROOM_RETURN_2_EQ",
+        "mean_last60s_adc": 2399.820988168639,
+        "indication_last60s_N": 4.69607218096586,
+        "head_min_c": 25.3125,
+        "head_max_c": 25.375
+      }
+    ],
+    "window_s": 60,
+    "last10s": {
+      "initial_N": 6.899960686413852,
+      "final_fixed_N": 4.634858086358111,
+      "final_local_N": 6.905173037977285,
+      "local_difference_N": 0.005212351563432804,
+      "fixed_difference_N": -2.265102600055741
+    },
+    "last60s": {
+      "initial_N": 6.8981560982293795,
+      "final_fixed_N": 4.69607218096586,
+      "final_local_N": 6.950109784840524,
+      "local_difference_N": 0.05195368661114497,
+      "fixed_difference_N": -2.2020839172635194
+    },
+    "last600s": {
+      "initial_N": 6.8487267966427225,
+      "final_fixed_N": 4.657203221800321,
+      "final_local_N": 6.921576412092766,
+      "local_difference_N": 0.07284961545004354,
+      "fixed_difference_N": -2.1915235748424013
+    }
+  }
+}

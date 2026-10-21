@@ -1,0 +1,100 @@
+{
+  "method": "First 60 s reference, final 60 s endpoint, complete nonoverlapping 60 s means for maximum absolute deviation; valid individual temperature samples.",
+  "unloaded_equivalent": "delta_F = - first_segment_slope * delta_raw_ADC",
+  "first_segment_slope_N_per_ADC": 0.08611959950625428,
+  "records": [
+    {
+      "name": "one_hour_unloaded",
+      "capture_id": "f3766435c4df4000ae06ecdd742dcdaf",
+      "mass_g": 0,
+      "sample_count": 360016,
+      "duration_s": 3600.15,
+      "first_raw_ADC": 2625.837916666667,
+      "last_raw_ADC": 2625.7967422096317,
+      "endpoint_raw_ADC": -0.04117445703514022,
+      "endpoint_N": 0.00354592774975375,
+      "maximum_absolute_ADC": 1.0235833333331357,
+      "maximum_absolute_N": 0.08815058672792642,
+      "minute_raw_change_range": [
+        -0.4055416666669771,
+        1.0235833333331357
+      ],
+      "minute_force_change_range": [
+        -0.08815058672792642,
+        0.03492508591645894
+      ],
+      "temperature_ranges_C": {
+        "head_probe": [
+          23.9375,
+          25.1875
+        ],
+        "ambient_probe": [
+          22.8125,
+          24.125
+        ]
+      }
+    },
+    {
+      "name": "one_hour_loaded",
+      "capture_id": "8be2ab630c034d8a9f9e2b0eab3efd3e",
+      "mass_g": 1042,
+      "sample_count": 360017,
+      "duration_s": 3600.16,
+      "first_raw_ADC": 2493.7354583333336,
+      "last_raw_ADC": 2495.5808198633563,
+      "endpoint_raw_ADC": 1.8453615300227284,
+      "endpoint_N": -0.24998984420870762,
+      "maximum_absolute_ADC": 1.9622499999995853,
+      "maximum_absolute_N": 0.2658246440156322,
+      "minute_raw_change_range": [
+        -0.557083333333594,
+        1.9622499999995853
+      ],
+      "minute_force_change_range": [
+        -0.2658246440156322,
+        0.07546769207311677
+      ],
+      "temperature_ranges_C": {
+        "head_probe": [
+          24.1875,
+          24.4375
+        ],
+        "ambient_probe": [
+          23.9375,
+          24.3125
+        ]
+      }
+    },
+    {
+      "name": "three_hour_unloaded",
+      "capture_id": "c63780206e4542219c915513be61a42c",
+      "mass_g": 0,
+      "sample_count": 1080000,
+      "duration_s": 10799.99,
+      "first_raw_ADC": 2633.795875,
+      "last_raw_ADC": 2630.9338443592733,
+      "endpoint_raw_ADC": -2.862030640726516,
+      "endpoint_N": 0.2464769325539959,
+      "maximum_absolute_ADC": 3.9657499999998436,
+      "maximum_absolute_N": 0.3415288017419144,
+      "minute_raw_change_range": [
+        -3.9657499999998436,
+        0.13291666666691526
+      ],
+      "minute_force_change_range": [
+        -0.01144673010106104,
+        0.3415288017419144
+      ],
+      "temperature_ranges_C": {
+        "head_probe": [
+          24.125,
+          24.5625
+        ],
+        "ambient_probe": [
+          23.375,
+          23.9375
+        ]
+      }
+    }
+  ]
+}

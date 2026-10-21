@@ -1,0 +1,510 @@
+{
+  "analysis_timing": "Complete channel comparison and error correlations added after the original B evaluation; all fits use original A only.",
+  "method": "Same windows, unloaded references and equally weighted mass anchors as the original A/B analysis; equal channel weights; all seven channel subsets reported.",
+  "subsets": [
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      1,
+      2,
+      3,
+      4
+    ]
+  ],
+  "model_rules": {
+    "cubic": {
+      "kind": "polynomial",
+      "degree": 3,
+      "out_of_range": "reject",
+      "monotonic": "increasing"
+    },
+    "interpolation": {
+      "kind": "interpolation",
+      "out_of_range": "reject",
+      "monotonic": "increasing"
+    }
+  },
+  "results": {
+    "S1_cubic": {
+      "subset": "S1",
+      "channels": [
+        1
+      ],
+      "family": "cubic",
+      "total_n": 23,
+      "status": "fitted",
+      "support_ADC": [
+        -0.8394789789790593,
+        1253.1231231231232
+      ],
+      "training_anchors": 13,
+      "coverage_n": 22,
+      "metrics": {
+        "n": 22,
+        "MAE_N": 1.164708991696196,
+        "RMSE_N": 1.3712305803571068,
+        "bias_N": -0.31755730069284055
+      },
+      "rejections": [
+        {
+          "capture_id": "69a7d204f85b401991d0ac4ae73671cf",
+          "record_code": "B_T1_WATER_0200_C",
+          "feature_ADC": -1.983217217217316,
+          "reason": "out_of_range_rejected"
+        }
+      ],
+      "common_metrics": {
+        "n": 22,
+        "MAE_N": 1.164708991696196,
+        "RMSE_N": 1.3712305803571068,
+        "bias_N": -0.31755730069284055
+      }
+    },
+    "S1_interpolation": {
+      "subset": "S1",
+      "channels": [
+        1
+      ],
+      "family": "interpolation",
+      "total_n": 23,
+      "status": "not_applicable",
+      "reason": "Nonmonotonic interpolation anchors; no automatic monotonization",
+      "coverage_n": 0,
+      "metrics": null,
+      "common_metrics": null
+    },
+    "S2_cubic": {
+      "subset": "S2",
+      "channels": [
+        2
+      ],
+      "family": "cubic",
+      "total_n": 23,
+      "status": "fitted",
+      "support_ADC": [
+        -2.761265265265365,
+        1329.7142142142143
+      ],
+      "training_anchors": 13,
+      "coverage_n": 23,
+      "metrics": {
+        "n": 23,
+        "MAE_N": 1.6204599927984857,
+        "RMSE_N": 2.0956717427676668,
+        "bias_N": -0.35370791035931276
+      },
+      "rejections": [],
+      "common_metrics": {
+        "n": 22,
+        "MAE_N": 1.6684531315633946,
+        "RMSE_N": 2.139387504908267,
+        "bias_N": -0.3954496762833946
+      }
+    },
+    "S2_interpolation": {
+      "subset": "S2",
+      "channels": [
+        2
+      ],
+      "family": "interpolation",
+      "total_n": 23,
+      "status": "not_applicable",
+      "reason": "Nonmonotonic interpolation anchors; no automatic monotonization",
+      "coverage_n": 0,
+      "metrics": null,
+      "common_metrics": null
+    },
+    "S3_cubic": {
+      "subset": "S3",
+      "channels": [
+        3
+      ],
+      "family": "cubic",
+      "total_n": 23,
+      "status": "fitted",
+      "support_ADC": [
+        0.0,
+        1303.2832832832833
+      ],
+      "training_anchors": 13,
+      "coverage_n": 23,
+      "metrics": {
+        "n": 23,
+        "MAE_N": 1.2168352757913505,
+        "RMSE_N": 1.532054563185517,
+        "bias_N": -0.6909160622278068
+      },
+      "rejections": [],
+      "common_metrics": {
+        "n": 22,
+        "MAE_N": 1.2166710310928779,
+        "RMSE_N": 1.5447256643118934,
+        "bias_N": -0.7777962768362412
+      }
+    },
+    "S3_interpolation": {
+      "subset": "S3",
+      "channels": [
+        3
+      ],
+      "family": "interpolation",
+      "total_n": 23,
+      "status": "fitted",
+      "support_ADC": [
+        0.0,
+        1303.2832832832833
+      ],
+      "training_anchors": 13,
+      "coverage_n": 23,
+      "metrics": {
+        "n": 23,
+        "MAE_N": 1.3186831419435887,
+        "RMSE_N": 1.5943031922712674,
+        "bias_N": -0.5833808059986666
+      },
+      "rejections": [],
+      "common_metrics": {
+        "n": 22,
+        "MAE_N": 1.3147937262188574,
+        "RMSE_N": 1.6024064646274068,
+        "bias_N": -0.6737276739025913
+      }
+    },
+    "S4_cubic": {
+      "subset": "S4",
+      "channels": [
+        4
+      ],
+      "family": "cubic",
+      "total_n": 23,
+      "status": "fitted",
+      "support_ADC": [
+        0.0,
+        1196.397897897898
+      ],
+      "training_anchors": 13,
+      "coverage_n": 23,
+      "metrics": {
+        "n": 23,
+        "MAE_N": 1.9944551301515172,
+        "RMSE_N": 2.3236826764098186,
+        "bias_N": -0.5890252300349409
+      },
+      "rejections": [],
+      "common_metrics": {
+        "n": 22,
+        "MAE_N": 2.0607426637315336,
+        "RMSE_N": 2.373155670779558,
+        "bias_N": -0.5914295863369309
+      }
+    },
+    "S4_interpolation": {
+      "subset": "S4",
+      "channels": [
+        4
+      ],
+      "family": "interpolation",
+      "total_n": 23,
+      "status": "fitted",
+      "support_ADC": [
+        0.0,
+        1196.397897897898
+      ],
+      "training_anchors": 13,
+      "coverage_n": 23,
+      "metrics": {
+        "n": 23,
+        "MAE_N": 2.0124953582627074,
+        "RMSE_N": 2.3692247028964712,
+        "bias_N": -0.7551035028672476
+      },
+      "rejections": [],
+      "common_metrics": {
+        "n": 22,
+        "MAE_N": 2.0685510835312195,
+        "RMSE_N": 2.4167684108150276,
+        "bias_N": -0.7540050528905115
+      }
+    },
+    "S1_S3_cubic": {
+      "subset": "S1_S3",
+      "channels": [
+        1,
+        3
+      ],
+      "family": "cubic",
+      "total_n": 23,
+      "status": "fitted",
+      "support_ADC": [
+        0.0,
+        1278.2032032032032
+      ],
+      "training_anchors": 13,
+      "coverage_n": 23,
+      "metrics": {
+        "n": 23,
+        "MAE_N": 0.6156483392835822,
+        "RMSE_N": 0.8215378913361204,
+        "bias_N": -0.4966497381782629
+      },
+      "rejections": [],
+      "common_metrics": {
+        "n": 22,
+        "MAE_N": 0.6422469159590454,
+        "RMSE_N": 0.839976586511118,
+        "bias_N": -0.517839287530757
+      }
+    },
+    "S1_S3_interpolation": {
+      "subset": "S1_S3",
+      "channels": [
+        1,
+        3
+      ],
+      "family": "interpolation",
+      "total_n": 23,
+      "status": "fitted",
+      "support_ADC": [
+        0.0,
+        1278.2032032032032
+      ],
+      "training_anchors": 13,
+      "coverage_n": 23,
+      "metrics": {
+        "n": 23,
+        "MAE_N": 0.6005722728330632,
+        "RMSE_N": 0.7824464208497307,
+        "bias_N": -0.4321230055476617
+      },
+      "rejections": [],
+      "common_metrics": {
+        "n": 22,
+        "MAE_N": 0.6189802726283696,
+        "RMSE_N": 0.7989441137243385,
+        "bias_N": -0.4428742204663588
+      }
+    },
+    "S2_S4_cubic": {
+      "subset": "S2_S4",
+      "channels": [
+        2,
+        4
+      ],
+      "family": "cubic",
+      "total_n": 23,
+      "status": "fitted",
+      "support_ADC": [
+        0.0,
+        1263.0560560560561
+      ],
+      "training_anchors": 13,
+      "coverage_n": 23,
+      "metrics": {
+        "n": 23,
+        "MAE_N": 0.5908946176031329,
+        "RMSE_N": 0.7854502166932911,
+        "bias_N": -0.44809775693648735
+      },
+      "rejections": [],
+      "common_metrics": {
+        "n": 22,
+        "MAE_N": 0.6154827634200848,
+        "RMSE_N": 0.8030323621869468,
+        "bias_N": -0.4661951363595008
+      }
+    },
+    "S2_S4_interpolation": {
+      "subset": "S2_S4",
+      "channels": [
+        2,
+        4
+      ],
+      "family": "interpolation",
+      "total_n": 23,
+      "status": "fitted",
+      "support_ADC": [
+        0.0,
+        1263.0560560560561
+      ],
+      "training_anchors": 13,
+      "coverage_n": 23,
+      "metrics": {
+        "n": 23,
+        "MAE_N": 0.6126855882121023,
+        "RMSE_N": 0.7697498395950568,
+        "bias_N": -0.37925903090647456
+      },
+      "rejections": [],
+      "common_metrics": {
+        "n": 22,
+        "MAE_N": 0.6347658153962653,
+        "RMSE_N": 0.7865844438744314,
+        "bias_N": -0.3907289600312908
+      }
+    },
+    "S1_S2_S3_S4_cubic": {
+      "subset": "S1_S2_S3_S4",
+      "channels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": "cubic",
+      "total_n": 23,
+      "status": "fitted",
+      "support_ADC": [
+        0.0,
+        1270.6296296296296
+      ],
+      "training_anchors": 13,
+      "coverage_n": 23,
+      "metrics": {
+        "n": 23,
+        "MAE_N": 0.6030904516426225,
+        "RMSE_N": 0.8024625004542809,
+        "bias_N": -0.47274178887607116
+      },
+      "rejections": [],
+      "common_metrics": {
+        "n": 22,
+        "MAE_N": 0.6286638947975488,
+        "RMSE_N": 0.8204522390700641,
+        "bias_N": -0.49239029281433605
+      }
+    },
+    "S1_S2_S3_S4_interpolation": {
+      "subset": "S1_S2_S3_S4",
+      "channels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "family": "interpolation",
+      "total_n": 23,
+      "status": "fitted",
+      "support_ADC": [
+        0.0,
+        1270.6296296296296
+      ],
+      "training_anchors": 13,
+      "coverage_n": 23,
+      "metrics": {
+        "n": 23,
+        "MAE_N": 0.6056428193524247,
+        "RMSE_N": 0.7727596633597608,
+        "bias_N": -0.4054035028032611
+      },
+      "rejections": [],
+      "common_metrics": {
+        "n": 22,
+        "MAE_N": 0.6258678308635771,
+        "RMSE_N": 0.7893841194668909,
+        "bias_N": -0.4165267271985424
+      }
+    }
+  },
+  "common_capture_ids": [
+    "0db5d4782f0b48589f1696de52e68033",
+    "1d1bccf333ef4bc2ba0c740cadb2bb6e",
+    "282506768d67457bb3a0539cd0cd4669",
+    "43366e1f8f4c473f91bad1e2cb8321a3",
+    "5075fbbc270b43db8b55d3727128ae85",
+    "57d153f5f0934283998d52acd8fe4f47",
+    "5dcad42de7e348989798229274ada956",
+    "69fba6877b6c43d6b124e6f5c971a771",
+    "70e65b35cbcc46599d81160451a3d67b",
+    "7217282b69494b75aafb0b03ab5d95df",
+    "75c094c4911640b59322e0afdef4528d",
+    "83cebb218e05472ebd500612c631c1b9",
+    "8e29bb2e5d404911a06055df9fb0c181",
+    "984dcc6027c140b68765e323c0bee2df",
+    "9d5cfad45efc4b55a0b963304d975583",
+    "9deb996213d14d4da18dbe56a747f9ac",
+    "a024b8cc027244cb999fb9369186fdb8",
+    "a5df9d38960e42d99da5b224a4451459",
+    "aa6a23b1d4464c61a44d36f49a6a11a7",
+    "aaf3b1cd7c3c4e92a39c85e806ed1fbf",
+    "e1f234dcf80143d8b55b38af6fab0f3c",
+    "f3e200bc734744a0a0d056fae7e35d86"
+  ],
+  "correlation": {
+    "channels": [
+      "S1",
+      "S2",
+      "S3",
+      "S4"
+    ],
+    "n": 22,
+    "capture_ids": [
+      "0db5d4782f0b48589f1696de52e68033",
+      "1d1bccf333ef4bc2ba0c740cadb2bb6e",
+      "282506768d67457bb3a0539cd0cd4669",
+      "43366e1f8f4c473f91bad1e2cb8321a3",
+      "5075fbbc270b43db8b55d3727128ae85",
+      "57d153f5f0934283998d52acd8fe4f47",
+      "5dcad42de7e348989798229274ada956",
+      "69fba6877b6c43d6b124e6f5c971a771",
+      "70e65b35cbcc46599d81160451a3d67b",
+      "7217282b69494b75aafb0b03ab5d95df",
+      "75c094c4911640b59322e0afdef4528d",
+      "83cebb218e05472ebd500612c631c1b9",
+      "8e29bb2e5d404911a06055df9fb0c181",
+      "984dcc6027c140b68765e323c0bee2df",
+      "9d5cfad45efc4b55a0b963304d975583",
+      "9deb996213d14d4da18dbe56a747f9ac",
+      "a024b8cc027244cb999fb9369186fdb8",
+      "a5df9d38960e42d99da5b224a4451459",
+      "aa6a23b1d4464c61a44d36f49a6a11a7",
+      "aaf3b1cd7c3c4e92a39c85e806ed1fbf",
+      "e1f234dcf80143d8b55b38af6fab0f3c",
+      "f3e200bc734744a0a0d056fae7e35d86"
+    ],
+    "method": "Pearson correlation of signed predicted-minus-reference force errors; separate cubic calibration for each channel, same common placements.",
+    "matrix": [
+      [
+        1.0,
+        -0.45172615253513737,
+        -0.507295675925883,
+        0.7557103443576199
+      ],
+      [
+        -0.45172615253513737,
+        1.0,
+        0.8343524778321133,
+        -0.8184875598266723
+      ],
+      [
+        -0.507295675925883,
+        0.8343524778321133,
+        1.0,
+        -0.5542878634967003
+      ],
+      [
+        0.75571034435762,
+        -0.8184875598266723,
+        -0.5542878634967003,
+        1.0
+      ]
+    ]
+  }
+}

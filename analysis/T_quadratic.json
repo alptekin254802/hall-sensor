@@ -1,0 +1,335 @@
+{
+  "analysis_type": "post_hoc_comparator_sensitivity",
+  "fitting_rule": "Exact quadratic through the same 0/1502/5000 g target anchors; mass as a function of tare-referenced ADC; no source-curve use.",
+  "evaluation_rule": "Same inherited four held-out mass levels, two placements each; existing QC, averaging and zero policies unchanged.",
+  "budget_definition": "Equal additional target calibration measurements; transfer also uses the pre-existing 13-point source curve.",
+  "results": [
+    {
+      "spring": "blue",
+      "inherited_scope": "planned_two_placements_per_mass; opening_20s_instead_of_60s_with_10_to_20s_window",
+      "calibration_mass_g": [
+        0,
+        1502,
+        5000
+      ],
+      "target_response_adc": [
+        0.0,
+        106.7546451451451,
+        547.4589311811811
+      ],
+      "calibration_capture_ids": [
+        "d2bd5d6372c94d9eaf3ff91beba1a780",
+        "d4fafcd8410a4ed495ac7b3361e3b840",
+        "21ee5583736d4a4e95195d5f43c44215",
+        "848466b814524fe5b9054ec573ea9752"
+      ],
+      "quadratic": {
+        "form": "mass_g = a*(q/qmax)^2 + b*(q/qmax)",
+        "a": -3357.2098934963633,
+        "b": 8357.209893496363,
+        "qmax": 547.4589311811811,
+        "derivative_g_per_adc_endpoints": [
+          15.2654553930924,
+          3.0007549661473263
+        ],
+        "increasing_throughout_calibration_interval": true
+      },
+      "metrics": {
+        "transfer": {
+          "n": 8,
+          "mae_g": 73.34633549461171,
+          "rmse_g": 94.89668664113742,
+          "bias_g": 65.61759832854034,
+          "max_abs_g": 189.8333846876876,
+          "mae_N": 0.7192818409782339,
+          "rmse_N": 0.9306185920493103
+        },
+        "direct_piecewise_linear": {
+          "n": 8,
+          "mae_g": 169.16363400771098,
+          "rmse_g": 215.2556974705881,
+          "bias_g": -158.65035538360195,
+          "max_abs_g": 381.3156027815153,
+          "mae_N": 1.658928551441719,
+          "rmse_N": 2.1109372855999426
+        },
+        "direct_quadratic": {
+          "n": 8,
+          "mae_g": 83.73339192247167,
+          "rmse_g": 114.02746686191881,
+          "bias_g": 69.19589700950621,
+          "max_abs_g": 260.66965672734295,
+          "mae_N": 0.8211440678965068,
+          "rmse_N": 1.1182274579014362
+        }
+      },
+      "paired_counts": {
+        "direct_piecewise_linear": {
+          "transfer_smaller": 6,
+          "tied": 0,
+          "transfer_larger": 2,
+          "total": 8
+        },
+        "direct_quadratic": {
+          "transfer_smaller": 6,
+          "tied": 0,
+          "transfer_larger": 2,
+          "total": 8
+        }
+      },
+      "placements": [
+        {
+          "record_code": "T_BLUE_TEST1_WATER_1100_C",
+          "capture_id": "211e0b7926bc4328a73695fef00bbd0c",
+          "reference_mass_g": 1100,
+          "feature_adc": 74.26070045045049,
+          "errors_g": {
+            "transfer": 27.947486188566018,
+            "direct_piecewise_linear": -55.1782788943201,
+            "direct_quadratic": -28.148849216079498
+          }
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_4000_C",
+          "capture_id": "d48c1d068606434c8ff294fb2803da84",
+          "reference_mass_g": 4007,
+          "feature_adc": 392.7529426926927,
+          "errors_g": {
+            "transfer": 189.8333846876876,
+            "direct_piecewise_linear": -234.9470948655171,
+            "direct_quadratic": 260.66965672734295
+          }
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_0400_C",
+          "capture_id": "3637f16dacdd43d2b781875704e686d9",
+          "reference_mass_g": 401,
+          "feature_adc": 24.752749999999992,
+          "errors_g": {
+            "transfer": 25.204548228622173,
+            "direct_piecewise_linear": -52.73758528772777,
+            "direct_quadratic": -30.001130435782272
+          }
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_2500_C",
+          "capture_id": "7551b72df9c6451884d18a30d3eddf97",
+          "reference_mass_g": 2506,
+          "feature_adc": 199.49068043043042,
+          "errors_g": {
+            "transfer": 10.641369217495594,
+            "direct_piecewise_linear": -267.9267152455086,
+            "direct_quadratic": 93.5360348976701
+          }
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_2500_C",
+          "capture_id": "545c6f8805bf428e9231d5ea7540a1e2",
+          "reference_mass_g": 2506,
+          "feature_adc": 195.37541098212432,
+          "errors_g": {
+            "transfer": -30.914948664285475,
+            "direct_piecewise_linear": -300.59082355190594,
+            "direct_quadratic": 48.91675756797122
+          }
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_0400_C",
+          "capture_id": "545d219bc58a4ba3a45d5c78195794b7",
+          "reference_mass_g": 401,
+          "feature_adc": 27.181931931931786,
+          "errors_g": {
+            "transfer": 65.28837179321675,
+            "direct_piecewise_linear": -18.559856938756866,
+            "direct_quadratic": 5.668272826402131
+          }
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_4000_C",
+          "capture_id": "43e9203aab9345e6994fb9e400e859db",
+          "reference_mass_g": 4007,
+          "feature_adc": 374.31233983983975,
+          "errors_g": {
+            "transfer": 94.09774625280897,
+            "direct_piecewise_linear": -381.3156027815153,
+            "direct_quadratic": 137.61202771019634
+          }
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_1100_C",
+          "capture_id": "40524600d58d45b8b1b175b9d7ace9ba",
+          "reference_mass_g": 1100,
+          "feature_adc": 81.17142142142131,
+          "errors_g": {
+            "transfer": 142.84282892421106,
+            "direct_piecewise_linear": 42.05311449643614,
+            "direct_quadratic": 65.31440599832877
+          }
+        }
+      ]
+    },
+    {
+      "spring": "red",
+      "inherited_scope": "One eligible CAL2 calibration placement per nonzero mass.",
+      "calibration_mass_g": [
+        0,
+        1502,
+        5000
+      ],
+      "target_response_adc": [
+        0.0,
+        91.59684684684692,
+        396.1341341341341
+      ],
+      "calibration_capture_ids": [
+        "707060bc793b41ef893f1c672f9da56a",
+        "65f897b7289743a294c22ee22c5d39d7"
+      ],
+      "quadratic": {
+        "form": "mass_g = a*(q/qmax)^2 + b*(q/qmax)",
+        "a": -1945.6786347402394,
+        "b": 6945.678634740239,
+        "qmax": 396.1341341341341,
+        "derivative_g_per_adc_endpoints": [
+          17.533653467964914,
+          7.710321080852738
+        ],
+        "increasing_throughout_calibration_interval": true
+      },
+      "metrics": {
+        "transfer": {
+          "n": 8,
+          "mae_g": 92.29713042619078,
+          "rmse_g": 120.91661830611304,
+          "bias_g": 92.29713042619078,
+          "max_abs_g": 244.85935346931456,
+          "mae_N": 0.9051256540940038,
+          "rmse_N": 1.1857869549116435
+        },
+        "direct_piecewise_linear": {
+          "n": 8,
+          "mae_g": 126.54699995396885,
+          "rmse_g": 160.50322793800458,
+          "bias_g": -126.54699995396885,
+          "max_abs_g": 260.65728623890936,
+          "mae_N": 1.2410021370985886,
+          "rmse_N": 1.5739989802582326
+        },
+        "direct_quadratic": {
+          "n": 8,
+          "mae_g": 39.45845967416529,
+          "rmse_g": 50.703589372487215,
+          "bias_g": -3.9041823857279567,
+          "max_abs_g": 102.24202642190721,
+          "mae_N": 0.38695530356365304,
+          "rmse_N": 0.4972323547197018
+        }
+      },
+      "paired_counts": {
+        "direct_piecewise_linear": {
+          "transfer_smaller": 3,
+          "tied": 0,
+          "transfer_larger": 5,
+          "total": 8
+        },
+        "direct_quadratic": {
+          "transfer_smaller": 2,
+          "tied": 0,
+          "transfer_larger": 6,
+          "total": 8
+        }
+      },
+      "placements": [
+        {
+          "record_code": "T_RED_TEST1_WATER_1100_C",
+          "capture_id": "3fe859dd93a941ae8a51cbd5170651de",
+          "reference_mass_g": 1100,
+          "feature_adc": 65.60557332332326,
+          "errors_g": {
+            "transfer": 83.43956807933,
+            "direct_piecewise_linear": -24.203457610357418,
+            "direct_quadratic": -3.0610290386289307
+          }
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_4000_C",
+          "capture_id": "28e5ca60e1ff44ab96efa7badeda1f8b",
+          "reference_mass_g": 4007,
+          "feature_adc": 296.5528028028026,
+          "errors_g": {
+            "transfer": 244.85935346931456,
+            "direct_piecewise_linear": -150.8188738720628,
+            "direct_quadratic": 102.24202642190721
+          }
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_0400_C",
+          "capture_id": "e976f0bf2f3645328c2c452ccb9bf300",
+          "reference_mass_g": 401,
+          "feature_adc": 22.017573323323177,
+          "errors_g": {
+            "transfer": 40.1936202185492,
+            "direct_piecewise_linear": -39.95705725628028,
+            "direct_quadratic": -20.96220505948395
+          }
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_2500_C",
+          "capture_id": "c6d4c206156c456094e2c3421d717996",
+          "reference_mass_g": 2506,
+          "feature_adc": 156.31256256256245,
+          "errors_g": {
+            "transfer": 19.889768095664294,
+            "direct_piecewise_linear": -260.65728623890936,
+            "direct_quadratic": -68.2220574793837
+          }
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_2500_C",
+          "capture_id": "6b77850cba3b4ce6b62ee19f4307b4d7",
+          "reference_mass_g": 2506,
+          "feature_adc": 157.26675000000012,
+          "errors_g": {
+            "transfer": 33.83350813877951,
+            "direct_piecewise_linear": -249.69722389026083,
+            "direct_quadratic": -55.201612352281245
+          }
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_0400_C",
+          "capture_id": "7e7d13038daf4674a4ec15da97064267",
+          "reference_mass_g": 401,
+          "feature_adc": 22.26974349349348,
+          "errors_g": {
+            "transfer": 45.04325539062552,
+            "direct_piecewise_linear": -35.821984831471866,
+            "direct_quadratic": -16.67921194514821
+          }
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_4000_C",
+          "capture_id": "7f7c2f443392466d9e20340791189bfc",
+          "reference_mass_g": 4007,
+          "feature_adc": 290.4809547047049,
+          "errors_g": {
+            "transfer": 199.24240598512642,
+            "direct_piecewise_linear": -220.56181023410318,
+            "direct_quadratic": 39.97508273184212
+          }
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_1100_C",
+          "capture_id": "131d7c42101e45a1902b9e600a735b11",
+          "reference_mass_g": 1100,
+          "feature_adc": 65.21193568568583,
+          "errors_g": {
+            "transfer": 71.87556403213671,
+            "direct_piecewise_linear": -30.658305698305185,
+            "direct_quadratic": -9.324452364646959
+          }
+        }
+      ]
+    }
+  ],
+  "interpretation": "Post hoc model-form sensitivity analysis; four held-out mass levels and eight placements per spring. No new primary model or general minimum-point rule."
+}

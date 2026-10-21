@@ -1,0 +1,193 @@
+[
+  {
+    "mass_g": 0,
+    "force_N": 0,
+    "response_adc": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "evidence": "defined_tare_origin_not_an_independent_accuracy_observation"
+  },
+  {
+    "mass_g": 50,
+    "force_N": 0.4903325,
+    "response_adc": [
+      -0.8394789789790593,
+      2.0190150150149293,
+      11.943894894894584,
+      9.651059559559599
+    ],
+    "capture_ids": [
+      "d50b59b1c4b64a23863f5a3f5096473c",
+      "e08c6c302cd9448cb735320c89d49262"
+    ],
+    "evidence": "equal_mean_of_two_planned_A_placements"
+  },
+  {
+    "mass_g": 100,
+    "force_N": 0.980665,
+    "response_adc": [
+      5.3517122122123055,
+      -2.761265265265365,
+      15.522473473473383,
+      20.204613113113055
+    ],
+    "capture_ids": [
+      "0526b9f7fde640c09595caf0af34ab72",
+      "3daf15d2034f4138bc38755d38726861"
+    ],
+    "evidence": "equal_mean_of_two_planned_A_placements"
+  },
+  {
+    "mass_g": 301,
+    "force_N": 2.9518016499999997,
+    "response_adc": [
+      29.192379379379418,
+      9.905218718718515,
+      34.44763963963942,
+      51.73709159159171
+    ],
+    "capture_ids": [
+      "3a9ac54c1e7a4d748337c65c4a9083ff",
+      "b62aaaa358984ec081d24b4867a4e41a"
+    ],
+    "evidence": "equal_mean_of_two_planned_A_placements"
+  },
+  {
+    "mass_g": 500,
+    "force_N": 4.903325,
+    "response_adc": [
+      46.9515765765766,
+      32.39875275275267,
+      59.712295295295235,
+      74.24127277277285
+    ],
+    "capture_ids": [
+      "c0f4ac4380b64d68a4555cb80fa2e4a3",
+      "79ccc6a1f4704a3ebd411204d564a1d5"
+    ],
+    "evidence": "equal_mean_of_two_planned_A_placements"
+  },
+  {
+    "mass_g": 702,
+    "force_N": 6.8842683,
+    "response_adc": [
+      65.52688738738743,
+      72.94694294294277,
+      99.18613713713717,
+      87.74064914914925
+    ],
+    "capture_ids": [
+      "74f6eac8e04545088da62fdd1a3319bd",
+      "1f363e1842d84f6a97c61024f97ab842"
+    ],
+    "evidence": "equal_mean_of_two_planned_A_placements"
+  },
+  {
+    "mass_g": 1000,
+    "force_N": 9.80665,
+    "response_adc": [
+      123.4426226226226,
+      115.66319969969982,
+      126.20747947947939,
+      139.6442112112111
+    ],
+    "capture_ids": [
+      "1c01a66a1fe2463a872a5740a4c9cdf3",
+      "ec6398e577e1421ea2e8decb8497b6b9"
+    ],
+    "evidence": "equal_mean_of_two_planned_A_placements"
+  },
+  {
+    "mass_g": 1203,
+    "force_N": 11.79739995,
+    "response_adc": [
+      134.91820670670654,
+      115.00485485485501,
+      144.60074774774785,
+      169.21454554554543
+    ],
+    "capture_ids": [
+      "39347bda866b448b8d061ebf8d74d0dd",
+      "c1304a2d4864433bb891e2284cc4b847"
+    ],
+    "evidence": "equal_mean_of_two_planned_A_placements"
+  },
+  {
+    "mass_g": 1502,
+    "force_N": 14.7295883,
+    "response_adc": [
+      167.02433783783772,
+      188.2823653653652,
+      223.07415915915908,
+      200.7885685685685
+    ],
+    "capture_ids": [
+      "76a1398be0844bd98e78f2434fe650b4",
+      "3b92457a27f444c2aef938077f0ec5e9"
+    ],
+    "evidence": "equal_mean_of_two_planned_A_placements"
+  },
+  {
+    "mass_g": 2003,
+    "force_N": 19.64271995,
+    "response_adc": [
+      269.882837837838,
+      324.3403653653654,
+      321.5541591591591,
+      272.24806856856844
+    ],
+    "capture_ids": [
+      "b7a7ded8cc64434c912def10863eb83d",
+      "09831a98514247c7b491bbf1d8e84fd1"
+    ],
+    "evidence": "equal_mean_of_two_planned_A_placements"
+  },
+  {
+    "mass_g": 3005,
+    "force_N": 29.468983249999997,
+    "response_adc": [
+      494.0279129129128,
+      591.8581836836838,
+      579.5986056056055,
+      491.4614439439438
+    ],
+    "capture_ids": [
+      "4711a66c677d44b3b8b924dceeecc050",
+      "13ac0924e7f9424f97e6d25d85f62534"
+    ],
+    "evidence": "equal_mean_of_two_planned_A_placements"
+  },
+  {
+    "mass_g": 4007,
+    "force_N": 39.295246549999995,
+    "response_adc": [
+      747.3339309309309,
+      914.9445255255254,
+      848.8754444444445,
+      703.6521036036036
+    ],
+    "capture_ids": [
+      "e5973838d4e249109652a9cb0bb3e4e2",
+      "43c5d29cd7fd4d9984eef3561bc69258"
+    ],
+    "evidence": "equal_mean_of_two_planned_A_placements"
+  },
+  {
+    "mass_g": 5000,
+    "force_N": 49.033249999999995,
+    "response_adc": [
+      1253.1231231231232,
+      1329.7142142142143,
+      1303.2832832832833,
+      1196.397897897898
+    ],
+    "capture_ids": [
+      "dea25d0df4ee4b999bc1e1526e999394",
+      "3a58b3c9fa4245c8afaa14a523166c68"
+    ],
+    "evidence": "equal_mean_of_two_planned_A_placements"
+  }
+]

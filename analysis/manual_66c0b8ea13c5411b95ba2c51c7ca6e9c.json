@@ -1,0 +1,1043 @@
+{
+  "pairs": [
+    {
+      "attempt_id": "N_PRESS_R1_0500",
+      "cycle": 1,
+      "target_scale_indication_g": 500,
+      "reported_scale_indication_g": 532.0,
+      "reading_status_in_form": null,
+      "reference_quality": "approximate_manual_scale_reading",
+      "cue_utc": "2026-10-17T21:14:44.689Z",
+      "cue_elapsed_s": 37.415541636,
+      "hold_start_elapsed_s": 17.4145417,
+      "release_cue_elapsed_s": 39.432541828,
+      "cue_lateness_ms": 2,
+      "display_frame_index": 36,
+      "first_seq": 3600,
+      "last_seq": 3699,
+      "device_time_s": [
+        36.0,
+        36.99
+      ],
+      "window_end_to_cue_s": 0.426789636,
+      "zero_epoch": 6,
+      "recorded_device_g": 526.32,
+      "device_minus_reported_scale_g": -5.67999999999995,
+      "device_minus_reported_scale_N": -0.05570177199999951,
+      "last_5s": {
+        "display_frames": 4,
+        "device_mean_g": 513.5525,
+        "device_min_g": 480.797,
+        "device_max_g": 553.387,
+        "device_span_g": 72.58999999999992,
+        "channel_mean_adc": [
+          2556.7775551102204,
+          2497.302605210421,
+          2462.517034068136,
+          2604.444889779559
+        ],
+        "channel_sd_adc": [
+          8.729342639979969,
+          7.754168021993494,
+          7.771666851031111,
+          7.7572656017659565
+        ],
+        "sample_count": 499
+      },
+      "whole_hold": {
+        "display_frames": 19,
+        "device_mean_g": 500.86842105263156,
+        "device_min_g": 458.957,
+        "device_max_g": 553.387,
+        "device_span_g": 94.42999999999995,
+        "channel_mean_adc": [
+          2560.547,
+          2502.4315,
+          2462.908,
+          2603.1285
+        ],
+        "channel_sd_adc": [
+          7.479021251436579,
+          7.338612632349783,
+          6.016114428466975,
+          6.328824121223361
+        ],
+        "sample_count": 2000
+      },
+      "pair_coverage": "available",
+      "certified_accuracy_eligible": false
+    },
+    {
+      "attempt_id": "N_PRESS_R1_1000",
+      "cycle": 1,
+      "target_scale_indication_g": 1000,
+      "reported_scale_indication_g": 975.0,
+      "reading_status_in_form": null,
+      "reference_quality": "approximate_manual_scale_reading",
+      "cue_utc": "2026-10-17T21:15:32.980Z",
+      "cue_elapsed_s": 85.7065417,
+      "hold_start_elapsed_s": 65.623541892,
+      "release_cue_elapsed_s": 87.725541764,
+      "cue_lateness_ms": 84,
+      "display_frame_index": 84,
+      "first_seq": 8400,
+      "last_seq": 8499,
+      "device_time_s": [
+        84.0,
+        84.99
+      ],
+      "window_end_to_cue_s": 0.7199135,
+      "zero_epoch": 6,
+      "recorded_device_g": 945.369,
+      "device_minus_reported_scale_g": -29.630999999999972,
+      "device_minus_reported_scale_N": -0.29058084614999974,
+      "last_5s": {
+        "display_frames": 4,
+        "device_mean_g": 948.4225,
+        "device_min_g": 943.195,
+        "device_max_g": 955.376,
+        "device_span_g": 12.180999999999926,
+        "channel_mean_adc": [
+          2485.012,
+          2434.064,
+          2407.04,
+          2542.56
+        ],
+        "channel_sd_adc": [
+          5.886693666622129,
+          6.286409299732843,
+          5.650332070330888,
+          5.883164390571858
+        ],
+        "sample_count": 500
+      },
+      "whole_hold": {
+        "display_frames": 19,
+        "device_mean_g": 952.1585263157895,
+        "device_min_g": 943.195,
+        "device_max_g": 956.422,
+        "device_span_g": 13.226999999999975,
+        "channel_mean_adc": [
+          2487.044322709163,
+          2436.464143426295,
+          2404.1469123505976,
+          2539.037848605578
+        ],
+        "channel_sd_adc": [
+          5.943139277669972,
+          6.1002020896014235,
+          5.68451689811966,
+          6.02465965173733
+        ],
+        "sample_count": 2008
+      },
+      "pair_coverage": "available",
+      "certified_accuracy_eligible": false
+    },
+    {
+      "attempt_id": "N_PRESS_R1_2000",
+      "cycle": 1,
+      "target_scale_indication_g": 2000,
+      "reported_scale_indication_g": 2010.0,
+      "reading_status_in_form": null,
+      "reference_quality": "approximate_manual_scale_reading",
+      "cue_utc": "2026-10-17T21:16:27.258Z",
+      "cue_elapsed_s": 139.984541572,
+      "hold_start_elapsed_s": 119.895541636,
+      "release_cue_elapsed_s": 142.011541892,
+      "cue_lateness_ms": 89,
+      "display_frame_index": 139,
+      "first_seq": 13900,
+      "last_seq": 13999,
+      "device_time_s": [
+        139.0,
+        139.99
+      ],
+      "window_end_to_cue_s": 0.000486872,
+      "zero_epoch": 6,
+      "recorded_device_g": 1838.524,
+      "device_minus_reported_scale_g": -171.4760000000001,
+      "device_minus_reported_scale_N": -1.6816051154000011,
+      "last_5s": {
+        "display_frames": 5,
+        "device_mean_g": 1842.5310000000002,
+        "device_min_g": 1838.524,
+        "device_max_g": 1844.626,
+        "device_span_g": 6.102000000000089,
+        "channel_mean_adc": [
+          2353.268,
+          2298.652,
+          2250.032,
+          2383.698
+        ],
+        "channel_sd_adc": [
+          5.658286703308152,
+          6.133362231641718,
+          5.3912063782074355,
+          5.273938267528313
+        ],
+        "sample_count": 500
+      },
+      "whole_hold": {
+        "display_frames": 20,
+        "device_mean_g": 1845.2239499999996,
+        "device_min_g": 1838.524,
+        "device_max_g": 1860.336,
+        "device_span_g": 21.812000000000126,
+        "channel_mean_adc": [
+          2354.6674962667994,
+          2295.4146341463415,
+          2247.6674962667994,
+          2385.6560477849675
+        ],
+        "channel_sd_adc": [
+          5.87934324945665,
+          6.8099415315695255,
+          5.714047810753447,
+          5.809017624920718
+        ],
+        "sample_count": 2009
+      },
+      "pair_coverage": "available",
+      "certified_accuracy_eligible": false
+    },
+    {
+      "attempt_id": "N_PRESS_R1_3000",
+      "cycle": 1,
+      "target_scale_indication_g": 3000,
+      "reported_scale_indication_g": 3020.0,
+      "reading_status_in_form": null,
+      "reference_quality": "approximate_manual_scale_reading",
+      "cue_utc": "2026-10-17T21:17:16.882Z",
+      "cue_elapsed_s": 189.608541572,
+      "hold_start_elapsed_s": 169.515541636,
+      "release_cue_elapsed_s": 191.6265417,
+      "cue_lateness_ms": 94,
+      "display_frame_index": 188,
+      "first_seq": 18800,
+      "last_seq": 18899,
+      "device_time_s": [
+        188.0,
+        188.99
+      ],
+      "window_end_to_cue_s": 0.626848172,
+      "zero_epoch": 6,
+      "recorded_device_g": 2406.826,
+      "device_minus_reported_scale_g": -613.174,
+      "device_minus_reported_scale_N": -6.0131828071,
+      "last_5s": {
+        "display_frames": 4,
+        "device_mean_g": 2407.23725,
+        "device_min_g": 2406.433,
+        "device_max_g": 2408.998,
+        "device_span_g": 2.5650000000000546,
+        "channel_mean_adc": [
+          2213.366,
+          2185.794,
+          2128.828,
+          2235.484
+        ],
+        "channel_sd_adc": [
+          5.972888312163478,
+          5.851499302586998,
+          5.133334027362064,
+          6.113632062365885
+        ],
+        "sample_count": 500
+      },
+      "whole_hold": {
+        "display_frames": 19,
+        "device_mean_g": 2405.8502631578945,
+        "device_min_g": 2403.972,
+        "device_max_g": 2408.998,
+        "device_span_g": 5.02599999999984,
+        "channel_mean_adc": [
+          2213.105525136884,
+          2186.0174216027876,
+          2130.369337979094,
+          2235.629168740667
+        ],
+        "channel_sd_adc": [
+          5.85327013305287,
+          5.849387471077975,
+          5.326115431288206,
+          5.9554592916416835
+        ],
+        "sample_count": 2009
+      },
+      "pair_coverage": "available",
+      "certified_accuracy_eligible": false
+    },
+    {
+      "attempt_id": "N_PRESS_R1_4000",
+      "cycle": 1,
+      "target_scale_indication_g": 4000,
+      "reported_scale_indication_g": 3990.0,
+      "reading_status_in_form": null,
+      "reference_quality": "approximate_manual_scale_reading",
+      "cue_utc": "2026-10-17T21:18:00.164Z",
+      "cue_elapsed_s": 232.8905417,
+      "hold_start_elapsed_s": 212.828541572,
+      "release_cue_elapsed_s": 234.900541828,
+      "cue_lateness_ms": 61,
+      "display_frame_index": 231,
+      "first_seq": 23100,
+      "last_seq": 23199,
+      "device_time_s": [
+        231.0,
+        231.99
+      ],
+      "window_end_to_cue_s": 0.9125438,
+      "zero_epoch": 6,
+      "recorded_device_g": 3892.564,
+      "device_minus_reported_scale_g": -97.43600000000015,
+      "device_minus_reported_scale_N": -0.9555207494000014,
+      "last_5s": {
+        "display_frames": 4,
+        "device_mean_g": 3892.87625,
+        "device_min_g": 3892.564,
+        "device_max_g": 3893.198,
+        "device_span_g": 0.6340000000000146,
+        "channel_mean_adc": [
+          1796.596,
+          1797.966,
+          1782.236,
+          1871.068
+        ],
+        "channel_sd_adc": [
+          7.97320060300199,
+          8.18601647515218,
+          4.051806791612012,
+          7.060813421436985
+        ],
+        "sample_count": 500
+      },
+      "whole_hold": {
+        "display_frames": 19,
+        "device_mean_g": 3893.3936842105268,
+        "device_min_g": 3891.635,
+        "device_max_g": 3895.367,
+        "device_span_g": 3.731999999999971,
+        "channel_mean_adc": [
+          1796.9073243647235,
+          1797.3881415047335,
+          1782.0019930244146,
+          1871.4090682610863
+        ],
+        "channel_sd_adc": [
+          7.82264659604544,
+          8.125653214567793,
+          4.0701716330621505,
+          7.121546755743577
+        ],
+        "sample_count": 2007
+      },
+      "pair_coverage": "available",
+      "certified_accuracy_eligible": false
+    },
+    {
+      "attempt_id": "N_PRESS_R2_2000",
+      "cycle": 2,
+      "target_scale_indication_g": 2000,
+      "reported_scale_indication_g": 2020.0,
+      "reading_status_in_form": null,
+      "reference_quality": "approximate_manual_scale_reading",
+      "cue_utc": "2026-10-17T21:18:43.764Z",
+      "cue_elapsed_s": 276.4905417,
+      "hold_start_elapsed_s": 256.412541828,
+      "release_cue_elapsed_s": 278.520541572,
+      "cue_lateness_ms": 77,
+      "display_frame_index": 275,
+      "first_seq": 27500,
+      "last_seq": 27599,
+      "device_time_s": [
+        275.0,
+        275.99
+      ],
+      "window_end_to_cue_s": 0.5132295,
+      "zero_epoch": 6,
+      "recorded_device_g": 1892.955,
+      "device_minus_reported_scale_g": -127.04500000000007,
+      "device_minus_reported_scale_N": -1.2458858492500007,
+      "last_5s": {
+        "display_frames": 4,
+        "device_mean_g": 1887.3245,
+        "device_min_g": 1877.013,
+        "device_max_g": 1896.215,
+        "device_span_g": 19.201999999999998,
+        "channel_mean_adc": [
+          2357.936,
+          2285.332,
+          2224.772,
+          2380.78
+        ],
+        "channel_sd_adc": [
+          7.429825611495516,
+          8.717899951199133,
+          6.013013275996857,
+          7.363970132491337
+        ],
+        "sample_count": 500
+      },
+      "whole_hold": {
+        "display_frames": 19,
+        "device_mean_g": 1886.5541052631581,
+        "device_min_g": 1877.013,
+        "device_max_g": 1896.215,
+        "device_span_g": 19.201999999999998,
+        "channel_mean_adc": [
+          2357.820717131474,
+          2286.60109561753,
+          2225.4820717131474,
+          2379.5263944223107
+        ],
+        "channel_sd_adc": [
+          7.663561409455633,
+          7.953134951099119,
+          5.128996410236642,
+          7.310625294741032
+        ],
+        "sample_count": 2008
+      },
+      "pair_coverage": "available",
+      "certified_accuracy_eligible": false
+    },
+    {
+      "attempt_id": "N_PRESS_R2_4000",
+      "cycle": 2,
+      "target_scale_indication_g": 4000,
+      "reported_scale_indication_g": 4010.0,
+      "reading_status_in_form": null,
+      "reference_quality": "approximate_manual_scale_reading",
+      "cue_utc": "2026-10-17T21:19:40.349Z",
+      "cue_elapsed_s": 333.075541636,
+      "hold_start_elapsed_s": 313.0025417,
+      "release_cue_elapsed_s": 335.093541764,
+      "cue_lateness_ms": 73,
+      "display_frame_index": 332,
+      "first_seq": 33200,
+      "last_seq": 33299,
+      "device_time_s": [
+        332.0,
+        332.99
+      ],
+      "window_end_to_cue_s": 0.101237636,
+      "zero_epoch": 6,
+      "recorded_device_g": 3932.763,
+      "device_minus_reported_scale_g": -77.23700000000008,
+      "device_minus_reported_scale_N": -0.7574362260500008,
+      "last_5s": {
+        "display_frames": 4,
+        "device_mean_g": 3926.81675,
+        "device_min_g": 3922.827,
+        "device_max_g": 3932.763,
+        "device_span_g": 9.935999999999694,
+        "channel_mean_adc": [
+          1831.06,
+          1812.518,
+          1731.72,
+          1837.92
+        ],
+        "channel_sd_adc": [
+          7.985231859859252,
+          7.593483916885076,
+          4.503572396293567,
+          7.310573778983113
+        ],
+        "sample_count": 500
+      },
+      "whole_hold": {
+        "display_frames": 19,
+        "device_mean_g": 3919.579684210527,
+        "device_min_g": 3914.955,
+        "device_max_g": 3932.763,
+        "device_span_g": 17.807999999999993,
+        "channel_mean_adc": [
+          1827.5612549800796,
+          1815.3610557768925,
+          1740.0099601593627,
+          1837.3779880478087
+        ],
+        "channel_sd_adc": [
+          8.730490118928998,
+          7.713260460183678,
+          7.571739631994426,
+          7.627347901454526
+        ],
+        "sample_count": 2008
+      },
+      "pair_coverage": "available",
+      "certified_accuracy_eligible": false
+    },
+    {
+      "attempt_id": "N_PRESS_R2_1000",
+      "cycle": 2,
+      "target_scale_indication_g": 1000,
+      "reported_scale_indication_g": 980.0,
+      "reading_status_in_form": null,
+      "reference_quality": "approximate_manual_scale_reading",
+      "cue_utc": "2026-10-17T21:20:24.279Z",
+      "cue_elapsed_s": 377.005541764,
+      "hold_start_elapsed_s": 356.9505417,
+      "release_cue_elapsed_s": 379.021541764,
+      "cue_lateness_ms": 54,
+      "display_frame_index": 376,
+      "first_seq": 37600,
+      "last_seq": 37699,
+      "device_time_s": [
+        376.0,
+        376.99
+      ],
+      "window_end_to_cue_s": 0.033455264,
+      "zero_epoch": 6,
+      "recorded_device_g": 1021.904,
+      "device_minus_reported_scale_g": 41.903999999999996,
+      "device_minus_reported_scale_N": 0.41093786159999995,
+      "last_5s": {
+        "display_frames": 4,
+        "device_mean_g": 1017.509,
+        "device_min_g": 1014.893,
+        "device_max_g": 1021.904,
+        "device_span_g": 7.010999999999967,
+        "channel_mean_adc": [
+          2489.524,
+          2434.258,
+          2386.028,
+          2522.586
+        ],
+        "channel_sd_adc": [
+          7.439631727476933,
+          7.755755248778705,
+          4.129081572124535,
+          6.8125932546797126
+        ],
+        "sample_count": 500
+      },
+      "whole_hold": {
+        "display_frames": 20,
+        "device_mean_g": 1015.8139999999997,
+        "device_min_g": 999.257,
+        "device_max_g": 1028.604,
+        "device_span_g": 29.347000000000094,
+        "channel_mean_adc": [
+          2489.1535393818544,
+          2434.6714855433697,
+          2387.0309072781656,
+          2522.3389830508477
+        ],
+        "channel_sd_adc": [
+          7.458503987453977,
+          7.64324580727093,
+          4.284873571130799,
+          6.837752453560364
+        ],
+        "sample_count": 2006
+      },
+      "pair_coverage": "available",
+      "certified_accuracy_eligible": false
+    },
+    {
+      "attempt_id": "N_PRESS_R2_3000",
+      "cycle": 2,
+      "target_scale_indication_g": 3000,
+      "reported_scale_indication_g": 3010.0,
+      "reading_status_in_form": null,
+      "reference_quality": "approximate_manual_scale_reading",
+      "cue_utc": "2026-10-17T21:21:10.589Z",
+      "cue_elapsed_s": 423.315541636,
+      "hold_start_elapsed_s": 403.240541572,
+      "release_cue_elapsed_s": 425.345541764,
+      "cue_lateness_ms": 76,
+      "display_frame_index": 422,
+      "first_seq": 42200,
+      "last_seq": 42299,
+      "device_time_s": [
+        422.0,
+        422.99
+      ],
+      "window_end_to_cue_s": 0.345039736,
+      "zero_epoch": 6,
+      "recorded_device_g": 2943.4,
+      "device_minus_reported_scale_g": -66.59999999999991,
+      "device_minus_reported_scale_N": -0.6531228899999991,
+      "last_5s": {
+        "display_frames": 4,
+        "device_mean_g": 2941.3165,
+        "device_min_g": 2934.993,
+        "device_max_g": 2946.803,
+        "device_span_g": 11.809999999999945,
+        "channel_mean_adc": [
+          2126.176352705411,
+          2029.2444889779558,
+          1953.4829659318636,
+          2137.9819639278558
+        ],
+        "channel_sd_adc": [
+          7.147117395995176,
+          8.552245805790976,
+          5.910749381749924,
+          7.064936564850557
+        ],
+        "sample_count": 499
+      },
+      "whole_hold": {
+        "display_frames": 19,
+        "device_mean_g": 2895.394894736842,
+        "device_min_g": 2847.866,
+        "device_max_g": 2946.803,
+        "device_span_g": 98.9369999999999,
+        "channel_mean_adc": [
+          2124.390134529148,
+          2054.2107623318384,
+          1979.3781763826607,
+          2134.64524165421
+        ],
+        "channel_sd_adc": [
+          7.942324645186056,
+          24.544401415481325,
+          24.77994843677425,
+          8.043730553991859
+        ],
+        "sample_count": 2007
+      },
+      "pair_coverage": "available",
+      "certified_accuracy_eligible": false
+    },
+    {
+      "attempt_id": "N_PRESS_R2_0500",
+      "cycle": 2,
+      "target_scale_indication_g": 500,
+      "reported_scale_indication_g": 514.0,
+      "reading_status_in_form": null,
+      "reference_quality": "approximate_manual_scale_reading",
+      "cue_utc": "2026-10-17T21:21:53.520Z",
+      "cue_elapsed_s": 466.2465417,
+      "hold_start_elapsed_s": 446.245541764,
+      "release_cue_elapsed_s": 468.256541572,
+      "cue_lateness_ms": 1,
+      "display_frame_index": 465,
+      "first_seq": 46500,
+      "last_seq": 46599,
+      "device_time_s": [
+        465.0,
+        465.99
+      ],
+      "window_end_to_cue_s": 0.2779784,
+      "zero_epoch": 6,
+      "recorded_device_g": 541.115,
+      "device_minus_reported_scale_g": 27.11500000000001,
+      "device_minus_reported_scale_N": 0.26590731475000007,
+      "last_5s": {
+        "display_frames": 4,
+        "device_mean_g": 538.6867500000001,
+        "device_min_g": 536.141,
+        "device_max_g": 541.115,
+        "device_span_g": 4.974000000000046,
+        "channel_mean_adc": [
+          2569.6307385229543,
+          2455.9900199600797,
+          2444.758483033932,
+          2637.6626746506986
+        ],
+        "channel_sd_adc": [
+          6.976630508597459,
+          6.962032763467961,
+          3.9170847443234345,
+          7.154857373276985
+        ],
+        "sample_count": 501
+      },
+      "whole_hold": {
+        "display_frames": 19,
+        "device_mean_g": 548.9167368421053,
+        "device_min_g": 536.141,
+        "device_max_g": 563.082,
+        "device_span_g": 26.94100000000003,
+        "channel_mean_adc": [
+          2564.746626686657,
+          2457.008995502249,
+          2446.582708645677,
+          2634.146926536732
+        ],
+        "channel_sd_adc": [
+          8.454009100129198,
+          7.6777548176846215,
+          5.359690369748157,
+          7.9572860825220975
+        ],
+        "sample_count": 2001
+      },
+      "pair_coverage": "available",
+      "certified_accuracy_eligible": false
+    },
+    {
+      "attempt_id": "N_PRESS_R3_3000",
+      "cycle": 3,
+      "target_scale_indication_g": 3000,
+      "reported_scale_indication_g": 3030.0,
+      "reading_status_in_form": null,
+      "reference_quality": "approximate_manual_scale_reading",
+      "cue_utc": "2026-10-17T21:22:35.995Z",
+      "cue_elapsed_s": 508.721541508,
+      "hold_start_elapsed_s": 488.720541572,
+      "release_cue_elapsed_s": 510.747541636,
+      "cue_lateness_ms": 0,
+      "display_frame_index": 507,
+      "first_seq": 50700,
+      "last_seq": 50799,
+      "device_time_s": [
+        507.0,
+        507.99
+      ],
+      "window_end_to_cue_s": 0.754844408,
+      "zero_epoch": 6,
+      "recorded_device_g": 2631.369,
+      "device_minus_reported_scale_g": -398.63099999999986,
+      "device_minus_reported_scale_N": -3.9092346961499986,
+      "last_5s": {
+        "display_frames": 4,
+        "device_mean_g": 2631.589,
+        "device_min_g": 2631.111,
+        "device_max_g": 2632.238,
+        "device_span_g": 1.1269999999999527,
+        "channel_mean_adc": [
+          2166.496,
+          2132.668,
+          2066.428,
+          2181.078
+        ],
+        "channel_sd_adc": [
+          7.472728239048258,
+          7.006565486730243,
+          4.130246223620971,
+          7.519907847045486
+        ],
+        "sample_count": 500
+      },
+      "whole_hold": {
+        "display_frames": 19,
+        "device_mean_g": 2631.2738421052627,
+        "device_min_g": 2629.787,
+        "device_max_g": 2633.53,
+        "device_span_g": 3.743000000000393,
+        "channel_mean_adc": [
+          2166.937,
+          2132.4995,
+          2066.108,
+          2181.581
+        ],
+        "channel_sd_adc": [
+          7.46738990250124,
+          7.109449478401437,
+          4.1877326266461266,
+          7.505771599485992
+        ],
+        "sample_count": 2000
+      },
+      "pair_coverage": "available",
+      "certified_accuracy_eligible": false
+    },
+    {
+      "attempt_id": "N_PRESS_R3_0500",
+      "cycle": 3,
+      "target_scale_indication_g": 500,
+      "reported_scale_indication_g": 512.0,
+      "reading_status_in_form": null,
+      "reference_quality": "approximate_manual_scale_reading",
+      "cue_utc": "2026-10-17T21:23:20.580Z",
+      "cue_elapsed_s": 553.3065417,
+      "hold_start_elapsed_s": 533.288541828,
+      "release_cue_elapsed_s": 555.3265417,
+      "cue_lateness_ms": 18,
+      "display_frame_index": 552,
+      "first_seq": 55200,
+      "last_seq": 55299,
+      "device_time_s": [
+        552.0,
+        552.99
+      ],
+      "window_end_to_cue_s": 0.3431786,
+      "zero_epoch": 6,
+      "recorded_device_g": 483.261,
+      "device_minus_reported_scale_g": -28.738999999999976,
+      "device_minus_reported_scale_N": -0.28183331434999975,
+      "last_5s": {
+        "display_frames": 4,
+        "device_mean_g": 483.2045,
+        "device_min_g": 480.435,
+        "device_max_g": 486.2,
+        "device_span_g": 5.764999999999986,
+        "channel_mean_adc": [
+          2551.684,
+          2486.688,
+          2476.376,
+          2621.722
+        ],
+        "channel_sd_adc": [
+          6.322348311850023,
+          6.775135491032194,
+          3.6349759421763035,
+          6.494696155811472
+        ],
+        "sample_count": 500
+      },
+      "whole_hold": {
+        "display_frames": 19,
+        "device_mean_g": 487.90173684210527,
+        "device_min_g": 480.435,
+        "device_max_g": 494.113,
+        "device_span_g": 13.677999999999997,
+        "channel_mean_adc": [
+          2551.453046953047,
+          2485.318181818182,
+          2475.8551448551448,
+          2622.172327672328
+        ],
+        "channel_sd_adc": [
+          6.3460150687786605,
+          6.981245604891099,
+          3.852995356522939,
+          6.521925001382684
+        ],
+        "sample_count": 2002
+      },
+      "pair_coverage": "available",
+      "certified_accuracy_eligible": false
+    },
+    {
+      "attempt_id": "N_PRESS_R3_4000",
+      "cycle": 3,
+      "target_scale_indication_g": 4000,
+      "reported_scale_indication_g": 4010.0,
+      "reading_status_in_form": null,
+      "reference_quality": "approximate_manual_scale_reading",
+      "cue_utc": "2026-10-17T21:24:04.039Z",
+      "cue_elapsed_s": 596.765541764,
+      "hold_start_elapsed_s": 576.697541764,
+      "release_cue_elapsed_s": 598.796541572,
+      "cue_lateness_ms": 67,
+      "display_frame_index": 595,
+      "first_seq": 59500,
+      "last_seq": 59599,
+      "device_time_s": [
+        595.0,
+        595.99
+      ],
+      "window_end_to_cue_s": 0.803010164,
+      "zero_epoch": 6,
+      "recorded_device_g": 3930.508,
+      "device_minus_reported_scale_g": -79.49200000000019,
+      "device_minus_reported_scale_N": -0.7795502218000019,
+      "last_5s": {
+        "display_frames": 4,
+        "device_mean_g": 3933.3050000000003,
+        "device_min_g": 3930.508,
+        "device_max_g": 3935.197,
+        "device_span_g": 4.689000000000306,
+        "channel_mean_adc": [
+          1805.64,
+          1800.296,
+          1754.1,
+          1845.558
+        ],
+        "channel_sd_adc": [
+          6.208662898723041,
+          6.913463383276415,
+          3.296624860511408,
+          6.576102664382959
+        ],
+        "sample_count": 500
+      },
+      "whole_hold": {
+        "display_frames": 19,
+        "device_mean_g": 3936.925842105263,
+        "device_min_g": 3930.508,
+        "device_max_g": 3955.675,
+        "device_span_g": 25.16700000000037,
+        "channel_mean_adc": [
+          1808.2227204783258,
+          1800.190832087693,
+          1750.8679621325361,
+          1845.3497757847533
+        ],
+        "channel_sd_adc": [
+          11.666422148877805,
+          10.242033874263534,
+          9.61813285123121,
+          9.896434229971344
+        ],
+        "sample_count": 2007
+      },
+      "pair_coverage": "available",
+      "certified_accuracy_eligible": false
+    },
+    {
+      "attempt_id": "N_PRESS_R3_2000",
+      "cycle": 3,
+      "target_scale_indication_g": 2000,
+      "reported_scale_indication_g": 2010.0,
+      "reading_status_in_form": null,
+      "reference_quality": "approximate_manual_scale_reading",
+      "cue_utc": "2026-10-17T21:24:50.641Z",
+      "cue_elapsed_s": 643.367541636,
+      "hold_start_elapsed_s": 623.305541764,
+      "release_cue_elapsed_s": 645.389541764,
+      "cue_lateness_ms": 61,
+      "display_frame_index": 642,
+      "first_seq": 64200,
+      "last_seq": 64299,
+      "device_time_s": [
+        642.0,
+        642.99
+      ],
+      "window_end_to_cue_s": 0.408363236,
+      "zero_epoch": 6,
+      "recorded_device_g": 2012.777,
+      "device_minus_reported_scale_g": 2.7770000000000437,
+      "device_minus_reported_scale_N": 0.027233067050000427,
+      "last_5s": {
+        "display_frames": 4,
+        "device_mean_g": 2012.0585,
+        "device_min_g": 2010.523,
+        "device_max_g": 2012.86,
+        "device_span_g": 2.336999999999989,
+        "channel_mean_adc": [
+          2318.46,
+          2271.704,
+          2214.292,
+          2341.5
+        ],
+        "channel_sd_adc": [
+          6.164446512186104,
+          6.306498858773506,
+          4.1382346443796525,
+          6.344328254591183
+        ],
+        "sample_count": 500
+      },
+      "whole_hold": {
+        "display_frames": 19,
+        "device_mean_g": 2009.400894736842,
+        "device_min_g": 1997.197,
+        "device_max_g": 2012.953,
+        "device_span_g": 15.756000000000085,
+        "channel_mean_adc": [
+          2319.740777666999,
+          2271.3464606181456,
+          2214.1156530408775,
+          2343.533399800598
+        ],
+        "channel_sd_adc": [
+          6.249317344737137,
+          6.264343535866812,
+          4.018732228631922,
+          7.0901309026095785
+        ],
+        "sample_count": 2006
+      },
+      "pair_coverage": "available",
+      "certified_accuracy_eligible": false
+    },
+    {
+      "attempt_id": "N_PRESS_R3_1000",
+      "cycle": 3,
+      "target_scale_indication_g": 1000,
+      "reported_scale_indication_g": 1005.0,
+      "reading_status_in_form": null,
+      "reference_quality": "approximate_manual_scale_reading",
+      "cue_utc": "2026-10-17T21:25:33.592Z",
+      "cue_elapsed_s": 686.3185417,
+      "hold_start_elapsed_s": 666.307541892,
+      "release_cue_elapsed_s": 688.331541636,
+      "cue_lateness_ms": 12,
+      "display_frame_index": 685,
+      "first_seq": 68500,
+      "last_seq": 68599,
+      "device_time_s": [
+        685.0,
+        685.99
+      ],
+      "window_end_to_cue_s": 0.3605903,
+      "zero_epoch": 6,
+      "recorded_device_g": 988.237,
+      "device_minus_reported_scale_g": -16.763000000000034,
+      "device_minus_reported_scale_N": -0.16438887395000032,
+      "last_5s": {
+        "display_frames": 4,
+        "device_mean_g": 987.893,
+        "device_min_g": 986.777,
+        "device_max_g": 989.482,
+        "device_span_g": 2.7049999999999272,
+        "channel_mean_adc": [
+          2486.78,
+          2426.952,
+          2396.708,
+          2534.518
+        ],
+        "channel_sd_adc": [
+          6.592003414595297,
+          6.713556410678222,
+          3.3527926325488395,
+          6.216346348446807
+        ],
+        "sample_count": 500
+      },
+      "whole_hold": {
+        "display_frames": 19,
+        "device_mean_g": 989.1370000000002,
+        "device_min_g": 969.882,
+        "device_max_g": 999.772,
+        "device_span_g": 29.8900000000001,
+        "channel_mean_adc": [
+          2486.3321678321677,
+          2428.1853146853146,
+          2396.956043956044,
+          2533.303696303696
+        ],
+        "channel_sd_adc": [
+          6.84767178618826,
+          7.394848357793193,
+          3.6381929182233312,
+          6.435601591130105
+        ],
+        "sample_count": 2002
+      },
+      "pair_coverage": "available",
+      "certified_accuracy_eligible": false
+    }
+  ],
+  "method": {
+    "pairing": "Last complete 100-sample device window ending before actual worksheet read cue; never selected by agreement",
+    "reference": "One manually entered CRW-7024 indication per press; no video or synchronized scale stream",
+    "selection": "All 15 planned presses, without force-error exclusions.",
+    "zero": "Initial 2-6 s precede first worksheet start; final 20 s follow last release. No zero-epoch change in this capture.",
+    "limits": "Scale indications were read manually while fluctuating; no per-press uncertainty interval was recorded.",
+    "low_status": "Status 3 indicates a response below the model negative-zero extension; no mass value is reported."
+  },
+  "display_conversion": {
+    "capture_id": "66c0b8ea13c5411b95ba2c51c7ca6e9c",
+    "display_frames": 738,
+    "states": {
+      "wait_zero": 0,
+      "ok": 683,
+      "negative_zero_extension": 55,
+      "low": 0,
+      "high": 0,
+      "adc_rail": 0,
+      "data_gap": 0
+    },
+    "pc_conversion_mismatches": [],
+    "mass_mean_g": 1206.4940420054202,
+    "mass_min_g": -10.187,
+    "mass_max_g": 3955.675,
+    "model_id": "497c5c8fbd85a4ef4284da84ff57cb27144c7f28b633eb0435fdb7966894c42d",
+    "source_hashes": {
+      "samples.csv": "899e3bdd5519169be4455f8953663fc2cfc8f8f12c29cf29b135bad5d59ca483",
+      "display.csv": "0373cbbb9e2c63f8665275af7bf68e1b642fe877ed18c856baf3f4d726c90feb"
+    },
+    "raw_capture_status": "finished",
+    "raw_issue_count": 0,
+    "actual_screen_pixels_verified": false,
+    "physical_accuracy_test": false
+  }
+}

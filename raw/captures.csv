@@ -1,0 +1,301 @@
+capture_id,group,role,record_code,load_g,position,cycle,repetition,files
+79f2205e96b341f2afc945c8de4f8a28,A,calibration_or_reference,A_QC_00,0,,,,samples; temperatures
+d50b59b1c4b64a23863f5a3f5096473c,A,calibration_or_reference,A_T1_WATER_0050_C,50,,,,samples; temperatures
+0526b9f7fde640c09595caf0af34ab72,A,calibration_or_reference,A_T1_WATER_0100_C,100,,,,samples; temperatures
+3a9ac54c1e7a4d748337c65c4a9083ff,A,calibration_or_reference,A_T1_WATER_0300_C,301,,,,samples; temperatures
+c0f4ac4380b64d68a4555cb80fa2e4a3,A,calibration_or_reference,A_T1_WATER_0500_C,500,,,,samples; temperatures
+74f6eac8e04545088da62fdd1a3319bd,A,calibration_or_reference,A_T1_WATER_0700_C,702,,,,samples; temperatures
+1c01a66a1fe2463a872a5740a4c9cdf3,A,calibration_or_reference,A_T1_WATER_1000_C,1000,,,,samples; temperatures
+39347bda866b448b8d061ebf8d74d0dd,A,calibration_or_reference,A_T1_WATER_1200_C,1203,,,,samples; temperatures
+76a1398be0844bd98e78f2434fe650b4,A,calibration_or_reference,A_T1_WATER_1500_C,1502,,,,samples; temperatures
+b7a7ded8cc64434c912def10863eb83d,A,calibration_or_reference,A_T1_WATER_2000_C,2003,,,,samples; temperatures
+4711a66c677d44b3b8b924dceeecc050,A,calibration_or_reference,A_T1_WATER_3000_C,3005,,,,samples; temperatures
+e5973838d4e249109652a9cb0bb3e4e2,A,calibration_or_reference,A_T1_WATER_4000_C,4007,,,,samples; temperatures
+dea25d0df4ee4b999bc1e1526e999394,A,calibration_or_reference,A_T1_WATER_5000_C,5000,,,,samples; temperatures
+e08c6c302cd9448cb735320c89d49262,A,calibration_or_reference,A_T2_WATER_0050_C,50,,,,samples; temperatures
+3daf15d2034f4138bc38755d38726861,A,calibration_or_reference,A_T2_WATER_0100_C,100,,,,samples; temperatures
+b62aaaa358984ec081d24b4867a4e41a,A,calibration_or_reference,A_T2_WATER_0300_C,301,,,,samples; temperatures
+79ccc6a1f4704a3ebd411204d564a1d5,A,calibration_or_reference,A_T2_WATER_0500_C,500,,,,samples; temperatures
+1f363e1842d84f6a97c61024f97ab842,A,calibration_or_reference,A_T2_WATER_0700_C,702,,,,samples; temperatures
+ec6398e577e1421ea2e8decb8497b6b9,A,calibration_or_reference,A_T2_WATER_1000_C,1000,,,,samples; temperatures
+c1304a2d4864433bb891e2284cc4b847,A,calibration_or_reference,A_T2_WATER_1200_C,1203,,,,samples; temperatures
+3b92457a27f444c2aef938077f0ec5e9,A,calibration_or_reference,A_T2_WATER_1500_C,1502,,,,samples; temperatures
+09831a98514247c7b491bbf1d8e84fd1,A,calibration_or_reference,A_T2_WATER_2000_C,2003,,,,samples; temperatures
+13ac0924e7f9424f97e6d25d85f62534,A,calibration_or_reference,A_T2_WATER_3000_C,3005,,,,samples; temperatures
+43c5d29cd7fd4d9984eef3561bc69258,A,calibration_or_reference,A_T2_WATER_4000_C,4007,,,,samples; temperatures
+3a58b3c9fa4245c8afaa14a523166c68,A,calibration_or_reference,A_T2_WATER_5000_C,5000,,,,samples; temperatures
+d48461c7502f408c806a4fec7e56bb01,A,calibration_or_reference,A_T2_ZERO_00,0,,,,samples; temperatures
+ab0741ddcf004327b41193864437d33e,A,calibration_or_reference,A_ZERO_01,0,,,,samples; temperatures
+ba2baaee64984c49bc1c2c750336b9d0,A,calibration_or_reference,A_ZERO_02,0,,,,samples; temperatures
+a22e7c7e7f0943a4b0daafdd9e091c32,A,calibration_or_reference,A_ZERO_04,0,,,,samples; temperatures
+768adc79fdda4a999b869bd2760dc589,A,calibration_or_reference,A_ZERO_05,0,,,,samples; temperatures
+69a7d204f85b401991d0ac4ae73671cf,B,test_or_reference,B_T1_WATER_0200_C,199,,,1,samples; temperatures
+5dcad42de7e348989798229274ada956,B,test_or_reference,B_T1_WATER_0400_C,401,,,1,samples; temperatures
+69fba6877b6c43d6b124e6f5c971a771,B,test_or_reference,B_T1_WATER_0800_C,800,,,1,samples; temperatures
+57d153f5f0934283998d52acd8fe4f47,B,test_or_reference,B_T1_WATER_0900_C,898,,,1,samples; temperatures
+7217282b69494b75aafb0b03ab5d95df,B,test_or_reference,B_T1_WATER_1100_C,1100,,,1,samples; temperatures
+8e29bb2e5d404911a06055df9fb0c181,B,test_or_reference,B_T1_WATER_1300_C,1300,,,1,samples; temperatures
+9deb996213d14d4da18dbe56a747f9ac,B,test_or_reference,B_T1_WATER_1400_C,1400,,,1,samples; temperatures
+0db5d4782f0b48589f1696de52e68033,B,test_or_reference,B_T1_WATER_1600_C,1605,,,1,samples; temperatures
+f3e200bc734744a0a0d056fae7e35d86,B,test_or_reference,B_T1_WATER_1850_C,1857,,,1,samples; temperatures
+282506768d67457bb3a0539cd0cd4669,B,test_or_reference,B_T1_WATER_2500_C,2506,,,1,samples; temperatures
+75c094c4911640b59322e0afdef4528d,B,test_or_reference,B_T1_WATER_4500_C,4502,,,1,samples; temperatures
+e1f234dcf80143d8b55b38af6fab0f3c,B,test_or_reference,B_T2_WATER_0200_C,199,,,2,samples; temperatures
+a024b8cc027244cb999fb9369186fdb8,B,test_or_reference,B_T2_WATER_0400_C,401,,,2,samples; temperatures
+984dcc6027c140b68765e323c0bee2df,B,test_or_reference,B_T2_WATER_0600_C,600,,,2,samples; temperatures
+5075fbbc270b43db8b55d3727128ae85,B,test_or_reference,B_T2_WATER_0800_C,800,,,2,samples; temperatures
+9d5cfad45efc4b55a0b963304d975583,B,test_or_reference,B_T2_WATER_0900_C,898,,,2,samples; temperatures
+1d1bccf333ef4bc2ba0c740cadb2bb6e,B,test_or_reference,B_T2_WATER_1100_C,1100,,,2,samples; temperatures
+aa6a23b1d4464c61a44d36f49a6a11a7,B,test_or_reference,B_T2_WATER_1300_C,1300,,,2,samples; temperatures
+83cebb218e05472ebd500612c631c1b9,B,test_or_reference,B_T2_WATER_1400_C,1400,,,2,samples; temperatures
+aaf3b1cd7c3c4e92a39c85e806ed1fbf,B,test_or_reference,B_T2_WATER_1850_C,1857,,,2,samples; temperatures
+43366e1f8f4c473f91bad1e2cb8321a3,B,test_or_reference,B_T2_WATER_2500_C,2506,,,2,samples; temperatures
+70e65b35cbcc46599d81160451a3d67b,B,test_or_reference,B_T2_WATER_3500_C,3501,,,2,samples; temperatures
+a5df9d38960e42d99da5b224a4451459,B,test_or_reference,B_T2_WATER_4500_C,4502,,,2,samples; temperatures
+4f6a596149bf464498a53fc6e19b4b4f,B,test_or_reference,B_ZERO_01,0,,,,samples; temperatures
+0f2323c02fab4ba599060b4051e86698,B,test_or_reference,B_ZERO_02,0,,,,samples; temperatures
+b321692fcf47461ca962918a98c9b8aa,B,test_or_reference,B_ZERO_04,0,,,,samples; temperatures
+fae1d2443a3c4a25b29f55156b2a4c47,B,test_or_reference,B_ZERO_05,0,,,,samples; temperatures
+08b52f304654488cafc40b500adf2d9d,B,test_or_reference,R_EXT_S09,,,,,samples; temperatures
+9b9777b3538c472ebc69477b2a00e5f9,A_REFINE,sensitivity_only,A_REFINE_T1_WATER_1500_C,1502,,,,samples; temperatures
+59dfdfe42e8a4fa787b1a71240264a3e,A_REFINE,sensitivity_only,A_REFINE_T1_WATER_3000_C,3005,,,,samples; temperatures
+95657bfaf7ba410f9fbbcf2ae6589dd1,A_REFINE,sensitivity_only,A_REFINE_T1_WATER_5000_C,5000,,,,samples; temperatures
+572308d128d541d6849f281f0e696933,A_REFINE,sensitivity_only,A_REFINE_T2_WATER_1500_C,1502,,,,samples; temperatures
+2032573f21bc4d6081d2c733ceceade7,A_REFINE,sensitivity_only,A_REFINE_T2_WATER_3000_C,3005,,,,samples; temperatures
+f246faa5b4514b2f9b85e59bfe24c633,A_REFINE,sensitivity_only,A_REFINE_T2_WATER_5000_C,5000,,,,samples; temperatures
+6af20b88a78c49bc9c275c57e4c9235f,A_REFINE,sensitivity_only,A_REFINE_ZERO_01,0,,,,samples; temperatures
+c11d3c31ad6c4bc08a77087af2ff9405,A_REFINE,sensitivity_only,B_SUPP_ZERO_01,0,,,,samples; temperatures
+1d74cc4b9b8f484a8b65c8fa7246900c,C_books,analyzed_book_cycle,,,,1,,samples; temperatures
+2a49546a212e4fc6b7a666f9bbbe86af,C_books,analyzed_book_cycle,,,,1,,samples; temperatures
+3ac6ed5833dd4132a0669dca5d5b6519,C_books,analyzed_book_cycle,,,,2,,samples; temperatures
+62d868abbbd542f988f77c165b46b51b,C_books,analyzed_book_cycle,,,,1,,samples; temperatures
+63debe7154b84a76a10822f32f824354,C_books,analyzed_book_cycle,,,,1,,samples; temperatures
+771fbfd02a5a469fb11e07f773a079de,C_books,analyzed_book_cycle,,,,1,,samples; temperatures
+835d4389dfab4c7d8c6b7f108ea0a525,C_books,analyzed_book_cycle,,,,2,,samples; temperatures
+8e97a32a946f4d628a39545488443a75,C_books,analyzed_book_cycle,,,,2,,samples; temperatures
+afd8ec991d7e4db59f44719041656a75,C_books,analyzed_book_cycle,,,,2,,samples; temperatures
+b46cc4dfbc914bbbbcc0c103bae68e79,C_books,analyzed_book_cycle,,,,2,,samples; temperatures
+b692de381fc04b038a4951421a2688d6,C_books,analyzed_book_cycle,,,,1,,samples; temperatures
+efa465e1244b464fad717e5e3d8a1a72,C_books,analyzed_book_cycle,,,,2,,samples; temperatures
+f6bb9eb7064444b696f2d327981dfe25,C_books,analyzed_book_cycle,,,,1,,samples; temperatures
+fde163a384664b358abf9ead8e660d40,C_books,analyzed_book_cycle,,,,2,,samples; temperatures
+073e1d82954f4d659db2a3fedcf59746,D,position_or_center,D_BOX_B1_WATER_0500_01_CENTER,542,,,,samples; temperatures
+f76f7bbc27004f41a25fdf948c2f548d,D,position_or_center,D_BOX_B1_WATER_0500_02_YP10,542,YP10,,,samples; temperatures
+5173507a08fd44c3a6355f8164b028f3,D,position_or_center,D_BOX_B1_WATER_0500_03_XM5,542,XM5,,,samples; temperatures
+ac03584ed6644507ab9f9e7dfaae6a58,D,position_or_center,D_BOX_B1_WATER_0500_04_XP10,542,XP10,,,samples; temperatures
+0e6d722553de431fa3a4e8dac3520bdb,D,position_or_center,D_BOX_B1_WATER_0500_05_YM5,542,YM5,,,samples; temperatures
+cfb22bdf573944aca998d146ccc95ebe,D,position_or_center,D_BOX_B1_WATER_0500_06_XP5,542,XP5,,,samples; temperatures
+484618c3d55a4ff4905880724d07a421,D,position_or_center,D_BOX_B1_WATER_0500_07_YM10,542,YM10,,,samples; temperatures
+64bdbb64231d4be7ad32d3cc11b9029d,D,position_or_center,D_BOX_B1_WATER_0500_08_XM10,542,XM10,,,samples; temperatures
+f015539ab0664544ae9f81098343ee30,D,position_or_center,D_BOX_B1_WATER_0500_09_YP5,542,YP5,,,samples; temperatures
+7a9a7eb4311f470fb1283718a42905c8,D,position_or_center,D_BOX_B1_WATER_0500_10_CENTER,542,,,,samples; temperatures
+c0ce8e41d1dd481eb80912502b4f3d0d,D,position_or_center,D_BOX_B1_WATER_0500_XM15,542,XM15,,,samples; temperatures
+e5faf4dac70448f0be70d2b58264b563,D,position_or_center,D_BOX_B1_WATER_0500_XM20,542,XM20,,,samples; temperatures
+404050e82b1d48c88a8b85d68a27b303,D,position_or_center,D_BOX_B1_WATER_0500_XP15,542,XP15,,,samples; temperatures
+aa21975eda024cb8b74f2b1420eef373,D,position_or_center,D_BOX_B1_WATER_0500_XP20,542,XP20,,,samples; temperatures
+b46b52ff09a74908ba0dd7441d88482b,D,position_or_center,D_BOX_B1_WATER_0500_YM15,542,YM15,,,samples; temperatures
+6c7f1092eadf4ba6aab7ce000d84307a,D,position_or_center,D_BOX_B1_WATER_0500_YM20,542,YM20,,,samples; temperatures
+b981d6dbf1b645c9bc3291d6afd304da,D,position_or_center,D_BOX_B1_WATER_0500_YP15,542,YP15,,,samples; temperatures
+90a266f6e0984cd8881022ac9c98fe9e,D,position_or_center,D_BOX_B1_WATER_0500_YP20,542,YP20,,,samples; temperatures
+f231d4d45c094235a847da6b4902c7c8,D,position_or_center,D_BOX_B1_WATER_1000_01_CENTER,1042,,,,samples; temperatures
+0b404c0bd8fa4326aac9486b224906a0,D,position_or_center,D_BOX_B1_WATER_1000_02_YP10,1042,YP10,,,samples; temperatures
+73cde10e6c604e6799a520083f2579c1,D,position_or_center,D_BOX_B1_WATER_1000_03_XM5,1042,XM5,,,samples; temperatures
+a5c5a85ebaad4b798bbdb9cd881dfb0c,D,position_or_center,D_BOX_B1_WATER_1000_04_XP10,1042,XP10,,,samples; temperatures
+2eac8080693941169f982f028f9a955f,D,position_or_center,D_BOX_B1_WATER_1000_05_YM5,1042,YM5,,,samples; temperatures
+308dac27909f416bacf9db65e2ca03ec,D,position_or_center,D_BOX_B1_WATER_1000_06_XP5,1042,XP5,,,samples; temperatures
+c776048498654a32a0f6dbffcab5c562,D,position_or_center,D_BOX_B1_WATER_1000_07_YM10,1042,YM10,,,samples; temperatures
+d1f714bc77764869aaa60b8f3e4e8e4a,D,position_or_center,D_BOX_B1_WATER_1000_08_XM10,1042,XM10,,,samples; temperatures
+12eb7b5365834999a320c4f486ae3278,D,position_or_center,D_BOX_B1_WATER_1000_09_YP5,1042,YP5,,,samples; temperatures
+9bdb392572f14c0dba1bad53b043f353,D,position_or_center,D_BOX_B1_WATER_1000_10_CENTER,1042,,,,samples; temperatures
+e3b2507409384bc8aca3a2c296c2f32b,D,position_or_center,D_BOX_B1_WATER_1000_XM15,1042,XM15,,,samples; temperatures
+35c9d54f632340f5b6de136465dd67af,D,position_or_center,D_BOX_B1_WATER_1000_XM20,1042,XM20,,,samples; temperatures
+cca7b6ebafa74dee80f7ca22fff09aaf,D,position_or_center,D_BOX_B1_WATER_1000_XP15,1042,XP15,,,samples; temperatures
+20d6d0c9a562418ca342e39a058d06c0,D,position_or_center,D_BOX_B1_WATER_1000_XP20,1042,XP20,,,samples; temperatures
+df3f68063ad54b6d97766b7353daeb0c,D,position_or_center,D_BOX_B1_WATER_1000_YM15,1042,YM15,,,samples; temperatures
+935c14e821a94d04b66ba44789ba4142,D,position_or_center,D_BOX_B1_WATER_1000_YM20,1042,YM20,,,samples; temperatures
+16bf35749e2f40c6b68e138bd2553cf4,D,position_or_center,D_BOX_B1_WATER_1000_YP15,1042,YP15,,,samples; temperatures
+81e92d6625d141beab929c21f7b7496a,D,position_or_center,D_BOX_B1_WATER_1000_YP20,1042,YP20,,,samples; temperatures
+8f236949f9844f4192134792bd2de9fa,D,position_or_center,D_BOX_B2_WATER_0500_01_CENTER,542,,,,samples; temperatures
+800bc4e93f074929b09cea58e2e5872c,D,position_or_center,D_BOX_B2_WATER_0500_02_YM5,542,YM5,,,samples; temperatures
+34cba83e07494e4b99d04440633244e9,D,position_or_center,D_BOX_B2_WATER_0500_03_XP10,542,XP10,,,samples; temperatures
+d4ab63db8173415da4691dd8f4d0b2dd,D,position_or_center,D_BOX_B2_WATER_0500_04_YP5,542,YP5,,,samples; temperatures
+85ff7efe5b54408f92cc4db79abdbc68,D,position_or_center,D_BOX_B2_WATER_0500_05_XM10,542,XM10,,,samples; temperatures
+79bf8d5ce5ac442190345ca224eb0a98,D,position_or_center,D_BOX_B2_WATER_0500_06_YP10,542,YP10,,,samples; temperatures
+07de74f4450b4bd6949e9f75df3b9393,D,position_or_center,D_BOX_B2_WATER_0500_07_XP5,542,XP5,,,samples; temperatures
+807eac38f0cb47299cebb3c0479376aa,D,position_or_center,D_BOX_B2_WATER_0500_08_YM10,542,YM10,,,samples; temperatures
+da1f0b17279e4ac5be295b47c7026dae,D,position_or_center,D_BOX_B2_WATER_0500_09_XM5,542,XM5,,,samples; temperatures
+c5f94f46bd4d4eba9d93e09c838edce8,D,position_or_center,D_BOX_B2_WATER_0500_10_CENTER,542,,,,samples; temperatures
+34ad573c90de4ac3b0f75820ea0b7ae7,D,position_or_center,D_BOX_B2_WATER_0500_XM15,542,XM15,,,samples; temperatures
+d4f9089eecda4441acc459cc7ec88151,D,position_or_center,D_BOX_B2_WATER_0500_XM20,542,XM20,,,samples; temperatures
+6444ede4cd29464b8dc2cb8816acf1af,D,position_or_center,D_BOX_B2_WATER_0500_XP15,542,XP15,,,samples; temperatures
+94b0fcbeab2041e5b4c9fac26e850384,D,position_or_center,D_BOX_B2_WATER_0500_XP20,542,XP20,,,samples; temperatures
+fb5eedc319cb43b3b87c988b0ff423f7,D,position_or_center,D_BOX_B2_WATER_0500_YM15,542,YM15,,,samples; temperatures
+0f9f6615b2d649ad8a329a9272fd968f,D,position_or_center,D_BOX_B2_WATER_0500_YM20,542,YM20,,,samples; temperatures
+274530f4ae8f490bace7f8934a081755,D,position_or_center,D_BOX_B2_WATER_0500_YP15,542,YP15,,,samples; temperatures
+5d095d90926b4c38893893224f869ba9,D,position_or_center,D_BOX_B2_WATER_0500_YP20,542,YP20,,,samples; temperatures
+f13167c7e110446ea97e1abb20f9ac06,D,position_or_center,D_BOX_B2_WATER_1000_01_CENTER,1042,,,,samples; temperatures
+1d7aa87de72f4dff878c27b61ccc1d2f,D,position_or_center,D_BOX_B2_WATER_1000_02_YM5,1042,YM5,,,samples; temperatures
+3e26fc4cb3f94568a04048086bba4826,D,position_or_center,D_BOX_B2_WATER_1000_03_XP10,1042,XP10,,,samples; temperatures
+d367aea94025466a806eaf36781d725e,D,position_or_center,D_BOX_B2_WATER_1000_04_YP5,1042,YP5,,,samples; temperatures
+0e2022a48c6447198f1f53b387d58736,D,position_or_center,D_BOX_B2_WATER_1000_05_XM10,1042,XM10,,,samples; temperatures
+d9aae23ac13a4d5a87830b82061aa053,D,position_or_center,D_BOX_B2_WATER_1000_06_YP10,1042,YP10,,,samples; temperatures
+f5944423ec0f4bb4b07dc6663d6c43f0,D,position_or_center,D_BOX_B2_WATER_1000_07_XP5,1042,XP5,,,samples; temperatures
+ad427f84725f48f6a6cc87413b1322bb,D,position_or_center,D_BOX_B2_WATER_1000_08_YM10,1042,YM10,,,samples; temperatures
+e0b3eb65edf149e8aeff6ff506146e30,D,position_or_center,D_BOX_B2_WATER_1000_09_XM5,1042,XM5,,,samples; temperatures
+4895bf87b58b41ff926e537d974cbbfd,D,position_or_center,D_BOX_B2_WATER_1000_10_CENTER,1042,,,,samples; temperatures
+da5cb3c43295460d91d3624702b6941e,D,position_or_center,D_BOX_B2_WATER_1000_XM15,1042,XM15,,,samples; temperatures
+06593d274c5346dda84c66830c79f380,D,position_or_center,D_BOX_B2_WATER_1000_XM20,1042,XM20,,,samples; temperatures
+1db2d43f6bb0405494be3d109188729e,D,position_or_center,D_BOX_B2_WATER_1000_XP15,1042,XP15,,,samples; temperatures
+9448e9cd15cf4fc599629d8f0e37c17c,D,position_or_center,D_BOX_B2_WATER_1000_XP20,1042,XP20,,,samples; temperatures
+472c14c79d124f43bfa5a319ca9f1fff,D,position_or_center,D_BOX_B2_WATER_1000_YM15,1042,YM15,,,samples; temperatures
+a5f38d74c9974d27a84fa4d6f6d412a8,D,position_or_center,D_BOX_B2_WATER_1000_YM20,1042,YM20,,,samples; temperatures
+56d179dd640e4071a54159735d6525d4,D,position_or_center,D_BOX_B2_WATER_1000_YP15,1042,YP15,,,samples; temperatures
+318c21aadb5347af82d0a0e81d8bb555,D,position_or_center,D_BOX_B2_WATER_1000_YP20,1042,YP20,,,samples; temperatures
+6e08ff2096394ba2b183df97cc3d90ae,E,all_11_transitions,,,,,,samples; temperatures
+0c9534921d5f4e1f8bb4a73333a194cd,F,unloaded_return,,,,,,samples; temperatures
+8be2ab630c034d8a9f9e2b0eab3efd3e,F,loaded,,1042,,,,samples; temperatures
+f3766435c4df4000ae06ecdd742dcdaf,F,unloaded,,0,,,,samples; temperatures
+a81c138b24ef456294707ab444036b25,R_small,addition_or_bracketing_reference,R_B0000_S00,0,center,1,1,samples; temperatures
+88a315e2f4414231b793852879636958,R_small,addition_or_bracketing_reference,R_B0000_S01,3,center,1,1,samples; temperatures
+06d7b9a672f34386a452883c013d3e34,R_small,addition_or_bracketing_reference,R_B0000_S02,0,center,1,1,samples; temperatures
+50e1c1eaebc648d58a9152e6e32ee992,R_small,addition_or_bracketing_reference,R_B0000_S03,12,center,1,1,samples; temperatures
+01f08f9c47f9438482d61015505a85b8,R_small,addition_or_bracketing_reference,R_B0000_S04,0,center,1,1,samples; temperatures
+3c68fb52ec06421ea5f48524c2de0c9b,R_small,addition_or_bracketing_reference,R_B0000_S05,3,center,2,2,samples; temperatures
+a150701ee4ee406897748e7c6e6b6882,R_small,addition_or_bracketing_reference,R_B0000_S06,0,center,2,2,samples; temperatures
+bf9d3791345c4b339e3e12be7c54c978,R_small,addition_or_bracketing_reference,R_B0000_S07,12,center,2,2,samples; temperatures
+5fba92435eb2428bb431ae48ba38ea73,R_small,addition_or_bracketing_reference,R_B0000_S08,0,center,2,2,samples; temperatures
+10eec83df5d346c0859a7cf78f15e198,R_small,addition_or_bracketing_reference,R_B0619_S00,619,center,1,1,samples; temperatures
+2d9b2d0bf0f24b388b89641ce296a5d3,R_small,addition_or_bracketing_reference,R_B0619_S01,622,center,1,1,samples; temperatures
+535ddab1e3774afcabc82de7046c77af,R_small,addition_or_bracketing_reference,R_B0619_S02,619,center,1,1,samples; temperatures
+67e2a61f6c3e48878883c7c57a3833f1,R_small,addition_or_bracketing_reference,R_B0619_S03,631,center,1,1,samples; temperatures
+d4b51c1388f542268f181a450d8a07e9,R_small,addition_or_bracketing_reference,R_B0619_S04,619,center,1,1,samples; temperatures
+4f18078b0c454de0bd932d79f1e20eb3,R_small,addition_or_bracketing_reference,R_B0619_S05,622,center,2,2,samples; temperatures
+fd9315e67a4d40ababa2b9010835ec08,R_small,addition_or_bracketing_reference,R_B0619_S06,619,center,2,2,samples; temperatures
+e88016d0a3904aec86a60c2816b25daa,R_small,addition_or_bracketing_reference,R_B0619_S07,631,center,2,2,samples; temperatures
+377a867126fc4207bcbdbcba1d92cdfb,R_small,addition_or_bracketing_reference,R_B0619_S08,619,center,2,2,samples; temperatures
+82302d1604a34f94ad1b16728a7f2b04,R_range,addition_or_bracketing_reference,R_EXT_S00,619,center,1,1,samples; temperatures
+edbe0ad40bda4f5483331e9e33198118,R_range,addition_or_bracketing_reference,R_EXT_S01,673,center,1,1,samples; temperatures
+03c089ebf435459b8b86eb7fa19a3f6e,R_range,addition_or_bracketing_reference,R_EXT_S02,619,center,1,1,samples; temperatures
+40a6535040934fd584f65669d704f09d,R_range,addition_or_bracketing_reference,R_EXT_S03,719,center,1,1,samples; temperatures
+f235451ed3e241ccaa0e1c02b5750ab7,R_range,addition_or_bracketing_reference,R_EXT_S04,619,center,1,1,samples; temperatures
+f816fa1a997d494da5afe1dabfd46051,R_range,addition_or_bracketing_reference,R_EXT_S05,673,center,2,2,samples; temperatures
+9604dd2020764c4f91382cc5cd549ed5,R_range,addition_or_bracketing_reference,R_EXT_S06,619,center,2,2,samples; temperatures
+beb36b89354a4252a9eec060b1edc55d,R_range,addition_or_bracketing_reference,R_EXT_S07,719,center,2,2,samples; temperatures
+13f90740a35d455f8f22b2c656e670ee,R_range,addition_or_bracketing_reference,R_EXT_S08,619,center,2,2,samples; temperatures
+c799fbb326cc4221a831e4487d892784,T,target_observation_or_reference,T_BLUE_CAL1_WATER_0500_C,500,,,1,samples; temperatures
+d2bd5d6372c94d9eaf3ff91beba1a780,T,target_observation_or_reference,T_BLUE_CAL1_WATER_1500_C,1502,,,1,samples; temperatures
+5ebddbfea9cb40d58a345830566cbeac,T,target_observation_or_reference,T_BLUE_CAL1_WATER_3000_C,3005,,,1,samples; temperatures
+21ee5583736d4a4e95195d5f43c44215,T,target_observation_or_reference,T_BLUE_CAL1_WATER_5000_C,5000,,,1,samples; temperatures
+2df84b8cfcbe477eb820a67c65551a54,T,target_observation_or_reference,T_BLUE_CAL2_WATER_0500_C,500,,,2,samples; temperatures
+d4fafcd8410a4ed495ac7b3361e3b840,T,target_observation_or_reference,T_BLUE_CAL2_WATER_1500_C,1502,,,2,samples; temperatures
+2981920e50594af294a66c447384835a,T,target_observation_or_reference,T_BLUE_CAL2_WATER_3000_C,3005,,,2,samples; temperatures
+848466b814524fe5b9054ec573ea9752,T,target_observation_or_reference,T_BLUE_CAL2_WATER_5000_C,5000,,,2,samples; temperatures
+d2daed1f8af548c8abb44f47f21eb7e5,T,target_observation_or_reference,T_BLUE_CAL_ZERO_01,0,,,,samples; temperatures
+c54a16a2f6ef49418e3b0b618fef018f,T,target_observation_or_reference,T_BLUE_CAL_ZERO_02,0,,,,samples; temperatures
+da985a3023bf4a4ea8639d2c3f138549,T,target_observation_or_reference,T_BLUE_QC_00,,,,,samples; temperatures
+3637f16dacdd43d2b781875704e686d9,T,target_observation_or_reference,T_BLUE_TEST1_WATER_0400_C,401,,,1,samples; temperatures
+211e0b7926bc4328a73695fef00bbd0c,T,target_observation_or_reference,T_BLUE_TEST1_WATER_1100_C,1100,,,1,samples; temperatures
+7551b72df9c6451884d18a30d3eddf97,T,target_observation_or_reference,T_BLUE_TEST1_WATER_2500_C,2506,,,1,samples; temperatures
+d48c1d068606434c8ff294fb2803da84,T,target_observation_or_reference,T_BLUE_TEST1_WATER_4000_C,4007,,,1,samples; temperatures
+545d219bc58a4ba3a45d5c78195794b7,T,target_observation_or_reference,T_BLUE_TEST2_WATER_0400_C,401,,,2,samples; temperatures
+40524600d58d45b8b1b175b9d7ace9ba,T,target_observation_or_reference,T_BLUE_TEST2_WATER_1100_C,1100,,,2,samples; temperatures
+545c6f8805bf428e9231d5ea7540a1e2,T,target_observation_or_reference,T_BLUE_TEST2_WATER_2500_C,2506,,,2,samples; temperatures
+43e9203aab9345e6994fb9e400e859db,T,target_observation_or_reference,T_BLUE_TEST2_WATER_4000_C,4007,,,2,samples; temperatures
+bb2af5e1811d4f5594bc936c53e6800d,T,target_observation_or_reference,T_BLUE_TEST_ZERO_01,0,,,,samples; temperatures
+a24178efa8b64acfbd1f2ff05cf5f2ac,T,target_observation_or_reference,T_GREEN_RETURN_QC_00,,,,,samples; temperatures
+373556101a1247fe84b3888db5769929,T,target_observation_or_reference,T_GREEN_RETURN_WATER_1000_C,1000,,,1,samples; temperatures
+efe7b688f9a54b828cfba7c5ed2f45b7,T,target_observation_or_reference,T_RED_CAL2_WATER_0500_C,500,,,2,samples; temperatures
+707060bc793b41ef893f1c672f9da56a,T,target_observation_or_reference,T_RED_CAL2_WATER_1500_C,1502,,,2,samples; temperatures
+0c9541c3bccc484cb9d0a9fc36f3b495,T,target_observation_or_reference,T_RED_CAL2_WATER_3000_C,3005,,,2,samples; temperatures
+65f897b7289743a294c22ee22c5d39d7,T,target_observation_or_reference,T_RED_CAL2_WATER_5000_C,5000,,,2,samples; temperatures
+7468919437604bc0ae4fbe93a12b8f19,T,target_observation_or_reference,T_RED_CAL_ZERO_01,0,,,,samples; temperatures
+06618c8c352a456f83375d2d1af36561,T,target_observation_or_reference,T_RED_CAL_ZERO_02,0,,,,samples; temperatures
+e976f0bf2f3645328c2c452ccb9bf300,T,target_observation_or_reference,T_RED_TEST1_WATER_0400_C,401,,,1,samples; temperatures
+3fe859dd93a941ae8a51cbd5170651de,T,target_observation_or_reference,T_RED_TEST1_WATER_1100_C,1100,,,1,samples; temperatures
+c6d4c206156c456094e2c3421d717996,T,target_observation_or_reference,T_RED_TEST1_WATER_2500_C,2506,,,1,samples; temperatures
+28e5ca60e1ff44ab96efa7badeda1f8b,T,target_observation_or_reference,T_RED_TEST1_WATER_4000_C,4007,,,1,samples; temperatures
+7e7d13038daf4674a4ec15da97064267,T,target_observation_or_reference,T_RED_TEST2_WATER_0400_C,401,,,2,samples; temperatures
+131d7c42101e45a1902b9e600a735b11,T,target_observation_or_reference,T_RED_TEST2_WATER_1100_C,1100,,,2,samples; temperatures
+6b77850cba3b4ce6b62ee19f4307b4d7,T,target_observation_or_reference,T_RED_TEST2_WATER_2500_C,2506,,,2,samples; temperatures
+7f7c2f443392466d9e20340791189bfc,T,target_observation_or_reference,T_RED_TEST2_WATER_4000_C,4007,,,2,samples; temperatures
+0231e323e3d34f278c68fe1d57e18aef,T,target_observation_or_reference,T_RED_TEST_ZERO_01,0,,,,samples; temperatures
+6db30930db5147b9baed1390c92f8a35,H,loadcell_calibration_test_or_zero,H_A_R1_WATER_0050_C,50,,,1,samples
+47c7e1facbd3418c93d2464676b2a685,H,loadcell_calibration_test_or_zero,H_A_R1_WATER_0100_C,100,,,1,samples
+df5ac656e6fa405aa9fa9a068d2a7316,H,loadcell_calibration_test_or_zero,H_A_R1_WATER_0300_C,301,,,1,samples
+dc1538f177e04cfa9fc02c79b5978225,H,loadcell_calibration_test_or_zero,H_A_R1_WATER_0500_C,500,,,1,samples
+217e8f7dd4ee4f0fb4fb36d38dd59ba6,H,loadcell_calibration_test_or_zero,H_A_R1_WATER_0700_C,702,,,1,samples
+77b6c645188b40b48febb6a98bb3e2fe,H,loadcell_calibration_test_or_zero,H_A_R1_WATER_1000_C,1000,,,1,samples
+4be7d5495f684c12be6b4a3311cbf645,H,loadcell_calibration_test_or_zero,H_A_R1_WATER_1200_C,1203,,,1,samples
+de40c3336b4f4780929171bd5d733125,H,loadcell_calibration_test_or_zero,H_A_R1_WATER_1500_C,1502,,,1,samples
+7167d435782640e6bd136453aab35261,H,loadcell_calibration_test_or_zero,H_A_R1_WATER_2000_C,2003,,,1,samples
+85e992efb3ff4d2099fc794d3a528110,H,loadcell_calibration_test_or_zero,H_A_R1_WATER_3000_C,3005,,,1,samples
+56352a665ec94e2ea80b65f67f20c807,H,loadcell_calibration_test_or_zero,H_A_R1_WATER_4000_C,4007,,,1,samples
+7a57f918779a4dd59bcbe4344d6e7449,H,loadcell_calibration_test_or_zero,H_A_R1_ZERO_05,0,,,1,samples
+fcdf84ea43f94a1493b7564ed1c4f3f3,H,loadcell_calibration_test_or_zero,H_A_R1_ZERO_10,0,,,1,samples
+420aca62e17642da9fe7a5694272a1c6,H,loadcell_calibration_test_or_zero,H_A_R1_ZERO_12,0,,,1,samples
+91a0a9122c2b41c697215578d74aeef3,H,loadcell_calibration_test_or_zero,H_A_R2_WATER_0050_C,50,,,2,samples
+f697d45a115a49b9b9ae972304438449,H,loadcell_calibration_test_or_zero,H_A_R2_WATER_0100_C,100,,,2,samples
+adf3545b5ef94053aeed9047583e61b5,H,loadcell_calibration_test_or_zero,H_A_R2_WATER_0300_C,301,,,2,samples
+6c7e7ebfdcce4be4ab019e875ff0162b,H,loadcell_calibration_test_or_zero,H_A_R2_WATER_0500_C,500,,,2,samples
+dfd5a31fb0254ac2a7c15c4596bd0e7d,H,loadcell_calibration_test_or_zero,H_A_R2_WATER_0700_C,702,,,2,samples
+b59af67f67e645e78e8332f1df0ddb02,H,loadcell_calibration_test_or_zero,H_A_R2_WATER_1000_C,1000,,,2,samples
+e5fb2f62a45645c8a5f6f26640421265,H,loadcell_calibration_test_or_zero,H_A_R2_WATER_1200_C,1203,,,2,samples
+6d600cd6de2b4894b6f9d8ad5f04b5e9,H,loadcell_calibration_test_or_zero,H_A_R2_WATER_1500_C,1502,,,2,samples
+6f1cbaa5a55841bba03653674b9b949f,H,loadcell_calibration_test_or_zero,H_A_R2_WATER_2000_C,2003,,,2,samples
+b1d64bc121694ed4a51b5ed0e5dbd3be,H,loadcell_calibration_test_or_zero,H_A_R2_WATER_3000_C,3005,,,2,samples
+cda430e9801c46e89f0d5c1f3248f846,H,loadcell_calibration_test_or_zero,H_A_R2_WATER_4000_C,4007,,,2,samples
+e72811125c9849788028fbe1ddedd2cc,H,loadcell_calibration_test_or_zero,H_A_R2_ZERO_05,0,,,2,samples
+a46ae142d866416491a1a6a3e11c4b76,H,loadcell_calibration_test_or_zero,H_A_R2_ZERO_10,0,,,2,samples
+84add47deb1b4a2c8bc1bcda09d06d48,H,loadcell_calibration_test_or_zero,H_A_R2_ZERO_12,0,,,2,samples
+06082390b3aa4707b8e7af410901356b,H,loadcell_calibration_test_or_zero,H_A_ZERO_00,0,,,1,samples
+658d8520aa2042b39856fdf809930cc1,H,loadcell_calibration_test_or_zero,H_B_R1_WATER_0200_C,199,,,1,samples
+a9d0318817a4459a9e0788bafed92bc8,H,loadcell_calibration_test_or_zero,H_B_R1_WATER_0400_C,401,,,1,samples
+4485de57897441b2a2bf415786798812,H,loadcell_calibration_test_or_zero,H_B_R1_WATER_0600_C,600,,,1,samples
+dc2b129125814fdca17131bf03678cd4,H,loadcell_calibration_test_or_zero,H_B_R1_WATER_0800_C,800,,,1,samples
+c6bd265ce8ee45838c7493f7030026a7,H,loadcell_calibration_test_or_zero,H_B_R1_WATER_0900_C,898,,,1,samples
+2d1097d589e84ea0b67abe586f936083,H,loadcell_calibration_test_or_zero,H_B_R1_WATER_1100_C,1100,,,1,samples
+7eb4d2bcf7ed44f5a2a5a886694e50d0,H,loadcell_calibration_test_or_zero,H_B_R1_WATER_1300_C,1300,,,1,samples
+6a140b9d30684a6c8c163a409cbd0c81,H,loadcell_calibration_test_or_zero,H_B_R1_WATER_1400_C,1400,,,1,samples
+ddd1ddcf134348b2922b438eaaf84b57,H,loadcell_calibration_test_or_zero,H_B_R1_WATER_1600_C,1605,,,1,samples
+1fdaec09467147c398937eba98f9c194,H,loadcell_calibration_test_or_zero,H_B_R1_WATER_1850_C,1857,,,1,samples
+0a9f35604f5441438a693f5089884682,H,loadcell_calibration_test_or_zero,H_B_R1_WATER_2500_C,2506,,,1,samples
+0efc11b0c02943a8b184f766dc99043b,H,loadcell_calibration_test_or_zero,H_B_R1_WATER_3500_C,3501,,,1,samples
+0c74255b0b214cf5b74c099573aba6a9,H,loadcell_calibration_test_or_zero,H_B_R1_WATER_4500_C,4502,,,1,samples
+de47b434aaaf421583f1f572516f2bdb,H,loadcell_calibration_test_or_zero,H_B_R1_ZERO_05,0,,,1,samples
+5dee17bddfbf4388b00d8b97fb4e2907,H,loadcell_calibration_test_or_zero,H_B_R1_ZERO_10,0,,,1,samples
+1f08764330d14b7f8945cc703645f0a1,H,loadcell_calibration_test_or_zero,H_B_R1_ZERO_13,0,,,1,samples
+06a7ff710243461481290b5af2583635,H,loadcell_calibration_test_or_zero,H_B_R2_WATER_0200_C,199,,,2,samples
+990bd70eaf3942d2b0877b2706d6dda7,H,loadcell_calibration_test_or_zero,H_B_R2_WATER_0400_C,401,,,2,samples
+ad02cc7d1299471fa1cce68963eafc4d,H,loadcell_calibration_test_or_zero,H_B_R2_WATER_0600_C,600,,,2,samples
+c5c341cf1b594e10ba6ee6050f33dbcc,H,loadcell_calibration_test_or_zero,H_B_R2_WATER_0800_C,800,,,2,samples
+74ed2a3649b6433291a5213951ff0979,H,loadcell_calibration_test_or_zero,H_B_R2_WATER_0900_C,898,,,2,samples
+d38add617c604ec0af851119c1641043,H,loadcell_calibration_test_or_zero,H_B_R2_WATER_1100_C,1100,,,2,samples
+2da40775b4444ae6b904971661db8ecd,H,loadcell_calibration_test_or_zero,H_B_R2_WATER_1300_C,1300,,,2,samples
+77b28a62948843b7a34d1696efd120ee,H,loadcell_calibration_test_or_zero,H_B_R2_WATER_1400_C,1400,,,2,samples
+43719c4fb1ce442fbd3496dbd63ec15d,H,loadcell_calibration_test_or_zero,H_B_R2_WATER_1600_C,1605,,,2,samples
+39529710a42241219f125e217cabc524,H,loadcell_calibration_test_or_zero,H_B_R2_WATER_1850_C,1857,,,2,samples
+6dece7b17e774916bb8dbf27aa6340b3,H,loadcell_calibration_test_or_zero,H_B_R2_WATER_2500_C,2506,,,2,samples
+2f69b24fa9214dfb9053958acdb8857c,H,loadcell_calibration_test_or_zero,H_B_R2_WATER_3500_C,3501,,,2,samples
+90897bb8373a47a5ae03d49367af1462,H,loadcell_calibration_test_or_zero,H_B_R2_WATER_4500_C,4502,,,2,samples
+4494e6b2c2434dd6b2f9f5de988eaf67,H,loadcell_calibration_test_or_zero,H_B_R2_ZERO_05,0,,,2,samples
+3b0cac9d63c34e1b919b8e4335394444,H,loadcell_calibration_test_or_zero,H_B_R2_ZERO_10,0,,,2,samples
+eaa87c2008304b2e8eed777dbe643b6c,H,loadcell_calibration_test_or_zero,H_B_R2_ZERO_13,0,,,2,samples
+394761b1d1e64718a7585af2502ec04a,H,loadcell_calibration_test_or_zero,H_B_ZERO_00,0,,,1,samples
+586aec83cda84995bf66d52770ef569b,Nextion,all_369_calculations,,,,,,samples; temperatures; display
+15a216a084594cd28d0df6cc6a5b0010,manual_press,all_18_pairs,,,,,,samples; temperatures; display
+66c0b8ea13c5411b95ba2c51c7ca6e9c,manual_press,all_18_pairs,,,,,,samples; temperatures; display
+8524c2e042574e86b2dea68072e73b05,directional_press,all_15_presses,,,,,,samples; temperatures
+aacef14b1009426a8b5ab599fd5749e4,G774,thermal_trajectory_or_reference; endpoint_reference,G_RESTART_FINAL_UNLOAD,0,,,,samples; temperatures
+08af66d295674366ac18a52ed67261ed,G774,thermal_trajectory_or_reference,G_RESTART_LOAD_COOL_EQ,774,,,,samples; temperatures
+62b0b2b303174c1786ff2a1cb7daf7a1,G774,thermal_trajectory_or_reference,G_RESTART_LOAD_COOL_EQ,774,,,,samples; temperatures
+d56705333a0c4195bc7c645936a6224a,G774,thermal_trajectory_or_reference; endpoint_reference,G_RESTART_LOAD_ROOM_EQ,774,,,,samples; temperatures
+17e444da5d354ab4ad7ad3108d4198c4,G774,thermal_trajectory_or_reference,G_RESTART_LOAD_ROOM_RETURN_1_EQ,774,,,,samples; temperatures
+b4b82e6f4b0f4574870688bec8076a76,G774,thermal_trajectory_or_reference,G_RESTART_LOAD_ROOM_RETURN_1_EQ,774,,,,samples; temperatures
+6de98770fe6045a09beb8e8c8eb894ba,G774,thermal_trajectory_or_reference; endpoint_reference,G_RESTART_LOAD_ROOM_RETURN_2_EQ,774,,,,samples; temperatures
+f78495b0ce2444cbbe299082a5580c3a,G774,thermal_trajectory_or_reference,G_RESTART_LOAD_ROOM_RETURN_2_EQ,774,,,,samples; temperatures
+debe145672c545e1b22126dbc81054ea,G774,thermal_trajectory_or_reference,G_RESTART_LOAD_WARM_EQ,774,,,,samples; temperatures
+92ac07a2536b456c8d769b9c2bb756f6,G774,thermal_trajectory_or_reference; endpoint_reference,G_RESTART_ZERO_ROOM_EQ,0,,,,samples; temperatures
+697ca7871b7945f5a752a4032b425e4d,G1000_check,check_or_reference,ONE_KG_WATER_1000_01,,,,,samples; temperatures
+89e5e56f5d6a416b93207773efdd9f94,G1000_check,check_or_reference,ONE_KG_ZERO_AFTER_01,0,,,,samples; temperatures
+757e127da0e147e59be1000e4766e470,G1000_check,check_or_reference,ONE_KG_ZERO_BEFORE_01,0,,,,samples; temperatures
+c63780206e4542219c915513be61a42c,G_three_hour,1080000_scan_excerpt,,0,,,,samples; temperatures

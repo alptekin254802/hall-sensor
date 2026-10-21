@@ -1,0 +1,654 @@
+{
+  "observations": [
+    {
+      "capture_id": "9b9777b3538c472ebc69477b2a00e5f9",
+      "record_code": "A_REFINE_T1_WATER_1500_C",
+      "mass_g": 1502,
+      "preceding_zero_capture_id": "c11d3c31ad6c4bc08a77087af2ff9405",
+      "response_adc": [
+        160.2869999999998,
+        217.8209999999999,
+        255.3720000000003,
+        194.67599999999993
+      ],
+      "feature_adc": 207.039
+    },
+    {
+      "capture_id": "59dfdfe42e8a4fa787b1a71240264a3e",
+      "record_code": "A_REFINE_T1_WATER_3000_C",
+      "mass_g": 3005,
+      "preceding_zero_capture_id": "c11d3c31ad6c4bc08a77087af2ff9405",
+      "response_adc": [
+        577.7139999999999,
+        568.2460000000001,
+        537.0340000000001,
+        552.6410000000001
+      ],
+      "feature_adc": 558.90875
+    },
+    {
+      "capture_id": "95657bfaf7ba410f9fbbcf2ae6589dd1",
+      "record_code": "A_REFINE_T1_WATER_5000_C",
+      "mass_g": 5000,
+      "preceding_zero_capture_id": "c11d3c31ad6c4bc08a77087af2ff9405",
+      "response_adc": [
+        1399.5538088088088,
+        1330.178082082082,
+        1316.0114594594595,
+        1471.3105585585586
+      ],
+      "feature_adc": 1379.2634772272272
+    },
+    {
+      "capture_id": "2032573f21bc4d6081d2c733ceceade7",
+      "record_code": "A_REFINE_T2_WATER_3000_C",
+      "mass_g": 3005,
+      "preceding_zero_capture_id": "6af20b88a78c49bc9c275c57e4c9235f",
+      "response_adc": [
+        534.3022142142145,
+        529.8965075075073,
+        490.8473153153152,
+        508.0020820820823
+      ],
+      "feature_adc": 515.7620297797798
+    },
+    {
+      "capture_id": "f246faa5b4514b2f9b85e59bfe24c633",
+      "record_code": "A_REFINE_T2_WATER_5000_C",
+      "mass_g": 5000,
+      "preceding_zero_capture_id": "6af20b88a78c49bc9c275c57e4c9235f",
+      "response_adc": [
+        1383.6162142142143,
+        1322.8675075075073,
+        1300.7073153153153,
+        1443.1880820820822
+      ],
+      "feature_adc": 1362.5947797797799
+    },
+    {
+      "capture_id": "572308d128d541d6849f281f0e696933",
+      "record_code": "A_REFINE_T2_WATER_1500_C",
+      "mass_g": 1502,
+      "preceding_zero_capture_id": "6af20b88a78c49bc9c275c57e4c9235f",
+      "response_adc": [
+        192.9402142142144,
+        192.8545075075076,
+        184.61331531531505,
+        190.3050820820822
+      ],
+      "feature_adc": 190.1782797797798
+    }
+  ],
+  "comparison": {
+    "anchors": [
+      {
+        "mass_g": 0,
+        "force_N": 0.0,
+        "response_adc": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "feature_adc": 0.0,
+        "original_feature_adc": 0.0,
+        "source": "original_A_unchanged",
+        "capture_ids": []
+      },
+      {
+        "mass_g": 50,
+        "force_N": 0.4903325,
+        "response_adc": [
+          -0.8394789789790593,
+          2.0190150150149293,
+          11.943894894894584,
+          9.651059559559599
+        ],
+        "feature_adc": 5.693622622622513,
+        "original_feature_adc": 5.693622622622513,
+        "source": "original_A_unchanged",
+        "capture_ids": [
+          "d50b59b1c4b64a23863f5a3f5096473c",
+          "e08c6c302cd9448cb735320c89d49262"
+        ]
+      },
+      {
+        "mass_g": 100,
+        "force_N": 0.980665,
+        "response_adc": [
+          5.3517122122123055,
+          -2.761265265265365,
+          15.522473473473383,
+          20.204613113113055
+        ],
+        "feature_adc": 9.579383383383345,
+        "original_feature_adc": 9.579383383383345,
+        "source": "original_A_unchanged",
+        "capture_ids": [
+          "0526b9f7fde640c09595caf0af34ab72",
+          "3daf15d2034f4138bc38755d38726861"
+        ]
+      },
+      {
+        "mass_g": 301,
+        "force_N": 2.95180165,
+        "response_adc": [
+          29.192379379379418,
+          9.905218718718515,
+          34.44763963963942,
+          51.73709159159171
+        ],
+        "feature_adc": 31.320582332332265,
+        "original_feature_adc": 31.320582332332265,
+        "source": "original_A_unchanged",
+        "capture_ids": [
+          "3a9ac54c1e7a4d748337c65c4a9083ff",
+          "b62aaaa358984ec081d24b4867a4e41a"
+        ]
+      },
+      {
+        "mass_g": 500,
+        "force_N": 4.903325,
+        "response_adc": [
+          46.9515765765766,
+          32.39875275275267,
+          59.712295295295235,
+          74.24127277277285
+        ],
+        "feature_adc": 53.32597434934934,
+        "original_feature_adc": 53.32597434934934,
+        "source": "original_A_unchanged",
+        "capture_ids": [
+          "c0f4ac4380b64d68a4555cb80fa2e4a3",
+          "79ccc6a1f4704a3ebd411204d564a1d5"
+        ]
+      },
+      {
+        "mass_g": 702,
+        "force_N": 6.8842683000000005,
+        "response_adc": [
+          65.52688738738743,
+          72.94694294294277,
+          99.18613713713717,
+          87.74064914914925
+        ],
+        "feature_adc": 81.35015415415415,
+        "original_feature_adc": 81.35015415415415,
+        "source": "original_A_unchanged",
+        "capture_ids": [
+          "74f6eac8e04545088da62fdd1a3319bd",
+          "1f363e1842d84f6a97c61024f97ab842"
+        ]
+      },
+      {
+        "mass_g": 1000,
+        "force_N": 9.80665,
+        "response_adc": [
+          123.4426226226226,
+          115.66319969969982,
+          126.20747947947939,
+          139.6442112112111
+        ],
+        "feature_adc": 126.23937825325322,
+        "original_feature_adc": 126.23937825325322,
+        "source": "original_A_unchanged",
+        "capture_ids": [
+          "1c01a66a1fe2463a872a5740a4c9cdf3",
+          "ec6398e577e1421ea2e8decb8497b6b9"
+        ]
+      },
+      {
+        "mass_g": 1203,
+        "force_N": 11.79739995,
+        "response_adc": [
+          134.91820670670654,
+          115.00485485485501,
+          144.60074774774785,
+          169.21454554554543
+        ],
+        "feature_adc": 140.9345887137137,
+        "original_feature_adc": 140.9345887137137,
+        "source": "original_A_unchanged",
+        "capture_ids": [
+          "39347bda866b448b8d061ebf8d74d0dd",
+          "c1304a2d4864433bb891e2284cc4b847"
+        ]
+      },
+      {
+        "mass_g": 1502,
+        "force_N": 14.7295883,
+        "response_adc": [
+          176.6136071071071,
+          205.33775375375376,
+          219.99265765765767,
+          192.49054104104107
+        ],
+        "feature_adc": 198.6086398898899,
+        "original_feature_adc": 194.79235773273263,
+        "source": "A_REFINE_two_placement_mean",
+        "capture_ids": [
+          "9b9777b3538c472ebc69477b2a00e5f9",
+          "572308d128d541d6849f281f0e696933"
+        ]
+      },
+      {
+        "mass_g": 2003,
+        "force_N": 19.64271995,
+        "response_adc": [
+          269.882837837838,
+          324.3403653653654,
+          321.5541591591591,
+          272.24806856856844
+        ],
+        "feature_adc": 297.00635773273274,
+        "original_feature_adc": 297.00635773273274,
+        "source": "original_A_unchanged",
+        "capture_ids": [
+          "b7a7ded8cc64434c912def10863eb83d",
+          "09831a98514247c7b491bbf1d8e84fd1"
+        ]
+      },
+      {
+        "mass_g": 3005,
+        "force_N": 29.46898325,
+        "response_adc": [
+          556.0081071071072,
+          549.0712537537537,
+          513.9406576576577,
+          530.3215410410412
+        ],
+        "feature_adc": 537.3353898898899,
+        "original_feature_adc": 539.2365365365365,
+        "source": "A_REFINE_two_placement_mean",
+        "capture_ids": [
+          "59dfdfe42e8a4fa787b1a71240264a3e",
+          "2032573f21bc4d6081d2c733ceceade7"
+        ]
+      },
+      {
+        "mass_g": 4007,
+        "force_N": 39.29524655,
+        "response_adc": [
+          747.3339309309309,
+          914.9445255255254,
+          848.8754444444445,
+          703.6521036036036
+        ],
+        "feature_adc": 803.701501126126,
+        "original_feature_adc": 803.701501126126,
+        "source": "original_A_unchanged",
+        "capture_ids": [
+          "e5973838d4e249109652a9cb0bb3e4e2",
+          "43c5d29cd7fd4d9984eef3561bc69258"
+        ]
+      },
+      {
+        "mass_g": 5000,
+        "force_N": 49.03325,
+        "response_adc": [
+          1391.5850115115115,
+          1326.5227947947947,
+          1308.3593873873874,
+          1457.2493203203203
+        ],
+        "feature_adc": 1370.9291285035033,
+        "original_feature_adc": 1270.6296296296296,
+        "source": "A_REFINE_two_placement_mean",
+        "capture_ids": [
+          "95657bfaf7ba410f9fbbcf2ae6589dd1",
+          "f246faa5b4514b2f9b85e59bfe24c633"
+        ]
+      }
+    ],
+    "metrics": {
+      "old": {
+        "count": 23,
+        "coverage": 1.0,
+        "mae_g": 61.75838021673302,
+        "rmse_g": 78.79955574633145,
+        "bias_g": -41.33965246065296,
+        "max_abs_g": 190.03898367691795,
+        "worst_record_code": "B_T1_WATER_1850_C"
+      },
+      "check_anchors": {
+        "count": 23,
+        "coverage": 1.0,
+        "mae_g": 61.257595592318445,
+        "rmse_g": 83.8981877026776,
+        "bias_g": -51.71082412047957,
+        "max_abs_g": 203.07200523097185,
+        "worst_record_code": "B_T1_WATER_1850_C"
+      }
+    },
+    "B_own_zero_subset_metrics": {
+      "old": {
+        "count": 18,
+        "coverage": 1.0,
+        "mae_g": 55.072224443043574,
+        "rmse_g": 69.45380268878237,
+        "bias_g": -28.981627865830156,
+        "max_abs_g": 139.99314523060093,
+        "worst_record_code": "B_T2_WATER_3500_C"
+      },
+      "check_anchors": {
+        "count": 18,
+        "coverage": 1.0,
+        "mae_g": 49.49751596731301,
+        "rmse_g": 66.41443796389021,
+        "bias_g": -37.29886353107447,
+        "max_abs_g": 144.78145153117362,
+        "worst_record_code": "B_T1_WATER_1600_C"
+      }
+    },
+    "differences": {
+      "mae_reduction_g": 0.5007846244145782,
+      "mae_reduction_pct": 0.8108772002392906,
+      "rmse_increase_g": 5.0986319563461535,
+      "max_abs_increase_g": 13.033021554053903,
+      "improved_records": 7,
+      "worsened_records": 5,
+      "unchanged_records": 11
+    },
+    "predictions": [
+      {
+        "record_code": "B_T1_WATER_1400_C",
+        "capture_id": "9deb996213d14d4da18dbe56a747f9ac",
+        "mass_g": 1400,
+        "zero_capture_id": "08b52f304654488cafc40b500adf2d9d",
+        "feature_adc": 166.38763763763757,
+        "opening_continuity_assumption": true,
+        "old_prediction_g": 1344.30666321447,
+        "check_anchor_prediction_g": 1334.9564253429269,
+        "old_error_g": -55.69333678552994,
+        "check_anchor_error_g": -65.04357465707312,
+        "absolute_error_change_g": 9.350237871543186
+      },
+      {
+        "record_code": "B_T1_WATER_1850_C",
+        "capture_id": "f3e200bc734744a0a0d056fae7e35d86",
+        "mass_g": 1857,
+        "zero_capture_id": "08b52f304654488cafc40b500adf2d9d",
+        "feature_adc": 228.44769769769778,
+        "opening_continuity_assumption": true,
+        "old_prediction_g": 1666.961016323082,
+        "check_anchor_prediction_g": 1653.9279947690281,
+        "old_error_g": -190.03898367691795,
+        "check_anchor_error_g": -203.07200523097185,
+        "absolute_error_change_g": 13.033021554053903
+      },
+      {
+        "record_code": "B_T1_WATER_4500_C",
+        "capture_id": "75c094c4911640b59322e0afdef4528d",
+        "mass_g": 4502,
+        "zero_capture_id": "08b52f304654488cafc40b500adf2d9d",
+        "feature_adc": 980.3913318318318,
+        "opening_continuity_assumption": true,
+        "old_prediction_g": 4382.760189160353,
+        "check_anchor_prediction_g": 4316.316742384335,
+        "old_error_g": -119.23981083964736,
+        "check_anchor_error_g": -185.68325761566484,
+        "absolute_error_change_g": 66.44344677601748
+      },
+      {
+        "record_code": "B_T1_WATER_1100_C",
+        "capture_id": "7217282b69494b75aafb0b03ab5d95df",
+        "mass_g": 1100,
+        "zero_capture_id": "08b52f304654488cafc40b500adf2d9d",
+        "feature_adc": 130.01926926926922,
+        "opening_continuity_assumption": true,
+        "old_prediction_g": 1052.2155077884609,
+        "check_anchor_prediction_g": 1052.2155077884609,
+        "old_error_g": -47.784492211539146,
+        "check_anchor_error_g": -47.784492211539146,
+        "absolute_error_change_g": 0.0
+      },
+      {
+        "record_code": "B_T1_WATER_0200_C",
+        "capture_id": "69a7d204f85b401991d0ac4ae73671cf",
+        "mass_g": 199,
+        "zero_capture_id": "08b52f304654488cafc40b500adf2d9d",
+        "feature_adc": 18.51533183183176,
+        "opening_continuity_assumption": true,
+        "old_prediction_g": 182.6139185035591,
+        "check_anchor_prediction_g": 182.61391850355912,
+        "old_error_g": -16.38608149644091,
+        "check_anchor_error_g": -16.38608149644088,
+        "absolute_error_change_g": -2.842170943040401e-14
+      },
+      {
+        "record_code": "B_T1_WATER_0400_C",
+        "capture_id": "5dcad42de7e348989798229274ada956",
+        "mass_g": 401,
+        "zero_capture_id": "4f6a596149bf464498a53fc6e19b4b4f",
+        "feature_adc": 46.578328328328325,
+        "opening_continuity_assumption": false,
+        "old_prediction_g": 438.97943026214705,
+        "check_anchor_prediction_g": 438.97943026214705,
+        "old_error_g": 37.97943026214705,
+        "check_anchor_error_g": 37.97943026214705,
+        "absolute_error_change_g": 0.0
+      },
+      {
+        "record_code": "B_T1_WATER_0800_C",
+        "capture_id": "69fba6877b6c43d6b124e6f5c971a771",
+        "mass_g": 800,
+        "zero_capture_id": "4f6a596149bf464498a53fc6e19b4b4f",
+        "feature_adc": 96.43018018018017,
+        "opening_continuity_assumption": false,
+        "old_prediction_g": 802.1097222316646,
+        "check_anchor_prediction_g": 802.1097222316646,
+        "old_error_g": 2.109722231664591,
+        "check_anchor_error_g": 2.109722231664591,
+        "absolute_error_change_g": 0.0
+      },
+      {
+        "record_code": "B_T1_WATER_0900_C",
+        "capture_id": "57d153f5f0934283998d52acd8fe4f47",
+        "mass_g": 898,
+        "zero_capture_id": "4f6a596149bf464498a53fc6e19b4b4f",
+        "feature_adc": 102.38765765765766,
+        "opening_continuity_assumption": false,
+        "old_prediction_g": 841.6588194575156,
+        "check_anchor_prediction_g": 841.6588194575158,
+        "old_error_g": -56.34118054248438,
+        "check_anchor_error_g": -56.34118054248415,
+        "absolute_error_change_g": -2.2737367544323206e-13
+      },
+      {
+        "record_code": "B_T1_WATER_1300_C",
+        "capture_id": "8e29bb2e5d404911a06055df9fb0c181",
+        "mass_g": 1300,
+        "zero_capture_id": "4f6a596149bf464498a53fc6e19b4b4f",
+        "feature_adc": 159.36190765765764,
+        "opening_continuity_assumption": false,
+        "old_prediction_g": 1305.3022019774633,
+        "check_anchor_prediction_g": 1298.5328826721156,
+        "old_error_g": 5.302201977463255,
+        "check_anchor_error_g": -1.4671173278843526,
+        "absolute_error_change_g": -3.835084649578903
+      },
+      {
+        "record_code": "B_T1_WATER_2500_C",
+        "capture_id": "282506768d67457bb3a0539cd0cd4669",
+        "mass_g": 2506,
+        "zero_capture_id": "4f6a596149bf464498a53fc6e19b4b4f",
+        "feature_adc": 396.4356856856857,
+        "opening_continuity_assumption": false,
+        "old_prediction_g": 2414.2955169370266,
+        "check_anchor_prediction_g": 2417.5491109193563,
+        "old_error_g": -91.7044830629734,
+        "check_anchor_error_g": -88.45088908064372,
+        "absolute_error_change_g": -3.253593982329676
+      },
+      {
+        "record_code": "B_T1_WATER_1600_C",
+        "capture_id": "0db5d4782f0b48589f1696de52e68033",
+        "mass_g": 1605,
+        "zero_capture_id": "0f2323c02fab4ba599060b4051e86698",
+        "feature_adc": 190.54942392392388,
+        "opening_continuity_assumption": false,
+        "old_prediction_g": 1478.444675820385,
+        "check_anchor_prediction_g": 1460.2185484688264,
+        "old_error_g": -126.5553241796149,
+        "check_anchor_error_g": -144.78145153117362,
+        "absolute_error_change_g": 18.226127351558716
+      },
+      {
+        "record_code": "B_T2_WATER_0400_C",
+        "capture_id": "a024b8cc027244cb999fb9369186fdb8",
+        "mass_g": 401,
+        "zero_capture_id": "0f2323c02fab4ba599060b4051e86698",
+        "feature_adc": 43.072471018112424,
+        "opening_continuity_assumption": false,
+        "old_prediction_g": 407.2751277805803,
+        "check_anchor_prediction_g": 407.27512778058036,
+        "old_error_g": 6.275127780580306,
+        "check_anchor_error_g": 6.2751277805803625,
+        "absolute_error_change_g": 5.684341886080802e-14
+      },
+      {
+        "record_code": "B_T2_WATER_1100_C",
+        "capture_id": "1d1bccf333ef4bc2ba0c740cadb2bb6e",
+        "mass_g": 1100,
+        "zero_capture_id": "0f2323c02fab4ba599060b4051e86698",
+        "feature_adc": 127.27642392392397,
+        "opening_continuity_assumption": false,
+        "old_prediction_g": 1014.3257744904435,
+        "check_anchor_prediction_g": 1014.3257744904435,
+        "old_error_g": -85.67422550955655,
+        "check_anchor_error_g": -85.67422550955655,
+        "absolute_error_change_g": 0.0
+      },
+      {
+        "record_code": "B_T2_WATER_1300_C",
+        "capture_id": "aa6a23b1d4464c61a44d36f49a6a11a7",
+        "mass_g": 1300,
+        "zero_capture_id": "0f2323c02fab4ba599060b4051e86698",
+        "feature_adc": 167.6899399399399,
+        "opening_continuity_assumption": false,
+        "old_prediction_g": 1351.5366022832588,
+        "check_anchor_prediction_g": 1341.7079605731976,
+        "old_error_g": 51.536602283258844,
+        "check_anchor_error_g": 41.707960573197624,
+        "absolute_error_change_g": -9.82864171006122
+      },
+      {
+        "record_code": "B_T2_WATER_0800_C",
+        "capture_id": "5075fbbc270b43db8b55d3727128ae85",
+        "mass_g": 800,
+        "zero_capture_id": "0f2323c02fab4ba599060b4051e86698",
+        "feature_adc": 89.07157157157155,
+        "opening_continuity_assumption": false,
+        "old_prediction_g": 753.259125916515,
+        "check_anchor_prediction_g": 753.2591259165151,
+        "old_error_g": -46.74087408348498,
+        "check_anchor_error_g": -46.74087408348487,
+        "absolute_error_change_g": -1.1368683772161603e-13
+      },
+      {
+        "record_code": "B_T2_WATER_0900_C",
+        "capture_id": "9d5cfad45efc4b55a0b963304d975583",
+        "mass_g": 898,
+        "zero_capture_id": "b321692fcf47461ca962918a98c9b8aa",
+        "feature_adc": 102.82428219802966,
+        "opening_continuity_assumption": false,
+        "old_prediction_g": 844.5573795382963,
+        "check_anchor_prediction_g": 844.5573795382963,
+        "old_error_g": -53.442620461703655,
+        "check_anchor_error_g": -53.442620461703655,
+        "absolute_error_change_g": 0.0
+      },
+      {
+        "record_code": "B_T2_WATER_3500_C",
+        "capture_id": "70e65b35cbcc46599d81160451a3d67b",
+        "mass_g": 3501,
+        "zero_capture_id": "b321692fcf47461ca962918a98c9b8aa",
+        "feature_adc": 633.19994994995,
+        "opening_continuity_assumption": false,
+        "old_prediction_g": 3361.006854769399,
+        "check_anchor_prediction_g": 3365.6175302645365,
+        "old_error_g": -139.99314523060093,
+        "check_anchor_error_g": -135.38246973546347,
+        "absolute_error_change_g": -4.610675495137457
+      },
+      {
+        "record_code": "B_T2_WATER_1400_C",
+        "capture_id": "83cebb218e05472ebd500612c631c1b9",
+        "mass_g": 1400,
+        "zero_capture_id": "b321692fcf47461ca962918a98c9b8aa",
+        "feature_adc": 180.2978663663664,
+        "opening_continuity_assumption": false,
+        "old_prediction_g": 1421.5315179688732,
+        "check_anchor_prediction_g": 1407.071324592591,
+        "old_error_g": 21.53151796887323,
+        "check_anchor_error_g": 7.071324592591054,
+        "absolute_error_change_g": -14.460193376282177
+      },
+      {
+        "record_code": "B_T2_WATER_1850_C",
+        "capture_id": "aaf3b1cd7c3c4e92a39c85e806ed1fbf",
+        "mass_g": 1857,
+        "zero_capture_id": "b321692fcf47461ca962918a98c9b8aa",
+        "feature_adc": 260.17842842842845,
+        "opening_continuity_assumption": false,
+        "old_prediction_g": 1822.4885966554832,
+        "check_anchor_prediction_g": 1815.4875964000976,
+        "old_error_g": -34.51140334451679,
+        "check_anchor_error_g": -41.51240359990243,
+        "absolute_error_change_g": 7.001000255385634
+      },
+      {
+        "record_code": "B_T2_WATER_4500_C",
+        "capture_id": "a5df9d38960e42d99da5b224a4451459",
+        "mass_g": 4502,
+        "zero_capture_id": "b321692fcf47461ca962918a98c9b8aa",
+        "feature_adc": 1081.3363363363364,
+        "opening_continuity_assumption": false,
+        "old_prediction_g": 4597.436460204967,
+        "check_anchor_prediction_g": 4493.033081002102,
+        "old_error_g": 95.43646020496726,
+        "check_anchor_error_g": -8.966918997897665,
+        "absolute_error_change_g": -86.4695412070696
+      },
+      {
+        "record_code": "B_T2_WATER_2500_C",
+        "capture_id": "43366e1f8f4c473f91bad1e2cb8321a3",
+        "mass_g": 2506,
+        "zero_capture_id": "fae1d2443a3c4a25b29f55156b2a4c47",
+        "feature_adc": 392.1742915415414,
+        "opening_continuity_assumption": false,
+        "old_prediction_g": 2396.667998543082,
+        "check_anchor_prediction_g": 2399.782148292717,
+        "old_error_g": -109.33200145691808,
+        "check_anchor_error_g": -106.21785170728299,
+        "absolute_error_change_g": -3.1141497496350894
+      },
+      {
+        "record_code": "B_T2_WATER_0600_C",
+        "capture_id": "984dcc6027c140b68765e323c0bee2df",
+        "mass_g": 600,
+        "zero_capture_id": "fae1d2443a3c4a25b29f55156b2a4c47",
+        "feature_adc": 65.50824999999986,
+        "opening_continuity_assumption": false,
+        "old_prediction_g": 587.8105870919901,
+        "check_anchor_prediction_g": 587.8105870919902,
+        "old_error_g": -12.1894129080099,
+        "check_anchor_error_g": -12.189412908009785,
+        "absolute_error_change_g": -1.1368683772161603e-13
+      },
+      {
+        "record_code": "B_T2_WATER_0200_C",
+        "capture_id": "e1f234dcf80143d8b55b38af6fab0f3c",
+        "mass_g": 199,
+        "zero_capture_id": "fae1d2443a3c4a25b29f55156b2a4c47",
+        "feature_adc": 21.87173898898891,
+        "opening_continuity_assumption": false,
+        "old_prediction_g": 213.6443064859662,
+        "check_anchor_prediction_g": 213.64430648596627,
+        "old_error_g": 14.644306485966212,
+        "check_anchor_error_g": 14.644306485966268,
+        "absolute_error_change_g": 5.684341886080802e-14
+      }
+    ]
+  }
+}

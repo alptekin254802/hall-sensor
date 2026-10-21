@@ -1,0 +1,68 @@
+{
+  "plan_id": "DIRECTIONAL_PRESS_20261020_R1",
+  "original_frozen_plan_sha256": "d6adbe676dbd6094b379c7debe832eccfd977d7799c406c2cb0f079d734cd05d",
+  "note": "Analysis and condition specification extracted from the pre-acquisition plan; acquisition controls are omitted.",
+  "conditions": {
+    "CENTER": {
+      "position_mm": [
+        0,
+        0
+      ],
+      "instruction": "Press vertically at center C"
+    },
+    "TILT_XP": {
+      "position_mm": [
+        0,
+        0
+      ],
+      "instruction": "Keep contact at C and deliberately apply a small +X-directed downward oblique push; do not tilt the entire apparatus or slide to X+"
+    },
+    "OFFSET_XP15": {
+      "position_mm": [
+        15,
+        0
+      ],
+      "instruction": "Press vertically at the X+ mark, 15 mm from C, not at the tray rim"
+    }
+  },
+  "reference": {
+    "scale": "CRW-7024",
+    "target_g": 2500,
+    "aim_band_g": [
+      2300,
+      2700
+    ],
+    "actual_reading_required_for_secondary_error": true,
+    "range_entry_midpoint_invented": false,
+    "certified_reference": false
+  },
+  "analysis": {
+    "frozen_before_new_acquisition": true,
+    "model_path": "force_analysis/frozen/b_independent_20261016/S1_S2_S3_S4_interpolation.json",
+    "model_sha256": "803a626843bb398596ee5d62d9360f9e0003d3ae281c5811f9bc941e7e5336ac",
+    "unit": "One press, not individual ADC samples; five planned presses per condition in five interleaved blocks",
+    "baseline": "Final 5 s before actual PRESS_GO cue of each press, while hand is removed; report its drift and return separately",
+    "primary_window": "Last 100 consecutive raw samples with host_utc_ns strictly before actual READ_CUE; require window inside HOLD_START..READ_CUE; no selection by error or contrast",
+    "channel_response": "r_i = preceding unloaded channel mean - loaded channel mean; q = mean(r_i)",
+    "contrasts": "c24 = r2-r4, c31 = r3-r1, Q = sqrt(c24^2+c31^2); no automatic interpretation as force direction or angle",
+    "primary_question": "How do the two signed channel contrasts and their magnitude differ under the three prescribed loading instructions at a common approximate vertical scale indication?",
+    "primary_summary": "Show every press and condition median/range for c24, c31, Q and q; paired TILT-CENTER and OFFSET-CENTER vectors within each block; report individual block consistency and magnitude differences, including negative or mixed changes",
+    "direction_check": "Descriptive agreement of the TILT-CENTER vector with the OFFSET-CENTER vector in each block via dot product; both cues use marked +X. This tests response-pattern consistency, not calibrated angle or independent directional accuracy.",
+    "load_sensitivity": "Also report u=(c24/q,c31/q) and matched-block changes only for q>0 and an in-range primary force response; do not select whichever representation separates best. Show actual scale indications alongside contrasts.",
+    "secondary_error": "Frozen piecewise-linear force estimate using the same preceding zero minus manual CRW-7024 reading at READ_CUE, g and N. For observed ranges retain endpoints; no midpoint, MAE or RMSE from range/missing entries.",
+    "error_association": "Descriptive Spearman association of Q and normalized magnitude with absolute difference for single-number scale readings; pooled and within-condition centered views, with n shown. No fitted error-correction or classifier.",
+    "sensitivity_window": "All samples in final 3 s before READ_CUE, constrained to HOLD_START..READ_CUE; report separately without replacing primary window",
+    "eligibility": "Preserve all planned attempts and explicit repeats. Flag interrupted cues, sample gaps, missed reading, contact sliding, support contact, saturation, unstable hold, pre-zero instability or reset. Missing scale reading removes only secondary error pairing. No force-error- or contrast-based exclusion; do not silently replace flagged attempts.",
+    "unstable_hold": "Report each channel SD and drift over the 5 s hold; SD>15 ADC is a flag, not automatic deletion because intended loading can vary",
+    "no_claims": [
+      "exact tilt angle",
+      "measured lateral force",
+      "validated tilt detector",
+      "clinical validation",
+      "causal friction diagnosis",
+      "independent validation of the frozen force model"
+    ],
+    "model_refit": false,
+    "formal_significance_test": false
+  }
+}

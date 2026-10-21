@@ -1,0 +1,500 @@
+{
+  "capture_id": "6e08ff2096394ba2b183df97cc3d90ae",
+  "cycles": [
+    {
+      "cycle_index": 1,
+      "analysis_role": "planned_primary",
+      "observed_threshold_load_s": 16.8,
+      "observed_threshold_unload_s": 23.900000000000002,
+      "loaded_duration_s": 7.100000000000001,
+      "following_unloaded_duration_s": 9.999999999999996,
+      "plateau_start_s": 18.8,
+      "plateau_end_s": 22.900000000000002,
+      "plateau_duration_s": 4.100000000000001,
+      "plateau_samples": 411,
+      "channel_mean_adc": [
+        2512.9245742092457,
+        2355.1386861313867,
+        2310.116788321168,
+        2546.785888077859
+      ],
+      "channel_sd_adc": [
+        8.248379264376254,
+        7.611784011026238,
+        7.5486057767084365,
+        6.7105955809345055
+      ],
+      "channel_endpoint_delta_adc": [
+        -0.01999999999998181,
+        1.0900000000001455,
+        0.36000000000012733,
+        0.8400000000001455
+      ],
+      "mean_response_adc": 118.78101581508508,
+      "following_zero_mean_delta_adc": [
+        0.28855865522200475,
+        -0.6960318311876108,
+        -0.43449928469226506,
+        1.50161480686711
+      ],
+      "following_zero_sd_adc": [
+        7.981544939585878,
+        7.165999874794694,
+        7.630913538985329,
+        7.492801452937611
+      ]
+    },
+    {
+      "cycle_index": 2,
+      "analysis_role": "planned_primary",
+      "observed_threshold_load_s": 33.9,
+      "observed_threshold_unload_s": 43.0,
+      "loaded_duration_s": 9.100000000000001,
+      "following_unloaded_duration_s": 10.700000000000003,
+      "plateau_start_s": 35.9,
+      "plateau_end_s": 42.0,
+      "plateau_duration_s": 6.100000000000001,
+      "plateau_samples": 610,
+      "channel_mean_adc": [
+        2511.4737704918034,
+        2353.8573770491803,
+        2310.7475409836065,
+        2548.1081967213113
+      ],
+      "channel_sd_adc": [
+        7.599593836682556,
+        7.4717411580657345,
+        7.330248789057809,
+        7.17833574946231
+      ],
+      "channel_endpoint_delta_adc": [
+        -0.7300000000000182,
+        0.09000000000014552,
+        2.2399999999997817,
+        -0.680000000000291
+      ],
+      "mean_response_adc": 118.97577868852454,
+      "following_zero_mean_delta_adc": [
+        -0.23042207792195768,
+        -0.00654220779233583,
+        0.42019480519502395,
+        1.6007954545457324
+      ],
+      "following_zero_sd_adc": [
+        7.963752789072962,
+        7.197018712236528,
+        7.22259667694664,
+        7.844366261387463
+      ]
+    },
+    {
+      "cycle_index": 3,
+      "analysis_role": "planned_primary",
+      "observed_threshold_load_s": 53.7,
+      "observed_threshold_unload_s": 62.7,
+      "loaded_duration_s": 9.0,
+      "following_unloaded_duration_s": 9.900000000000006,
+      "plateau_start_s": 55.7,
+      "plateau_end_s": 61.7,
+      "plateau_duration_s": 6.0,
+      "plateau_samples": 600,
+      "channel_mean_adc": [
+        2495.9266666666667,
+        2345.2083333333335,
+        2340.71,
+        2565.7166666666667
+      ],
+      "channel_sd_adc": [
+        7.425846363383548,
+        7.622451497622763,
+        7.232547931582406,
+        7.129125444603787
+      ],
+      "channel_endpoint_delta_adc": [
+        1.800000000000182,
+        1.4100000000003092,
+        -0.18000000000029104,
+        -0.09999999999990905
+      ],
+      "mean_response_adc": 113.13208333333318,
+      "following_zero_mean_delta_adc": [
+        0.49106005788735274,
+        -0.7116298842256583,
+        0.550745296671721,
+        1.8721544862519295
+      ],
+      "following_zero_sd_adc": [
+        8.140149096154225,
+        7.573905944719965,
+        7.586611690585472,
+        7.573221923587561
+      ]
+    },
+    {
+      "cycle_index": 4,
+      "analysis_role": "planned_primary",
+      "observed_threshold_load_s": 72.60000000000001,
+      "observed_threshold_unload_s": 82.60000000000001,
+      "loaded_duration_s": 10.0,
+      "following_unloaded_duration_s": 10.899999999999991,
+      "plateau_start_s": 74.60000000000001,
+      "plateau_end_s": 81.60000000000001,
+      "plateau_duration_s": 7.0,
+      "plateau_samples": 700,
+      "channel_mean_adc": [
+        2512.058571428571,
+        2355.6828571428573,
+        2312.3171428571427,
+        2548.1842857142856
+      ],
+      "channel_sd_adc": [
+        8.359466768373636,
+        7.601068583648298,
+        7.137881201605428,
+        7.096839565677696
+      ],
+      "channel_endpoint_delta_adc": [
+        -1.2600000000002183,
+        0.03999999999996362,
+        0.11999999999989086,
+        0.8800000000001091
+      ],
+      "mean_response_adc": 117.96178571428572,
+      "following_zero_mean_delta_adc": [
+        -3.404337769328322,
+        2.20226394169822,
+        2.600297845373916,
+        -1.9204166666663696
+      ],
+      "following_zero_sd_adc": [
+        7.59793668852843,
+        7.327349434279664,
+        7.298117886763299,
+        7.255081654528393
+      ]
+    },
+    {
+      "cycle_index": 5,
+      "analysis_role": "planned_primary",
+      "observed_threshold_load_s": 93.5,
+      "observed_threshold_unload_s": 101.4,
+      "loaded_duration_s": 7.900000000000006,
+      "following_unloaded_duration_s": 11.400000000000006,
+      "plateau_start_s": 95.5,
+      "plateau_end_s": 100.4,
+      "plateau_duration_s": 4.900000000000006,
+      "plateau_samples": 490,
+      "channel_mean_adc": [
+        2511.875510204082,
+        2355.604081632653,
+        2311.995918367347,
+        2545.795918367347
+      ],
+      "channel_sd_adc": [
+        7.731354127914783,
+        8.09872516877662,
+        7.568635074102726,
+        6.867068481016821
+      ],
+      "channel_endpoint_delta_adc": [
+        0.20000000000027285,
+        0.6300000000001091,
+        -0.2199999999997999,
+        -0.5400000000004184
+      ],
+      "mean_response_adc": 118.70464285714274,
+      "following_zero_mean_delta_adc": [
+        -2.2777080856121756,
+        1.9612975624254432,
+        2.345796670630534,
+        -0.6901352556478741
+      ],
+      "following_zero_sd_adc": [
+        7.650654001657483,
+        8.068399380866301,
+        7.424990970511617,
+        6.894515298683575
+      ]
+    },
+    {
+      "cycle_index": 6,
+      "analysis_role": "planned_primary",
+      "observed_threshold_load_s": 112.80000000000001,
+      "observed_threshold_unload_s": 122.4,
+      "loaded_duration_s": 9.599999999999994,
+      "following_unloaded_duration_s": 10.5,
+      "plateau_start_s": 114.80000000000001,
+      "plateau_end_s": 121.4,
+      "plateau_duration_s": 6.599999999999994,
+      "plateau_samples": 659,
+      "channel_mean_adc": [
+        2501.2215477996965,
+        2328.2230652503795,
+        2320.898330804249,
+        2567.7647951441577
+      ],
+      "channel_sd_adc": [
+        8.357845268960485,
+        7.331512676655139,
+        7.484552294253668,
+        7.125934402265212
+      ],
+      "channel_endpoint_delta_adc": [
+        0.75,
+        0.650000000000091,
+        -0.16000000000030923,
+        -0.9099999999998545
+      ],
+      "mean_response_adc": 120.49556525037929,
+      "following_zero_mean_delta_adc": [
+        -0.823166666666566,
+        0.09858333333340852,
+        1.2816666666667516,
+        0.8609166666669807
+      ],
+      "following_zero_sd_adc": [
+        7.684617362903734,
+        7.6649022949944685,
+        7.421207537679566,
+        7.090313694513401
+      ]
+    },
+    {
+      "cycle_index": 7,
+      "analysis_role": "planned_primary",
+      "observed_threshold_load_s": 132.9,
+      "observed_threshold_unload_s": 141.20000000000002,
+      "loaded_duration_s": 8.300000000000011,
+      "following_unloaded_duration_s": 11.5,
+      "plateau_start_s": 134.9,
+      "plateau_end_s": 140.20000000000002,
+      "plateau_duration_s": 5.300000000000011,
+      "plateau_samples": 531,
+      "channel_mean_adc": [
+        2497.5065913371,
+        2335.139359698682,
+        2328.3540489642182,
+        2566.199623352166
+      ],
+      "channel_sd_adc": [
+        8.03820205775888,
+        7.048040994020364,
+        7.2981567580809115,
+        6.6552348419319625
+      ],
+      "channel_endpoint_delta_adc": [
+        -2.5099999999997635,
+        -0.010000000000218279,
+        0.06000000000040018,
+        0.36999999999989086
+      ],
+      "mean_response_adc": 118.22259416195845,
+      "following_zero_mean_delta_adc": [
+        1.346323529412075,
+        -0.5222794117648846,
+        0.15852941176490276,
+        1.1862500000002
+      ],
+      "following_zero_sd_adc": [
+        7.804637474313114,
+        7.580275486862682,
+        7.2249151275589245,
+        7.405902844189474
+      ]
+    },
+    {
+      "cycle_index": 8,
+      "analysis_role": "planned_primary",
+      "observed_threshold_load_s": 152.70000000000002,
+      "observed_threshold_unload_s": 161.5,
+      "loaded_duration_s": 8.799999999999983,
+      "following_unloaded_duration_s": 11.100000000000023,
+      "plateau_start_s": 154.70000000000002,
+      "plateau_end_s": 160.5,
+      "plateau_duration_s": 5.799999999999983,
+      "plateau_samples": 579,
+      "channel_mean_adc": [
+        2512.3955094991366,
+        2356.5284974093265,
+        2311.6891191709847,
+        2546.26079447323
+      ],
+      "channel_sd_adc": [
+        8.161902841936286,
+        7.3963752219202785,
+        7.510090265582147,
+        7.224480205981114
+      ],
+      "channel_endpoint_delta_adc": [
+        0.6600000000003092,
+        0.27999999999974534,
+        2.8200000000001637,
+        -0.2300000000000182
+      ],
+      "mean_response_adc": 118.30401986183051,
+      "following_zero_mean_delta_adc": [
+        0.5253051787917684,
+        -0.8453591245379357,
+        0.09662762022207971,
+        2.1765829223181754
+      ],
+      "following_zero_sd_adc": [
+        7.869585184702066,
+        7.6651108063062985,
+        7.080196364329078,
+        7.366659444450226
+      ]
+    },
+    {
+      "cycle_index": 9,
+      "analysis_role": "planned_primary",
+      "observed_threshold_load_s": 172.60000000000002,
+      "observed_threshold_unload_s": 182.3,
+      "loaded_duration_s": 9.699999999999989,
+      "following_unloaded_duration_s": 10.5,
+      "plateau_start_s": 174.60000000000002,
+      "plateau_end_s": 181.3,
+      "plateau_duration_s": 6.699999999999989,
+      "plateau_samples": 669,
+      "channel_mean_adc": [
+        2511.7100149476832,
+        2354.6292974588937,
+        2310.935724962631,
+        2547.0209267563528
+      ],
+      "channel_sd_adc": [
+        7.9345887701803495,
+        7.340322743500536,
+        7.4071332520795155,
+        7.258043960589448
+      ],
+      "channel_endpoint_delta_adc": [
+        -0.7700000000004366,
+        0.2899999999999636,
+        -1.2800000000002,
+        0.23999999999978172
+      ],
+      "mean_response_adc": 118.94850896860976,
+      "following_zero_mean_delta_adc": [
+        0.311500000000251,
+        -0.9707499999999527,
+        -0.4036666666665951,
+        1.6809166666666897
+      ],
+      "following_zero_sd_adc": [
+        8.194989188343248,
+        7.61552872121202,
+        7.439021235225722,
+        7.207750489001713
+      ]
+    },
+    {
+      "cycle_index": 10,
+      "analysis_role": "planned_primary",
+      "observed_threshold_load_s": 192.8,
+      "observed_threshold_unload_s": 202.20000000000002,
+      "loaded_duration_s": 9.400000000000006,
+      "following_unloaded_duration_s": 10.400000000000006,
+      "plateau_start_s": 194.8,
+      "plateau_end_s": 201.20000000000002,
+      "plateau_duration_s": 6.400000000000006,
+      "plateau_samples": 641,
+      "channel_mean_adc": [
+        2511.555382215289,
+        2354.6084243369733,
+        2311.4040561622464,
+        2545.9703588143525
+      ],
+      "channel_sd_adc": [
+        8.167225271947974,
+        7.555907716459771,
+        7.389218228056391,
+        7.8857502830929755
+      ],
+      "channel_endpoint_delta_adc": [
+        0.8200000000001637,
+        -1.2399999999997817,
+        1.819999999999709,
+        -2.1100000000001273
+      ],
+      "mean_response_adc": 119.13794461778468,
+      "following_zero_mean_delta_adc": [
+        -1.0308783783784747,
+        -0.32307432432435235,
+        1.2014864864868287,
+        -0.028074324324279587
+      ],
+      "following_zero_sd_adc": [
+        7.673342257403952,
+        7.099501799037467,
+        7.591379704984914,
+        7.503117273884191
+      ]
+    },
+    {
+      "cycle_index": 11,
+      "analysis_role": "additional_observed",
+      "observed_threshold_load_s": 212.60000000000002,
+      "observed_threshold_unload_s": 219.9,
+      "loaded_duration_s": 7.299999999999983,
+      "following_unloaded_duration_s": 20.099999999999994,
+      "plateau_start_s": 214.60000000000002,
+      "plateau_end_s": 218.9,
+      "plateau_duration_s": 4.299999999999983,
+      "plateau_samples": 429,
+      "channel_mean_adc": [
+        2512.16317016317,
+        2354.39627039627,
+        2311.4685314685316,
+        2547.114219114219
+      ],
+      "channel_sd_adc": [
+        8.395116806112142,
+        7.159829860244536,
+        7.453097138138332,
+        7.36330305799237
+      ],
+      "channel_endpoint_delta_adc": [
+        -1.7400000000002365,
+        0.21000000000003638,
+        1.3400000000001455,
+        0.8699999999998909
+      ],
+      "mean_response_adc": 118.73695221445223,
+      "following_zero_mean_delta_adc": [
+        -0.3840789473683799,
+        -0.27184941520499706,
+        0.9495029239769792,
+        1.0871856725148064
+      ],
+      "following_zero_sd_adc": [
+        8.023553490352437,
+        7.371376590948332,
+        7.399233917594562,
+        7.700137715171516
+      ]
+    }
+  ],
+  "method": {
+    "detector": "0.1 s median of unweighted mean channel response relative to 2-10 s baseline; 60 ADC threshold",
+    "threshold_sensitivity_cycle_counts": {
+      "40": 11,
+      "50": 11,
+      "60": 11,
+      "70": 11,
+      "80": 11
+    },
+    "boundary_time_resolution_s": 0.1,
+    "boundary_semantics": "ADC threshold crossing only, not external force onset",
+    "plateau_rule": "load crossing +2 s to unload crossing -1 s; fixed rule for all cycles",
+    "extra_cycle_policy": "Keep all 11; first ten are planned primary sequence, eleventh supplementary. No quality-based replacement.",
+    "acquisition_role": "development_validation",
+    "outcome": "Suitable for manual transition and offline filter development; filter selection not completed in this descriptive review",
+    "limitations": [
+      "No synchronized force reference or saved browser cue log",
+      "Observed transitions do not establish intrinsic sensor response time",
+      "One physical session, not independent final evaluation",
+      "No mechanical observation was supplied; no capacity or contact-clearance claim"
+    ]
+  }
+}

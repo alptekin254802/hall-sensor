@@ -1,0 +1,5 @@
+{
+  "original_measurement_integrity": "gzip decompression reproduces original SHA-256 and byte count",
+  "firmware_source_integrity": "Historical build manifests matched all exported source bytes before path adaptation of separate build scripts",
+  "byte_preserving_git": "The .gitattributes file disables text conversion to preserve manifest hashes across Git checkouts"
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "device": "Hall",
+    "file": "samples.csv",
+    "columns": [
+      "session_id",
+      "seq",
+      "t_us",
+      "s1_adc",
+      "s2_adc",
+      "s3_adc",
+      "s4_adc",
+      "flags",
+      "dropped",
+      "tx_errors",
+      "dma_phase_us",
+      "host_utc_ns",
+      "host_monotonic_ns"
+    ],
+    "example_capture": "01f08f9c47f9438482d61015505a85b8",
+    "capture_count": 238
+  },
+  {
+    "device": "Hall",
+    "file": "temperatures.csv",
+    "columns": [
+      "session_id",
+      "cycle",
+      "slot",
+      "rom",
+      "role",
+      "start_us",
+      "ready_us",
+      "read_us",
+      "raw16",
+      "temperature_c",
+      "status",
+      "host_utc_ns",
+      "host_monotonic_ns"
+    ],
+    "example_capture": "01f08f9c47f9438482d61015505a85b8",
+    "capture_count": 238
+  },
+  {
+    "device": "HX711",
+    "file": "samples.csv",
+    "columns": [
+      "host_elapsed_s",
+      "elapsed_s",
+      "sequence",
+      "device_micros",
+      "raw_counts",
+      "device_dropped"
+    ],
+    "example_capture": "06082390b3aa4707b8e7af410901356b",
+    "capture_count": 62
+  },
+  {
+    "device": "Hall",
+    "file": "display.csv",
+    "columns": [
+      "session_id",
+      "last_seq",
+      "first_seq",
+      "count",
+      "sum_adc",
+      "zero_sum_adc",
+      "zero_epoch",
+      "status",
+      "mass_mg",
+      "host_utc_ns",
+      "host_monotonic_ns"
+    ],
+    "example_capture": "15a216a084594cd28d0df6cc6a5b0010",
+    "capture_count": 3
+  }
+]

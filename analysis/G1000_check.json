@@ -1,0 +1,72 @@
+{
+  "captures": [
+    {
+      "code": "ONE_KG_ZERO_BEFORE_01",
+      "capture_id": "757e127da0e147e59be1000e4766e470",
+      "full_samples": 5999,
+      "window_samples": 1000,
+      "window_start_us": 49990000,
+      "window_end_us": 59980000,
+      "channel_mean_adc": {
+        "s1_adc": 2590.06,
+        "s2_adc": 2462.938,
+        "s3_adc": 2453.446,
+        "s4_adc": 2657.944
+      },
+      "four_channel_mean_adc": 2541.0969999999998
+    },
+    {
+      "code": "ONE_KG_WATER_1000_01",
+      "capture_id": "697ca7871b7945f5a752a4032b425e4d",
+      "full_samples": 1999,
+      "window_samples": 1000,
+      "window_start_us": 9990000,
+      "window_end_us": 19980000,
+      "channel_mean_adc": {
+        "s1_adc": 2454.961,
+        "s2_adc": 2376.358,
+        "s3_adc": 2336.336,
+        "s4_adc": 2487.793
+      },
+      "four_channel_mean_adc": 2413.8619999999996
+    },
+    {
+      "code": "ONE_KG_ZERO_AFTER_01",
+      "capture_id": "89e5e56f5d6a416b93207773efdd9f94",
+      "full_samples": 1999,
+      "window_samples": 1000,
+      "window_start_us": 9990000,
+      "window_end_us": 19980000,
+      "channel_mean_adc": {
+        "s1_adc": 2583.604,
+        "s2_adc": 2456.044,
+        "s3_adc": 2447.85,
+        "s4_adc": 2651.664
+      },
+      "four_channel_mean_adc": 2534.7905
+    }
+  ],
+  "reference_mass_g": 1000.0,
+  "primary_pre_load_reference": {
+    "response_adc": 127.23500000000001,
+    "status": "in_range",
+    "force_N": 9.941526186216455,
+    "mass_equivalent_g": 1013.753543382955,
+    "error_g": 13.753543382954945,
+    "error_N": 0.1348761862164558,
+    "relative_error_percent": 1.3753543382954945
+  },
+  "secondary_post_unload_reference": {
+    "response_adc": 120.92849999999999,
+    "status": "in_range",
+    "force_N": 9.460900797831306,
+    "mass_equivalent_g": 964.7433932924399,
+    "error_g": -35.25660670756008
+  },
+  "zero_return_with_pre_load_reference": {
+    "response_adc": 6.306500000000028,
+    "status": "in_range",
+    "force_N": 0.5676696587045724,
+    "mass_equivalent_g": 57.88619545966996
+  }
+}

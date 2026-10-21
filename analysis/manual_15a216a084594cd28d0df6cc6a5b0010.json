@@ -1,0 +1,252 @@
+{
+  "pairs": [
+    {
+      "attempt_id": "N_PRESS_3000_RECHECK_R1",
+      "batch": "followup_recheck",
+      "target_scale_indication_g": 3000,
+      "reported_scale_indication_g": 3060,
+      "recorded_device_g": 2794.101,
+      "device_minus_reported_scale_g": -265.8989999999999,
+      "device_minus_reported_scale_N": -2.6075784283499988,
+      "reading_status_in_form": "unknown",
+      "cue_utc": "2026-10-17T21:42:17.985Z",
+      "cue_elapsed_s": 93.5384579,
+      "hold_start_elapsed_s": 73.4754579,
+      "release_cue_elapsed_s": 95.5494579,
+      "cue_lateness_ms": 62,
+      "first_seq": 9230,
+      "last_seq": 9329,
+      "window_end_to_cue_s": 0.2527762,
+      "zero_epoch": 7,
+      "last_5s": {
+        "sample_count": 500,
+        "display_frames": 4,
+        "numeric_display_frames": 4,
+        "status_counts": {
+          "1": 4
+        },
+        "device_mean_g": 2793.266,
+        "device_min_g": 2787.193,
+        "device_max_g": 2798.548,
+        "device_span_g": 11.354999999999563,
+        "channel_mean_adc": [
+          2094.924,
+          2034.982,
+          1987.48,
+          2122.842
+        ],
+        "channel_sd_adc": [
+          7.719676859923885,
+          8.064474409097622,
+          4.369873177011704,
+          7.148653193782028
+        ],
+        "mean_response_adc": 488.050625
+      },
+      "whole_hold": {
+        "sample_count": 2007,
+        "display_frames": 19,
+        "numeric_display_frames": 19,
+        "status_counts": {
+          "1": 19
+        },
+        "device_mean_g": 2843.5885263157897,
+        "device_min_g": 2787.193,
+        "device_max_g": 3025.586,
+        "device_span_g": 238.39299999999957,
+        "channel_mean_adc": [
+          2083.70004982561,
+          2021.9810662680618,
+          1973.0772296960638,
+          2110.4454409566515
+        ],
+        "channel_sd_adc": [
+          21.577695062838366,
+          21.16527188714853,
+          22.72540829450732,
+          23.537138679133562
+        ],
+        "mean_response_adc": 500.2577631578948
+      },
+      "reference_quality": "approximate_manual_scale_reading",
+      "actual_reading_uncertainty_g": null,
+      "certified_accuracy_eligible": false
+    },
+    {
+      "attempt_id": "N_PRESS_3000_RECHECK_R2",
+      "batch": "followup_recheck",
+      "target_scale_indication_g": 3000,
+      "reported_scale_indication_g": 3040,
+      "recorded_device_g": 2795.611,
+      "device_minus_reported_scale_g": -244.38900000000012,
+      "device_minus_reported_scale_N": -2.396637386850001,
+      "reading_status_in_form": "unknown",
+      "cue_utc": "2026-10-17T21:43:01.259Z",
+      "cue_elapsed_s": 136.8124579,
+      "hold_start_elapsed_s": 116.7224579,
+      "release_cue_elapsed_s": 138.8314579,
+      "cue_lateness_ms": 91,
+      "first_seq": 13530,
+      "last_seq": 13629,
+      "window_end_to_cue_s": 0.5282567,
+      "zero_epoch": 7,
+      "last_5s": {
+        "sample_count": 500,
+        "display_frames": 4,
+        "numeric_display_frames": 4,
+        "status_counts": {
+          "1": 4
+        },
+        "device_mean_g": 2796.8469999999998,
+        "device_min_g": 2795.611,
+        "device_max_g": 2797.7,
+        "device_span_g": 2.088999999999942,
+        "channel_mean_adc": [
+          2106.716,
+          2054.942,
+          1973.172,
+          2106.228
+        ],
+        "channel_sd_adc": [
+          7.246265294718545,
+          8.20471026551711,
+          3.8543648317865484,
+          7.176839837987233
+        ],
+        "mean_response_adc": 488.91625000000005
+      },
+      "whole_hold": {
+        "sample_count": 2009,
+        "display_frames": 19,
+        "numeric_display_frames": 19,
+        "status_counts": {
+          "1": 19
+        },
+        "device_mean_g": 2803.9927894736843,
+        "device_min_g": 2794.608,
+        "device_max_g": 2840.172,
+        "device_span_g": 45.56399999999985,
+        "channel_mean_adc": [
+          2104.155798904928,
+          2052.376804380289,
+          1971.6943753111,
+          2105.243902439024
+        ],
+        "channel_sd_adc": [
+          8.296492651122863,
+          9.622810691251418,
+          5.922152115388055,
+          7.902244115074128
+        ],
+        "mean_response_adc": 490.6436842105263
+      },
+      "reference_quality": "approximate_manual_scale_reading",
+      "actual_reading_uncertainty_g": null,
+      "certified_accuracy_eligible": false
+    },
+    {
+      "attempt_id": "N_PRESS_3000_RECHECK_R3",
+      "batch": "followup_recheck",
+      "target_scale_indication_g": 3000,
+      "reported_scale_indication_g": 2950,
+      "recorded_device_g": 2803.967,
+      "device_minus_reported_scale_g": -146.0329999999999,
+      "device_minus_reported_scale_N": -1.432094519449999,
+      "reading_status_in_form": "unknown",
+      "cue_utc": "2026-10-17T21:43:45.596Z",
+      "cue_elapsed_s": 181.1494579,
+      "hold_start_elapsed_s": 161.0694579,
+      "release_cue_elapsed_s": 183.1764579,
+      "cue_lateness_ms": 80,
+      "first_seq": 17930,
+      "last_seq": 18029,
+      "window_end_to_cue_s": 0.867922,
+      "zero_epoch": 7,
+      "last_5s": {
+        "sample_count": 500,
+        "display_frames": 4,
+        "numeric_display_frames": 4,
+        "status_counts": {
+          "1": 4
+        },
+        "device_mean_g": 2951.513,
+        "device_min_g": 2803.967,
+        "device_max_g": 3002.305,
+        "device_span_g": 198.33799999999974,
+        "channel_mean_adc": [
+          2041.34,
+          2009.94,
+          1972.428,
+          2093.396
+        ],
+        "channel_sd_adc": [
+          26.1352348564539,
+          22.927182806067684,
+          23.47353466479474,
+          27.03940537226684
+        ],
+        "mean_response_adc": 526.30625
+      },
+      "whole_hold": {
+        "sample_count": 2008,
+        "display_frames": 19,
+        "numeric_display_frames": 19,
+        "status_counts": {
+          "1": 19
+        },
+        "device_mean_g": 2987.5676315789474,
+        "device_min_g": 2803.967,
+        "device_max_g": 3018.283,
+        "device_span_g": 214.3159999999998,
+        "channel_mean_adc": [
+          2028.7928286852589,
+          2002.1668326693227,
+          1961.0338645418326,
+          2075.062749003984
+        ],
+        "channel_sd_adc": [
+          20.65699441840777,
+          18.20649302225162,
+          17.83707610880187,
+          21.37661544550671
+        ],
+        "mean_response_adc": 535.0759210526315
+      },
+      "reference_quality": "approximate_manual_scale_reading",
+      "actual_reading_uncertainty_g": null,
+      "certified_accuracy_eligible": false
+    }
+  ],
+  "method": {
+    "pairing": "Last complete 100-sample window ending at or before the actual read cue.",
+    "signal_sd": "Raw SD within each hold mixes hand-force change, mechanical motion and electrical noise; it does not identify the cause.",
+    "low_status": "Status 3 indicates a response below the model negative-zero extension; no mass value is reported.",
+    "comparison_scope": "Follow-up series with three presses per batch, manually read scale indications and a new display zero; the calibration model was unchanged."
+  },
+  "display_conversion": {
+    "capture_id": "15a216a084594cd28d0df6cc6a5b0010",
+    "display_frames": 210,
+    "states": {
+      "wait_zero": 0,
+      "ok": 157,
+      "negative_zero_extension": 3,
+      "low": 50,
+      "high": 0,
+      "adc_rail": 0,
+      "data_gap": 0
+    },
+    "pc_conversion_mismatches": [],
+    "mass_mean_g": 2436.212625,
+    "mass_min_g": -8.54,
+    "mass_max_g": 4007.544,
+    "model_id": "497c5c8fbd85a4ef4284da84ff57cb27144c7f28b633eb0435fdb7966894c42d",
+    "source_hashes": {
+      "samples.csv": "9ea7d0c4219a4d55aed1da7a5ba1be457cfda489015a4e4ab8129c4161eed1c8",
+      "display.csv": "fbbe8c24edee181a9d2dfcae35832aaaee2964539b718ec381196c5ba3157678"
+    },
+    "raw_capture_status": "finished",
+    "raw_issue_count": 0,
+    "actual_screen_pixels_verified": false,
+    "physical_accuracy_test": false
+  }
+}

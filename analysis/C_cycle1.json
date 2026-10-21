@@ -1,0 +1,36 @@
+{
+  "paired_levels": [
+    {
+      "block": "C_BOOK_R1",
+      "mass_g": 2501,
+      "loading_code": "C_BOOK_R1_S1",
+      "unloading_code": "C_BOOK_R1_S5",
+      "loading_response_adc": 403.3150375375376,
+      "unloading_response_adc": 405.79952202202185,
+      "response_unloading_minus_loading_adc": 2.4844844844845397,
+      "channel_difference_adc": [
+        -19.07007007006996,
+        21.66766766766773,
+        23.4254254254256,
+        -16.08508508508521
+      ],
+      "peak_span_normalized_abs_percent": 0.1935821075920985
+    },
+    {
+      "block": "C_BOOK_R1",
+      "mass_g": 4297,
+      "loading_code": "C_BOOK_R1_S2",
+      "unloading_code": "C_BOOK_R1_S4",
+      "loading_response_adc": 996.9268993993992,
+      "unloading_response_adc": 1049.4139395457582,
+      "response_unloading_minus_loading_adc": 52.487040146358765,
+      "channel_difference_adc": [
+        58.260741703627446,
+        77.851994278848,
+        43.69010694060785,
+        30.145317662351772
+      ],
+      "peak_span_normalized_abs_percent": 4.089601652276466
+    }
+  ]
+}

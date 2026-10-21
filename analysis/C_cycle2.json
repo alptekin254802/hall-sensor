@@ -1,0 +1,30 @@
+{
+  "paired_levels": [
+    {
+      "mass_g": 2501,
+      "loading_response_adc": 378.35408333333316,
+      "unloading_response_adc": 408.1279081581579,
+      "difference_adc": 29.773824824824715,
+      "channel_difference_adc": [
+        28.011072072071784,
+        33.80314314314319,
+        31.599693693693553,
+        25.681390390390334
+      ],
+      "peak_span_normalized_abs_percent": 2.328403768955989
+    },
+    {
+      "mass_g": 4297,
+      "loading_response_adc": 1050.3714016516515,
+      "unloading_response_adc": 1099.4330833333333,
+      "difference_adc": 49.061681681681705,
+      "channel_difference_adc": [
+        41.72224924924922,
+        61.1305455455456,
+        57.06479279279279,
+        36.329139139139215
+      ],
+      "peak_span_normalized_abs_percent": 3.8367729108051947
+    }
+  ]
+}

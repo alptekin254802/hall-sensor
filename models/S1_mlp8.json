@@ -1,0 +1,72 @@
+{
+  "state": {
+    "spec": {
+      "kind": "mlp",
+      "hidden": 8,
+      "epochs": 3000,
+      "learning_rate": 0.01,
+      "seed": 20261016,
+      "out_of_range": "reject",
+      "monotonic": "none"
+    },
+    "bounds": [
+      -0.8394789789790593,
+      1253.1231231231232
+    ],
+    "reference_bounds_N": [
+      0.0,
+      49.033249999999995
+    ],
+    "x_mean": 256.61046527296526,
+    "x_scale": 357.1691784522467,
+    "numpy_version": "2.3.5",
+    "training_rows": 13,
+    "duplicate_inputs": [],
+    "continuity": "Continuous mathematical mapping on fitted support; not hardware validation",
+    "raw_anchor_diagnostics": {
+      "negative_force_steps_with_increasing_input": 1,
+      "positive_force_steps_with_increasing_input": 11,
+      "note": "Raw observed pairs are not corrected; step signs describe sorted inputs, not temporal hysteresis"
+    },
+    "parameters": [
+      [
+        -1.3415386736288915,
+        0.0636914108003806,
+        -0.4124596967930863,
+        -0.2036403512668155,
+        -1.4848720231198635,
+        -0.9244098104398872,
+        -0.6616523712370684,
+        -0.8139025813284219
+      ],
+      [
+        -1.2852945650773344,
+        0.6025417355189638,
+        0.25654570987186365,
+        -0.5019718401698184,
+        -1.2956368236703832,
+        0.9733848824310689,
+        -0.9652193828006495,
+        -1.07361770141576
+      ],
+      [
+        -0.6957121380285892,
+        -0.25201613813675394,
+        -0.6154016341221531,
+        0.4463768095030289,
+        -0.34483230592648584,
+        -0.6682060544961113,
+        -0.5803632630874787,
+        -0.7716450289335962
+      ],
+      [
+        -0.643626489971745
+      ]
+    ],
+    "y_mean": 14.614171573076923,
+    "y_scale": 15.089048749115522,
+    "training": "Fixed epochs, full-batch weighted MSE, Adam; no validation/early stopping/augmentation",
+    "inference_environment": "Python host; not STM32 execution"
+  },
+  "model_id": "1d80d75cc3587fd7101b2814b14b201baf6353dd8eeeb6e094742737a4bf1828"
+}

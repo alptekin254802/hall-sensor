@@ -1,0 +1,56 @@
+{
+  "unloaded": {
+    "capture_id": "f3766435c4df4000ae06ecdd742dcdaf",
+    "record_code": "F_ZERO_HOLD_01",
+    "duration_s": 3600.15,
+    "first_60s_mean_adc": [
+      2674.0288333333333,
+      2549.773,
+      2537.3766666666666,
+      2742.1731666666665
+    ],
+    "last_60s_mean_adc": [
+      2674.917347108815,
+      2548.9158473587736,
+      2536.2839526745543,
+      2743.0698216963838
+    ],
+    "equal_channel_mean_last_minus_first_60s_adc": -0.04117445703491285
+  },
+  "loaded": {
+    "capture_id": "8be2ab630c034d8a9f9e2b0eab3efd3e",
+    "record_code": "F_LOAD_1042_HOLD_01",
+    "duration_s": 3600.16,
+    "first_60s_mean_adc": [
+      2544.7085,
+      2428.134666666667,
+      2408.497,
+      2593.6016666666665
+    ],
+    "last_60s_mean_adc": [
+      2544.211464755874,
+      2426.31311448092,
+      2412.209965005832,
+      2599.5887352107984
+    ],
+    "equal_channel_mean_last_minus_first_60s_adc": 1.845361530022842
+  },
+  "unloaded_return": {
+    "capture_id": "0c9534921d5f4e1f8bb4a73333a194cd",
+    "record_code": "F_ZERO_RETURN_01",
+    "duration_s": 19.98,
+    "first_60s_mean_adc": [
+      2675.6058029014507,
+      2547.2436218109056,
+      2534.1250625312655,
+      2742.969484742371
+    ],
+    "last_60s_mean_adc": [
+      2675.6058029014507,
+      2547.2436218109056,
+      2534.1250625312655,
+      2742.969484742371
+    ],
+    "equal_channel_mean_last_minus_first_60s_adc": 0.0
+  }
+}

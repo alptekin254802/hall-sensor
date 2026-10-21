@@ -1,0 +1,4126 @@
+{
+  "version": "2026.10.21",
+  "captures": 300,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 79,
+      "sha256": "b8e1d39f582ab4fe514dbaaa459cdcfca289ff9092a9421446b0f35ca1f8847e"
+    },
+    {
+      "path": "acquisition/__init__.py",
+      "bytes": 82,
+      "sha256": "2032e3713e3085dd2cfee64497556454940745712d458c71fc92e9700bb9dfd7"
+    },
+    {
+      "path": "acquisition/capture.py",
+      "bytes": 27817,
+      "sha256": "467ea130ea302b1ac267105ea2ed67b1a44596f1ee433918a157b0823c64b0f3"
+    },
+    {
+      "path": "acquisition/display_mass.py",
+      "bytes": 2768,
+      "sha256": "60981adc93b2c1f484c32131af5b6828441b31c949403a3d7cec37d38aa71bd5"
+    },
+    {
+      "path": "acquisition/labels.py",
+      "bytes": 10281,
+      "sha256": "6638f4c50fa5492ca9dc354d65646e1597d17bb8747dd7caca987e03aebef8ab"
+    },
+    {
+      "path": "acquisition/live_noise.py",
+      "bytes": 7412,
+      "sha256": "cd27bf4cf443e22e22bbf42023db33c027a2802f7a11236b9ea273b24d32c75a"
+    },
+    {
+      "path": "acquisition/loadcell.py",
+      "bytes": 11427,
+      "sha256": "fb49dc6e249f7ab273bea0bf8b8096c67ff3b3d01692e1b5814ba9253e34e459"
+    },
+    {
+      "path": "acquisition/protocol.py",
+      "bytes": 8265,
+      "sha256": "6f9eedecfd0775cd18c77f989c9756888faa83dc68729603d7c037f36dede7ea"
+    },
+    {
+      "path": "analysis/A_calibration_anchors.json",
+      "bytes": 4653,
+      "sha256": "602cc88ac2fb14c0ad0d2717086e631aa695bfd3e1ef262e312458b179da8b02"
+    },
+    {
+      "path": "analysis/A_calibration_observations.json",
+      "bytes": 9218,
+      "sha256": "f16300256bd9c5822dffc32a78af3c132e46d67f1fa22121f137b2105d4d5cc5"
+    },
+    {
+      "path": "analysis/A_REFINE.json",
+      "bytes": 23285,
+      "sha256": "8d30ff79e6b5ac301d5c9570dcc441d4c0af9ea0a76dbfa8bcc8f3daec00ea92"
+    },
+    {
+      "path": "analysis/B.json",
+      "bytes": 251381,
+      "sha256": "834045ac1e4f5fa8655072030824d9f909b58456dc4c25bd2a7d177dce0c12f0"
+    },
+    {
+      "path": "analysis/C_cycle1.json",
+      "bytes": 1102,
+      "sha256": "c1040d24500bc104776b26b905e080aec5721ff71cdd4651b3fed6377a1c86a4"
+    },
+    {
+      "path": "analysis/C_cycle2.json",
+      "bytes": 843,
+      "sha256": "39fd9fc8b5ee7c29fb797881541d2b68bb44fe06eda3cff8720cace83b1c7409"
+    },
+    {
+      "path": "analysis/C_selected.json",
+      "bytes": 2545,
+      "sha256": "8a75d88d99e87f5ab8f1a424ea9f1c2db59a23e31f1ecec73fa13e72d60df5b2"
+    },
+    {
+      "path": "analysis/channel_comparison.json",
+      "bytes": 12686,
+      "sha256": "74c7f81aaf98cca7d0b6a6baf1535a204d5a76b8d42042d2786409aae91e2e9c"
+    },
+    {
+      "path": "analysis/channel_error_correlations.csv",
+      "bytes": 287,
+      "sha256": "d15e82e51031b1f87fe29a6b5b18258c4de103669ca7c0e284fb8fb099f351e5"
+    },
+    {
+      "path": "analysis/channel_metrics.csv",
+      "bytes": 1611,
+      "sha256": "cf395b0b34c5c5fced0ab57b852ec88370961ac003108991b9a1e5752a4b3073"
+    },
+    {
+      "path": "analysis/channel_predictions.json",
+      "bytes": 107545,
+      "sha256": "c4d538beba21666c089ad4de1128d8368f2b86f5afa8f6ddc5238972d308b351"
+    },
+    {
+      "path": "analysis/D.json",
+      "bytes": 33983,
+      "sha256": "6a170fb22584f7f0294cee4f72ed25e1d02b8eabbba61554b6aed45e34a8a011"
+    },
+    {
+      "path": "analysis/directional_press.json",
+      "bytes": 107807,
+      "sha256": "d95e9dd2f710b5e0e30c7fdf3609828e789417c91228f4313566e65199f5af78"
+    },
+    {
+      "path": "analysis/E.json",
+      "bytes": 15169,
+      "sha256": "b1e4bade329fd9ae8ffd5a6af56d379c85fde687253d7cb3f4d82cdfe3fc66c7"
+    },
+    {
+      "path": "analysis/F.json",
+      "bytes": 1470,
+      "sha256": "48c2f8fb1f9fb66430e3928e52110d832382e2010ddb6c9f01aa495bffaa9e57"
+    },
+    {
+      "path": "analysis/filter_results.json",
+      "bytes": 19575,
+      "sha256": "f2415369d5e0a5046157628cbb3c931d82d78c187ad6bb560af9a18c78fc4338"
+    },
+    {
+      "path": "analysis/G1000_check.json",
+      "bytes": 2121,
+      "sha256": "f83e67ed23db44982b40cbdda2f9ad3f39c012e89e5757ae7c115d27a75b9762"
+    },
+    {
+      "path": "analysis/G774.json",
+      "bytes": 27192,
+      "sha256": "08671b29a5e16ea7d1cea58ca3dd37ea3b7d2f3702da141d21c744206933e55b"
+    },
+    {
+      "path": "analysis/G_three_hour.json",
+      "bytes": 180718,
+      "sha256": "cd9c82340f71c7e3ba960e3ece5c20071dcb68165c1f1d2f4f080268a3c40907"
+    },
+    {
+      "path": "analysis/H.json",
+      "bytes": 36995,
+      "sha256": "11db31fb9d83de3ac31cc189535f75f9cf78e40bd9b3469016616f36fe94df25"
+    },
+    {
+      "path": "analysis/manual_15a216a084594cd28d0df6cc6a5b0010.json",
+      "bytes": 8193,
+      "sha256": "04c6ece586494a2ab750cee471843dffefa4bcb6f8ac0747e7c25dc187f46c9f"
+    },
+    {
+      "path": "analysis/manual_66c0b8ea13c5411b95ba2c51c7ca6e9c.json",
+      "bytes": 32202,
+      "sha256": "55d808f90c6df71b66dc78fcf2f8fe3f24b9c114b4758865f37baf19ed7c1c83"
+    },
+    {
+      "path": "analysis/Nextion.json",
+      "bytes": 2640,
+      "sha256": "80629ec87754bf4519707b4c465e6f49228702cb7afe50c49ed03c0bb74fd02b"
+    },
+    {
+      "path": "analysis/R_range.json",
+      "bytes": 4863,
+      "sha256": "ad3b6edd4f9bdd5b049a13798c8043b85bacfb0127027c735f81c30746dc44f9"
+    },
+    {
+      "path": "analysis/R_small.json",
+      "bytes": 15233,
+      "sha256": "bff1277f86f33db48ba79683300619fea4e8eba03b67621d3782e45b8469eb7c"
+    },
+    {
+      "path": "analysis/reference_scale_check.csv",
+      "bytes": 203,
+      "sha256": "615063dadb33d1b8a251042c841cbe15d01d77da33d3714449f5b133962b16bf"
+    },
+    {
+      "path": "analysis/secondary_analyses.json",
+      "bytes": 80341,
+      "sha256": "eecfb566eaf8b76a2ef49af6d3b7db3f25318cd87abaa6d634af2aeb56f61dc7"
+    },
+    {
+      "path": "analysis/stability.json",
+      "bytes": 2938,
+      "sha256": "3f4310b7c28ab94202b4fbb6bb6c5db21cbf1ede0e83e03928f8895af73f76cf"
+    },
+    {
+      "path": "analysis/static_windows.json",
+      "bytes": 40516,
+      "sha256": "ebc6de97b024a913c98dd8eae1692a882094c71afed9853b8da9a362e0d259a7"
+    },
+    {
+      "path": "analysis/T.json",
+      "bytes": 132417,
+      "sha256": "4630f3258ef3ff25a75e83aac92c1a759a28c0bf408d0e40e8076d8e81a3d2e7"
+    },
+    {
+      "path": "analysis/T_quadratic.json",
+      "bytes": 11743,
+      "sha256": "40786ab5c12acb768747e602b241a9f7396dbdf0ee5d4ba7afa8fef66d5921dd"
+    },
+    {
+      "path": "bootstrap_settings.py",
+      "bytes": 321,
+      "sha256": "2fbe6f33efda36923fce50d443a7fb31fc74893dae5a190af9dca7e51f1a10d5"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 504,
+      "sha256": "abdd6805c9099e28d78afb2ab5dabba5d4de84a7c112a0827ed53252a43fc41a"
+    },
+    {
+      "path": "data_access.py",
+      "bytes": 513,
+      "sha256": "e1f6753a941f4744a7369b27e42d6113d2240f70fd8746fc59afe11f3d988249"
+    },
+    {
+      "path": "DATA_DICTIONARY.md",
+      "bytes": 3360,
+      "sha256": "4e853e01ae8d8806a3444d47246e5ca1313f89cc74015f88b142bfc377480b91"
+    },
+    {
+      "path": "DATA_LICENSE.md",
+      "bytes": 857,
+      "sha256": "b0bdd4ed1b7cd14e65f9612a4af58e74ab97e4f267f66b968b129e741def446c"
+    },
+    {
+      "path": "firmware/hx711_reference/hx711_reference.ino",
+      "bytes": 3339,
+      "sha256": "25cc7efc8c86d735b9a83b2fa092251da1b71a9160e93adf03ca46ac50ef086b"
+    },
+    {
+      "path": "firmware/README.md",
+      "bytes": 3000,
+      "sha256": "bb7f438bae3ad42e8ac8b51d0e2d350012f69bf88e971f77a1e242fc9c96818b"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/binaries/hall_pilot.bin",
+      "bytes": 20504,
+      "sha256": "848d1033215465772fe781f51de5e7277d063a03a766ccc023ad93e83274efe8"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/binaries/hall_pilot.hex",
+      "bytes": 57764,
+      "sha256": "f06e8b77ac82c69aa7ed9e524a30d3c849208fd968fa97cf280cb21f5fe64d0c"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/build.py",
+      "bytes": 6252,
+      "sha256": "e6621745a2699a31a256bd353c68bb7ff92864066f5e638984508fafeda7b73a"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Inc/main.h",
+      "bytes": 2072,
+      "sha256": "a84d4b01b5d7396366c44f631c3d954cfeaebe6f4a1d10147944fa18caf63016"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Inc/nextion_pilot.h",
+      "bytes": 576,
+      "sha256": "6729994a4665fd98182bf36eadb11c38721a390be6b72df797ea65dbefcfc3b1"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Inc/nn_model.h",
+      "bytes": 8566,
+      "sha256": "6cb2e4e88c7396ea963d80d6399f1584ce352f7b99b47dc41678dc06e8bdf8fa"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Inc/pilot.h",
+      "bytes": 188,
+      "sha256": "4f2eede787738c5a1db3258478227cb11bd3b121eccc471a9dcaa84be6d2be3f"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Inc/pilot_config.h",
+      "bytes": 1209,
+      "sha256": "00a17dbc1d12877b2c8f93b86324f344188ecd5cfedc402aa77dcf0715e690eb"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Inc/stm32f1xx_hal_conf.h",
+      "bytes": 15720,
+      "sha256": "893875a674fe0758d1b25688c8698045e9b789446b0a86d9e3d948ad0696c93e"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Inc/stm32f1xx_it.h",
+      "bytes": 1926,
+      "sha256": "06681c580fcb7b92162424bbbf22167c326f5d68a2f08b884fbb950221e24dd0"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Inc/temperature.h",
+      "bytes": 1060,
+      "sha256": "77b01e7cbc9b58167928914d86e2c1cfee493a989f7ca02f7d867922ffbcdcda"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Src/main.c",
+      "bytes": 19179,
+      "sha256": "1965026d41e4e4345147ea9fd2301498fa95bfaacac7277296e213aae0f3ae91"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Src/nextion_pilot.c",
+      "bytes": 7533,
+      "sha256": "f9db8a6d9aff12395d282786f570957f2f30194a20abad3cd14504b95677057c"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Src/pilot.c",
+      "bytes": 14919,
+      "sha256": "36174b701c74c6bd55256edd73e78f9fd605a71b755fc1a533fc58fe3ef03478"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Src/stm32f1xx_hal_msp.c",
+      "bytes": 6585,
+      "sha256": "856cc6214cb0b9f22bbb5c81221b87359cf7382209212bba20e19fc0fe3238b3"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Src/stm32f1xx_it.c",
+      "bytes": 5408,
+      "sha256": "d2787d0f161bf514f80a74ff91acf21e50f01262a95658164042121a343a3a4e"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Src/syscalls.c",
+      "bytes": 2847,
+      "sha256": "b993ebb4f882e8be21cec8d95983655a0caf4f0eb11348f20f6371f5a5031717"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Src/sysmem.c",
+      "bytes": 2726,
+      "sha256": "c41145817cc20abd8881c38851745d6e509e5f8c44a5179b125d108e51d1d432"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Src/system_stm32f1xx.c",
+      "bytes": 14575,
+      "sha256": "6f13b57054f33b4dcb8f3f23fa05b2942d9dca8abd9a2a08ecde6f99693505a5"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Src/temperature.c",
+      "bytes": 5611,
+      "sha256": "ba7b8c5718bda68fd6199c12510dda11edf7ee55e0fa1a9bb44073a7db7a6126"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Src/temperature_wire.c",
+      "bytes": 1603,
+      "sha256": "009a6bc2a847b5c5fd7b599953f81828c561d40fca04dfd5bf0ef3a230cf187f"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Core/Startup/startup_stm32f103c8tx.s",
+      "bytes": 9725,
+      "sha256": "a9a5fc7ed5ff617527dd98b3092830f4d17ed4bf57c99eac2c53bdb514ce138c"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h",
+      "bytes": 842883,
+      "sha256": "d9c7c613d9fea74220892b4fbc3e80617493acad82a04bafadab2b4a7198399c"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h",
+      "bytes": 10110,
+      "sha256": "05e93fa3ddefb2e83d762b9ca4de36e3bba9cd8e9690400fe9f2c11fc0a3cef5"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h",
+      "bytes": 1758,
+      "sha256": "a54dfbb3480c672f532d472a6e84bcf34df6551771d2e9966c5a3503c676b6ab"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt",
+      "bytes": 369,
+      "sha256": "b616ef9c1ae02a5da902bc4a3efb48a8a3170308b30fc09bfda77ba712f49f95"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/cmsis_armcc.h",
+      "bytes": 28208,
+      "sha256": "57b8d88cd03152f60bf74de0149ec979ae20210d86ab06e837aa69c66f27d615"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/cmsis_armclang.h",
+      "bytes": 56497,
+      "sha256": "da29dbad3cf27f6c86437af6bd0b302e105210742ad7a602bea51b104f1661c9"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/cmsis_compiler.h",
+      "bytes": 9014,
+      "sha256": "cd3cbd1c771a5252827a14c75a12e7ed975f76b9fc1577d53a74ba0e7c1af6c3"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/cmsis_gcc.h",
+      "bytes": 62344,
+      "sha256": "8c16d51f7884a9fc07c5cbe6f2bcd24e5e092ddc519f71d36740c2d2e2ff6a27"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/cmsis_iccarm.h",
+      "bytes": 28414,
+      "sha256": "a600765888c69ee60cd2d01d77356902d4ae5fa98aa7e1d73703663c96b7f87a"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/cmsis_version.h",
+      "bytes": 1716,
+      "sha256": "280b9fc8739aefa878d47e68d7adbd4908a15f98ec193cdba1a4b514133f5c34"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/core_armv8mbl.h",
+      "bytes": 97995,
+      "sha256": "220d90f3f99126e656c31c32f099ff766b32cf487f7dd77388e4c9a78e1898c8"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/core_armv8mml.h",
+      "bytes": 168914,
+      "sha256": "825a8799d71f3fa29690b1597dfc2dfb660b103d44e20b8185f26b4f3b4ffdf0"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/core_cm0.h",
+      "bytes": 42208,
+      "sha256": "1beaa04c859225f75142d055e9c5dacfc9ac1d88c82934177f745b9c5f3f4094"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/core_cm0plus.h",
+      "bytes": 50464,
+      "sha256": "c953256e1c1b1cd6accbbfca5d47c09a9b0534f3147b125e17e59c0ae6c30ed7"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/core_cm1.h",
+      "bytes": 43456,
+      "sha256": "460281028a261740cd5ec86840bed01c480d70ba5b54a0f9938d4cefadfd486b"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/core_cm23.h",
+      "bytes": 104628,
+      "sha256": "6303efec943ca0f9eccdab8fc39200d6f95dc943d4051198e0d49f24395028a5"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/core_cm3.h",
+      "bytes": 111854,
+      "sha256": "368296087a925cf78133d27e0854d748605441915e0f4fece93f2f97eea68adb"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/core_cm33.h",
+      "bytes": 175600,
+      "sha256": "7f1b6a76b119e1e1680f756da897929f63d98133442c5115678af60adf20f1a8"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/core_cm4.h",
+      "bytes": 123607,
+      "sha256": "738dff259c25e68ed2529baf425315d8dae1af5dac6c11b66bfdef82e78e86c9"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/core_cm7.h",
+      "bytes": 148588,
+      "sha256": "6b75e3bef1eb81e0d3e2c311ad26fcdbac4cde2cd3462a62b81a23f6aec0e55f"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/core_sc000.h",
+      "bytes": 47249,
+      "sha256": "d1528d13fbf91da620ef977e99802d83ded093c0521c04cad128da23e3001524"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/core_sc300.h",
+      "bytes": 110523,
+      "sha256": "fa514ea0cf5327b0523c2bdfebfb76fd2e69f972e5f60fbfb94ade56b31c722b"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/mpu_armv7.h",
+      "bytes": 11711,
+      "sha256": "b0b6da4ec744b5f547a94e60e24b0a6ff6bb7307d3f81a83d0b7c3a64dc29326"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/mpu_armv8.h",
+      "bytes": 10958,
+      "sha256": "8280a1d4d3d25f60cdc05b84718cf504f02b7265fc3b7c5790cb29cd7dcf116c"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/Include/tz_context.h",
+      "bytes": 2757,
+      "sha256": "7fcc21fc190f6fd970390e9caaa6a86d72fd10f9edf4efab36f12aecf1a8baa0"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/CMSIS/LICENSE.txt",
+      "bytes": 11558,
+      "sha256": "e03ba41d7fab20700769fe4118bab50d800cb74f990353a05d2f5fff1c228363"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h",
+      "bytes": 237664,
+      "sha256": "583cd8373bde87cbf384a9153b7c8ba9c456139baebb248bffe7116c926e2286"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h",
+      "bytes": 11091,
+      "sha256": "cc3851d46bc92478fe355f8b1fedd013deaa70da5e8e4136ce5cbb2536519803"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h",
+      "bytes": 52554,
+      "sha256": "2d9b47cc8d9700a82289829e6f7aebb882924e424820fb8f3f50fac54c640f06"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h",
+      "bytes": 46893,
+      "sha256": "fa07219917a8e7a10c921e90778598e84cd884855dce3bff865354e9c0acdc22"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h",
+      "bytes": 17067,
+      "sha256": "11ef612e231958eb9f3d4f825cda6bed35bd482996ecbf51f34b5ee7d84371f7"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h",
+      "bytes": 7425,
+      "sha256": "377e7fc68715cfb6d09715e9d77bd5cee09e79f00479f502d3191016c3c388dd"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h",
+      "bytes": 17754,
+      "sha256": "22cbcbf02ef1867f0d9bbf28c600c9aeb71a7d221608449ae64cb48339687928"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h",
+      "bytes": 12389,
+      "sha256": "1b09d5229c87587ab894fc3237182a7027b1672a20433b9659433fb978e459f3"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h",
+      "bytes": 11814,
+      "sha256": "745bd5b830259f613d116286a445d18c26677a72170117f2b35b7e0607fd563c"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h",
+      "bytes": 8820,
+      "sha256": "fc9d0c2df0c277cbcb37a5baca8e0b6f112e4c7e879dc753b62aa9095732fff5"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h",
+      "bytes": 36013,
+      "sha256": "6bdda70eea1f54de098cf7033091c1d367e40043e3e0759ec08700718d38ab35"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h",
+      "bytes": 11876,
+      "sha256": "3ae8ac366a2a55952fc4bada166e88f6d15fb884492048191f267f79ffa73d44"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h",
+      "bytes": 36048,
+      "sha256": "769eb507539209ec99906cb586e60c760c96ffcede2754e5c43717404e3f18de"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h",
+      "bytes": 11533,
+      "sha256": "1353dc09e32e7e6ec686b725b80981a9286c7e8b5383f8f4259f672470d481c3"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h",
+      "bytes": 66691,
+      "sha256": "8bf099bedb0c4fa035df81520f99e289464293b27e71d7e8759c8d5160ce8ac1"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h",
+      "bytes": 99301,
+      "sha256": "ed9ac1b6349ed0989367a1daa82819390dcefec0f6cef6fa432e09b2c9ea0adc"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h",
+      "bytes": 45654,
+      "sha256": "949edfcd2021d8c73c5eb36d5cc1fb995b6f7a19fc084121b340c7502d33c135"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h",
+      "bytes": 228411,
+      "sha256": "fe109e162ec888be59a63f8a0e424c53d98f18ea0066ab55cb6851b7005fa9ee"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h",
+      "bytes": 45017,
+      "sha256": "6680693a685a8ed0d09d9c6901328ac23bb207ecc9d68e9521b66cf09c8f75a8"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h",
+      "bytes": 24204,
+      "sha256": "e46032e4e08ce856c204f91f28018dc4ac59f4b8ea24e3bf0f5a609a4ba7bb32"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h",
+      "bytes": 76231,
+      "sha256": "1a0eba87b8820b996098d1be8d09ab3df996845cf1c1fa5b536cbf6bce8fe16d"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h",
+      "bytes": 31206,
+      "sha256": "9f816072941e79763cbc048fe03bf803fd81bf0a0ade876d74a49be8620bfde5"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h",
+      "bytes": 90429,
+      "sha256": "d2fe5810dc0640bfc6f10be30162425d6b0004444bc40cb5d62257b6f21338fe"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h",
+      "bytes": 12582,
+      "sha256": "4e706bc7ad93abf9e67433d7c46abf777e74d9036fa03a16380348c118b8c998"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h",
+      "bytes": 83977,
+      "sha256": "8f9653c499ac50a5d874c2606091b1a2fbed71aae7d25e70d9d518337d7922ed"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h",
+      "bytes": 23460,
+      "sha256": "5506acce915aad3a1d0a93f17a07eb2c26c731808dc77c28014eef081c3824bb"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h",
+      "bytes": 99185,
+      "sha256": "8684e487827c318256ba7ae36841bd2c7fa2438c0cc5c8aa36b555f607873e77"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h",
+      "bytes": 8610,
+      "sha256": "decb7156d26dc56db7ed76c06c71533ca579905b80824b178749a03a2f224a1b"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt",
+      "bytes": 377,
+      "sha256": "d5a162f3eaf2b7b6762f00700017cae5695ebbdce7932fead8316448baafd9c1"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+      "bytes": 20257,
+      "sha256": "607343f969fce8d49111fe4d8d32001c9b289742408d0452ae49761034f39f01"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c",
+      "bytes": 91605,
+      "sha256": "dc65f89fdd6ee2ffb1b1303e5c7077502d5c0ec010681a20411e88673f670aee"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c",
+      "bytes": 51686,
+      "sha256": "131c5c1019f3c313b07a14dd5f68086ee225b4ba218af4b32867854bb67988c1"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+      "bytes": 19261,
+      "sha256": "21ccc3b54e45e62b278e7f32fd34533bb1e0f4105c7f47c9218ffa0801bfbddd"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+      "bytes": 27418,
+      "sha256": "9ec6e91366c9b27c64b93c4d31fb4636dbc830b055ec501dc728c34eff6900da"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c",
+      "bytes": 15048,
+      "sha256": "6f201feccce8c53717098109bd4d2b4a0894ce4334cd1d6cdd8d15d5e69a8eb6"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c",
+      "bytes": 29013,
+      "sha256": "cddd2adcf578c7d63fd27f55a6ef88f50540a3b65927dfc411c192900c127bb1"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c",
+      "bytes": 35761,
+      "sha256": "5e0631a9ce807629cc24d26effb6dba3b0e4eeca10e9d46ae9d5dc40fa1989da"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+      "bytes": 21479,
+      "sha256": "a2e12792c9d49eecdc567ab9fc1a49ed90723007f9579b702c28960dfd83e121"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+      "bytes": 4149,
+      "sha256": "5ec9f22de1b3ee82e8437b3ba52725f8f031cf9075848582a0a297d4d1176450"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c",
+      "bytes": 20744,
+      "sha256": "d7db81f800f7f41c942b485e2f3fe9a27f5b21def71830297ecb44f131d91e60"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+      "bytes": 48748,
+      "sha256": "5c64b13347aa70dd970f803331d3e106e915e13e2bb029d27c673cfba7cd394c"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+      "bytes": 29870,
+      "sha256": "2dc02facf7141e4a25ae5653287d7100adbc3847b8a25e3e00969927c2e727d5"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c",
+      "bytes": 135528,
+      "sha256": "0baff878faf8551e43ad63959f04bae08d61ee94e686e56a56cd97d02535c4d9"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/historical_build.json",
+      "bytes": 10998,
+      "sha256": "7edb03a48840542ecb15846eec3dd0e59eb6462ee3ce820266510c02a7841fde"
+    },
+    {
+      "path": "firmware/stm32/v0_4_0/STM32F103C8TX_FLASH.ld",
+      "bytes": 5307,
+      "sha256": "5db2ec1344877abc07c464a27fe75bf740c571183ab8df18cceb20ffedc1b391"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/binaries/hall_pilot.bin",
+      "bytes": 24208,
+      "sha256": "15c28a8b1a26b0256f63002792283549093ceb971572baa44797471db3771bc2"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/binaries/hall_pilot.hex",
+      "bytes": 68167,
+      "sha256": "39ea36b6603ab7948e56eac2fe8f8e439ff061d304a75a422ab7df1245f51000"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/build.py",
+      "bytes": 6642,
+      "sha256": "7fc4c61331d1b4ade3dd7231be0ce9046b03aa6c4d0cb90df46139c35779592a"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Inc/display_knots.h",
+      "bytes": 636,
+      "sha256": "575145fbf925f508b61a8dfb9cff6d8239ecb8ffe9872e65243de79002ab63ce"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Inc/display_mass.h",
+      "bytes": 680,
+      "sha256": "6d44ad032c187bcc426dd42eddff4b00275bbf20a78c988feaabdd485b9ee340"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Inc/main.h",
+      "bytes": 2072,
+      "sha256": "a84d4b01b5d7396366c44f631c3d954cfeaebe6f4a1d10147944fa18caf63016"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Inc/nextion_pilot.h",
+      "bytes": 607,
+      "sha256": "5224f7c350f36c41e019632cca0ddd7e23747df70df69c9a92a2961780bf8659"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Inc/nn_model.h",
+      "bytes": 8566,
+      "sha256": "6cb2e4e88c7396ea963d80d6399f1584ce352f7b99b47dc41678dc06e8bdf8fa"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Inc/pilot.h",
+      "bytes": 188,
+      "sha256": "4f2eede787738c5a1db3258478227cb11bd3b121eccc471a9dcaa84be6d2be3f"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Inc/pilot_config.h",
+      "bytes": 1209,
+      "sha256": "c9b95b11b1bc35ea2acb14c3c11bb4137d0a25d35fdccdd4e87a148921885db3"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Inc/stm32f1xx_hal_conf.h",
+      "bytes": 15720,
+      "sha256": "893875a674fe0758d1b25688c8698045e9b789446b0a86d9e3d948ad0696c93e"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Inc/stm32f1xx_it.h",
+      "bytes": 1926,
+      "sha256": "06681c580fcb7b92162424bbbf22167c326f5d68a2f08b884fbb950221e24dd0"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Inc/temperature.h",
+      "bytes": 1060,
+      "sha256": "77b01e7cbc9b58167928914d86e2c1cfee493a989f7ca02f7d867922ffbcdcda"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Src/display_mass.c",
+      "bytes": 2996,
+      "sha256": "d52db9bb6407699e84c1e7a10acba5b1f25af20f396ebe88304ef492285456e0"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Src/main.c",
+      "bytes": 19179,
+      "sha256": "1965026d41e4e4345147ea9fd2301498fa95bfaacac7277296e213aae0f3ae91"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Src/nextion_pilot.c",
+      "bytes": 7027,
+      "sha256": "0fb93e909b83549726470ffe81e1f33cbf65e085bea24c05b328ba7fc65ca9ed"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Src/pilot.c",
+      "bytes": 15770,
+      "sha256": "f2094a246c99dbcf7a21ef6a0d1611ec64c2a843651fd971673613c249c95f63"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Src/stm32f1xx_hal_msp.c",
+      "bytes": 6585,
+      "sha256": "856cc6214cb0b9f22bbb5c81221b87359cf7382209212bba20e19fc0fe3238b3"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Src/stm32f1xx_it.c",
+      "bytes": 5408,
+      "sha256": "d2787d0f161bf514f80a74ff91acf21e50f01262a95658164042121a343a3a4e"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Src/syscalls.c",
+      "bytes": 2847,
+      "sha256": "b993ebb4f882e8be21cec8d95983655a0caf4f0eb11348f20f6371f5a5031717"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Src/sysmem.c",
+      "bytes": 2726,
+      "sha256": "c41145817cc20abd8881c38851745d6e509e5f8c44a5179b125d108e51d1d432"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Src/system_stm32f1xx.c",
+      "bytes": 14575,
+      "sha256": "6f13b57054f33b4dcb8f3f23fa05b2942d9dca8abd9a2a08ecde6f99693505a5"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Src/temperature.c",
+      "bytes": 5611,
+      "sha256": "ba7b8c5718bda68fd6199c12510dda11edf7ee55e0fa1a9bb44073a7db7a6126"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Src/temperature_wire.c",
+      "bytes": 1603,
+      "sha256": "009a6bc2a847b5c5fd7b599953f81828c561d40fca04dfd5bf0ef3a230cf187f"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Core/Startup/startup_stm32f103c8tx.s",
+      "bytes": 9725,
+      "sha256": "a9a5fc7ed5ff617527dd98b3092830f4d17ed4bf57c99eac2c53bdb514ce138c"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/display_model.json",
+      "bytes": 1558,
+      "sha256": "803a626843bb398596ee5d62d9360f9e0003d3ae281c5811f9bc941e7e5336ac"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h",
+      "bytes": 842883,
+      "sha256": "d9c7c613d9fea74220892b4fbc3e80617493acad82a04bafadab2b4a7198399c"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h",
+      "bytes": 10110,
+      "sha256": "05e93fa3ddefb2e83d762b9ca4de36e3bba9cd8e9690400fe9f2c11fc0a3cef5"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h",
+      "bytes": 1758,
+      "sha256": "a54dfbb3480c672f532d472a6e84bcf34df6551771d2e9966c5a3503c676b6ab"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt",
+      "bytes": 369,
+      "sha256": "b616ef9c1ae02a5da902bc4a3efb48a8a3170308b30fc09bfda77ba712f49f95"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/cmsis_armcc.h",
+      "bytes": 28208,
+      "sha256": "57b8d88cd03152f60bf74de0149ec979ae20210d86ab06e837aa69c66f27d615"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/cmsis_armclang.h",
+      "bytes": 56497,
+      "sha256": "da29dbad3cf27f6c86437af6bd0b302e105210742ad7a602bea51b104f1661c9"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/cmsis_compiler.h",
+      "bytes": 9014,
+      "sha256": "cd3cbd1c771a5252827a14c75a12e7ed975f76b9fc1577d53a74ba0e7c1af6c3"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/cmsis_gcc.h",
+      "bytes": 62344,
+      "sha256": "8c16d51f7884a9fc07c5cbe6f2bcd24e5e092ddc519f71d36740c2d2e2ff6a27"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/cmsis_iccarm.h",
+      "bytes": 28414,
+      "sha256": "a600765888c69ee60cd2d01d77356902d4ae5fa98aa7e1d73703663c96b7f87a"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/cmsis_version.h",
+      "bytes": 1716,
+      "sha256": "280b9fc8739aefa878d47e68d7adbd4908a15f98ec193cdba1a4b514133f5c34"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/core_armv8mbl.h",
+      "bytes": 97995,
+      "sha256": "220d90f3f99126e656c31c32f099ff766b32cf487f7dd77388e4c9a78e1898c8"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/core_armv8mml.h",
+      "bytes": 168914,
+      "sha256": "825a8799d71f3fa29690b1597dfc2dfb660b103d44e20b8185f26b4f3b4ffdf0"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/core_cm0.h",
+      "bytes": 42208,
+      "sha256": "1beaa04c859225f75142d055e9c5dacfc9ac1d88c82934177f745b9c5f3f4094"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/core_cm0plus.h",
+      "bytes": 50464,
+      "sha256": "c953256e1c1b1cd6accbbfca5d47c09a9b0534f3147b125e17e59c0ae6c30ed7"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/core_cm1.h",
+      "bytes": 43456,
+      "sha256": "460281028a261740cd5ec86840bed01c480d70ba5b54a0f9938d4cefadfd486b"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/core_cm23.h",
+      "bytes": 104628,
+      "sha256": "6303efec943ca0f9eccdab8fc39200d6f95dc943d4051198e0d49f24395028a5"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/core_cm3.h",
+      "bytes": 111854,
+      "sha256": "368296087a925cf78133d27e0854d748605441915e0f4fece93f2f97eea68adb"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/core_cm33.h",
+      "bytes": 175600,
+      "sha256": "7f1b6a76b119e1e1680f756da897929f63d98133442c5115678af60adf20f1a8"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/core_cm4.h",
+      "bytes": 123607,
+      "sha256": "738dff259c25e68ed2529baf425315d8dae1af5dac6c11b66bfdef82e78e86c9"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/core_cm7.h",
+      "bytes": 148588,
+      "sha256": "6b75e3bef1eb81e0d3e2c311ad26fcdbac4cde2cd3462a62b81a23f6aec0e55f"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/core_sc000.h",
+      "bytes": 47249,
+      "sha256": "d1528d13fbf91da620ef977e99802d83ded093c0521c04cad128da23e3001524"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/core_sc300.h",
+      "bytes": 110523,
+      "sha256": "fa514ea0cf5327b0523c2bdfebfb76fd2e69f972e5f60fbfb94ade56b31c722b"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/mpu_armv7.h",
+      "bytes": 11711,
+      "sha256": "b0b6da4ec744b5f547a94e60e24b0a6ff6bb7307d3f81a83d0b7c3a64dc29326"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/mpu_armv8.h",
+      "bytes": 10958,
+      "sha256": "8280a1d4d3d25f60cdc05b84718cf504f02b7265fc3b7c5790cb29cd7dcf116c"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/Include/tz_context.h",
+      "bytes": 2757,
+      "sha256": "7fcc21fc190f6fd970390e9caaa6a86d72fd10f9edf4efab36f12aecf1a8baa0"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/CMSIS/LICENSE.txt",
+      "bytes": 11558,
+      "sha256": "e03ba41d7fab20700769fe4118bab50d800cb74f990353a05d2f5fff1c228363"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h",
+      "bytes": 237664,
+      "sha256": "583cd8373bde87cbf384a9153b7c8ba9c456139baebb248bffe7116c926e2286"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h",
+      "bytes": 11091,
+      "sha256": "cc3851d46bc92478fe355f8b1fedd013deaa70da5e8e4136ce5cbb2536519803"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h",
+      "bytes": 52554,
+      "sha256": "2d9b47cc8d9700a82289829e6f7aebb882924e424820fb8f3f50fac54c640f06"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h",
+      "bytes": 46893,
+      "sha256": "fa07219917a8e7a10c921e90778598e84cd884855dce3bff865354e9c0acdc22"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h",
+      "bytes": 17067,
+      "sha256": "11ef612e231958eb9f3d4f825cda6bed35bd482996ecbf51f34b5ee7d84371f7"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h",
+      "bytes": 7425,
+      "sha256": "377e7fc68715cfb6d09715e9d77bd5cee09e79f00479f502d3191016c3c388dd"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h",
+      "bytes": 17754,
+      "sha256": "22cbcbf02ef1867f0d9bbf28c600c9aeb71a7d221608449ae64cb48339687928"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h",
+      "bytes": 12389,
+      "sha256": "1b09d5229c87587ab894fc3237182a7027b1672a20433b9659433fb978e459f3"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h",
+      "bytes": 11814,
+      "sha256": "745bd5b830259f613d116286a445d18c26677a72170117f2b35b7e0607fd563c"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h",
+      "bytes": 8820,
+      "sha256": "fc9d0c2df0c277cbcb37a5baca8e0b6f112e4c7e879dc753b62aa9095732fff5"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h",
+      "bytes": 36013,
+      "sha256": "6bdda70eea1f54de098cf7033091c1d367e40043e3e0759ec08700718d38ab35"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h",
+      "bytes": 11876,
+      "sha256": "3ae8ac366a2a55952fc4bada166e88f6d15fb884492048191f267f79ffa73d44"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h",
+      "bytes": 36048,
+      "sha256": "769eb507539209ec99906cb586e60c760c96ffcede2754e5c43717404e3f18de"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h",
+      "bytes": 11533,
+      "sha256": "1353dc09e32e7e6ec686b725b80981a9286c7e8b5383f8f4259f672470d481c3"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h",
+      "bytes": 66691,
+      "sha256": "8bf099bedb0c4fa035df81520f99e289464293b27e71d7e8759c8d5160ce8ac1"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h",
+      "bytes": 99301,
+      "sha256": "ed9ac1b6349ed0989367a1daa82819390dcefec0f6cef6fa432e09b2c9ea0adc"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h",
+      "bytes": 45654,
+      "sha256": "949edfcd2021d8c73c5eb36d5cc1fb995b6f7a19fc084121b340c7502d33c135"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h",
+      "bytes": 228411,
+      "sha256": "fe109e162ec888be59a63f8a0e424c53d98f18ea0066ab55cb6851b7005fa9ee"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h",
+      "bytes": 45017,
+      "sha256": "6680693a685a8ed0d09d9c6901328ac23bb207ecc9d68e9521b66cf09c8f75a8"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h",
+      "bytes": 24204,
+      "sha256": "e46032e4e08ce856c204f91f28018dc4ac59f4b8ea24e3bf0f5a609a4ba7bb32"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h",
+      "bytes": 76231,
+      "sha256": "1a0eba87b8820b996098d1be8d09ab3df996845cf1c1fa5b536cbf6bce8fe16d"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h",
+      "bytes": 31206,
+      "sha256": "9f816072941e79763cbc048fe03bf803fd81bf0a0ade876d74a49be8620bfde5"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h",
+      "bytes": 90429,
+      "sha256": "d2fe5810dc0640bfc6f10be30162425d6b0004444bc40cb5d62257b6f21338fe"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h",
+      "bytes": 12582,
+      "sha256": "4e706bc7ad93abf9e67433d7c46abf777e74d9036fa03a16380348c118b8c998"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h",
+      "bytes": 83977,
+      "sha256": "8f9653c499ac50a5d874c2606091b1a2fbed71aae7d25e70d9d518337d7922ed"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h",
+      "bytes": 23460,
+      "sha256": "5506acce915aad3a1d0a93f17a07eb2c26c731808dc77c28014eef081c3824bb"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h",
+      "bytes": 99185,
+      "sha256": "8684e487827c318256ba7ae36841bd2c7fa2438c0cc5c8aa36b555f607873e77"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h",
+      "bytes": 8610,
+      "sha256": "decb7156d26dc56db7ed76c06c71533ca579905b80824b178749a03a2f224a1b"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt",
+      "bytes": 377,
+      "sha256": "d5a162f3eaf2b7b6762f00700017cae5695ebbdce7932fead8316448baafd9c1"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+      "bytes": 20257,
+      "sha256": "607343f969fce8d49111fe4d8d32001c9b289742408d0452ae49761034f39f01"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c",
+      "bytes": 91605,
+      "sha256": "dc65f89fdd6ee2ffb1b1303e5c7077502d5c0ec010681a20411e88673f670aee"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c",
+      "bytes": 51686,
+      "sha256": "131c5c1019f3c313b07a14dd5f68086ee225b4ba218af4b32867854bb67988c1"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+      "bytes": 19261,
+      "sha256": "21ccc3b54e45e62b278e7f32fd34533bb1e0f4105c7f47c9218ffa0801bfbddd"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+      "bytes": 27418,
+      "sha256": "9ec6e91366c9b27c64b93c4d31fb4636dbc830b055ec501dc728c34eff6900da"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c",
+      "bytes": 15048,
+      "sha256": "6f201feccce8c53717098109bd4d2b4a0894ce4334cd1d6cdd8d15d5e69a8eb6"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c",
+      "bytes": 29013,
+      "sha256": "cddd2adcf578c7d63fd27f55a6ef88f50540a3b65927dfc411c192900c127bb1"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c",
+      "bytes": 35761,
+      "sha256": "5e0631a9ce807629cc24d26effb6dba3b0e4eeca10e9d46ae9d5dc40fa1989da"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+      "bytes": 21479,
+      "sha256": "a2e12792c9d49eecdc567ab9fc1a49ed90723007f9579b702c28960dfd83e121"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+      "bytes": 4149,
+      "sha256": "5ec9f22de1b3ee82e8437b3ba52725f8f031cf9075848582a0a297d4d1176450"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c",
+      "bytes": 20744,
+      "sha256": "d7db81f800f7f41c942b485e2f3fe9a27f5b21def71830297ecb44f131d91e60"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+      "bytes": 48748,
+      "sha256": "5c64b13347aa70dd970f803331d3e106e915e13e2bb029d27c673cfba7cd394c"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+      "bytes": 29870,
+      "sha256": "2dc02facf7141e4a25ae5653287d7100adbc3847b8a25e3e00969927c2e727d5"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c",
+      "bytes": 135528,
+      "sha256": "0baff878faf8551e43ad63959f04bae08d61ee94e686e56a56cd97d02535c4d9"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/historical_build.json",
+      "bytes": 11299,
+      "sha256": "11c94e37b4396dac8a03e90e01ab73a4e4c436ab9f5671c540c0f3e3f3deab3e"
+    },
+    {
+      "path": "firmware/stm32/v0_5_0/STM32F103C8TX_FLASH.ld",
+      "bytes": 5307,
+      "sha256": "5db2ec1344877abc07c464a27fe75bf740c571183ab8df18cceb20ffedc1b391"
+    },
+    {
+      "path": "force_analysis/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "force_analysis/io.py",
+      "bytes": 1555,
+      "sha256": "329da2164e6aca78a91baeb1dffe3112e660f683fa3f16d28ce3e2bff356ee3d"
+    },
+    {
+      "path": "force_analysis/models.py",
+      "bytes": 9352,
+      "sha256": "fa4bae3f6f1a3008dd2c96076d4e3f8529722f2711c087d49e6b2aa02a698f6e"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1130,
+      "sha256": "de21a4d8f4177376c380a87cf2d91303396dbb1c89eb907be2665e69b62f706c"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "models/additional_channels/S1_cubic.json",
+      "bytes": 1245,
+      "sha256": "eef6a1085d03a2368ea31db980d8bc95085bf6ddecd1e018977d684a8669741f"
+    },
+    {
+      "path": "models/additional_channels/S1_S2_S3_S4_cubic.json",
+      "bytes": 1226,
+      "sha256": "35e09faea44b3664cf0204d2e47a23ac48a96f7f32d3f965a9612d60125fe37a"
+    },
+    {
+      "path": "models/additional_channels/S1_S2_S3_S4_interpolation.json",
+      "bytes": 1558,
+      "sha256": "6ef2bfa3b9258a531d4a0924a1ddb9d467d425edeef4e7a8592f75e7cad57a0a"
+    },
+    {
+      "path": "models/additional_channels/S1_S3_cubic.json",
+      "bytes": 1228,
+      "sha256": "c45d4b25fefe76e423071e23ffacc89ab17e9e3cd0563443c091776eb5f470f9"
+    },
+    {
+      "path": "models/additional_channels/S1_S3_interpolation.json",
+      "bytes": 1558,
+      "sha256": "19a6e4a2eb364c15f7dce0523a7e853a901cd7b44c8a0ed50106310a5adbbd48"
+    },
+    {
+      "path": "models/additional_channels/S2_cubic.json",
+      "bytes": 1241,
+      "sha256": "244aca1b401d1679df6d8e31229ee8cc2d2e682ec9ac1050b0cca7ff91bb53b8"
+    },
+    {
+      "path": "models/additional_channels/S2_S4_cubic.json",
+      "bytes": 1229,
+      "sha256": "75b5b517c00ba87018bf19c3ee4e376003881f29e5e56d86e03390e68a52d256"
+    },
+    {
+      "path": "models/additional_channels/S2_S4_interpolation.json",
+      "bytes": 1559,
+      "sha256": "7a51611de512fff2c72e7caf9444c34324a341091f2736763b2db7b502305604"
+    },
+    {
+      "path": "models/additional_channels/S3_cubic.json",
+      "bytes": 1228,
+      "sha256": "af6f3b1637224b1e95439d164c8c5b3f5f700026f8b826b735e614f42e9eee52"
+    },
+    {
+      "path": "models/additional_channels/S3_interpolation.json",
+      "bytes": 1561,
+      "sha256": "2268ca203b15c9686a7f701cc9a34fe0aa7defc6038328f8326fe4976a35fce7"
+    },
+    {
+      "path": "models/additional_channels/S4_cubic.json",
+      "bytes": 1227,
+      "sha256": "0431418efd76271e1fca7002b4f534bb8567563e22d9b0d3b0c5759abd04e21c"
+    },
+    {
+      "path": "models/additional_channels/S4_interpolation.json",
+      "bytes": 1557,
+      "sha256": "85f00cdb308a0f8e7b0cda67e8f0ee21c5a87676d50256813a693ff05ef055fa"
+    },
+    {
+      "path": "models/H_loadcell.json",
+      "bytes": 4974,
+      "sha256": "2f416d08e4008985546b5466d6b1fb0e71cfe10e5ef2175055e0fabe39ac7d7a"
+    },
+    {
+      "path": "models/S1_cubic.json",
+      "bytes": 1245,
+      "sha256": "e81e32e87cae0b8bccfc9ca767c3528399897312da9418de116fc423eb45c1cc"
+    },
+    {
+      "path": "models/S1_linear.json",
+      "bytes": 1169,
+      "sha256": "1340932da0c4a3c7bdb936df53c47889797fe61d46fd17499b036e3bce48450f"
+    },
+    {
+      "path": "models/S1_mlp8.json",
+      "bytes": 2002,
+      "sha256": "57ce4b27d121012a123a7f3732c64b22a13f6f9eacbcde5d434f271aedf57275"
+    },
+    {
+      "path": "models/S1_S2_S3_S4_cubic.json",
+      "bytes": 1226,
+      "sha256": "cec46d24f43d9c423f4959a10b05594c0e836329df5fbfb95404fda8d525c08b"
+    },
+    {
+      "path": "models/S1_S2_S3_S4_interpolation.json",
+      "bytes": 1558,
+      "sha256": "803a626843bb398596ee5d62d9360f9e0003d3ae281c5811f9bc941e7e5336ac"
+    },
+    {
+      "path": "models/S1_S2_S3_S4_linear.json",
+      "bytes": 1137,
+      "sha256": "9b700ea8d01da63e5aa6113440f085bc882d5f7bce7ab91b493132c68c2093e1"
+    },
+    {
+      "path": "models/S1_S2_S3_S4_mlp8.json",
+      "bytes": 1986,
+      "sha256": "d2eec6621255f4b579bbd5e78dad648831b85002dce09ff0e2323f6cfc240880"
+    },
+    {
+      "path": "models/S1_S3_cubic.json",
+      "bytes": 1228,
+      "sha256": "cc564c20ad8c8d9cb1a1ceec32735d4fd51a4d762d4d3a76195eff6c07566677"
+    },
+    {
+      "path": "models/S1_S3_interpolation.json",
+      "bytes": 1558,
+      "sha256": "d34dd55fd4e5df28eac6ba7e92f2e35e68692094c6be4588985a6bccefdf78c3"
+    },
+    {
+      "path": "models/S1_S3_linear.json",
+      "bytes": 1137,
+      "sha256": "0df6844518e2510573f5d4a58363404d09e902f9ba63b679eb1340376bf45653"
+    },
+    {
+      "path": "models/S1_S3_mlp8.json",
+      "bytes": 1986,
+      "sha256": "1c4482dfef21aaee2c20ccb06606ebeb005f5f1a14f6e32dfa2ccae4b5486a2d"
+    },
+    {
+      "path": "protocols/directional_analysis_plan.json",
+      "bytes": 4475,
+      "sha256": "c8678fef2e19ec8aaa672b4366f145eab7dc67cdda0487b2f92138783965baed"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 379,
+      "sha256": "d336b1fe5814eace5c122496eb8aa4fac6e59b3ecee5eb615b200c770bd02ce6"
+    },
+    {
+      "path": "raw/01f08f9c47f9438482d61015505a85b8/samples.csv.gz",
+      "bytes": 33412,
+      "sha256": "02145423691de331297e0927aa175a202f5cde6d9fb33476f894c664cd072ce6"
+    },
+    {
+      "path": "raw/01f08f9c47f9438482d61015505a85b8/temperatures.csv.gz",
+      "bytes": 918,
+      "sha256": "489cfb6ec3ff20e4f29e917b17dedb08c2050ae99892b6713070cbb4bd62945f"
+    },
+    {
+      "path": "raw/0231e323e3d34f278c68fe1d57e18aef/samples.csv.gz",
+      "bytes": 34076,
+      "sha256": "8d1170c6d23a194c305a08bd82a8f79693074acbc1b48eb15a63066018afc279"
+    },
+    {
+      "path": "raw/0231e323e3d34f278c68fe1d57e18aef/temperatures.csv.gz",
+      "bytes": 911,
+      "sha256": "6cae635a916b8322b2ae9b5338dddfc54b0b7638103edc32ba74ae80d3bbcfd3"
+    },
+    {
+      "path": "raw/03c089ebf435459b8b86eb7fa19a3f6e/samples.csv.gz",
+      "bytes": 33394,
+      "sha256": "5fb8c56c1fe73cec6644a3ca33e5ee0e5df915ce7fcd1650363187af3a4f1ec4"
+    },
+    {
+      "path": "raw/03c089ebf435459b8b86eb7fa19a3f6e/temperatures.csv.gz",
+      "bytes": 912,
+      "sha256": "98d1c534b14de7bc2923f535e066aa75311f82c042d0fb1fd04b9f77c521fb4b"
+    },
+    {
+      "path": "raw/0526b9f7fde640c09595caf0af34ab72/samples.csv.gz",
+      "bytes": 34962,
+      "sha256": "7bd9fbfd07839dcf393619373deb8d11459307bed39a150ea1303dc89cc4c01e"
+    },
+    {
+      "path": "raw/0526b9f7fde640c09595caf0af34ab72/temperatures.csv.gz",
+      "bytes": 912,
+      "sha256": "cba265b62549d75fc1bddc19aed504b2675a1f9a534eaff01dc3426b4f32ee27"
+    },
+    {
+      "path": "raw/06082390b3aa4707b8e7af410901356b/samples.csv.gz",
+      "bytes": 11552,
+      "sha256": "a413b545edf03686954081d6c4914c63e4aeaf62ca7a8029bccb694fadbbed77"
+    },
+    {
+      "path": "raw/06593d274c5346dda84c66830c79f380/samples.csv.gz",
+      "bytes": 32528,
+      "sha256": "0d91d35b682f49784a8fb252d0b7c403ed6a9015aeede59ee872b7502fb9bb80"
+    },
+    {
+      "path": "raw/06593d274c5346dda84c66830c79f380/temperatures.csv.gz",
+      "bytes": 903,
+      "sha256": "0ed5ca9c63b33d3f2fcab7c06b9e67a65699fb02d26ad29e0c0f07150cdeab64"
+    },
+    {
+      "path": "raw/06618c8c352a456f83375d2d1af36561/samples.csv.gz",
+      "bytes": 32956,
+      "sha256": "eee5867adcdbed664aec1ba4eeb7ae6c14139a952dd9d13109a1adadad193350"
+    },
+    {
+      "path": "raw/06618c8c352a456f83375d2d1af36561/temperatures.csv.gz",
+      "bytes": 905,
+      "sha256": "e7a91eae4694201c89db12e32fc330492b2381f80aa137ff1c97072e6b0686b6"
+    },
+    {
+      "path": "raw/06a7ff710243461481290b5af2583635/samples.csv.gz",
+      "bytes": 3958,
+      "sha256": "64bc7c242202f9d3f1f7579f7461590cd4ef574268c6bc78047da2e2b7357f49"
+    },
+    {
+      "path": "raw/06d7b9a672f34386a452883c013d3e34/samples.csv.gz",
+      "bytes": 33036,
+      "sha256": "7bf9602a9750554fabbcc2686cebc100b0d99e2dd76276873cb009652554ad8d"
+    },
+    {
+      "path": "raw/06d7b9a672f34386a452883c013d3e34/temperatures.csv.gz",
+      "bytes": 911,
+      "sha256": "71e3d9694303f36ff4eac7eb6f98fc252df207eaeb98f601ebefb5fc2cfc604f"
+    },
+    {
+      "path": "raw/073e1d82954f4d659db2a3fedcf59746/samples.csv.gz",
+      "bytes": 32884,
+      "sha256": "80ad3642b3bfaf4bac2e1f3d35425cde15da46e096badaf5383de55005778d90"
+    },
+    {
+      "path": "raw/073e1d82954f4d659db2a3fedcf59746/temperatures.csv.gz",
+      "bytes": 899,
+      "sha256": "081ffeb6d73d788822ec95f762bdd00d4f356950aaef7012e4818068ded6abc6"
+    },
+    {
+      "path": "raw/07de74f4450b4bd6949e9f75df3b9393/samples.csv.gz",
+      "bytes": 32227,
+      "sha256": "92f388971aa142126d33e442d2f43364679cfd3a2e9e5dc9df46cfa566a84e79"
+    },
+    {
+      "path": "raw/07de74f4450b4bd6949e9f75df3b9393/temperatures.csv.gz",
+      "bytes": 918,
+      "sha256": "b13333cd2d57fa8308a7bb8cd5a9779faf6b8dadb3ee0b8a9e7af0ebd5ab3c1e"
+    },
+    {
+      "path": "raw/08af66d295674366ac18a52ed67261ed/samples.csv.gz",
+      "bytes": 1004693,
+      "sha256": "2b291fa9ce78040ab11b90a8b85272f694a06f7ecc7938fee9de006092b73a91"
+    },
+    {
+      "path": "raw/08af66d295674366ac18a52ed67261ed/temperatures.csv.gz",
+      "bytes": 22787,
+      "sha256": "f29f2da692f5be62a6c82178b8a5800fce28b73cc05690f1a1226848b5c1977a"
+    },
+    {
+      "path": "raw/08b52f304654488cafc40b500adf2d9d/samples.csv.gz",
+      "bytes": 33734,
+      "sha256": "f5372bd92b2bf725b648866e268eaf0d4b4005b82332e3624bf114b8e5b0dfc6"
+    },
+    {
+      "path": "raw/08b52f304654488cafc40b500adf2d9d/temperatures.csv.gz",
+      "bytes": 917,
+      "sha256": "2c47779f283260b2f05f57e7295b5d99c82efc9995d7f20d4e9c3be97c8b0def"
+    },
+    {
+      "path": "raw/09831a98514247c7b491bbf1d8e84fd1/samples.csv.gz",
+      "bytes": 34913,
+      "sha256": "9dfc578c280136bdc536d17b87362430d50dd79c07dfd78924ff86b12674d510"
+    },
+    {
+      "path": "raw/09831a98514247c7b491bbf1d8e84fd1/temperatures.csv.gz",
+      "bytes": 905,
+      "sha256": "f7829d2176cea4e74c8d4705cdf5d2673e2346ec2bb2822ef77bc3d888248d8b"
+    },
+    {
+      "path": "raw/0a9f35604f5441438a693f5089884682/samples.csv.gz",
+      "bytes": 3998,
+      "sha256": "6da2e9944d4e2ceaeb4cf93395ce12d261740a2ad13aa9ad930133383d3747c5"
+    },
+    {
+      "path": "raw/0b404c0bd8fa4326aac9486b224906a0/samples.csv.gz",
+      "bytes": 32497,
+      "sha256": "31dff187b79d00f566ad1bb3848fb6a279b9deb90902425c13750641725e6889"
+    },
+    {
+      "path": "raw/0b404c0bd8fa4326aac9486b224906a0/temperatures.csv.gz",
+      "bytes": 905,
+      "sha256": "212560b3008e9e83410c81bb9a7c44da90e5eb49b313758c9ab4597e150e5811"
+    },
+    {
+      "path": "raw/0c74255b0b214cf5b74c099573aba6a9/samples.csv.gz",
+      "bytes": 3961,
+      "sha256": "4c50b8989a485579bb733cf02fdb0f7c3ed00c7b12d43a88579aa336ec76b99f"
+    },
+    {
+      "path": "raw/0c9534921d5f4e1f8bb4a73333a194cd/samples.csv.gz",
+      "bytes": 32950,
+      "sha256": "60a9112690fe73f4e7b4ca08573b3a5b7c1dcbea636664851b2277de7b3c7aa9"
+    },
+    {
+      "path": "raw/0c9534921d5f4e1f8bb4a73333a194cd/temperatures.csv.gz",
+      "bytes": 900,
+      "sha256": "71177fc9cf41bc466d98f4b1a08fcbb5d402aed0dce5504bc861e3a822113133"
+    },
+    {
+      "path": "raw/0c9541c3bccc484cb9d0a9fc36f3b495/samples.csv.gz",
+      "bytes": 32642,
+      "sha256": "0017d53d5df0dbca15bbe5b2a3ec2199b6602896661efc1accdc673365690103"
+    },
+    {
+      "path": "raw/0c9541c3bccc484cb9d0a9fc36f3b495/temperatures.csv.gz",
+      "bytes": 937,
+      "sha256": "a370fb8c1dc0149b4f33afc8d289d36e178870712932c19e2e6e705e89da85b3"
+    },
+    {
+      "path": "raw/0db5d4782f0b48589f1696de52e68033/samples.csv.gz",
+      "bytes": 32994,
+      "sha256": "0020f49c8ca5ae1ee15a768a8d14ff0138ab8fbff7515804b3ff54936fdd6d51"
+    },
+    {
+      "path": "raw/0db5d4782f0b48589f1696de52e68033/temperatures.csv.gz",
+      "bytes": 925,
+      "sha256": "acdcdd371b177c39b7722460f6b2dc5701790ddf5770ea2d80bc84c33d71345a"
+    },
+    {
+      "path": "raw/0e2022a48c6447198f1f53b387d58736/samples.csv.gz",
+      "bytes": 32122,
+      "sha256": "a0dd71d82674252052744ea64b293569371b27c7411c9888ce01b6b89ff9faba"
+    },
+    {
+      "path": "raw/0e2022a48c6447198f1f53b387d58736/temperatures.csv.gz",
+      "bytes": 897,
+      "sha256": "b2732cb3be2e28f60c589f5bf73e033e6a31bc62891527a41e809d6f06107aa6"
+    },
+    {
+      "path": "raw/0e6d722553de431fa3a4e8dac3520bdb/samples.csv.gz",
+      "bytes": 33131,
+      "sha256": "392f5745b3ba95290cfdf157d7f351e16a30b0de0609317a501a81cab29b8fdf"
+    },
+    {
+      "path": "raw/0e6d722553de431fa3a4e8dac3520bdb/temperatures.csv.gz",
+      "bytes": 909,
+      "sha256": "8f64d6fef6215890d9206f9adace188d41b017bb432e92a4af1c989bd5690de7"
+    },
+    {
+      "path": "raw/0efc11b0c02943a8b184f766dc99043b/samples.csv.gz",
+      "bytes": 4058,
+      "sha256": "ace1e05e7f8d0450d049c91da1f3c774c87d3aaae64b07737f660125fc0659ad"
+    },
+    {
+      "path": "raw/0f2323c02fab4ba599060b4051e86698/samples.csv.gz",
+      "bytes": 33040,
+      "sha256": "82b20d95f557f29da17c225efd3c5e588fe97f76c57b677003717d776c5e9c8b"
+    },
+    {
+      "path": "raw/0f2323c02fab4ba599060b4051e86698/temperatures.csv.gz",
+      "bytes": 917,
+      "sha256": "80e310104876d1f6dc2482a7beff5bf6a405060b1716300021466bb0b5969c3d"
+    },
+    {
+      "path": "raw/0f9f6615b2d649ad8a329a9272fd968f/samples.csv.gz",
+      "bytes": 33104,
+      "sha256": "c244d54ccc0220e61f2d24549cf84e64f8be6ab71b8047546f0873ff60c62b5e"
+    },
+    {
+      "path": "raw/0f9f6615b2d649ad8a329a9272fd968f/temperatures.csv.gz",
+      "bytes": 911,
+      "sha256": "eff54a4365a6b751f14d248af74058fdab52a73666758a611cbe5328f9a7d202"
+    },
+    {
+      "path": "raw/10eec83df5d346c0859a7cf78f15e198/samples.csv.gz",
+      "bytes": 33222,
+      "sha256": "f52334915a193873fba049aa3d50971d33387a2a57e41b262aa42b6ebb80e2ba"
+    },
+    {
+      "path": "raw/10eec83df5d346c0859a7cf78f15e198/temperatures.csv.gz",
+      "bytes": 918,
+      "sha256": "14cad8677eef0e231a24c4526f8f57ad2122424ecdb522513926e8ba83a6e3a7"
+    },
+    {
+      "path": "raw/12eb7b5365834999a320c4f486ae3278/samples.csv.gz",
+      "bytes": 32887,
+      "sha256": "636e4681bacaae8e42f96ffe619c608704c0d118b88a95ac314693e995b18a8c"
+    },
+    {
+      "path": "raw/12eb7b5365834999a320c4f486ae3278/temperatures.csv.gz",
+      "bytes": 916,
+      "sha256": "262d1d71886fae67e5c5903a3adcbd27867f2cc92f072f4bb08af1fb4af2d4f0"
+    },
+    {
+      "path": "raw/131d7c42101e45a1902b9e600a735b11/samples.csv.gz",
+      "bytes": 33395,
+      "sha256": "e5f7f1365d1c59afa2361e2cd0e9845ba853c4de9f207ba3c37b0bcdb3dfca9f"
+    },
+    {
+      "path": "raw/131d7c42101e45a1902b9e600a735b11/temperatures.csv.gz",
+      "bytes": 916,
+      "sha256": "f399e5f6c12798881c99dd05dd7c92b38497d14f1ac5a850d20832b90857e003"
+    },
+    {
+      "path": "raw/13ac0924e7f9424f97e6d25d85f62534/samples.csv.gz",
+      "bytes": 35370,
+      "sha256": "a33ed98039bbadb29195a9819269b0ccc58583c29e340b3f4127a3f20e150631"
+    },
+    {
+      "path": "raw/13ac0924e7f9424f97e6d25d85f62534/temperatures.csv.gz",
+      "bytes": 907,
+      "sha256": "9a658076053dcb889ea8a40faaa991998f6a5da6f42f0a1fb59f6c15b3a420a1"
+    },
+    {
+      "path": "raw/13f90740a35d455f8f22b2c656e670ee/samples.csv.gz",
+      "bytes": 33703,
+      "sha256": "fdd8f0ce9ba903d9ede2e5859b89f4bd70c31652cae8ce417ee8ad89eedb90ec"
+    },
+    {
+      "path": "raw/13f90740a35d455f8f22b2c656e670ee/temperatures.csv.gz",
+      "bytes": 912,
+      "sha256": "8c2b4ba967a1c14289cca02d0d4ace7d9512947eed329e47f86181dbf9806e43"
+    },
+    {
+      "path": "raw/15a216a084594cd28d0df6cc6a5b0010/display.csv.gz",
+      "bytes": 4845,
+      "sha256": "4750c4ecff9c71e363f37bdc4b0d189a069e9b88d9e2a7fe504be82951956c2e"
+    },
+    {
+      "path": "raw/15a216a084594cd28d0df6cc6a5b0010/samples.csv.gz",
+      "bytes": 372524,
+      "sha256": "6628d26b55e1d81f0c16a183ee236bc801d44ca166600a81d0bbf496b455942a"
+    },
+    {
+      "path": "raw/15a216a084594cd28d0df6cc6a5b0010/temperatures.csv.gz",
+      "bytes": 8023,
+      "sha256": "306a80566d5453ecfef2d2d6577fb7e3b78be0e139c546f52821455ceec4b1b2"
+    },
+    {
+      "path": "raw/16bf35749e2f40c6b68e138bd2553cf4/samples.csv.gz",
+      "bytes": 32677,
+      "sha256": "8043c3f5f53d5d83e993e1e6187f39301851c45e1efd35ad3c6aa84bf97c13f3"
+    },
+    {
+      "path": "raw/16bf35749e2f40c6b68e138bd2553cf4/temperatures.csv.gz",
+      "bytes": 911,
+      "sha256": "40874aff0ea851a77022b04706bf9b1da7ca8bd6145611dae719df391f7c33d1"
+    },
+    {
+      "path": "raw/17e444da5d354ab4ad7ad3108d4198c4/samples.csv.gz",
+      "bytes": 3289031,
+      "sha256": "ce266ca2dbd08b7a686a632c54e746535d1e42cca8544fcb2f16d9a7e88f0b35"
+    },
+    {
+      "path": "raw/17e444da5d354ab4ad7ad3108d4198c4/temperatures.csv.gz",
+      "bytes": 73217,
+      "sha256": "3cb7bd0a70b14e6ec2bbc2ef32fc391d202a2a18ec8848e168c13eeebb2d93b5"
+    },
+    {
+      "path": "raw/1c01a66a1fe2463a872a5740a4c9cdf3/samples.csv.gz",
+      "bytes": 35533,
+      "sha256": "f4c638231eb6074fde33e07c3280131932129749fbef4bc2561e645ad4db7b26"
+    },
+    {
+      "path": "raw/1c01a66a1fe2463a872a5740a4c9cdf3/temperatures.csv.gz",
+      "bytes": 907,
+      "sha256": "44a1911f0c8d0bd45463ddb018028041b43a4798cb1dd2b42735f0f5224a337b"
+    },
+    {
+      "path": "raw/1d1bccf333ef4bc2ba0c740cadb2bb6e/samples.csv.gz",
+      "bytes": 33302,
+      "sha256": "78ec91c226d722ccf915cd9a0e88a93927c90caaa9a22a9a870b0ecf8bdb38cd"
+    },
+    {
+      "path": "raw/1d1bccf333ef4bc2ba0c740cadb2bb6e/temperatures.csv.gz",
+      "bytes": 926,
+      "sha256": "005f5bf45c7e1f2c59cb2009f6f975ec6feb0f25ef0c062c9bd560c367cc858e"
+    },
+    {
+      "path": "raw/1d74cc4b9b8f484a8b65c8fa7246900c/samples.csv.gz",
+      "bytes": 35419,
+      "sha256": "7055b631cdd4c73ce729c77c76f669ba987d6d806f172bc2d9803f1cbc072e9c"
+    },
+    {
+      "path": "raw/1d74cc4b9b8f484a8b65c8fa7246900c/temperatures.csv.gz",
+      "bytes": 911,
+      "sha256": "1cfacccf478f733ee85fde3107e68dec7be7650750144d8ac17570a5a578c516"
+    },
+    {
+      "path": "raw/1d7aa87de72f4dff878c27b61ccc1d2f/samples.csv.gz",
+      "bytes": 32679,
+      "sha256": "472db9042ef51f5dc9a952e2c34bce22e7f3185661a65f4d7a64d194d4f8d751"
+    },
+    {
+      "path": "raw/1d7aa87de72f4dff878c27b61ccc1d2f/temperatures.csv.gz",
+      "bytes": 912,
+      "sha256": "e4f102c2bec72f9068fbdb571d82ee946496c58b26546ff4e43f7e64514b8087"
+    },
+    {
+      "path": "raw/1db2d43f6bb0405494be3d109188729e/samples.csv.gz",
+      "bytes": 32249,
+      "sha256": "0cb4135e6869af0909755fd90076a4c6b0500d9b7df20005f5cb4b5338431c8e"
+    },
+    {
+      "path": "raw/1db2d43f6bb0405494be3d109188729e/temperatures.csv.gz",
+      "bytes": 900,
+      "sha256": "91b358bc53632c9b06e5fddf001e709fdb6b66ac998701674b7eecf5f0b0690e"
+    },
+    {
+      "path": "raw/1f08764330d14b7f8945cc703645f0a1/samples.csv.gz",
+      "bytes": 3992,
+      "sha256": "58013057bc645f2ff8b3e0f2e4e85e41f260efa1c7a88df3ce5b303ad298c0cd"
+    },
+    {
+      "path": "raw/1f363e1842d84f6a97c61024f97ab842/samples.csv.gz",
+      "bytes": 35295,
+      "sha256": "850344ee158ac23620c866a91da2b179d3b23c0b99454179bcc87b1dd1b078cd"
+    },
+    {
+      "path": "raw/1f363e1842d84f6a97c61024f97ab842/temperatures.csv.gz",
+      "bytes": 948,
+      "sha256": "83de92b6645226442b5f20ef337dfc58997a90ace772b3c652d5152747e54a21"
+    },
+    {
+      "path": "raw/1fdaec09467147c398937eba98f9c194/samples.csv.gz",
+      "bytes": 3933,
+      "sha256": "eba3a5ba62b86e275bcd19f0ed77b1b1b5fa07df742d8426aaf13cc0b08fd487"
+    },
+    {
+      "path": "raw/2032573f21bc4d6081d2c733ceceade7/samples.csv.gz",
+      "bytes": 32972,
+      "sha256": "f66209abae5a08718666c4afd753a6065ef543d28fd1220d7e408b7094e06c32"
+    },
+    {
+      "path": "raw/2032573f21bc4d6081d2c733ceceade7/temperatures.csv.gz",
+      "bytes": 914,
+      "sha256": "5ebf256df5ee566b3151222aeb8c4392f80f74b924ab966481992f6c8e12c435"
+    },
+    {
+      "path": "raw/20d6d0c9a562418ca342e39a058d06c0/samples.csv.gz",
+      "bytes": 33035,
+      "sha256": "84950e4d7fa23acecb094a14c6e8f16025cd3e7a31d9a2b3a630c8abe3070aae"
+    },
+    {
+      "path": "raw/20d6d0c9a562418ca342e39a058d06c0/temperatures.csv.gz",
+      "bytes": 916,
+      "sha256": "b02751b7a49fa44d2f3ab22b4d5fb1278e2a9fdbec1685d76df24655cee81d38"
+    },
+    {
+      "path": "raw/211e0b7926bc4328a73695fef00bbd0c/samples.csv.gz",
+      "bytes": 32969,
+      "sha256": "13546cd3b141303682fcc46eb3b2b0b5a9260149b17351efdc907e091d50cd9a"
+    },
+    {
+      "path": "raw/211e0b7926bc4328a73695fef00bbd0c/temperatures.csv.gz",
+      "bytes": 924,
+      "sha256": "14e3e2aee1d9c896e79d11c7939af781e1d599c0be0fafb9a954e7e50b280233"
+    },
+    {
+      "path": "raw/217e8f7dd4ee4f0fb4fb36d38dd59ba6/samples.csv.gz",
+      "bytes": 3903,
+      "sha256": "b8bee66baa31258babcfa9d0601fc30c10c058910c38d7cf96c68787ea5b6914"
+    },
+    {
+      "path": "raw/21ee5583736d4a4e95195d5f43c44215/samples.csv.gz",
+      "bytes": 33375,
+      "sha256": "0e3f29d697c34c35ec1a01bb1f6d6f0b5d47e4eccdc4f88fa416f041a819c20b"
+    },
+    {
+      "path": "raw/21ee5583736d4a4e95195d5f43c44215/temperatures.csv.gz",
+      "bytes": 899,
+      "sha256": "2068bdff0a008e79cf72ef7046dad64b5bb92ccd9880ac62b869410bd9bf6fe3"
+    },
+    {
+      "path": "raw/274530f4ae8f490bace7f8934a081755/samples.csv.gz",
+      "bytes": 33132,
+      "sha256": "3efc1483e1360a2fd361b5b54b1c560c7d4fcb3ad84b739327cc1cd19b6109f3"
+    },
+    {
+      "path": "raw/274530f4ae8f490bace7f8934a081755/temperatures.csv.gz",
+      "bytes": 914,
+      "sha256": "38ae6d4d941b3d41cba1e7587c6a0f0a02a5cc9032958b6f8af01f6c03ccd3e8"
+    },
+    {
+      "path": "raw/282506768d67457bb3a0539cd0cd4669/samples.csv.gz",
+      "bytes": 32954,
+      "sha256": "f22d76b0d40c757fae178e88d0657ac9731f5e19b8637d810ebfa62a3969cb9d"
+    },
+    {
+      "path": "raw/282506768d67457bb3a0539cd0cd4669/temperatures.csv.gz",
+      "bytes": 922,
+      "sha256": "d3af4fa95e83b0c738340a44eae1fc9d3242442bb009e54a830d9718641244f3"
+    },
+    {
+      "path": "raw/28e5ca60e1ff44ab96efa7badeda1f8b/samples.csv.gz",
+      "bytes": 33189,
+      "sha256": "97943fe0b6774e50637ca329f9002541a7a96d2aa470153da0a468d69f281418"
+    },
+    {
+      "path": "raw/28e5ca60e1ff44ab96efa7badeda1f8b/temperatures.csv.gz",
+      "bytes": 920,
+      "sha256": "7a3330d0a1238c045f3cbd5f70c83c7c9ca7707e106c4b0f88f50814d1c6a18f"
+    },
+    {
+      "path": "raw/2981920e50594af294a66c447384835a/samples.csv.gz",
+      "bytes": 33799,
+      "sha256": "ec6ed543a44f79749ec166a958a1d75273f04ab2833ef53f978622bda5bac5bc"
+    },
+    {
+      "path": "raw/2981920e50594af294a66c447384835a/temperatures.csv.gz",
+      "bytes": 926,
+      "sha256": "5b7c2662df755cef60323b624e6fefe57141dd4efad2e557a7915d67c77ec1ea"
+    },
+    {
+      "path": "raw/2a49546a212e4fc6b7a666f9bbbe86af/samples.csv.gz",
+      "bytes": 35837,
+      "sha256": "2a8d790a5b19cd999df18b41fab276b2b08ea9c31a03ed2bb2df25957aa0549f"
+    },
+    {
+      "path": "raw/2a49546a212e4fc6b7a666f9bbbe86af/temperatures.csv.gz",
+      "bytes": 917,
+      "sha256": "20fb85707a274f41556bf1fd559519df20107f330fc0e6cbeb87f850cb1e9412"
+    },
+    {
+      "path": "raw/2d1097d589e84ea0b67abe586f936083/samples.csv.gz",
+      "bytes": 3973,
+      "sha256": "a61bd553106e485626eab51473aac2ce52d4a181b6df56839f47518a05b30369"
+    },
+    {
+      "path": "raw/2d9b2d0bf0f24b388b89641ce296a5d3/samples.csv.gz",
+      "bytes": 32808,
+      "sha256": "09490ee7d0ad22fad159908171f2fe8fc7d93b0b90e9bfbb9388117085febbbc"
+    },
+    {
+      "path": "raw/2d9b2d0bf0f24b388b89641ce296a5d3/temperatures.csv.gz",
+      "bytes": 924,
+      "sha256": "8db0d86f0283fee49279c9207b31936b8b7c82ab7ca30afffd1b22ffe249951b"
+    },
+    {
+      "path": "raw/2da40775b4444ae6b904971661db8ecd/samples.csv.gz",
+      "bytes": 3958,
+      "sha256": "0a707ffa8bbeb44398ad0b8d938474ace2ee4548b7a75a4dcb41711328804087"
+    },
+    {
+      "path": "raw/2df84b8cfcbe477eb820a67c65551a54/samples.csv.gz",
+      "bytes": 33448,
+      "sha256": "e00854b23ffd9ffc804ca716f6f9491f13631dd95c3d0644c5d20a5ddda15726"
+    },
+    {
+      "path": "raw/2df84b8cfcbe477eb820a67c65551a54/temperatures.csv.gz",
+      "bytes": 922,
+      "sha256": "e303e3b92ef2d7cf2cb615adebe613360c8923fe94f81db82750801ff425115a"
+    },
+    {
+      "path": "raw/2eac8080693941169f982f028f9a955f/samples.csv.gz",
+      "bytes": 32651,
+      "sha256": "e369c40e778faf778ff22efbdf799ec079e9a2713d22bf4490336e782b741696"
+    },
+    {
+      "path": "raw/2eac8080693941169f982f028f9a955f/temperatures.csv.gz",
+      "bytes": 910,
+      "sha256": "41a70132d5db31e8fc2cb12a44fed3538875845cf33d461c5317742eaf96b0f9"
+    },
+    {
+      "path": "raw/2f69b24fa9214dfb9053958acdb8857c/samples.csv.gz",
+      "bytes": 3981,
+      "sha256": "36455461aafe61a77aee2224062b81659476da3d38b97915393a0ec01f3002a6"
+    },
+    {
+      "path": "raw/308dac27909f416bacf9db65e2ca03ec/samples.csv.gz",
+      "bytes": 33036,
+      "sha256": "f774fc324697c70c057f672fd45585e828234308f4a7d79e2cce65105ad984e8"
+    },
+    {
+      "path": "raw/308dac27909f416bacf9db65e2ca03ec/temperatures.csv.gz",
+      "bytes": 916,
+      "sha256": "54a1ab991c9ab94cf9d2fff875289600799ad17ce1e2f0369e60eeb465f3731e"
+    },
+    {
+      "path": "raw/318c21aadb5347af82d0a0e81d8bb555/samples.csv.gz",
+      "bytes": 31949,
+      "sha256": "8c9ff6619c74449f577b7324c546c9186f2a09f95edffc150435857deed473e4"
+    },
+    {
+      "path": "raw/318c21aadb5347af82d0a0e81d8bb555/temperatures.csv.gz",
+      "bytes": 890,
+      "sha256": "27d8bfea9f3da37f6e75a0e2827a40d3303ce31f0d72f960b39cbf5421c3a4b7"
+    },
+    {
+      "path": "raw/34ad573c90de4ac3b0f75820ea0b7ae7/samples.csv.gz",
+      "bytes": 32632,
+      "sha256": "055f4234defdf686810538779419af7f57cfdba6649242c96be847aee2e60f10"
+    },
+    {
+      "path": "raw/34ad573c90de4ac3b0f75820ea0b7ae7/temperatures.csv.gz",
+      "bytes": 911,
+      "sha256": "751754405a716218262b834209a85c0674310e8bf74fdc294a4d431ad97355de"
+    },
+    {
+      "path": "raw/34cba83e07494e4b99d04440633244e9/samples.csv.gz",
+      "bytes": 32268,
+      "sha256": "0b5be09725e12639d878ccf990184eab6a55eab5bc8c1994d44cf164cb42260e"
+    },
+    {
+      "path": "raw/34cba83e07494e4b99d04440633244e9/temperatures.csv.gz",
+      "bytes": 910,
+      "sha256": "84e42089067c9a763098b6c2f5dd920eb32eb4170e070e8671bf589bd2f22032"
+    },
+    {
+      "path": "raw/35c9d54f632340f5b6de136465dd67af/samples.csv.gz",
+      "bytes": 33301,
+      "sha256": "91afd53b7e2c52d2ab27dde108d1c209a238991f6fa367ec631a0a8abdab13f1"
+    },
+    {
+      "path": "raw/35c9d54f632340f5b6de136465dd67af/temperatures.csv.gz",
+      "bytes": 911,
+      "sha256": "b82d5545ad3c22519e71f49448368a8a38a22fb8baf83f0fbcdaf7bc9d738e65"
+    },
+    {
+      "path": "raw/3637f16dacdd43d2b781875704e686d9/samples.csv.gz",
+      "bytes": 33567,
+      "sha256": "b4f443aab1a92eecba5ed7a6c0044214c0e9bfd4ebeb4543d3e6b6af9e6306a6"
+    },
+    {
+      "path": "raw/3637f16dacdd43d2b781875704e686d9/temperatures.csv.gz",
+      "bytes": 925,
+      "sha256": "af548b7db1a2e26e8e1040b740ec9b92489e76c7a6140db76a37f4ce79dd28e0"
+    },
+    {
+      "path": "raw/373556101a1247fe84b3888db5769929/samples.csv.gz",
+      "bytes": 33212,
+      "sha256": "da765648a047a59ccad0b41eda05243d3a4594ab0d3d9cfea90b271a8f264d56"
+    },
+    {
+      "path": "raw/373556101a1247fe84b3888db5769929/temperatures.csv.gz",
+      "bytes": 909,
+      "sha256": "10d13d7874b3f95502fc9309b7035d4241c07cd9ccb1c9f8e61a323bc2b4a8e2"
+    },
+    {
+      "path": "raw/377a867126fc4207bcbdbcba1d92cdfb/samples.csv.gz",
+      "bytes": 32964,
+      "sha256": "6054826e10d8eccc4908e7fe0171746a581c5999178de2c5f85381ed6c548bf7"
+    },
+    {
+      "path": "raw/377a867126fc4207bcbdbcba1d92cdfb/temperatures.csv.gz",
+      "bytes": 915,
+      "sha256": "fdf069cc5b5fc696ddf0970f2c83b67bf009f66b4ef0cae7604acf79a471e853"
+    },
+    {
+      "path": "raw/39347bda866b448b8d061ebf8d74d0dd/samples.csv.gz",
+      "bytes": 35268,
+      "sha256": "97c635aa64bea3711123ea3246877f82dbee8d2326c60235fa3f9a1515730464"
+    },
+    {
+      "path": "raw/39347bda866b448b8d061ebf8d74d0dd/temperatures.csv.gz",
+      "bytes": 902,
+      "sha256": "4010f2ecbca5fe8bf8d178e92f06300a10630e2cd8a87c0cf84a148be65238ae"
+    },
+    {
+      "path": "raw/394761b1d1e64718a7585af2502ec04a/samples.csv.gz",
+      "bytes": 11709,
+      "sha256": "ec27f1a7f40106fd3cfe750c2ac1549b6515d9f1b3505a6b30a6addf448ebd90"
+    },
+    {
+      "path": "raw/39529710a42241219f125e217cabc524/samples.csv.gz",
+      "bytes": 3968,
+      "sha256": "443b6c9923704ed03a2a8ff19c580038ae3f6de53f295afb02c2c0b0d4df6eab"
+    },
+    {
+      "path": "raw/3a58b3c9fa4245c8afaa14a523166c68/samples.csv.gz",
+      "bytes": 35158,
+      "sha256": "664954e0342e45f9106f0aa56db518eb3a193d5e4c0fc17d4d84910987202fd4"
+    },
+    {
+      "path": "raw/3a58b3c9fa4245c8afaa14a523166c68/temperatures.csv.gz",
+      "bytes": 903,
+      "sha256": "0f235e360125b83f249fe3f517863d2015bdb4f73d0d04044770e7f8bd2dced0"
+    },
+    {
+      "path": "raw/3a9ac54c1e7a4d748337c65c4a9083ff/samples.csv.gz",
+      "bytes": 35651,
+      "sha256": "063f3e08a73d316455ff0a7211f306035c7fdb76478625312c32c2dfcac9965c"
+    },
+    {
+      "path": "raw/3a9ac54c1e7a4d748337c65c4a9083ff/temperatures.csv.gz",
+      "bytes": 917,
+      "sha256": "19d818aafbf36f35957130ea8022bb3e5f87dd905b7699b7717b8e2fed740eb7"
+    },
+    {
+      "path": "raw/3ac6ed5833dd4132a0669dca5d5b6519/samples.csv.gz",
+      "bytes": 33339,
+      "sha256": "1981bd5a119a0fbf38f52a0291e6754d6ecbd06d6cf307dec3ed00d959eeb04b"
+    },
+    {
+      "path": "raw/3ac6ed5833dd4132a0669dca5d5b6519/temperatures.csv.gz",
+      "bytes": 904,
+      "sha256": "251702e41eb8ecf51451c677804fe7233a2c4c410210b41b7f817222a1a06dde"
+    },
+    {
+      "path": "raw/3b0cac9d63c34e1b919b8e4335394444/samples.csv.gz",
+      "bytes": 3925,
+      "sha256": "7d0c1fdbcd63ad1d6442673b693ce8617e5d0ac19e399c75eea92fc2cbc14e7a"
+    },
+    {
+      "path": "raw/3b92457a27f444c2aef938077f0ec5e9/samples.csv.gz",
+      "bytes": 35054,
+      "sha256": "8633765eb55a2f2f373efde6cc77d463d09a3b8b2ffc7bbea5ee4fb8914bd5be"
+    },
+    {
+      "path": "raw/3b92457a27f444c2aef938077f0ec5e9/temperatures.csv.gz",
+      "bytes": 903,
+      "sha256": "5f203a567bab0ce374dca763cc48e45013718725cc303157a424f6f855a49f41"
+    },
+    {
+      "path": "raw/3c68fb52ec06421ea5f48524c2de0c9b/samples.csv.gz",
+      "bytes": 33136,
+      "sha256": "c1b6eeaa5b668b7b2fe394b49b49df0c35e322f929a1c6ac89615c916a5d6778"
+    },
+    {
+      "path": "raw/3c68fb52ec06421ea5f48524c2de0c9b/temperatures.csv.gz",
+      "bytes": 916,
+      "sha256": "0f95aed2fa02a9dc3da516cf0dcea22483be29e6565b0c3e7fc2af2cf87dd410"
+    },
+    {
+      "path": "raw/3daf15d2034f4138bc38755d38726861/samples.csv.gz",
+      "bytes": 34907,
+      "sha256": "79701db187c00f9b6adef1a9cc7bbf72580a2f87fd170b4356f570ce794113bf"
+    },
+    {
+      "path": "raw/3daf15d2034f4138bc38755d38726861/temperatures.csv.gz",
+      "bytes": 920,
+      "sha256": "5aa5c07f35a920285354a3c69bd905acd76788ad511e5d5343a1a1f5556962ee"
+    },
+    {
+      "path": "raw/3e26fc4cb3f94568a04048086bba4826/samples.csv.gz",
+      "bytes": 31958,
+      "sha256": "6711758299adaa805008bba3533e9bd3f1509fcc163ab850fae48159a60f7a62"
+    },
+    {
+      "path": "raw/3e26fc4cb3f94568a04048086bba4826/temperatures.csv.gz",
+      "bytes": 904,
+      "sha256": "a75b9a0fd0e160677bc44c8957d8a69846a1babd3caff53859a51c2877c48b57"
+    },
+    {
+      "path": "raw/3fe859dd93a941ae8a51cbd5170651de/samples.csv.gz",
+      "bytes": 33261,
+      "sha256": "0c7ce23790925ebb24dcff7b0b5de627e3d25730707e00ca070ea2f2ebf59800"
+    },
+    {
+      "path": "raw/3fe859dd93a941ae8a51cbd5170651de/temperatures.csv.gz",
+      "bytes": 909,
+      "sha256": "26e6ca0348f257ecaf684197818e7a12c0d1f7f2ed44a0b1a5944b6435a299fd"
+    },
+    {
+      "path": "raw/404050e82b1d48c88a8b85d68a27b303/samples.csv.gz",
+      "bytes": 32603,
+      "sha256": "5642079f7c0a9a1f24409a76b32f7d1b5c9a2165b9995f89684755ab24bb6453"
+    },
+    {
+      "path": "raw/404050e82b1d48c88a8b85d68a27b303/temperatures.csv.gz",
+      "bytes": 912,
+      "sha256": "63c2efda73d4474efd6260e263f7bb34af39f2e310c20f8cd13b25d702276642"
+    },
+    {
+      "path": "raw/40524600d58d45b8b1b175b9d7ace9ba/samples.csv.gz",
+      "bytes": 33565,
+      "sha256": "2cf532e80f43005b124968e46ccbd104dabba7ac1d6ef9d4b55872edef255e80"
+    },
+    {
+      "path": "raw/40524600d58d45b8b1b175b9d7ace9ba/temperatures.csv.gz",
+      "bytes": 926,
+      "sha256": "5965287385b721ca40da22f6b8a77b1513466c89c150b0b1779c931ad5a549a6"
+    },
+    {
+      "path": "raw/40a6535040934fd584f65669d704f09d/samples.csv.gz",
+      "bytes": 33353,
+      "sha256": "96d1fdc9d1b3444fd2550696beb4dca80a6e3975434665250294e8122bd11bd0"
+    },
+    {
+      "path": "raw/40a6535040934fd584f65669d704f09d/temperatures.csv.gz",
+      "bytes": 909,
+      "sha256": "0f711586414da4276248e9cc768e249db834d69a805576150a0d7d5b18d619dd"
+    },
+    {
+      "path": "raw/420aca62e17642da9fe7a5694272a1c6/samples.csv.gz",
+      "bytes": 3940,
+      "sha256": "cf36f54b687d433780dbc47299ddcc5fa6e3b58472f8cdba2001cc9d10e6f513"
+    },
+    {
+      "path": "raw/43366e1f8f4c473f91bad1e2cb8321a3/samples.csv.gz",
+      "bytes": 32887,
+      "sha256": "08037814646f1e07838f2596b4c59cfc825dbfd1930d808dfba62d292f417905"
+    },
+    {
+      "path": "raw/43366e1f8f4c473f91bad1e2cb8321a3/temperatures.csv.gz",
+      "bytes": 904,
+      "sha256": "42a69ae46372880cd96df7d8365e25cc78f144198464b6e3f74a613333c0fbf4"
+    },
+    {
+      "path": "raw/43719c4fb1ce442fbd3496dbd63ec15d/samples.csv.gz",
+      "bytes": 4003,
+      "sha256": "2d79fd7222d5a33d98f51a4edf6a33ee258905fd658c0a3e76a87cdb073f172b"
+    },
+    {
+      "path": "raw/43c5d29cd7fd4d9984eef3561bc69258/samples.csv.gz",
+      "bytes": 35465,
+      "sha256": "6d4f2a345b05ebb84330d007238ce15b7150952b160273db901470182c5f4886"
+    },
+    {
+      "path": "raw/43c5d29cd7fd4d9984eef3561bc69258/temperatures.csv.gz",
+      "bytes": 914,
+      "sha256": "72f84a35ed186a76d533df4249a42f697e26e42805b5f5db858205a66f2f5d8c"
+    },
+    {
+      "path": "raw/43e9203aab9345e6994fb9e400e859db/samples.csv.gz",
+      "bytes": 33363,
+      "sha256": "95c6fe51a7cd31a57faa896d99e25a3df704dbbd0311423c00b73813c58aba06"
+    },
+    {
+      "path": "raw/43e9203aab9345e6994fb9e400e859db/temperatures.csv.gz",
+      "bytes": 914,
+      "sha256": "560dc0311702711be07cc0a51b4bd54242507d7a59d9bd197b0c464e78a8bee5"
+    },
+    {
+      "path": "raw/4485de57897441b2a2bf415786798812/samples.csv.gz",
+      "bytes": 3942,
+      "sha256": "762e835e55bfaf585575194be7be8d6fe31b41f61a3586c46451d3808dc86c0b"
+    },
+    {
+      "path": "raw/4494e6b2c2434dd6b2f9f5de988eaf67/samples.csv.gz",
+      "bytes": 3943,
+      "sha256": "322c6252e40529bcde5093137301d4c8cbeea1dd1d86fca7b4390880e0b39b6f"
+    },
+    {
+      "path": "raw/4711a66c677d44b3b8b924dceeecc050/samples.csv.gz",
+      "bytes": 34909,
+      "sha256": "bbf3169d46e029cdcc450a879bfdaf7448dcaf3bda894519274d5040b98aaca5"
+    },
+    {
+      "path": "raw/4711a66c677d44b3b8b924dceeecc050/temperatures.csv.gz",
+      "bytes": 906,
+      "sha256": "4725656763bab025e216f25230782babda22911dc9d2aee282c5418e0a265d0d"
+    },
+    {
+      "path": "raw/472c14c79d124f43bfa5a319ca9f1fff/samples.csv.gz",
+      "bytes": 32270,
+      "sha256": "3ffb9d9ec44d6bd9407b05bc2a33a89768a8487500d223d40ad4d68fb3ed28b0"
+    },
+    {
+      "path": "raw/472c14c79d124f43bfa5a319ca9f1fff/temperatures.csv.gz",
+      "bytes": 924,
+      "sha256": "398a2229f41624e154758f1080adab8d8d31209fc56ae353cdf29bfce3626bbb"
+    },
+    {
+      "path": "raw/47c7e1facbd3418c93d2464676b2a685/samples.csv.gz",
+      "bytes": 3949,
+      "sha256": "5392862b64563d5287b74423e81bf0d2b9d183a51fb11b09aa9c246fca0de71b"
+    },
+    {
+      "path": "raw/484618c3d55a4ff4905880724d07a421/samples.csv.gz",
+      "bytes": 32208,
+      "sha256": "a64afdd0c9459d254ac2fcc570011dd8b6cd2ab81d9c740c0012075e7013cc7d"
+    },
+    {
+      "path": "raw/484618c3d55a4ff4905880724d07a421/temperatures.csv.gz",
+      "bytes": 903,
+      "sha256": "d48a379560286a8f3a687abbec6b12e2cacd6f40651c36022a672e7bf1bc9c4f"
+    },
+    {
+      "path": "raw/4895bf87b58b41ff926e537d974cbbfd/samples.csv.gz",
+      "bytes": 32294,
+      "sha256": "bc585df3324ce26295cc0c85f8967a47790d63a0459a44c8d30c34f3204556dd"
+    },
+    {
+      "path": "raw/4895bf87b58b41ff926e537d974cbbfd/temperatures.csv.gz",
+      "bytes": 915,
+      "sha256": "ef420044651d2d4043f0e1a49ba288a7ec8f71509638b50bc24ed551b29e65e4"
+    },
+    {
+      "path": "raw/4be7d5495f684c12be6b4a3311cbf645/samples.csv.gz",
+      "bytes": 3951,
+      "sha256": "1422197e4158722a01303b13402339b05f07942442d7ca22f63503296eb840fd"
+    },
+    {
+      "path": "raw/4f18078b0c454de0bd932d79f1e20eb3/samples.csv.gz",
+      "bytes": 32729,
+      "sha256": "72196c80aced10529d9b97d216abaa335c42649b618ccad3b3fff2fac7afab0e"
+    },
+    {
+      "path": "raw/4f18078b0c454de0bd932d79f1e20eb3/temperatures.csv.gz",
+      "bytes": 899,
+      "sha256": "baa174e29ee81c073c4d417cd24165305a3c3242c9746c2192662b3699a93317"
+    },
+    {
+      "path": "raw/4f6a596149bf464498a53fc6e19b4b4f/samples.csv.gz",
+      "bytes": 33403,
+      "sha256": "cc6f3c65558787f7889b185a5d889d46e7ecc6335448e46be7594d7718295229"
+    },
+    {
+      "path": "raw/4f6a596149bf464498a53fc6e19b4b4f/temperatures.csv.gz",
+      "bytes": 927,
+      "sha256": "e7706640cdf7205a983b964004323d2ca650e40cb3b0fdd628cbed020eaae21d"
+    },
+    {
+      "path": "raw/5075fbbc270b43db8b55d3727128ae85/samples.csv.gz",
+      "bytes": 33110,
+      "sha256": "d0ece3342070496adc9d4ce96490731bbd46e7fb0445649fbc97953b07fa24a6"
+    },
+    {
+      "path": "raw/5075fbbc270b43db8b55d3727128ae85/temperatures.csv.gz",
+      "bytes": 905,
+      "sha256": "dc1c0958f22de0f7e79ffbc10e3fa1b73b7424b778b173bdc4245416070ff3d2"
+    },
+    {
+      "path": "raw/50e1c1eaebc648d58a9152e6e32ee992/samples.csv.gz",
+      "bytes": 32636,
+      "sha256": "17ce5524578af44496fd6194ee43ee83896cb22d7cfb43011d4a4269eaebed45"
+    },
+    {
+      "path": "raw/50e1c1eaebc648d58a9152e6e32ee992/temperatures.csv.gz",
+      "bytes": 920,
+      "sha256": "74469a26a0e1a0c4ecf18fe4085403542dadbcc0d18eb95641214f04eb88de13"
+    },
+    {
+      "path": "raw/5173507a08fd44c3a6355f8164b028f3/samples.csv.gz",
+      "bytes": 33046,
+      "sha256": "99b65d1415e4f07577a1898829bdc87ec7564a3e11badbcea617feab8aa39ffb"
+    },
+    {
+      "path": "raw/5173507a08fd44c3a6355f8164b028f3/temperatures.csv.gz",
+      "bytes": 908,
+      "sha256": "2a1961b7829d771bcaf5bddafb92cfe7e9cf7ec462c6611788439c3222fb2899"
+    },
+    {
+      "path": "raw/535ddab1e3774afcabc82de7046c77af/samples.csv.gz",
+      "bytes": 32832,
+      "sha256": "0a1ba58c92b6b554f50c422565fde8420f88ad84dd9b5188f1ab7c954fb8c8eb"
+    },
+    {
+      "path": "raw/535ddab1e3774afcabc82de7046c77af/temperatures.csv.gz",
+      "bytes": 909,
+      "sha256": "01d006976c3bb46c81867d896a65560168056f186b9ce75657014307d9ae3c0f"
+    },
+    {
+      "path": "raw/545c6f8805bf428e9231d5ea7540a1e2/samples.csv.gz",
+      "bytes": 33393,
+      "sha256": "d06ae9e2786ad09dff33e8e89a323c2f8c107783a548013218e4805ee081146b"
+    },
+    {
+      "path": "raw/545c6f8805bf428e9231d5ea7540a1e2/temperatures.csv.gz",
+      "bytes": 917,
+      "sha256": "5a2c91a7e80cf06a0927c626e1521e5979c2bfc8e38d5037f2791e862c8c5860"
+    },
+    {
+      "path": "raw/545d219bc58a4ba3a45d5c78195794b7/samples.csv.gz",
+      "bytes": 33166,
+      "sha256": "8bfd31ef1d1b6edcbcc1ec9abde239aaaec6a4cece407013b5c52791e590cae9"
+    },
+    {
+      "path": "raw/545d219bc58a4ba3a45d5c78195794b7/temperatures.csv.gz",
+      "bytes": 907,
+      "sha256": "f5b6829ad26f0f914482dcf8042e2a395e56d8c2a8ea03c61c88e78e1fc768da"
+    },
+    {
+      "path": "raw/56352a665ec94e2ea80b65f67f20c807/samples.csv.gz",
+      "bytes": 3971,
+      "sha256": "975d28b07aaa1fa84631da68af263f9278a136995ae3c861ffd0fdbc465c2e91"
+    },
+    {
+      "path": "raw/56d179dd640e4071a54159735d6525d4/samples.csv.gz",
+      "bytes": 32050,
+      "sha256": "a5a3fded54ccf2cf62cbc559272f17a919e96201ad581e2fccb919e5ffc39925"
+    },
+    {
+      "path": "raw/56d179dd640e4071a54159735d6525d4/temperatures.csv.gz",
+      "bytes": 906,
+      "sha256": "2effce8ca8f7d09ec4599b3d50c8d3913c81726c068d83ca285da0ab2d2dd4f8"
+    },
+    {
+      "path": "raw/572308d128d541d6849f281f0e696933/samples.csv.gz",
+      "bytes": 32688,
+      "sha256": "317339d60af96e9a129375b3b1af8aa7a8164d76305fc8108b506d87b3550438"
+    },
+    {
+      "path": "raw/572308d128d541d6849f281f0e696933/temperatures.csv.gz",
+      "bytes": 919,
+      "sha256": "1a4371ade9414ea04b659bfef74f10724c971f9ac47c4ef4dfe3f863a0b555fb"
+    },
+    {
+      "path": "raw/57d153f5f0934283998d52acd8fe4f47/samples.csv.gz",
+      "bytes": 33141,
+      "sha256": "82dd984f1455cad1f9272f372d1339caa16810457480e85e6c1e6404d7e4286b"
+    },
+    {
+      "path": "raw/57d153f5f0934283998d52acd8fe4f47/temperatures.csv.gz",
+      "bytes": 922,
+      "sha256": "bcb88c60490df2dfbcac684ef76227824521ed751afa65044d5ee7d371db4b8e"
+    },
+    {
+      "path": "raw/586aec83cda84995bf66d52770ef569b/display.csv.gz",
+      "bytes": 8405,
+      "sha256": "c538e3075b2f88133a1f1ac8e455ad21395babc98358f16d4cf542d8908cc792"
+    },
+    {
+      "path": "raw/586aec83cda84995bf66d52770ef569b/samples.csv.gz",
+      "bytes": 629080,
+      "sha256": "8f47331d222228176902abf2be26ce7f5362770d9ecd6154689051b4244764c7"
+    },
+    {
+      "path": "raw/586aec83cda84995bf66d52770ef569b/temperatures.csv.gz",
+      "bytes": 13836,
+      "sha256": "534a7e6a7aedf3021e1d5fadb7dc6ebca5f84cad51b22bf2c34fd68ab7e86a9f"
+    },
+    {
+      "path": "raw/59dfdfe42e8a4fa787b1a71240264a3e/samples.csv.gz",
+      "bytes": 32329,
+      "sha256": "e0aa1d31bb80126c107ef96bdc05adf544b3f1d0177821c55900dd9cab1e77f1"
+    },
+    {
+      "path": "raw/59dfdfe42e8a4fa787b1a71240264a3e/temperatures.csv.gz",
+      "bytes": 922,
+      "sha256": "d8bdd55d35167ae3785d89c2a98297f3195cb5f464f3d540d0ec5626f7938211"
+    },
+    {
+      "path": "raw/5d095d90926b4c38893893224f869ba9/samples.csv.gz",
+      "bytes": 32954,
+      "sha256": "8845342c65dc2e45be5d2d2f037785e1271a944ccc62fdc139e06297e9792104"
+    },
+    {
+      "path": "raw/5d095d90926b4c38893893224f869ba9/temperatures.csv.gz",
+      "bytes": 910,
+      "sha256": "6672974203dfdbdc109026df30727789b7db50cfa42f9a63f765385c0e4617b7"
+    },
+    {
+      "path": "raw/5dcad42de7e348989798229274ada956/samples.csv.gz",
+      "bytes": 33177,
+      "sha256": "d1b8c5792bf5d235849e4c7a9854ce50b4f07415fe83162ef7f2b14e6b1eac66"
+    },
+    {
+      "path": "raw/5dcad42de7e348989798229274ada956/temperatures.csv.gz",
+      "bytes": 907,
+      "sha256": "9ea9d198b0c9ff80922e38312f0770edfe4742081eb74bf633778e38017f324c"
+    },
+    {
+      "path": "raw/5dee17bddfbf4388b00d8b97fb4e2907/samples.csv.gz",
+      "bytes": 4017,
+      "sha256": "1b03f41207f07df304f61988fcb67af9c4bf44adcb869f74d8c09add9c618d9a"
+    },
+    {
+      "path": "raw/5ebddbfea9cb40d58a345830566cbeac/samples.csv.gz",
+      "bytes": 33788,
+      "sha256": "7bb02bb00a5a89a7a4a9f30d8f6b1f64fe9492bc2195c6a21c79f9f33e960de8"
+    },
+    {
+      "path": "raw/5ebddbfea9cb40d58a345830566cbeac/temperatures.csv.gz",
+      "bytes": 897,
+      "sha256": "64f37d8b82ccd87a5950846055be1875e09116c0a3e199f150a51cf429085de3"
+    },
+    {
+      "path": "raw/5fba92435eb2428bb431ae48ba38ea73/samples.csv.gz",
+      "bytes": 32642,
+      "sha256": "f67c63bea70558ebf866ea949f1fbba94d9a469dd6892b3d699f1fa748234b64"
+    },
+    {
+      "path": "raw/5fba92435eb2428bb431ae48ba38ea73/temperatures.csv.gz",
+      "bytes": 918,
+      "sha256": "14fa0dd26a5b6997ce623890cd1e78d177766c76a272ae6a740ce0ce992c59a4"
+    },
+    {
+      "path": "raw/62b0b2b303174c1786ff2a1cb7daf7a1/samples.csv.gz",
+      "bytes": 3307911,
+      "sha256": "79bd9fecb8998aa819f5a91b417fd938c155cc5902608dd551aa91cb304eec99"
+    },
+    {
+      "path": "raw/62b0b2b303174c1786ff2a1cb7daf7a1/temperatures.csv.gz",
+      "bytes": 73200,
+      "sha256": "2da0f3d1805cbdb7f2e1826abc67b28a35eeef48606f0d37fbdcc3839f8f1122"
+    },
+    {
+      "path": "raw/62d868abbbd542f988f77c165b46b51b/samples.csv.gz",
+      "bytes": 36225,
+      "sha256": "a59bbaf0ce2436f3e2f640c492b2cf8403e3fcc44d364546b152c3868d6a2dea"
+    },
+    {
+      "path": "raw/62d868abbbd542f988f77c165b46b51b/temperatures.csv.gz",
+      "bytes": 897,
+      "sha256": "0e88f3c56e492cb6b2060b5cd2f4095a9a370d5a74bbea2bfcab03a45954d33d"
+    },
+    {
+      "path": "raw/63debe7154b84a76a10822f32f824354/samples.csv.gz",
+      "bytes": 102075,
+      "sha256": "eeea81d8ebbfc050388d1cf686d2e105cf5dcee5e00f539ea1c14038dc434edd"
+    },
+    {
+      "path": "raw/63debe7154b84a76a10822f32f824354/temperatures.csv.gz",
+      "bytes": 2335,
+      "sha256": "f7ef1b10fea806319399f2cb68266a5cb148002dec00f46c1ecabbc51da61ffe"
+    },
+    {
+      "path": "raw/6444ede4cd29464b8dc2cb8816acf1af/samples.csv.gz",
+      "bytes": 32396,
+      "sha256": "f041ebd68e8fe10903ba6e7b8e2a172a835c760ffae23d2675a8dccaf645448b"
+    },
+    {
+      "path": "raw/6444ede4cd29464b8dc2cb8816acf1af/temperatures.csv.gz",
+      "bytes": 911,
+      "sha256": "eac6a36dbf00064a82e1aff802c436e44e2e10499247dbcbb849f8cf246a6273"
+    },
+    {
+      "path": "raw/64bdbb64231d4be7ad32d3cc11b9029d/samples.csv.gz",
+      "bytes": 33247,
+      "sha256": "30dee016ef87e767ae4ea50319d4d1b9b519f9f095257f43722bf94f9b99aee2"
+    },
+    {
+      "path": "raw/64bdbb64231d4be7ad32d3cc11b9029d/temperatures.csv.gz",
+      "bytes": 904,
+      "sha256": "6064c02ee1c425a4cdf6ef2222f654cbddde6ba3d163373ed13a917d020e40fe"
+    },
+    {
+      "path": "raw/658d8520aa2042b39856fdf809930cc1/samples.csv.gz",
+      "bytes": 3980,
+      "sha256": "13fd148092e65532daf5ce25d14ba1b0d03b99767b8501c944cd7e66f055204b"
+    },
+    {
+      "path": "raw/65f897b7289743a294c22ee22c5d39d7/samples.csv.gz",
+      "bytes": 32848,
+      "sha256": "e1dc20856eeb1c8a9e45161e22a4773c2fcfd583d1c049d902ce22ede65f00f0"
+    },
+    {
+      "path": "raw/65f897b7289743a294c22ee22c5d39d7/temperatures.csv.gz",
+      "bytes": 910,
+      "sha256": "6c292729f1effebda76d04a644496ca4d701f42c0b0861ae451333055758bd87"
+    },
+    {
+      "path": "raw/66c0b8ea13c5411b95ba2c51c7ca6e9c/display.csv.gz",
+      "bytes": 16986,
+      "sha256": "8032971080843fc5755316848a5380339fa65ebfb565d768dd1d22eb963d7f37"
+    },
+    {
+      "path": "raw/66c0b8ea13c5411b95ba2c51c7ca6e9c/samples.csv.gz",
+      "bytes": 1290953,
+      "sha256": "efcb89310309bc490eae32419e2b07fde5e50b658b6ba6b321331b4c27de6f98"
+    },
+    {
+      "path": "raw/66c0b8ea13c5411b95ba2c51c7ca6e9c/temperatures.csv.gz",
+      "bytes": 27636,
+      "sha256": "1437955dd1ab2d657fcce7aaa4f29dbf4a77a5ee0c3576a918eec53eb30e7105"
+    },
+    {
+      "path": "raw/67e2a61f6c3e48878883c7c57a3833f1/samples.csv.gz",
+      "bytes": 32808,
+      "sha256": "7fe1640dd8057dd9b3d0e9d2d462a7a67e6e94437bb7e940ab1cc4d531df0934"
+    },
+    {
+      "path": "raw/67e2a61f6c3e48878883c7c57a3833f1/temperatures.csv.gz",
+      "bytes": 918,
+      "sha256": "f4784485888cb2f0f3625231aa84eefb2831b6585de7ca42fcf520e9125d3d59"
+    },
+    {
+      "path": "raw/697ca7871b7945f5a752a4032b425e4d/samples.csv.gz",
+      "bytes": 35559,
+      "sha256": "34b3845f52370ce6c7a6fd1e73ee32f618a031ac52fb0dc49aaa80231e31c1cb"
+    },
+    {
+      "path": "raw/697ca7871b7945f5a752a4032b425e4d/temperatures.csv.gz",
+      "bytes": 931,
+      "sha256": "e2fa8c9491f773bbc9b577cc15fc66a6abe893378211de85e65f5f86d723f6fd"
+    },
+    {
+      "path": "raw/69a7d204f85b401991d0ac4ae73671cf/samples.csv.gz",
+      "bytes": 33396,
+      "sha256": "22815c23c1708dbb5bd21dc3de45048380d14b21a33a8752b16dbfcd34bd9ef6"
+    },
+    {
+      "path": "raw/69a7d204f85b401991d0ac4ae73671cf/temperatures.csv.gz",
+      "bytes": 928,
+      "sha256": "4a91b7c7bb76ec0b6731fbf18d1948b7770b2e7b4e06fadd68299cfcb91bcf2e"
+    },
+    {
+      "path": "raw/69fba6877b6c43d6b124e6f5c971a771/samples.csv.gz",
+      "bytes": 33158,
+      "sha256": "63be23a1bea07456a59869e9ceccf42bf559afb5b419b5ffe1ec67b9fc056afc"
+    },
+    {
+      "path": "raw/69fba6877b6c43d6b124e6f5c971a771/temperatures.csv.gz",
+      "bytes": 910,
+      "sha256": "2a74cb21a189527c77b3a75add874e02e120fb20950e0fd7f6adb977b22e8f20"
+    },
+    {
+      "path": "raw/6a140b9d30684a6c8c163a409cbd0c81/samples.csv.gz",
+      "bytes": 3970,
+      "sha256": "f633978015b28ebad03c4364212584d80dad9558f12cd904d7259830ecbd7840"
+    },
+    {
+      "path": "raw/6af20b88a78c49bc9c275c57e4c9235f/samples.csv.gz",
+      "bytes": 33411,
+      "sha256": "5dd47763517c57a3e0cc781f3d3febd6bd4e2926d40e3099b52ffd99b740977c"
+    },
+    {
+      "path": "raw/6af20b88a78c49bc9c275c57e4c9235f/temperatures.csv.gz",
+      "bytes": 905,
+      "sha256": "fc2383764f9bd2c3fd5117393526d7ff8ad194933557c7fc4655b2401f2d39c9"
+    },
+    {
+      "path": "raw/6b77850cba3b4ce6b62ee19f4307b4d7/samples.csv.gz",
+      "bytes": 33413,
+      "sha256": "bad2bd7cd36338ec783484fe1cac3daf23a1ac417d9e09ee7759d71cf9b84108"
+    },
+    {
+      "path": "raw/6b77850cba3b4ce6b62ee19f4307b4d7/temperatures.csv.gz",
+      "bytes": 921,
+      "sha256": "490957167142216460b4053552f4bfd994fbf3bd95da912eccc94da8da3a9050"
+    },
+    {
+      "path": "raw/6c7e7ebfdcce4be4ab019e875ff0162b/samples.csv.gz",
+      "bytes": 3950,
+      "sha256": "deef355e506106086b327b6c1a398896ab83349cd542e337940ce76d6c74150f"
+    },
+    {
+      "path": "raw/6c7f1092eadf4ba6aab7ce000d84307a/samples.csv.gz",
+      "bytes": 32662,
+      "sha256": "f985a751aad57fbcc93ee4ef9dea589ccc5468e596804bc6c4d40c47f53f8b3d"
+    },
+    {
+      "path": "raw/6c7f1092eadf4ba6aab7ce000d84307a/temperatures.csv.gz",
+      "bytes": 912,
+      "sha256": "bae87a3497f2bbe7c106476b6ba40f7dbd2e5d91175275dcbab74b681800a053"
+    },
+    {
+      "path": "raw/6d600cd6de2b4894b6f9d8ad5f04b5e9/samples.csv.gz",
+      "bytes": 4010,
+      "sha256": "ee594025b00186b0f1a5daedfcb691bb1913f48ec1033cbea349bf5ba26e47f0"
+    },
+    {
+      "path": "raw/6db30930db5147b9baed1390c92f8a35/samples.csv.gz",
+      "bytes": 3958,
+      "sha256": "c330f68f4054a23a67b1731bd4048a1d5bca50e994255bc3a6829dec128cfe3e"
+    },
+    {
+      "path": "raw/6de98770fe6045a09beb8e8c8eb894ba/samples.csv.gz",
+      "bytes": 1052251,
+      "sha256": "1f5bf71e6ee0d2a8b49758bf930f096c807cd5b293d48d06fa90f38b6a3870ef"
+    },
+    {
+      "path": "raw/6de98770fe6045a09beb8e8c8eb894ba/temperatures.csv.gz",
+      "bytes": 22543,
+      "sha256": "71b962375b922921bea05acb88ae89e8725b84221ba1ad7f531423a5c7dfe22a"
+    },
+    {
+      "path": "raw/6dece7b17e774916bb8dbf27aa6340b3/samples.csv.gz",
+      "bytes": 3962,
+      "sha256": "0cfb2540f7aa83462c0586d0e1dee25eb0886c6ba9751b2aa5f28732665ec4ba"
+    },
+    {
+      "path": "raw/6e08ff2096394ba2b183df97cc3d90ae/samples.csv.gz",
+      "bytes": 433186,
+      "sha256": "916c620b25fab3f39b631c30792f45d0a0613f4ea064d361e50331d1fdde48cb"
+    },
+    {
+      "path": "raw/6e08ff2096394ba2b183df97cc3d90ae/temperatures.csv.gz",
+      "bytes": 9145,
+      "sha256": "aeb07dbe3c4f4be37a4b7de4c0b0e7ab61f7f3fb887c21494b5726a0d5dffad5"
+    },
+    {
+      "path": "raw/6f1cbaa5a55841bba03653674b9b949f/samples.csv.gz",
+      "bytes": 4002,
+      "sha256": "628338052b0b131c5d32a03b2f42d50e4c099ed197c2b9a55071e9905d76639b"
+    },
+    {
+      "path": "raw/707060bc793b41ef893f1c672f9da56a/samples.csv.gz",
+      "bytes": 32943,
+      "sha256": "341d34fee900a98486b11425403b43305eda0340fbcf35e152a80fbe885fac8a"
+    },
+    {
+      "path": "raw/707060bc793b41ef893f1c672f9da56a/temperatures.csv.gz",
+      "bytes": 909,
+      "sha256": "3fec8e34db34fba1e3d3fd76209cb047c10a9e88fb121ef36f4d87c5ce57f540"
+    },
+    {
+      "path": "raw/70e65b35cbcc46599d81160451a3d67b/samples.csv.gz",
+      "bytes": 33140,
+      "sha256": "768306e0fb39dce3b5d6691bad96b6ff73baa931f30faf26a34885a40a860702"
+    },
+    {
+      "path": "raw/70e65b35cbcc46599d81160451a3d67b/temperatures.csv.gz",
+      "bytes": 912,
+      "sha256": "b53e32280f3d0445aa7c980ab6b67d9180b9e1538523464e14e406659948646b"
+    },
+    {
+      "path": "raw/7167d435782640e6bd136453aab35261/samples.csv.gz",
+      "bytes": 4026,
+      "sha256": "d10c4598fe38fcbac674c7b2ee0e8b909d142398d2647dedfa8bb089c06d8083"
+    },
+    {
+      "path": "raw/7217282b69494b75aafb0b03ab5d95df/samples.csv.gz",
+      "bytes": 33755,
+      "sha256": "ddf8549def76985dd101ab242b35fe779fea4f262b046e0bc2daa837d2987e59"
+    },
+    {
+      "path": "raw/7217282b69494b75aafb0b03ab5d95df/temperatures.csv.gz",
+      "bytes": 932,
+      "sha256": "c2a000fab2b171073fceee4a2a3b1d89e7c7254f0087d11e7415ed61595e930c"
+    },
+    {
+      "path": "raw/73cde10e6c604e6799a520083f2579c1/samples.csv.gz",
+      "bytes": 32645,
+      "sha256": "953540b23e97591be9dc55fe9c51393301b253e991054023fbfee9f09350f89d"
+    },
+    {
+      "path": "raw/73cde10e6c604e6799a520083f2579c1/temperatures.csv.gz",
+      "bytes": 908,
+      "sha256": "5937d2b50cdc73277f6771244b1f6991741447b56ad88275e5e021c78a36b73e"
+    },
+    {
+      "path": "raw/7468919437604bc0ae4fbe93a12b8f19/samples.csv.gz",
+      "bytes": 32766,
+      "sha256": "889b31ae67aa81c9177457bb8c6eb33a7f7d16c855c6cce1ef0af21de2a84a23"
+    },
+    {
+      "path": "raw/7468919437604bc0ae4fbe93a12b8f19/temperatures.csv.gz",
+      "bytes": 909,
+      "sha256": "7c765d24bc87ce4f1ae20505f4ede9265ef835586b5db05f9f71e21d134551d0"
+    },
+    {
+      "path": "raw/74ed2a3649b6433291a5213951ff0979/samples.csv.gz",
+      "bytes": 3990,
+      "sha256": "526a313460addd729d99a9b324f4deb73cf3d810dcc166087049f6e82b2a8834"
+    },
+    {
+      "path": "raw/74f6eac8e04545088da62fdd1a3319bd/samples.csv.gz",
+      "bytes": 35628,
+      "sha256": "ee6333c055e1cb7967c877be7729a7405f0278b2437ec26940e3e6515be8f834"
+    },
+    {
+      "path": "raw/74f6eac8e04545088da62fdd1a3319bd/temperatures.csv.gz",
+      "bytes": 912,
+      "sha256": "08de7146c3dd44f063b8cf01c1ad6bc1642d49e592d22d48fc29c65659d66991"
+    },
+    {
+      "path": "raw/7551b72df9c6451884d18a30d3eddf97/samples.csv.gz",
+      "bytes": 33293,
+      "sha256": "53706c2b33397c2a3838e4d298e8500d4df7f9d97cfe11c0327fa95307cba72c"
+    },
+    {
+      "path": "raw/7551b72df9c6451884d18a30d3eddf97/temperatures.csv.gz",
+      "bytes": 896,
+      "sha256": "3f1064a19492828336edd1db3f08d3af1793cf23a749190e29198bf1b2b5108a"
+    },
+    {
+      "path": "raw/757e127da0e147e59be1000e4766e470/samples.csv.gz",
+      "bytes": 103987,
+      "sha256": "2a15847abc82d74933f7f855bdf6f180bd67bebf3fc3bcbf03780664b22574d3"
+    },
+    {
+      "path": "raw/757e127da0e147e59be1000e4766e470/temperatures.csv.gz",
+      "bytes": 2369,
+      "sha256": "46536c017e588142ad722c57ac1a716b67a9fdffeedc539e5c72c92bd94795fe"
+    },
+    {
+      "path": "raw/75c094c4911640b59322e0afdef4528d/samples.csv.gz",
+      "bytes": 33706,
+      "sha256": "23495f363c0e8ce500ac82a0f1fb1bb37090e72686698b927f5239c89b8918b4"
+    },
+    {
+      "path": "raw/75c094c4911640b59322e0afdef4528d/temperatures.csv.gz",
+      "bytes": 915,
+      "sha256": "766a37220a4ba187613cc12e8644229ca117a6132e5dad12dbbf38d19d3db83b"
+    },
+    {
+      "path": "raw/768adc79fdda4a999b869bd2760dc589/samples.csv.gz",
+      "bytes": 35618,
+      "sha256": "2a14c8c2ae17ddf56416a7693109790aad49a7c7fa7f0da1f730b60c871efb8d"
+    },
+    {
+      "path": "raw/768adc79fdda4a999b869bd2760dc589/temperatures.csv.gz",
+      "bytes": 919,
+      "sha256": "088aaad20c16c2f3bd290e44d86f4a58bb2f9f007df48105e44762fbdce56fe5"
+    },
+    {
+      "path": "raw/76a1398be0844bd98e78f2434fe650b4/samples.csv.gz",
+      "bytes": 34893,
+      "sha256": "38ca3f44779698a10b504c65be2aa7e83ce27e22b17492321433cf855f468a47"
+    },
+    {
+      "path": "raw/76a1398be0844bd98e78f2434fe650b4/temperatures.csv.gz",
+      "bytes": 905,
+      "sha256": "032efebc43f247bdc9d3b3688a52a45187faff861db4f78550ba582700d1b858"
+    },
+    {
+      "path": "raw/771fbfd02a5a469fb11e07f773a079de/samples.csv.gz",
+      "bytes": 35543,
+      "sha256": "045d6cd0b8fcad6679f7e5442a6a51c98c8dbcc9cb3c07080637c7850cb0f898"
+    },
+    {
+      "path": "raw/771fbfd02a5a469fb11e07f773a079de/temperatures.csv.gz",
+      "bytes": 910,
+      "sha256": "a1e8ff6a90600f0c1722674683b4ab7574372da1c6a3aef1b01a69260f195031"
+    },
+    {
+      "path": "raw/77b28a62948843b7a34d1696efd120ee/samples.csv.gz",
+      "bytes": 3987,
+      "sha256": "24809a1f56ad621bef34c232cc6e0bbf6e3b10172bc0164e2a80cc0934941710"
+    },
+    {
+      "path": "raw/77b6c645188b40b48febb6a98bb3e2fe/samples.csv.gz",
+      "bytes": 3919,
+      "sha256": "0a204efcee2c8d320da93b78cece329170dc0114b04acd11118411737df1cd3a"
+    },
+    {
+      "path": "raw/79bf8d5ce5ac442190345ca224eb0a98/samples.csv.gz",
+      "bytes": 32853,
+      "sha256": "fdd4ea947405c0701ce77ef7fd81a7134eccd354da8fe9562fc2b03ba8e9f47c"
+    },
+    {
+      "path": "raw/79bf8d5ce5ac442190345ca224eb0a98/temperatures.csv.gz",
+      "bytes": 922,
+      "sha256": "2e7697bea25b9e34b464131d7945c0cfb288c2ff979fbe4786865fa793479bd8"
+    },
+    {
+      "path": "raw/79ccc6a1f4704a3ebd411204d564a1d5/samples.csv.gz",
+      "bytes": 35335,
+      "sha256": "e6d0305bb37a1b9f753dab3a925714ae1b64c7b10675e3746c7e590c4d36bbdf"
+    },
+    {
+      "path": "raw/79ccc6a1f4704a3ebd411204d564a1d5/temperatures.csv.gz",
+      "bytes": 915,
+      "sha256": "c4c2477b1497840b3a15d0a60f301a07ef2e435428f4fa1c47f7374a17f4bae8"
+    },
+    {
+      "path": "raw/79f2205e96b341f2afc945c8de4f8a28/samples.csv.gz",
+      "bytes": 104086,
+      "sha256": "a31285f8b78416f6f9ecc5d19b1ae52fe0b7f6d5e20db1f35c99d34e16a0ad55"
+    },
+    {
+      "path": "raw/79f2205e96b341f2afc945c8de4f8a28/temperatures.csv.gz",
+      "bytes": 2331,
+      "sha256": "9452ba4dc28743a977f9d70fb9247560af79e1ad4ba198f9fb8b3cf9fd71c915"
+    },
+    {
+      "path": "raw/7a57f918779a4dd59bcbe4344d6e7449/samples.csv.gz",
+      "bytes": 3937,
+      "sha256": "a5b40cfd27354e9bb9cc911a87f170e697e3972051d55381c8585ace1d3bfcbf"
+    },
+    {
+      "path": "raw/7a9a7eb4311f470fb1283718a42905c8/samples.csv.gz",
+      "bytes": 33028,
+      "sha256": "4fcd2aaced16fb683359acbd1b3487ebebe44663c7533e6d52809823b27434ef"
+    },
+    {
+      "path": "raw/7a9a7eb4311f470fb1283718a42905c8/temperatures.csv.gz",
+      "bytes": 919,
+      "sha256": "59af6fa7edf1cbd4771d43bfc4fe62fbfd78e9d7f75cc4da481c6cb08b07ff4f"
+    },
+    {
+      "path": "raw/7e7d13038daf4674a4ec15da97064267/samples.csv.gz",
+      "bytes": 33193,
+      "sha256": "918ab2749916d2e71d0b4802fd1d79fbf4aa68ba5d81a6feeb05671b1b7629d5"
+    },
+    {
+      "path": "raw/7e7d13038daf4674a4ec15da97064267/temperatures.csv.gz",
+      "bytes": 898,
+      "sha256": "2ae91de7bf200cd9d0a1965ddf3eff86baf6c8932bbf928efaeaacadb0df58b9"
+    },
+    {
+      "path": "raw/7eb4d2bcf7ed44f5a2a5a886694e50d0/samples.csv.gz",
+      "bytes": 3993,
+      "sha256": "572fc4b82f13ecbfd3a0aa775e3ce793c4b67c9012d9767ef5312a1d2fdc3359"
+    },
+    {
+      "path": "raw/7f7c2f443392466d9e20340791189bfc/samples.csv.gz",
+      "bytes": 33900,
+      "sha256": "de68dde9aa29f8bc8744b0f836ce9ff7e6fc843e4bea4c3ddfbb7204af8a58aa"
+    },
+    {
+      "path": "raw/7f7c2f443392466d9e20340791189bfc/temperatures.csv.gz",
+      "bytes": 898,
+      "sha256": "e862e0d6ddf9a330b7bfee70252fc16d6bf3a493a977b1b8043c36e8d46a5d83"
+    },
+    {
+      "path": "raw/800bc4e93f074929b09cea58e2e5872c/samples.csv.gz",
+      "bytes": 33342,
+      "sha256": "4e72d9b51539e7b90e7f7ed3e1163a0f080395806b01b3849c4c68447343ad6d"
+    },
+    {
+      "path": "raw/800bc4e93f074929b09cea58e2e5872c/temperatures.csv.gz",
+      "bytes": 897,
+      "sha256": "310a252bc059aae299ec120ce9e55325ce2b9e05b796f651754363f161ca1a64"
+    },
+    {
+      "path": "raw/807eac38f0cb47299cebb3c0479376aa/samples.csv.gz",
+      "bytes": 33408,
+      "sha256": "9c6849af755bb538941e10dc4d7228dc131d503f8c1d5e2b9a6ebdb1f327be5b"
+    },
+    {
+      "path": "raw/807eac38f0cb47299cebb3c0479376aa/temperatures.csv.gz",
+      "bytes": 915,
+      "sha256": "0af4cd1f578637a5fd2f93496d31c80525bddfac406da1cbb2482dd0dca6eadb"
+    },
+    {
+      "path": "raw/81e92d6625d141beab929c21f7b7496a/samples.csv.gz",
+      "bytes": 32902,
+      "sha256": "9cd443550d6de63053e32902d9a277247e18e1db6f5ca7c35bdb0af6673f3654"
+    },
+    {
+      "path": "raw/81e92d6625d141beab929c21f7b7496a/temperatures.csv.gz",
+      "bytes": 910,
+      "sha256": "578c66e4072cdebcc6c04aca18c7ff8fa2525e3c4ea60a0d7daee1737e34ba97"
+    },
+    {
+      "path": "raw/82302d1604a34f94ad1b16728a7f2b04/samples.csv.gz",
+      "bytes": 33399,
+      "sha256": "e12ed87a348190768c97a39511c7d5de5bf8bd72303eed102fee06f5d33781d4"
+    },
+    {
+      "path": "raw/82302d1604a34f94ad1b16728a7f2b04/temperatures.csv.gz",
+      "bytes": 913,
+      "sha256": "cef884ad1d238670183f37b3fdae79685fe468b6bc32a361d911814610f429ff"
+    },
+    {
+      "path": "raw/835d4389dfab4c7d8c6b7f108ea0a525/samples.csv.gz",
+      "bytes": 32780,
+      "sha256": "d2d5ed9c2d378468417f34c81872d76e07784f011d0dc81ba60ea3cf03a0ed45"
+    },
+    {
+      "path": "raw/835d4389dfab4c7d8c6b7f108ea0a525/temperatures.csv.gz",
+      "bytes": 911,
+      "sha256": "d3868e7bd5d0fd0672adcc092d7313c4588088fa4339630464bfc22bdac21812"
+    },
+    {
+      "path": "raw/83cebb218e05472ebd500612c631c1b9/samples.csv.gz",
+      "bytes": 33216,
+      "sha256": "35d4a656ab037d28985964668741414490d9becd0d0fbdd3ab9323640bc4fe97"
+    },
+    {
+      "path": "raw/83cebb218e05472ebd500612c631c1b9/temperatures.csv.gz",
+      "bytes": 920,
+      "sha256": "6ae2750afa5876e355f9f3612d7696831b4b147af183b413a78fd0a893336965"
+    },
+    {
+      "path": "raw/848466b814524fe5b9054ec573ea9752/samples.csv.gz",
+      "bytes": 33125,
+      "sha256": "3af610611c5d6180613e05a1ad2b43c5bcb6b993c6280264c7fff1d1290bc9c0"
+    },
+    {
+      "path": "raw/848466b814524fe5b9054ec573ea9752/temperatures.csv.gz",
+      "bytes": 918,
+      "sha256": "a37dc60ed5d44ff98d3efda8546e723c60ac1ab3a335bdb25f204301832a7d3a"
+    },
+    {
+      "path": "raw/84add47deb1b4a2c8bc1bcda09d06d48/samples.csv.gz",
+      "bytes": 3995,
+      "sha256": "48270025cf515a6c7d08e5b8da09a2c17a6476c040194f16fc6389e4678fc105"
+    },
+    {
+      "path": "raw/8524c2e042574e86b2dea68072e73b05/samples.csv.gz",
+      "bytes": 1535504,
+      "sha256": "ef976ff1167f29e2c37e6041cb1a39b5cd07eefe2ff49981f9732426147d6e1c"
+    },
+    {
+      "path": "raw/8524c2e042574e86b2dea68072e73b05/temperatures.csv.gz",
+      "bytes": 32417,
+      "sha256": "d03cb93e5c44252b3a490b7f9694a73c9edc88828858cedfb405b15d83d15fe4"
+    },
+    {
+      "path": "raw/85e992efb3ff4d2099fc794d3a528110/samples.csv.gz",
+      "bytes": 3898,
+      "sha256": "c38b04d8802c53119f9fc489638a7118abff4a5fb934a6d6ca7f8556581da061"
+    },
+    {
+      "path": "raw/85ff7efe5b54408f92cc4db79abdbc68/samples.csv.gz",
+      "bytes": 33101,
+      "sha256": "c3adb63e0155462d97566cae45d3bf53f43a6602a908ef91b17692549a4497b2"
+    },
+    {
+      "path": "raw/85ff7efe5b54408f92cc4db79abdbc68/temperatures.csv.gz",
+      "bytes": 919,
+      "sha256": "52f0e57a7a900f95fa958aa71612311584389a32d7583e69dda872a9fbac1006"
+    },
+    {
+      "path": "raw/88a315e2f4414231b793852879636958/samples.csv.gz",
+      "bytes": 32969,
+      "sha256": "4f84999dd787f3adabebb9fb04572c92edde4ada60925f4c63f32ce977130c17"
+    },
+    {
+      "path": "raw/88a315e2f4414231b793852879636958/temperatures.csv.gz",
+      "bytes": 917,
+      "sha256": "ff25527e345d7ef1a2c80c097436b88a3a8d6bca514a4a5c7894497ea28a5f88"
+    },
+    {
+      "path": "raw/89e5e56f5d6a416b93207773efdd9f94/samples.csv.gz",
+      "bytes": 35350,
+      "sha256": "f1d94d316c6b0eadb5dd0f28f1d8bb6636b330f926654f0f823d47cbf954a55c"
+    },
+    {
+      "path": "raw/89e5e56f5d6a416b93207773efdd9f94/temperatures.csv.gz",
+      "bytes": 944,
+      "sha256": "e193290f15b5a0a243f8077d97d1ae3ccaf163af4e6b7650f5d389844a787d40"
+    },
+    {
+      "path": "raw/8be2ab630c034d8a9f9e2b0eab3efd3e/samples.csv.gz",
+      "bytes": 5872588,
+      "sha256": "2cca68f0995f4121815daddcbb9fefbe0bfca3cb47afd3f2553ce814b12fbc01"
+    },
+    {
+      "path": "raw/8be2ab630c034d8a9f9e2b0eab3efd3e/temperatures.csv.gz",
+      "bytes": 134071,
+      "sha256": "a63acf2c27f6382c2d907f3f967fd89e00b74421551588cab4b07ccba48491c2"
+    },
+    {
+      "path": "raw/8e29bb2e5d404911a06055df9fb0c181/samples.csv.gz",
+      "bytes": 33371,
+      "sha256": "38fb0daaff1254d844486f4dbf3c493f81632f5f8a17866ece5af471bf7e4292"
+    },
+    {
+      "path": "raw/8e29bb2e5d404911a06055df9fb0c181/temperatures.csv.gz",
+      "bytes": 930,
+      "sha256": "a7978c618fa8642dace1c15f3a1038d8c9073e0e5d5d8b2ee27f47b7f7cf6678"
+    },
+    {
+      "path": "raw/8e97a32a946f4d628a39545488443a75/samples.csv.gz",
+      "bytes": 33447,
+      "sha256": "2f564d0b9b7700a91cb368eec7beddb365308739da42404aed01fe900d8c42bd"
+    },
+    {
+      "path": "raw/8e97a32a946f4d628a39545488443a75/temperatures.csv.gz",
+      "bytes": 908,
+      "sha256": "9939701fd2e95690e3d8638dcd5622efcb36a218fd00f13ea437f256d578d806"
+    },
+    {
+      "path": "raw/8f236949f9844f4192134792bd2de9fa/samples.csv.gz",
+      "bytes": 32931,
+      "sha256": "e6d20844da168fbfc6be32670f8c0fca463e0c07dd3dbe84a7e3831bd77617f1"
+    },
+    {
+      "path": "raw/8f236949f9844f4192134792bd2de9fa/temperatures.csv.gz",
+      "bytes": 905,
+      "sha256": "0370a21fc3b12859a3c0e67f53cdcccbaff0dc3a486d3ecc99317752693b74da"
+    },
+    {
+      "path": "raw/90897bb8373a47a5ae03d49367af1462/samples.csv.gz",
+      "bytes": 4000,
+      "sha256": "d8f5b97e93c29033cdc891fe6f93c0bae7590f0f12ee35ef31f66cd08640bf60"
+    },
+    {
+      "path": "raw/90a266f6e0984cd8881022ac9c98fe9e/samples.csv.gz",
+      "bytes": 32639,
+      "sha256": "992056aea13e6fcd914a7425b05f494e37657381382862585f7906e67a6d59ee"
+    },
+    {
+      "path": "raw/90a266f6e0984cd8881022ac9c98fe9e/temperatures.csv.gz",
+      "bytes": 893,
+      "sha256": "eb3651ffcd1ead9d984de4f94e03f4a7909aa2f61ab6a511527fe53e298e1398"
+    },
+    {
+      "path": "raw/91a0a9122c2b41c697215578d74aeef3/samples.csv.gz",
+      "bytes": 4003,
+      "sha256": "09717f44e6652333493b47fbb777db49583154eb4b250e4e91e3130894b6221f"
+    },
+    {
+      "path": "raw/92ac07a2536b456c8d769b9c2bb756f6/samples.csv.gz",
+      "bytes": 3085781,
+      "sha256": "f20c4cd486c313896dbb30732d46210763cedf9b53caf3422666e844119b407c"
+    },
+    {
+      "path": "raw/92ac07a2536b456c8d769b9c2bb756f6/temperatures.csv.gz",
+      "bytes": 67403,
+      "sha256": "d26c7d898f1a211d7a87ea8c497b1462554af8a316eaa4901ea5283190ddc818"
+    },
+    {
+      "path": "raw/935c14e821a94d04b66ba44789ba4142/samples.csv.gz",
+      "bytes": 33088,
+      "sha256": "b777f805bbbac4331c3b00101ec38269ba7e8fc364dc4fce936a8cd53974bc23"
+    },
+    {
+      "path": "raw/935c14e821a94d04b66ba44789ba4142/temperatures.csv.gz",
+      "bytes": 919,
+      "sha256": "655c1abea98aa547d921b35ba7fe2857ceb17637eda697cfba4b3b77c937bc2e"
+    },
+    {
+      "path": "raw/9448e9cd15cf4fc599629d8f0e37c17c/samples.csv.gz",
+      "bytes": 32767,
+      "sha256": "04663a5c752e705ff07e86017bb1a051251c61e2ddad70d8f09e1aea4e63dedd"
+    },
+    {
+      "path": "raw/9448e9cd15cf4fc599629d8f0e37c17c/temperatures.csv.gz",
+      "bytes": 903,
+      "sha256": "8a5a6fe2a17d9a8770734dee7c1a8d01a611897b67418a7915658cce8dba5e72"
+    },
+    {
+      "path": "raw/94b0fcbeab2041e5b4c9fac26e850384/samples.csv.gz",
+      "bytes": 31946,
+      "sha256": "e9f1078aa812f35d4f95e2b88901096d9a4fb4d574d53a227481a894b346d279"
+    },
+    {
+      "path": "raw/94b0fcbeab2041e5b4c9fac26e850384/temperatures.csv.gz",
+      "bytes": 905,
+      "sha256": "4f5cd0538d40080cb4385aefd519e59172080cd8c8aed4cf53e27906efe35087"
+    },
+    {
+      "path": "raw/95657bfaf7ba410f9fbbcf2ae6589dd1/samples.csv.gz",
+      "bytes": 31820,
+      "sha256": "477739a562b644e1006427426801f82034e4fdcb000ae162de8e0bc07e6836d7"
+    },
+    {
+      "path": "raw/95657bfaf7ba410f9fbbcf2ae6589dd1/temperatures.csv.gz",
+      "bytes": 917,
+      "sha256": "b6b070c3f8e4213dcb4d2ad91eb2159cf62ae784d54cd886838c1e635adc833e"
+    },
+    {
+      "path": "raw/9604dd2020764c4f91382cc5cd549ed5/samples.csv.gz",
+      "bytes": 33356,
+      "sha256": "80daf2519f108649a5ca98e4f6a4256149e523943e3f83c59f0b372d674ff642"
+    },
+    {
+      "path": "raw/9604dd2020764c4f91382cc5cd549ed5/temperatures.csv.gz",
+      "bytes": 913,
+      "sha256": "41cdc1394d39f4aa1d88f3003b104c4285f7b1e3f8e890f4538cdb4a18522d81"
+    },
+    {
+      "path": "raw/984dcc6027c140b68765e323c0bee2df/samples.csv.gz",
+      "bytes": 33846,
+      "sha256": "849952fb49a348bfe7f9753613d0e80189dc5e90814114b92b7dc3c18d0973e9"
+    },
+    {
+      "path": "raw/984dcc6027c140b68765e323c0bee2df/temperatures.csv.gz",
+      "bytes": 906,
+      "sha256": "1b5b6c307f8937874775f1c63d576cf726f0e5d52bd732c1a8bd9411742afbed"
+    },
+    {
+      "path": "raw/990bd70eaf3942d2b0877b2706d6dda7/samples.csv.gz",
+      "bytes": 3945,
+      "sha256": "84e10f7abb601deeb564cb6e2dd03050995dea36a76ed0a000c9e77e261fe4e6"
+    },
+    {
+      "path": "raw/9b9777b3538c472ebc69477b2a00e5f9/samples.csv.gz",
+      "bytes": 31885,
+      "sha256": "188f490aa3c23908aa33a932461cb03200bb0dae4c6d4e03d2a396358b68f4ab"
+    },
+    {
+      "path": "raw/9b9777b3538c472ebc69477b2a00e5f9/temperatures.csv.gz",
+      "bytes": 894,
+      "sha256": "453942ea3594d0db674c8afdbb6149cceb6aedb5d8ecc0c4e0196e9cf3d02235"
+    },
+    {
+      "path": "raw/9bdb392572f14c0dba1bad53b043f353/samples.csv.gz",
+      "bytes": 32642,
+      "sha256": "e09c390fd530e2077caeb55e78a23a1ce360d2ba3f03ac0b8137af495f6ef441"
+    },
+    {
+      "path": "raw/9bdb392572f14c0dba1bad53b043f353/temperatures.csv.gz",
+      "bytes": 915,
+      "sha256": "0d7262068c1b0f3b8d7ffa3dae2043f094273fc7fb87ae1acf1f4656b33bbaf4"
+    },
+    {
+      "path": "raw/9d5cfad45efc4b55a0b963304d975583/samples.csv.gz",
+      "bytes": 33094,
+      "sha256": "b54c9b781ec5ac76f1ec392e1d4c6e2768533b8b274d4a08d104a3106f30c4e1"
+    },
+    {
+      "path": "raw/9d5cfad45efc4b55a0b963304d975583/temperatures.csv.gz",
+      "bytes": 923,
+      "sha256": "0a7899ac83743a25cf87d8006fefd684ab7de8a2eb31c86f159aa76ddd7747cb"
+    },
+    {
+      "path": "raw/9deb996213d14d4da18dbe56a747f9ac/samples.csv.gz",
+      "bytes": 33207,
+      "sha256": "928840dd5cea7cdc0ec66554aba2f167dfa053ececd9ffcd8091d498dddb7838"
+    },
+    {
+      "path": "raw/9deb996213d14d4da18dbe56a747f9ac/temperatures.csv.gz",
+      "bytes": 915,
+      "sha256": "8a2c3957936dc83998124ae650b6d303bf49b5d8b710553c5fd8ce14574d3e58"
+    },
+    {
+      "path": "raw/a024b8cc027244cb999fb9369186fdb8/samples.csv.gz",
+      "bytes": 33447,
+      "sha256": "c8ebd0b47757856c1837f2a9b15abfd371ed14aa74805a0d46d5e9aa545971b3"
+    },
+    {
+      "path": "raw/a024b8cc027244cb999fb9369186fdb8/temperatures.csv.gz",
+      "bytes": 921,
+      "sha256": "ec6bddc8df919706e785e054d318340c3eba801a36b525e78e5420d63a2ccdbd"
+    },
+    {
+      "path": "raw/a150701ee4ee406897748e7c6e6b6882/samples.csv.gz",
+      "bytes": 32712,
+      "sha256": "945cde914a74cc582a860a83e846675ee47899ce3a45e94fca33fa54d3e278b9"
+    },
+    {
+      "path": "raw/a150701ee4ee406897748e7c6e6b6882/temperatures.csv.gz",
+      "bytes": 894,
+      "sha256": "ddf4cbff1dc7c6e08e8f726dce04f647f78a1777b0e2882335b40e805bd52d87"
+    },
+    {
+      "path": "raw/a22e7c7e7f0943a4b0daafdd9e091c32/samples.csv.gz",
+      "bytes": 35349,
+      "sha256": "65e74717204804128117f49e304c1a9f9d64497c01f0d9cb8471736e34052d36"
+    },
+    {
+      "path": "raw/a22e7c7e7f0943a4b0daafdd9e091c32/temperatures.csv.gz",
+      "bytes": 905,
+      "sha256": "271d3528b8b526fa24d854fada25c93a4eed0de42ae34ced6cd1cdef03c4c0d4"
+    },
+    {
+      "path": "raw/a24178efa8b64acfbd1f2ff05cf5f2ac/samples.csv.gz",
+      "bytes": 98316,
+      "sha256": "b7e2c6cdd0a832d90503e34a2a0f24022a9a5ab9f4a63a19c2d6bc5d38437f6b"
+    },
+    {
+      "path": "raw/a24178efa8b64acfbd1f2ff05cf5f2ac/temperatures.csv.gz",
+      "bytes": 2373,
+      "sha256": "d8036639b6a03d95687afb8e1b0caf6b0246cf5ea21c7607208b44009d7583d9"
+    },
+    {
+      "path": "raw/a46ae142d866416491a1a6a3e11c4b76/samples.csv.gz",
+      "bytes": 3900,
+      "sha256": "703a184e885d911c5b6af8368ab3491f09bcfc3eb304d31a05d1f6e1ab17cfa8"
+    },
+    {
+      "path": "raw/a5c5a85ebaad4b798bbdb9cd881dfb0c/samples.csv.gz",
+      "bytes": 33139,
+      "sha256": "4f78d353361ff988f9e0beb546ac3c020f3e370368f10ca1b48c21f572e5e40d"
+    },
+    {
+      "path": "raw/a5c5a85ebaad4b798bbdb9cd881dfb0c/temperatures.csv.gz",
+      "bytes": 922,
+      "sha256": "a24614373d1e52974e6ee8e99c12413a525a48afdc165a94341ae9eab88592e2"
+    },
+    {
+      "path": "raw/a5df9d38960e42d99da5b224a4451459/samples.csv.gz",
+      "bytes": 33166,
+      "sha256": "e19285693050307b49d6dda1449cc440f3317370cb7aadd75f0fd6444ff164e0"
+    },
+    {
+      "path": "raw/a5df9d38960e42d99da5b224a4451459/temperatures.csv.gz",
+      "bytes": 904,
+      "sha256": "7f33f171d037a37202914547419b487d302b60e9b7b7bad13c88b51898850bf4"
+    },
+    {
+      "path": "raw/a5f38d74c9974d27a84fa4d6f6d412a8/samples.csv.gz",
+      "bytes": 31997,
+      "sha256": "9b0d5832fd35e2ef2e2fa16bb5fad1ad8700526c1378c4c2461a2822c3dadc0a"
+    },
+    {
+      "path": "raw/a5f38d74c9974d27a84fa4d6f6d412a8/temperatures.csv.gz",
+      "bytes": 905,
+      "sha256": "1684f0ecf4690a36608d83c9e031c4affef667ecceddebd70ecae5e2708fab5e"
+    },
+    {
+      "path": "raw/a81c138b24ef456294707ab444036b25/samples.csv.gz",
+      "bytes": 32965,
+      "sha256": "a7132f1fff2902468a927a23b5e244c844606796e1dd8ab72f307f8f0bd54dc5"
+    },
+    {
+      "path": "raw/a81c138b24ef456294707ab444036b25/temperatures.csv.gz",
+      "bytes": 913,
+      "sha256": "716d2c714bcba8583939c0d50eb784047e27ed5d3ded8bf95ec1191734964c6f"
+    },
+    {
+      "path": "raw/a9d0318817a4459a9e0788bafed92bc8/samples.csv.gz",
+      "bytes": 4007,
+      "sha256": "6e949b4b77f74f1e08df79309f27c6e95c83b89404890c9685b1ab91135fea24"
+    },
+    {
+      "path": "raw/aa21975eda024cb8b74f2b1420eef373/samples.csv.gz",
+      "bytes": 32901,
+      "sha256": "a659192fccbc3f87f3bea2df31975c7399e7cbbd895f4424ee54886432014a9f"
+    },
+    {
+      "path": "raw/aa21975eda024cb8b74f2b1420eef373/temperatures.csv.gz",
+      "bytes": 919,
+      "sha256": "f191ac15d3c9385705a95aa751df05eed950e83a3b65ba27f6e52a0a5253f432"
+    },
+    {
+      "path": "raw/aa6a23b1d4464c61a44d36f49a6a11a7/samples.csv.gz",
+      "bytes": 33180,
+      "sha256": "a0b4636a94d9c74a0e938246720e47bd3533907be15695c0c5cea0e2c1e6e85b"
+    },
+    {
+      "path": "raw/aa6a23b1d4464c61a44d36f49a6a11a7/temperatures.csv.gz",
+      "bytes": 908,
+      "sha256": "9cd9eeab74fa2931a4cd8a4bd85f5a0ae15fdc7181459aed3942189aec990e41"
+    },
+    {
+      "path": "raw/aacef14b1009426a8b5ab599fd5749e4/samples.csv.gz",
+      "bytes": 35431,
+      "sha256": "bdbebc5385c7c1592d44356fc8ccc327ad85e6191df8c5b1e4e68698a3128c11"
+    },
+    {
+      "path": "raw/aacef14b1009426a8b5ab599fd5749e4/temperatures.csv.gz",
+      "bytes": 940,
+      "sha256": "3d30a83b44ca6334bb4237049f10ffe7583e529f7fea253d0c4e0fad65fd33a7"
+    },
+    {
+      "path": "raw/aaf3b1cd7c3c4e92a39c85e806ed1fbf/samples.csv.gz",
+      "bytes": 33569,
+      "sha256": "3e088b526ed14c51b3664e45a310d22459a1a05554210b9ea8de575db1244523"
+    },
+    {
+      "path": "raw/aaf3b1cd7c3c4e92a39c85e806ed1fbf/temperatures.csv.gz",
+      "bytes": 905,
+      "sha256": "1ab6986736d5f1f0c5c762a050d72034129e552126cb9ccc516887e3faa571df"
+    },
+    {
+      "path": "raw/ab0741ddcf004327b41193864437d33e/samples.csv.gz",
+      "bytes": 35525,
+      "sha256": "c190f2759095675f5e08e41f83967288bad283bd0e6801d820378f77c65fe11b"
+    },
+    {
+      "path": "raw/ab0741ddcf004327b41193864437d33e/temperatures.csv.gz",
+      "bytes": 906,
+      "sha256": "ee7b16a8995875d7e47c61a7c3c238a7663718ee4b2c42b931817d1f925db751"
+    },
+    {
+      "path": "raw/ac03584ed6644507ab9f9e7dfaae6a58/samples.csv.gz",
+      "bytes": 32701,
+      "sha256": "c674603ad03e6786c77f6e3bbbd58657fe13bd242d87a71760a6c5fba2883dda"
+    },
+    {
+      "path": "raw/ac03584ed6644507ab9f9e7dfaae6a58/temperatures.csv.gz",
+      "bytes": 914,
+      "sha256": "c99053c296bca1ad5ca4f5147d93f90512d1dc54dbe1d1874535160e45c5c4c4"
+    },
+    {
+      "path": "raw/ad02cc7d1299471fa1cce68963eafc4d/samples.csv.gz",
+      "bytes": 3931,
+      "sha256": "4e32acb8fbe8542950f8445b3053d7ba739dad9124d73ea1290b93c784862967"
+    },
+    {
+      "path": "raw/ad427f84725f48f6a6cc87413b1322bb/samples.csv.gz",
+      "bytes": 32429,
+      "sha256": "1451df37f4508186adbb5064eb70ea236e5e64ce2fb1304af3bae7f22485aa03"
+    },
+    {
+      "path": "raw/ad427f84725f48f6a6cc87413b1322bb/temperatures.csv.gz",
+      "bytes": 914,
+      "sha256": "16ebfa34162e68c8099e9680f7531684b2c06cee404d859d7c802be0fe82e624"
+    },
+    {
+      "path": "raw/adf3545b5ef94053aeed9047583e61b5/samples.csv.gz",
+      "bytes": 3950,
+      "sha256": "a9b2e696844566b2a1ae74fdd35cb7bf1bbf7752facf23a0c48a3b3aa70ac6cb"
+    },
+    {
+      "path": "raw/afd8ec991d7e4db59f44719041656a75/samples.csv.gz",
+      "bytes": 32730,
+      "sha256": "f5cc70a7e97eaf6b971c5331800ddcf5c88146e5f35e06034b57ca49f6c8eb7d"
+    },
+    {
+      "path": "raw/afd8ec991d7e4db59f44719041656a75/temperatures.csv.gz",
+      "bytes": 909,
+      "sha256": "81969ca66a1ff4c9f35e48c00cd41a25754398f0c96b2ccfba37017e2ff0b350"
+    },
+    {
+      "path": "raw/b1d64bc121694ed4a51b5ed0e5dbd3be/samples.csv.gz",
+      "bytes": 3835,
+      "sha256": "f8262cf3709f13c19c898324e90b4497b8e3bd30511c38d38f0d6cf59c6a53a5"
+    },
+    {
+      "path": "raw/b321692fcf47461ca962918a98c9b8aa/samples.csv.gz",
+      "bytes": 33835,
+      "sha256": "39701ebc4484817bfccf99ebdf80b6e4b25cae8abe012f85bfa8c5e8e1629cf4"
+    },
+    {
+      "path": "raw/b321692fcf47461ca962918a98c9b8aa/temperatures.csv.gz",
+      "bytes": 910,
+      "sha256": "41dc1b1e4f0ca38adc763a9e12e090abda6da7ed52b9437edcf4a78160edc76e"
+    },
+    {
+      "path": "raw/b46b52ff09a74908ba0dd7441d88482b/samples.csv.gz",
+      "bytes": 32567,
+      "sha256": "ca0e9d918cb2d17dedffc2be4c5e0153ae439687a4b00fce263f8daa5b84b751"
+    },
+    {
+      "path": "raw/b46b52ff09a74908ba0dd7441d88482b/temperatures.csv.gz",
+      "bytes": 910,
+      "sha256": "97fa11f392dfc9e8fda9ec013247161dea7622735c2244b906b75b0bcff7579c"
+    },
+    {
+      "path": "raw/b46cc4dfbc914bbbbcc0c103bae68e79/samples.csv.gz",
+      "bytes": 99144,
+      "sha256": "7cddfc6df1a8140b4f2b5c9efb34a71716ed30ed45ff5296fad8647b2b60c627"
+    },
+    {
+      "path": "raw/b46cc4dfbc914bbbbcc0c103bae68e79/temperatures.csv.gz",
+      "bytes": 2357,
+      "sha256": "095e75d2ad6e857b120ecf7dae80e56443022eee0064e13a819f203e63c66f56"
+    },
+    {
+      "path": "raw/b4b82e6f4b0f4574870688bec8076a76/samples.csv.gz",
+      "bytes": 1037912,
+      "sha256": "dfd78d76331f4583f452a8b6f0429be9c52b0bce6fa1a9ed1f68abc6303f121b"
+    },
+    {
+      "path": "raw/b4b82e6f4b0f4574870688bec8076a76/temperatures.csv.gz",
+      "bytes": 22463,
+      "sha256": "7ac163c32f76ee518fc42f5cbb9b69435aa8a707360e43eca22c6bee5134cad6"
+    },
+    {
+      "path": "raw/b59af67f67e645e78e8332f1df0ddb02/samples.csv.gz",
+      "bytes": 3917,
+      "sha256": "098b98702cba7980f93323186adb0546be3392dd99c4715376877eb64d28a66b"
+    },
+    {
+      "path": "raw/b62aaaa358984ec081d24b4867a4e41a/samples.csv.gz",
+      "bytes": 35035,
+      "sha256": "b704c7e7e80789487d6e08e563b8a84787f9007390a1397409e26e93870ee749"
+    },
+    {
+      "path": "raw/b62aaaa358984ec081d24b4867a4e41a/temperatures.csv.gz",
+      "bytes": 898,
+      "sha256": "0c182db082174b80a62044c9bf3475a49f1938fbd42994c25eec9d9615390de7"
+    },
+    {
+      "path": "raw/b692de381fc04b038a4951421a2688d6/samples.csv.gz",
+      "bytes": 34394,
+      "sha256": "3c3395255d3437a8176727826202e6867f963a137a9db5f3673d1924ee5bb0b0"
+    },
+    {
+      "path": "raw/b692de381fc04b038a4951421a2688d6/temperatures.csv.gz",
+      "bytes": 908,
+      "sha256": "7c278e264ec373d82a932489c75000d859dd815f0813c068c3e21372d033c128"
+    },
+    {
+      "path": "raw/b7a7ded8cc64434c912def10863eb83d/samples.csv.gz",
+      "bytes": 35105,
+      "sha256": "f85e60923d161af6580f6df306726da7be0505637aace817520563af6af1e6de"
+    },
+    {
+      "path": "raw/b7a7ded8cc64434c912def10863eb83d/temperatures.csv.gz",
+      "bytes": 917,
+      "sha256": "9ffe9a42f00267521938c85c5b86db1a2f4ac9ad41859d0b205e05960e75fa47"
+    },
+    {
+      "path": "raw/b981d6dbf1b645c9bc3291d6afd304da/samples.csv.gz",
+      "bytes": 32649,
+      "sha256": "5267507837d98429fee4e0f47e36b4953718fcbec621d1a0bb3719194f21c00d"
+    },
+    {
+      "path": "raw/b981d6dbf1b645c9bc3291d6afd304da/temperatures.csv.gz",
+      "bytes": 908,
+      "sha256": "3ef63bf998d86f8fa9d698f9d1e8b54c64ca84be610b2aa9a801a494ccc87768"
+    },
+    {
+      "path": "raw/ba2baaee64984c49bc1c2c750336b9d0/samples.csv.gz",
+      "bytes": 35164,
+      "sha256": "247f51566ba3018686651a1c88f2fb53975f13fb8ff1868fd28c795fa28ebb02"
+    },
+    {
+      "path": "raw/ba2baaee64984c49bc1c2c750336b9d0/temperatures.csv.gz",
+      "bytes": 921,
+      "sha256": "3f606d2091f16be0f5c139d58bbdfe5eeab7799636324b2f1f1942ade2971179"
+    },
+    {
+      "path": "raw/bb2af5e1811d4f5594bc936c53e6800d/samples.csv.gz",
+      "bytes": 33621,
+      "sha256": "08e46ec0c078ea07a2f2e335f0e63f07fef87d8126d25ea725c18d5ead5a37ce"
+    },
+    {
+      "path": "raw/bb2af5e1811d4f5594bc936c53e6800d/temperatures.csv.gz",
+      "bytes": 909,
+      "sha256": "165ca6b05dad97ba5597f48bcbe0c251d0a083bf0f828264953845cb9b5611e8"
+    },
+    {
+      "path": "raw/beb36b89354a4252a9eec060b1edc55d/samples.csv.gz",
+      "bytes": 33242,
+      "sha256": "bf685944283c2406eb23f054b55974a853b4e188f56a3a32ad295b789ce0f39a"
+    },
+    {
+      "path": "raw/beb36b89354a4252a9eec060b1edc55d/temperatures.csv.gz",
+      "bytes": 931,
+      "sha256": "96a73e29f9aa4c56a0d5a7038e0f6e32e5319dfbcd1fc0b54bf193d0cece5562"
+    },
+    {
+      "path": "raw/bf9d3791345c4b339e3e12be7c54c978/samples.csv.gz",
+      "bytes": 32883,
+      "sha256": "f970c4a95233906d64d14799d9a7d61019f3b369162d605bb4278e1e9ddf7d6a"
+    },
+    {
+      "path": "raw/bf9d3791345c4b339e3e12be7c54c978/temperatures.csv.gz",
+      "bytes": 903,
+      "sha256": "d44f9e33731c586a84e73626b974de8a346699006204efbaf323ab5ef4aa8853"
+    },
+    {
+      "path": "raw/c0ce8e41d1dd481eb80912502b4f3d0d/samples.csv.gz",
+      "bytes": 33217,
+      "sha256": "be46538c24b95702f596eaaf1a45c0c21125076fd594ea6fd6d57f98206f740d"
+    },
+    {
+      "path": "raw/c0ce8e41d1dd481eb80912502b4f3d0d/temperatures.csv.gz",
+      "bytes": 923,
+      "sha256": "79afcda5f650a2c1fd893fe3abc361929e232b0e329f274db798ba2fe72ce4f7"
+    },
+    {
+      "path": "raw/c0f4ac4380b64d68a4555cb80fa2e4a3/samples.csv.gz",
+      "bytes": 35267,
+      "sha256": "3954d09ec55592aaf1587dbeedff88c2336cb86515a4fd20d58a12d4490acdc7"
+    },
+    {
+      "path": "raw/c0f4ac4380b64d68a4555cb80fa2e4a3/temperatures.csv.gz",
+      "bytes": 915,
+      "sha256": "d90042c16ed73f0ab151df435648db97fae21fb7a6ef6da28659ecf47f5b072f"
+    },
+    {
+      "path": "raw/c11d3c31ad6c4bc08a77087af2ff9405/samples.csv.gz",
+      "bytes": 33042,
+      "sha256": "c5f1771ae5f7cc5e06a95babefeb07c920e2843b672e8194385bc54e0d42c85c"
+    },
+    {
+      "path": "raw/c11d3c31ad6c4bc08a77087af2ff9405/temperatures.csv.gz",
+      "bytes": 901,
+      "sha256": "9c0e7ac0fbbce73d3040f92a4eeb475ebf56aa9beed7863e0dcc267ea8b9d190"
+    },
+    {
+      "path": "raw/c1304a2d4864433bb891e2284cc4b847/samples.csv.gz",
+      "bytes": 35684,
+      "sha256": "850dffc870c98ee93238599475711e20cc453ca657e17ccdb341730514a8f65c"
+    },
+    {
+      "path": "raw/c1304a2d4864433bb891e2284cc4b847/temperatures.csv.gz",
+      "bytes": 911,
+      "sha256": "9281a62615903c7c79bc367ac5c065066ab0348172d0ee89e15e5dd6dd86fb86"
+    },
+    {
+      "path": "raw/c54a16a2f6ef49418e3b0b618fef018f/samples.csv.gz",
+      "bytes": 33667,
+      "sha256": "521955a5a99bcab322b68ef7603cba951a35c6321d6d28af0e0d8c28b9c85deb"
+    },
+    {
+      "path": "raw/c54a16a2f6ef49418e3b0b618fef018f/temperatures.csv.gz",
+      "bytes": 920,
+      "sha256": "2872545292bf327ae68fdf91630fc517496f5aba3c90611d242692cf624b51a8"
+    },
+    {
+      "path": "raw/c5c341cf1b594e10ba6ee6050f33dbcc/samples.csv.gz",
+      "bytes": 3854,
+      "sha256": "d113e0cb14d8e5a3329ed68b4fbc29bbb38c99782715fd10d68fe1f45dd70dd1"
+    },
+    {
+      "path": "raw/c5f94f46bd4d4eba9d93e09c838edce8/samples.csv.gz",
+      "bytes": 32282,
+      "sha256": "1f2478d073609ee8ca5e03aae6f66af4e953721c0706cbec1d1931a4849d246b"
+    },
+    {
+      "path": "raw/c5f94f46bd4d4eba9d93e09c838edce8/temperatures.csv.gz",
+      "bytes": 906,
+      "sha256": "dc8f9dee916c1cc42d15af76a5f02dec579bdb13110fabc50a460b7f47f950a5"
+    },
+    {
+      "path": "raw/c63780206e4542219c915513be61a42c/samples.csv.gz",
+      "bytes": 18911296,
+      "sha256": "b0d0af27f700657b48179e76259c2f0fe49f5c28a48effb3528df17b7c81de6a"
+    },
+    {
+      "path": "raw/c63780206e4542219c915513be61a42c/temperatures.csv.gz",
+      "bytes": 404047,
+      "sha256": "73f766936e30ae32c42123c47ef1a43ae19d53984681d211f890fe3b44079d69"
+    },
+    {
+      "path": "raw/c6bd265ce8ee45838c7493f7030026a7/samples.csv.gz",
+      "bytes": 3980,
+      "sha256": "26e0d62adb74a3c54ecf9f412953b93582a41b0163d81c68d313f49408b4ccfe"
+    },
+    {
+      "path": "raw/c6d4c206156c456094e2c3421d717996/samples.csv.gz",
+      "bytes": 33439,
+      "sha256": "ed0d8ed57ec69d96279500fef1726520ada94a7a33b9da8fa4f07496dce94337"
+    },
+    {
+      "path": "raw/c6d4c206156c456094e2c3421d717996/temperatures.csv.gz",
+      "bytes": 910,
+      "sha256": "6d0731d2592c0d1dde0e427b531cbf08d3e162fe075a58c842dcde9b3f546a4f"
+    },
+    {
+      "path": "raw/c776048498654a32a0f6dbffcab5c562/samples.csv.gz",
+      "bytes": 33149,
+      "sha256": "340c07e0d57e38cffeffaf945d4a6c984356b31509b845e320e1bbdd0a3a1879"
+    },
+    {
+      "path": "raw/c776048498654a32a0f6dbffcab5c562/temperatures.csv.gz",
+      "bytes": 913,
+      "sha256": "e472a3470a98c9122a8d3bd345985a8a4f405a11a7fd674f103c6d76915e289b"
+    },
+    {
+      "path": "raw/c799fbb326cc4221a831e4487d892784/samples.csv.gz",
+      "bytes": 33291,
+      "sha256": "817df6429287ccc2adf68a62b39d8a8ed6dedbcb99ff74e41b36fd77cce029a0"
+    },
+    {
+      "path": "raw/c799fbb326cc4221a831e4487d892784/temperatures.csv.gz",
+      "bytes": 910,
+      "sha256": "27185dbfe98a55c86a8ea248061cb6ec1265c0ea6ab51a8052259b2c817014a5"
+    },
+    {
+      "path": "raw/cca7b6ebafa74dee80f7ca22fff09aaf/samples.csv.gz",
+      "bytes": 33167,
+      "sha256": "2bccddaebe09505a464040b9420d7d9c2308a21f66c0b3d693e8d51c9e79428b"
+    },
+    {
+      "path": "raw/cca7b6ebafa74dee80f7ca22fff09aaf/temperatures.csv.gz",
+      "bytes": 914,
+      "sha256": "d413d250ab0ddf37dfe5d66fef50036efcb59e400eb907d81a672cc37442f3f5"
+    },
+    {
+      "path": "raw/cda430e9801c46e89f0d5c1f3248f846/samples.csv.gz",
+      "bytes": 3987,
+      "sha256": "de85accbf893fb5baba80bad1fac9977bf6d06888cbdfdad24bdf9577670b0d7"
+    },
+    {
+      "path": "raw/cfb22bdf573944aca998d146ccc95ebe/samples.csv.gz",
+      "bytes": 32924,
+      "sha256": "e6a345748d2038a5ee8b13d81e733096a2cd5b610e813c526ea2d34a5ab0fc07"
+    },
+    {
+      "path": "raw/cfb22bdf573944aca998d146ccc95ebe/temperatures.csv.gz",
+      "bytes": 914,
+      "sha256": "b223c460404c37c987355e9857befe0a9e54764cb3b127c9907c00f21bae834e"
+    },
+    {
+      "path": "raw/d1f714bc77764869aaa60b8f3e4e8e4a/samples.csv.gz",
+      "bytes": 32846,
+      "sha256": "44bc4047ea9f7344e1aa6c9281475cf388c859d8811537b8b326aa109cf9977d"
+    },
+    {
+      "path": "raw/d1f714bc77764869aaa60b8f3e4e8e4a/temperatures.csv.gz",
+      "bytes": 921,
+      "sha256": "961b54d1915e4253a38ee9180f83ecc5059d42f28dcbfad6545bcdff3161b54e"
+    },
+    {
+      "path": "raw/d2bd5d6372c94d9eaf3ff91beba1a780/samples.csv.gz",
+      "bytes": 33305,
+      "sha256": "1f2e184066f7636f7e26db37e43ec90c4f8b0b224b2267cb6aa6b304c5bc138c"
+    },
+    {
+      "path": "raw/d2bd5d6372c94d9eaf3ff91beba1a780/temperatures.csv.gz",
+      "bytes": 902,
+      "sha256": "5285819c8edc774db51bd2ff465f4fecbd5ec948b2f05609552b7581ceac5e0f"
+    },
+    {
+      "path": "raw/d2daed1f8af548c8abb44f47f21eb7e5/samples.csv.gz",
+      "bytes": 33404,
+      "sha256": "263ff873c0bd4452e89ded636ad3670ce7fd0c1291f59a953cc209dbf2c86fa7"
+    },
+    {
+      "path": "raw/d2daed1f8af548c8abb44f47f21eb7e5/temperatures.csv.gz",
+      "bytes": 919,
+      "sha256": "b73a2953bead9ad2aa0a4d06bd43b33c40efbc7deb617c94b76bb58a072215e0"
+    },
+    {
+      "path": "raw/d367aea94025466a806eaf36781d725e/samples.csv.gz",
+      "bytes": 32615,
+      "sha256": "2f3bd653ac29f9c320fde7098b005a0e0a4493c61eb91c731eb650f1b4e0ece3"
+    },
+    {
+      "path": "raw/d367aea94025466a806eaf36781d725e/temperatures.csv.gz",
+      "bytes": 920,
+      "sha256": "eff65fa46e2501fab59a166259afe1506a1ad2f4f83ff71c5a192b5d9d128381"
+    },
+    {
+      "path": "raw/d38add617c604ec0af851119c1641043/samples.csv.gz",
+      "bytes": 3912,
+      "sha256": "be688f0b148f88093cbaf272e0ffee9d69a03926341bd264d8e5c499a28d556b"
+    },
+    {
+      "path": "raw/d48461c7502f408c806a4fec7e56bb01/samples.csv.gz",
+      "bytes": 35117,
+      "sha256": "c0d80bca7326d9fca13d2fbf719691f55661dc60ffa0e4e33da50bc698263fb9"
+    },
+    {
+      "path": "raw/d48461c7502f408c806a4fec7e56bb01/temperatures.csv.gz",
+      "bytes": 907,
+      "sha256": "5b53c15db9660f9afe2919c2ee0489ffba57adccdf64b19ca8df403e6b9894e5"
+    },
+    {
+      "path": "raw/d48c1d068606434c8ff294fb2803da84/samples.csv.gz",
+      "bytes": 33688,
+      "sha256": "69354c46b1a5fb8d034101cd0418a1312167e47a394dda5eea34495b0a1a5e81"
+    },
+    {
+      "path": "raw/d48c1d068606434c8ff294fb2803da84/temperatures.csv.gz",
+      "bytes": 918,
+      "sha256": "b53118f437385683b49660670890d75de8b3019f14466bcc6935abb1564cee42"
+    },
+    {
+      "path": "raw/d4ab63db8173415da4691dd8f4d0b2dd/samples.csv.gz",
+      "bytes": 33404,
+      "sha256": "a622200a2e4e2f3e1cee9f56a16e7eed4edfc39466b25979883abb65b5a11801"
+    },
+    {
+      "path": "raw/d4ab63db8173415da4691dd8f4d0b2dd/temperatures.csv.gz",
+      "bytes": 914,
+      "sha256": "bb942dd961726fdbade293152921c88dedc67812cfc85af765b40dc0c14aa3ef"
+    },
+    {
+      "path": "raw/d4b51c1388f542268f181a450d8a07e9/samples.csv.gz",
+      "bytes": 32746,
+      "sha256": "f5f317bcc3bc9ec962e88b81db0515b87ef05a33df882938c5dd40b21383bf94"
+    },
+    {
+      "path": "raw/d4b51c1388f542268f181a450d8a07e9/temperatures.csv.gz",
+      "bytes": 921,
+      "sha256": "15f0046f439e4ca1eb9354e5f1fecb73eedbb834d492a93a9edd948e4e1a869b"
+    },
+    {
+      "path": "raw/d4f9089eecda4441acc459cc7ec88151/samples.csv.gz",
+      "bytes": 31919,
+      "sha256": "fd51b4fb4ecb79d0dbd7ed4a396c4205ac7ebded4301fc5ac046cc7fcd01fb63"
+    },
+    {
+      "path": "raw/d4f9089eecda4441acc459cc7ec88151/temperatures.csv.gz",
+      "bytes": 927,
+      "sha256": "02b5c5934a29160bacc7e122357b6c748843cad65f4f3dd38a51ad7ac126c27d"
+    },
+    {
+      "path": "raw/d4fafcd8410a4ed495ac7b3361e3b840/samples.csv.gz",
+      "bytes": 32842,
+      "sha256": "2d9f3de946b57c7376ad503ed8ae2325204c5d83898298d69f15c25c5b3d14b0"
+    },
+    {
+      "path": "raw/d4fafcd8410a4ed495ac7b3361e3b840/temperatures.csv.gz",
+      "bytes": 913,
+      "sha256": "5fc2ede5e91fcb177902f224815714531da98b1648358b5b7a7ee0ebb2384de2"
+    },
+    {
+      "path": "raw/d50b59b1c4b64a23863f5a3f5096473c/samples.csv.gz",
+      "bytes": 35678,
+      "sha256": "083fda0a098efd8a64929fc981f562666747755510a3c8f697ea56fa64f540e6"
+    },
+    {
+      "path": "raw/d50b59b1c4b64a23863f5a3f5096473c/temperatures.csv.gz",
+      "bytes": 909,
+      "sha256": "763fbeced99ebc60a60d1728694b396599addc24f77f9714376128e1a8184a65"
+    },
+    {
+      "path": "raw/d56705333a0c4195bc7c645936a6224a/samples.csv.gz",
+      "bytes": 3149876,
+      "sha256": "e9bc305d4f47ab6f09b049e29dfb29fc1ee1199b479a1ac4b29e2500da4b22ca"
+    },
+    {
+      "path": "raw/d56705333a0c4195bc7c645936a6224a/temperatures.csv.gz",
+      "bytes": 67812,
+      "sha256": "933894be055083295622d054cdb56dd3c3409d88db42dda98beb1848c959c71c"
+    },
+    {
+      "path": "raw/d9aae23ac13a4d5a87830b82061aa053/samples.csv.gz",
+      "bytes": 32383,
+      "sha256": "4be3b38cbe9acbc38d22a7c52e7036a62f810403d28d9c5ea8f726c8e47c6f21"
+    },
+    {
+      "path": "raw/d9aae23ac13a4d5a87830b82061aa053/temperatures.csv.gz",
+      "bytes": 894,
+      "sha256": "86ef6f5bba69b11861f1abab5d9f3635edbd59237be4d0c84b541267dad89bb1"
+    },
+    {
+      "path": "raw/da1f0b17279e4ac5be295b47c7026dae/samples.csv.gz",
+      "bytes": 32890,
+      "sha256": "0523cefff1d5ea3d29ba00c01471d74e05e32046cb89c95ec4224d8e58ec8ae5"
+    },
+    {
+      "path": "raw/da1f0b17279e4ac5be295b47c7026dae/temperatures.csv.gz",
+      "bytes": 921,
+      "sha256": "a7711a63444a9e147762bc8878c5283e350b3a061e96b0dbbca183220dda9fb2"
+    },
+    {
+      "path": "raw/da5cb3c43295460d91d3624702b6941e/samples.csv.gz",
+      "bytes": 32458,
+      "sha256": "c23c5240c82e24fb255390cd91524681418c4c9893f6031b28ec221431344fe4"
+    },
+    {
+      "path": "raw/da5cb3c43295460d91d3624702b6941e/temperatures.csv.gz",
+      "bytes": 896,
+      "sha256": "7a27958a6c9e5dded351b73b06141ebfd9d6455682500b9214261d92978fd636"
+    },
+    {
+      "path": "raw/da985a3023bf4a4ea8639d2c3f138549/samples.csv.gz",
+      "bytes": 33019,
+      "sha256": "6f61e2292efe9242d4d2aa73486b9898cee646f358503f6dd84f2547181fe516"
+    },
+    {
+      "path": "raw/da985a3023bf4a4ea8639d2c3f138549/temperatures.csv.gz",
+      "bytes": 911,
+      "sha256": "759dd9e8caa64aa2df84fdd2f1f7730ba994812a81a4e937f4a38992cfa42756"
+    },
+    {
+      "path": "raw/dc1538f177e04cfa9fc02c79b5978225/samples.csv.gz",
+      "bytes": 3941,
+      "sha256": "b28a962e31460740cbc4983f8986c0cfb902a2f19562c08aaf58c926f1a828e8"
+    },
+    {
+      "path": "raw/dc2b129125814fdca17131bf03678cd4/samples.csv.gz",
+      "bytes": 3884,
+      "sha256": "9ff55c552b997f80ead20697a30a0df0caab7f63d530528ab733d727eb2d95a7"
+    },
+    {
+      "path": "raw/ddd1ddcf134348b2922b438eaaf84b57/samples.csv.gz",
+      "bytes": 4025,
+      "sha256": "188c446712d979b24c40c717e28c55ad5afc8d82c88dcbf24b637778b353ee99"
+    },
+    {
+      "path": "raw/de40c3336b4f4780929171bd5d733125/samples.csv.gz",
+      "bytes": 3921,
+      "sha256": "3e27f18b78d6199255d8e19e8095dabd58d94b7f89be3cdeed8be93e7e3c5309"
+    },
+    {
+      "path": "raw/de47b434aaaf421583f1f572516f2bdb/samples.csv.gz",
+      "bytes": 3991,
+      "sha256": "e3ab7df5f66fdfd58bd253de753c76da7c8d035770742f81077abea80b37b760"
+    },
+    {
+      "path": "raw/dea25d0df4ee4b999bc1e1526e999394/samples.csv.gz",
+      "bytes": 35037,
+      "sha256": "8d5716bb4d51df09d0c33cfb2a98f68ed6f28fac115b729722b8d4b34c867d61"
+    },
+    {
+      "path": "raw/dea25d0df4ee4b999bc1e1526e999394/temperatures.csv.gz",
+      "bytes": 901,
+      "sha256": "c91490dd69beddcf5e293b9ee267692168d46741e08a68a9590683bbc32c7311"
+    },
+    {
+      "path": "raw/debe145672c545e1b22126dbc81054ea/samples.csv.gz",
+      "bytes": 3371327,
+      "sha256": "ae26ecce807919e21ddfdacbcd2db27fff0612f88d39e44ba17a4c4645ff6654"
+    },
+    {
+      "path": "raw/debe145672c545e1b22126dbc81054ea/temperatures.csv.gz",
+      "bytes": 72782,
+      "sha256": "c129e4e903435dc61faa412b0a8d2ebae73414a25f2cb0c70f7bbb5f5259ed79"
+    },
+    {
+      "path": "raw/df3f68063ad54b6d97766b7353daeb0c/samples.csv.gz",
+      "bytes": 32797,
+      "sha256": "3c09667e4de14837ecd0cf0d25f84b138ba73f1f4e3e8a20aeaecd5129bdace1"
+    },
+    {
+      "path": "raw/df3f68063ad54b6d97766b7353daeb0c/temperatures.csv.gz",
+      "bytes": 922,
+      "sha256": "9f12790250ad627f90c22e62b68767a38f5a5987bc166ce21eaf3d7af8ef9e1e"
+    },
+    {
+      "path": "raw/df5ac656e6fa405aa9fa9a068d2a7316/samples.csv.gz",
+      "bytes": 3963,
+      "sha256": "8c6ffc09df1bb1f0d2abc52191607e74c9666589111f30a4a55950de9cddcb4b"
+    },
+    {
+      "path": "raw/dfd5a31fb0254ac2a7c15c4596bd0e7d/samples.csv.gz",
+      "bytes": 3945,
+      "sha256": "5b524ada1022b2bd898021300643a7a8f82a3ae81bb28abcf59172804699759d"
+    },
+    {
+      "path": "raw/e08c6c302cd9448cb735320c89d49262/samples.csv.gz",
+      "bytes": 35628,
+      "sha256": "5f80e7c2d9e862eff2b8a9d663b3581d080c043584bf45c0be9df502f7f7f751"
+    },
+    {
+      "path": "raw/e08c6c302cd9448cb735320c89d49262/temperatures.csv.gz",
+      "bytes": 926,
+      "sha256": "36c74b92c5297ae0c02b5cc4fb90f04171b3059b4a331df8956e52621fa89dd4"
+    },
+    {
+      "path": "raw/e0b3eb65edf149e8aeff6ff506146e30/samples.csv.gz",
+      "bytes": 32468,
+      "sha256": "9d8e543e4d0a099dd3b9df3c27cb12ada401e30854d293404979e5b8dd17d7e4"
+    },
+    {
+      "path": "raw/e0b3eb65edf149e8aeff6ff506146e30/temperatures.csv.gz",
+      "bytes": 891,
+      "sha256": "7bc11490fc4fe0546975580abb4e30224befa3b0c438f862eefd82f84bc7a635"
+    },
+    {
+      "path": "raw/e1f234dcf80143d8b55b38af6fab0f3c/samples.csv.gz",
+      "bytes": 33589,
+      "sha256": "859f432862e637262f1c077957264f4440ce7842f0fafa7abac2b5b62137dd5a"
+    },
+    {
+      "path": "raw/e1f234dcf80143d8b55b38af6fab0f3c/temperatures.csv.gz",
+      "bytes": 918,
+      "sha256": "f9ceb95a8d328a82c93a4453f30103d483d6b44e108b6c4086b865876d98ad8c"
+    },
+    {
+      "path": "raw/e3b2507409384bc8aca3a2c296c2f32b/samples.csv.gz",
+      "bytes": 32405,
+      "sha256": "5c9ba23b77ca05d42205eacd9455fb2a4e9970b96f2b51254aae85d0d37a815d"
+    },
+    {
+      "path": "raw/e3b2507409384bc8aca3a2c296c2f32b/temperatures.csv.gz",
+      "bytes": 903,
+      "sha256": "59b81ece86497e3d569d9405acaddcae7a898d89268406a7477e35d75967729c"
+    },
+    {
+      "path": "raw/e5973838d4e249109652a9cb0bb3e4e2/samples.csv.gz",
+      "bytes": 34995,
+      "sha256": "85494ee3338d67eae19215f79742e8283fc256a6ade63183facd63a491595628"
+    },
+    {
+      "path": "raw/e5973838d4e249109652a9cb0bb3e4e2/temperatures.csv.gz",
+      "bytes": 910,
+      "sha256": "c3a33887b49b3a0e8b6b75d0ab9c11b8fb5511d5438b53e6ac0a7ed3be39aac7"
+    },
+    {
+      "path": "raw/e5faf4dac70448f0be70d2b58264b563/samples.csv.gz",
+      "bytes": 32561,
+      "sha256": "30e8765cccd03c67ed9d0d7d4f4898ed52abd3532fddf3ead1366518d837ea66"
+    },
+    {
+      "path": "raw/e5faf4dac70448f0be70d2b58264b563/temperatures.csv.gz",
+      "bytes": 903,
+      "sha256": "48838f7de478064cdafb4af36e2146e4f7d8e53b4ad9e1210bfb25ab19652151"
+    },
+    {
+      "path": "raw/e5fb2f62a45645c8a5f6f26640421265/samples.csv.gz",
+      "bytes": 3971,
+      "sha256": "027e38c94ea0c25a745ed09084180a3b531aae6882ed84a0ddbffd2157b85112"
+    },
+    {
+      "path": "raw/e72811125c9849788028fbe1ddedd2cc/samples.csv.gz",
+      "bytes": 3962,
+      "sha256": "e57d5cdd48c8ea419339f1e7e4833fa007339203b968a956e42cf370a5be51fc"
+    },
+    {
+      "path": "raw/e88016d0a3904aec86a60c2816b25daa/samples.csv.gz",
+      "bytes": 32928,
+      "sha256": "2cdf7c4ccca5739c4d194c51ebfae08fe65972d8669819a71e5cbb1127e828a3"
+    },
+    {
+      "path": "raw/e88016d0a3904aec86a60c2816b25daa/temperatures.csv.gz",
+      "bytes": 918,
+      "sha256": "9733bf5cb7e80a3de2ce8bd2eb28e232c5ba4b5dc400ec7d74b6ece6eee8844d"
+    },
+    {
+      "path": "raw/e976f0bf2f3645328c2c452ccb9bf300/samples.csv.gz",
+      "bytes": 33382,
+      "sha256": "4d37599548c4f555c5bbff3ff9edff4b901d35878f42a6bbf05a582da186cc42"
+    },
+    {
+      "path": "raw/e976f0bf2f3645328c2c452ccb9bf300/temperatures.csv.gz",
+      "bytes": 923,
+      "sha256": "4a5fc2d42818d503fafc48c3eafdc69fc174c7a656e864257fa07d284ec5a897"
+    },
+    {
+      "path": "raw/eaa87c2008304b2e8eed777dbe643b6c/samples.csv.gz",
+      "bytes": 3961,
+      "sha256": "24520c7f216b79e5988500914462e3f643c3f0e45efa612ee11201d788a60038"
+    },
+    {
+      "path": "raw/ec6398e577e1421ea2e8decb8497b6b9/samples.csv.gz",
+      "bytes": 35078,
+      "sha256": "1c1f55afbdb8602f27f0e97ee0a6d955e5c6dfd5454a35ed42173cadee509c6c"
+    },
+    {
+      "path": "raw/ec6398e577e1421ea2e8decb8497b6b9/temperatures.csv.gz",
+      "bytes": 928,
+      "sha256": "b994b9e20a3913c8668b23c9efe06456a86faf68482f36ef3948183df78b9df4"
+    },
+    {
+      "path": "raw/edbe0ad40bda4f5483331e9e33198118/samples.csv.gz",
+      "bytes": 33585,
+      "sha256": "20576b7db54dc095f135155f18ac2e61acbf7f32be549d4b7dbd35570b4c3856"
+    },
+    {
+      "path": "raw/edbe0ad40bda4f5483331e9e33198118/temperatures.csv.gz",
+      "bytes": 908,
+      "sha256": "07057ab977ca2de65a7695c5177adc949f8094e310463f3d901b492ff8ab9d2e"
+    },
+    {
+      "path": "raw/efa465e1244b464fad717e5e3d8a1a72/samples.csv.gz",
+      "bytes": 33434,
+      "sha256": "00f81725b9f9d64b0aa889dedf09e1f19048d61a8b1a79ae0be1e274e677b7de"
+    },
+    {
+      "path": "raw/efa465e1244b464fad717e5e3d8a1a72/temperatures.csv.gz",
+      "bytes": 898,
+      "sha256": "b6f1908bbf04a814d67cd9146edb3506f0b31434e51e88f2ba00e7d8526d4fb7"
+    },
+    {
+      "path": "raw/efe7b688f9a54b828cfba7c5ed2f45b7/samples.csv.gz",
+      "bytes": 33080,
+      "sha256": "440a2b61ca1e51873ea39433bfd6032a4d22800a5479a96892322de4953d9f39"
+    },
+    {
+      "path": "raw/efe7b688f9a54b828cfba7c5ed2f45b7/temperatures.csv.gz",
+      "bytes": 922,
+      "sha256": "7ae14bae5e26a800f77207767ef248385d016d5f07c1bfcfb27ab60da26bace2"
+    },
+    {
+      "path": "raw/f015539ab0664544ae9f81098343ee30/samples.csv.gz",
+      "bytes": 32721,
+      "sha256": "eab427406177dd7e5637d43854537da86676fabafa4f115620e029b7f955a6a6"
+    },
+    {
+      "path": "raw/f015539ab0664544ae9f81098343ee30/temperatures.csv.gz",
+      "bytes": 913,
+      "sha256": "496f37afb79b86883a99bc917fc8be205618f5e05d168d36411a470f2e9564da"
+    },
+    {
+      "path": "raw/f13167c7e110446ea97e1abb20f9ac06/samples.csv.gz",
+      "bytes": 31918,
+      "sha256": "7702ebe7edcec2a758aee89f3b925ddedeeaf5685e786e9a0aa39ef4557ffed3"
+    },
+    {
+      "path": "raw/f13167c7e110446ea97e1abb20f9ac06/temperatures.csv.gz",
+      "bytes": 915,
+      "sha256": "11832fa66029874f9ed9e7a80407822199d44bd351117b4310a206e66f43769d"
+    },
+    {
+      "path": "raw/f231d4d45c094235a847da6b4902c7c8/samples.csv.gz",
+      "bytes": 32794,
+      "sha256": "4e212604ca5c447e2bdb1d0fdffe22428e94c01fb8f61b494f6c874fceae9fa1"
+    },
+    {
+      "path": "raw/f231d4d45c094235a847da6b4902c7c8/temperatures.csv.gz",
+      "bytes": 912,
+      "sha256": "f3e3417e66ad93699384839c0f62a67a8e70ff9040ac85a6ab1597520f6777cf"
+    },
+    {
+      "path": "raw/f235451ed3e241ccaa0e1c02b5750ab7/samples.csv.gz",
+      "bytes": 33598,
+      "sha256": "c638bf995bb0d13c048f5e87f126b0c48ee0f654bbcb13db8ffd040613ed7180"
+    },
+    {
+      "path": "raw/f235451ed3e241ccaa0e1c02b5750ab7/temperatures.csv.gz",
+      "bytes": 911,
+      "sha256": "ed1fd1cf9163d5e0cbad3d01540f70cd2264a71256787e2717965b70d58c606d"
+    },
+    {
+      "path": "raw/f246faa5b4514b2f9b85e59bfe24c633/samples.csv.gz",
+      "bytes": 32588,
+      "sha256": "9baf225cb69f372298e16d6d8eeca0b9908a7b20bec6d5f0fc5296691b242d1f"
+    },
+    {
+      "path": "raw/f246faa5b4514b2f9b85e59bfe24c633/temperatures.csv.gz",
+      "bytes": 917,
+      "sha256": "efe3d846881cfb2408133c9022ed70bac4d1f80880f579b3f2211b4074b753b3"
+    },
+    {
+      "path": "raw/f3766435c4df4000ae06ecdd742dcdaf/samples.csv.gz",
+      "bytes": 5793927,
+      "sha256": "5e33bc4483ae4403cab0a55f1b9a88e413f1b0c25b341ee705e96f0657c2e9a5"
+    },
+    {
+      "path": "raw/f3766435c4df4000ae06ecdd742dcdaf/temperatures.csv.gz",
+      "bytes": 134709,
+      "sha256": "23f71565f907548d0bd4b13b01db983699b2757fc3c1db11c5da4f74ecad004d"
+    },
+    {
+      "path": "raw/f3e200bc734744a0a0d056fae7e35d86/samples.csv.gz",
+      "bytes": 33463,
+      "sha256": "22c045f0a4eb9ce43629afcbaa466b2d242b13251b3841f1b24b50ed5050ce66"
+    },
+    {
+      "path": "raw/f3e200bc734744a0a0d056fae7e35d86/temperatures.csv.gz",
+      "bytes": 930,
+      "sha256": "84f4f15ca09a5ab455b0b08d8c0f60ed0738b770f32fbf545af37710fffba3fd"
+    },
+    {
+      "path": "raw/f5944423ec0f4bb4b07dc6663d6c43f0/samples.csv.gz",
+      "bytes": 32293,
+      "sha256": "b79880bc59e0b1bdf2727e0020a640299a9843fd7758f7d0be621a174be47b36"
+    },
+    {
+      "path": "raw/f5944423ec0f4bb4b07dc6663d6c43f0/temperatures.csv.gz",
+      "bytes": 906,
+      "sha256": "2b5f3bbfd966a7ec93c7abfb0d5dab2dcf694da6eabae8e40f34d9a7aaafb70f"
+    },
+    {
+      "path": "raw/f697d45a115a49b9b9ae972304438449/samples.csv.gz",
+      "bytes": 3968,
+      "sha256": "c1dfcb5692b966232568167f756dc379461338aa8efdfa9118fe5679056483c9"
+    },
+    {
+      "path": "raw/f6bb9eb7064444b696f2d327981dfe25/samples.csv.gz",
+      "bytes": 36117,
+      "sha256": "a0f685602d9a2679305e2245d133b7f038ad445c0ab8f53c8b40d8c29c5b3a0b"
+    },
+    {
+      "path": "raw/f6bb9eb7064444b696f2d327981dfe25/temperatures.csv.gz",
+      "bytes": 901,
+      "sha256": "01aa187eef2ce8be00d0952107e911b8a02401dff3aa721a723a9c25f35c5d79"
+    },
+    {
+      "path": "raw/f76f7bbc27004f41a25fdf948c2f548d/samples.csv.gz",
+      "bytes": 32828,
+      "sha256": "41fe46421b4e8fcd99c4b4473a2363b56464e568831abf0d9116f4d100209100"
+    },
+    {
+      "path": "raw/f76f7bbc27004f41a25fdf948c2f548d/temperatures.csv.gz",
+      "bytes": 912,
+      "sha256": "27738167ff6f25145a779c884bce8595c330d6b8f1320fb9a247303cc77b53a0"
+    },
+    {
+      "path": "raw/f78495b0ce2444cbbe299082a5580c3a/samples.csv.gz",
+      "bytes": 3415939,
+      "sha256": "fec845e6c4fb928c368d257969c5b2f43a9287e095ee3f410dff8f5c086705b8"
+    },
+    {
+      "path": "raw/f78495b0ce2444cbbe299082a5580c3a/temperatures.csv.gz",
+      "bytes": 72785,
+      "sha256": "d623ad538955468b34a706260eb3966fe80f6b58ab6d630c979a58c7c9436ab2"
+    },
+    {
+      "path": "raw/f816fa1a997d494da5afe1dabfd46051/samples.csv.gz",
+      "bytes": 33225,
+      "sha256": "fa4a8fdf870b23ad8d4efb177c9dd42cbcb336838a8ec29d5cfda374f55cbcc7"
+    },
+    {
+      "path": "raw/f816fa1a997d494da5afe1dabfd46051/temperatures.csv.gz",
+      "bytes": 914,
+      "sha256": "15576c399caf38c4aa1b7ec3225e0fbf9f75f56583b86d14e2e94c479555441d"
+    },
+    {
+      "path": "raw/fae1d2443a3c4a25b29f55156b2a4c47/samples.csv.gz",
+      "bytes": 33656,
+      "sha256": "22953ae00ad6e5957f491cab0dfb4d8266438b8cc9251e9336961cce7c1ce5bc"
+    },
+    {
+      "path": "raw/fae1d2443a3c4a25b29f55156b2a4c47/temperatures.csv.gz",
+      "bytes": 918,
+      "sha256": "b6d98735e8a2ac6238ec2f06e4c0d82e90c9d6e7860d29d96b19d743a92da22c"
+    },
+    {
+      "path": "raw/fb5eedc319cb43b3b87c988b0ff423f7/samples.csv.gz",
+      "bytes": 33132,
+      "sha256": "896bfa6edda2c0ae216f72264d94d9a666d3623c81b0b2f8c4004fc41d63d340"
+    },
+    {
+      "path": "raw/fb5eedc319cb43b3b87c988b0ff423f7/temperatures.csv.gz",
+      "bytes": 911,
+      "sha256": "b81db5d92d54a1a020f089c98cc727d5c5ab0a09c64bee4fee2bc612c6959d25"
+    },
+    {
+      "path": "raw/fcdf84ea43f94a1493b7564ed1c4f3f3/samples.csv.gz",
+      "bytes": 3845,
+      "sha256": "13d8d91c9443babcd9a8cd487222cfe2b7fc13ce4c51304b66105b4231a4033a"
+    },
+    {
+      "path": "raw/fd9315e67a4d40ababa2b9010835ec08/samples.csv.gz",
+      "bytes": 32363,
+      "sha256": "f13c84e7d7230e1701edb0a2947b960760546e38c1686fc1d9c65856b3891a47"
+    },
+    {
+      "path": "raw/fd9315e67a4d40ababa2b9010835ec08/temperatures.csv.gz",
+      "bytes": 906,
+      "sha256": "b95407feed1a597a1c86ad0496727f421db7a0f0268780a7d2c57a0199fe9ee0"
+    },
+    {
+      "path": "raw/fde163a384664b358abf9ead8e660d40/samples.csv.gz",
+      "bytes": 32646,
+      "sha256": "4a10b7474ce902c15e3599fff1c7baeff4f71a3457a5d8cf7f84ef4f7b1ad5fb"
+    },
+    {
+      "path": "raw/fde163a384664b358abf9ead8e660d40/temperatures.csv.gz",
+      "bytes": 911,
+      "sha256": "9daae5e9df3f33d65fbc9234cc03cae1d5ebd7dc8e0e76a2ba42999786dbff10"
+    },
+    {
+      "path": "raw_index.json",
+      "bytes": 309034,
+      "sha256": "583edf96b811819c13618e79aeab5b77a1a71bad53630603a6011ee7f28dc5de"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4644,
+      "sha256": "dbab045a80db27dfa4712aff8c494d2896c64865114ebbbaa91abaaf4b7e328f"
+    },
+    {
+      "path": "release_metadata.json",
+      "bytes": 1003,
+      "sha256": "2b675c37bd357b0a2eef5adb1a5dd5a76253c3b4c2f8af807f1c1cee233f6bcb"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 10914,
+      "sha256": "7c6f6b6e38ebce838e0ae50901547da8c79db3239b2e222993b3e4a30cf21487"
+    },
+    {
+      "path": "reproduce_additional.py",
+      "bytes": 4500,
+      "sha256": "f6f469d09a4c29f5c253e3c4b099b92f0d1b6acf176bc174e443b0bacbba93db"
+    },
+    {
+      "path": "reproduce_channels.py",
+      "bytes": 4193,
+      "sha256": "0fd71447dbc16a70958b9b76334b91f5dd322c3671596a41a9a34225c40ef6fc"
+    },
+    {
+      "path": "reproduce_quadratic.py",
+      "bytes": 2761,
+      "sha256": "fcdecd1365a0146ca530c3fc32c80c32a68163f8773d2f36e1251dac6699335a"
+    },
+    {
+      "path": "reproduce_stability.py",
+      "bytes": 2020,
+      "sha256": "88dfc4b18ef5aa24b7391c0074fbcdbeb1474e249fa51add4cb7fbc326c1dce9"
+    },
+    {
+      "path": "requirements-acquisition.txt",
+      "bytes": 14,
+      "sha256": "0b81718d1cbe8a7696e45a9388c9205272b5e345cd79d0cf1ccfb7a9fd1925e9"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 13,
+      "sha256": "18594d2c584337ab07c9d8ce86826e9bb3339a0ef72611fb213c659f89972d77"
+    },
+    {
+      "path": "schemas.json",
+      "bytes": 1546,
+      "sha256": "ca93328ec9ee5295843369ca0cdee170a2fa364cad1cdf9a2a82ec22f7fcef4a"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 624,
+      "sha256": "938f58fcd8f0761c2a01e3b78f0b1ab91b84636b5c8c9fe5ad6d36dfaf2961e5"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 4937,
+      "sha256": "a973d4b75c4155d1a57801ea8150074c8b81f7a522ec02503154501f97c0f7ce"
+    },
+    {
+      "path": "raw/captures.csv",
+      "bytes": 32959,
+      "sha256": "defe549a21b49ec70546596b33539340b9c22f3b4eba0c9757749fcddbd95c4d"
+    },
+    {
+      "path": "raw/README.md",
+      "bytes": 678,
+      "sha256": "e5635fa6b8837670c7617f9e4bb68a48029c2710c677f0fea20baa1913b8afac"
+    }
+  ]
+}

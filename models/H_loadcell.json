@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "model_kind": "zero_referenced_linear_least_squares",
+  "mass_g_per_count": -0.002425711458052912,
+  "calibration_zero_counts": 425422.60322580644,
+  "calibration_zero_capture_id": "06082390b3aa4707b8e7af410901356b",
+  "training_mass_min_g": 0,
+  "training_mass_max_g": 4007,
+  "training_placement_count": 22,
+  "training_sources": [
+    {
+      "capture_id": "6db30930db5147b9baed1390c92f8a35",
+      "record_code": "H_A_R1_WATER_0050_C",
+      "samples_sha256": "05647a03e0c299399beafb14c4415eb947fa1f3e7e89e3ada27fa8a62a50e78c"
+    },
+    {
+      "capture_id": "47c7e1facbd3418c93d2464676b2a685",
+      "record_code": "H_A_R1_WATER_0100_C",
+      "samples_sha256": "cad69c0daac267949efaf4bca12a204ee82d54001f8c0a0929b62ae67229ecc8"
+    },
+    {
+      "capture_id": "df5ac656e6fa405aa9fa9a068d2a7316",
+      "record_code": "H_A_R1_WATER_0300_C",
+      "samples_sha256": "c08d54fe0c005c1edb1745ca6faf56800e35d85cd269472a734abf8d0a6560b0"
+    },
+    {
+      "capture_id": "dc1538f177e04cfa9fc02c79b5978225",
+      "record_code": "H_A_R1_WATER_0500_C",
+      "samples_sha256": "95edce901779892ac65491b5981d9681c23588586f0bc3b008cbd60bf20363b8"
+    },
+    {
+      "capture_id": "217e8f7dd4ee4f0fb4fb36d38dd59ba6",
+      "record_code": "H_A_R1_WATER_0700_C",
+      "samples_sha256": "b201e4bf0e715018bee96cc133616143e78f7577002cfc0262ff1145adf4a0fc"
+    },
+    {
+      "capture_id": "77b6c645188b40b48febb6a98bb3e2fe",
+      "record_code": "H_A_R1_WATER_1000_C",
+      "samples_sha256": "0b552f8942ea9040a3509203848754366c7b8ef84f53997f7fa07e30a079ad22"
+    },
+    {
+      "capture_id": "4be7d5495f684c12be6b4a3311cbf645",
+      "record_code": "H_A_R1_WATER_1200_C",
+      "samples_sha256": "0801cde7a281bf3701978a783ffd3771a936a3fc221eef782cd80af61ed77780"
+    },
+    {
+      "capture_id": "de40c3336b4f4780929171bd5d733125",
+      "record_code": "H_A_R1_WATER_1500_C",
+      "samples_sha256": "11d07d3993ffc6adc8f6a7d90c3ae5333da7dc4af4447580f1699fc56aeb8d4e"
+    },
+    {
+      "capture_id": "7167d435782640e6bd136453aab35261",
+      "record_code": "H_A_R1_WATER_2000_C",
+      "samples_sha256": "f976179e470cf75df6dc6e0063efa268103d59e459134f69d40adaf86fe8ce6f"
+    },
+    {
+      "capture_id": "85e992efb3ff4d2099fc794d3a528110",
+      "record_code": "H_A_R1_WATER_3000_C",
+      "samples_sha256": "9b50f356e5e099bd652bdf8c7cca90f386b567580a6794449e9021968e5d97e8"
+    },
+    {
+      "capture_id": "56352a665ec94e2ea80b65f67f20c807",
+      "record_code": "H_A_R1_WATER_4000_C",
+      "samples_sha256": "f3ab3b36af87d717bb371d31e68a7df73bfb0ce01e6f2a3d17e06878ffef36af"
+    },
+    {
+      "capture_id": "6f1cbaa5a55841bba03653674b9b949f",
+      "record_code": "H_A_R2_WATER_2000_C",
+      "samples_sha256": "e2faa7833123febd7b854d29e13682dc6eafd23498c5bc61218a9502849b56d1"
+    },
+    {
+      "capture_id": "f697d45a115a49b9b9ae972304438449",
+      "record_code": "H_A_R2_WATER_0100_C",
+      "samples_sha256": "d16e750acf76b7c6f3450b6cfa8420a4915c2cba6ec3c7a84204034ae231ccf0"
+    },
+    {
+      "capture_id": "cda430e9801c46e89f0d5c1f3248f846",
+      "record_code": "H_A_R2_WATER_4000_C",
+      "samples_sha256": "7af3b89d533bb7483fd24755ed0d432b28a8606c507c2d628e47a4497a52c5f0"
+    },
+    {
+      "capture_id": "dfd5a31fb0254ac2a7c15c4596bd0e7d",
+      "record_code": "H_A_R2_WATER_0700_C",
+      "samples_sha256": "0d59be8a3aa0120ecfe60587c94736d0a4a27f9c08f0a1bf17650da90fcac75a"
+    },
+    {
+      "capture_id": "6d600cd6de2b4894b6f9d8ad5f04b5e9",
+      "record_code": "H_A_R2_WATER_1500_C",
+      "samples_sha256": "3f159aeea7296514ecfc71ba4b915c488dfdc5ba24c4457dd2bc0f2c47431079"
+    },
+    {
+      "capture_id": "adf3545b5ef94053aeed9047583e61b5",
+      "record_code": "H_A_R2_WATER_0300_C",
+      "samples_sha256": "72495711f0d3a29fd8aa2647722d6599febcef41205c507728d7740e7941d883"
+    },
+    {
+      "capture_id": "b59af67f67e645e78e8332f1df0ddb02",
+      "record_code": "H_A_R2_WATER_1000_C",
+      "samples_sha256": "7005ab01599d11679b547e47b11762e13fcf1c0ea9c33796acda340345252619"
+    },
+    {
+      "capture_id": "91a0a9122c2b41c697215578d74aeef3",
+      "record_code": "H_A_R2_WATER_0050_C",
+      "samples_sha256": "d8a21d2e6da227112ffe20d4f66a3380b9579360a724416bbe7d3c23c7b279df"
+    },
+    {
+      "capture_id": "b1d64bc121694ed4a51b5ed0e5dbd3be",
+      "record_code": "H_A_R2_WATER_3000_C",
+      "samples_sha256": "e6f6b19742a55c95eee3d78f88412bc45b0e41b2d8b767cb0b43c85fa64c8b7d"
+    },
+    {
+      "capture_id": "6c7e7ebfdcce4be4ab019e875ff0162b",
+      "record_code": "H_A_R2_WATER_0500_C",
+      "samples_sha256": "dd6e3e1c210f2fe226e3c5d16ad203c3464b2b087a9bff24929f0a89a2d48180"
+    },
+    {
+      "capture_id": "e5fb2f62a45645c8a5f6f26640421265",
+      "record_code": "H_A_R2_WATER_1200_C",
+      "samples_sha256": "a4c4c9da8c2c9cada34e5f41d98a0522f78a87d59420a130f82ad9ad9614fa4e"
+    }
+  ]
+}

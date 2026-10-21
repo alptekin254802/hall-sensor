@@ -1,0 +1,33 @@
+{
+  "version": "2026.10.21",
+  "created": "2026-10-21",
+  "capture_count": 300,
+  "measurement_files": 541,
+  "analysis_groups": {
+    "A": 30,
+    "A_REFINE": 8,
+    "B": 28,
+    "C_books": 14,
+    "D": 72,
+    "E": 1,
+    "F": 3,
+    "G1000_check": 3,
+    "G774": 10,
+    "G_three_hour": 1,
+    "H": 62,
+    "Nextion": 1,
+    "R_range": 9,
+    "R_small": 18,
+    "T": 37,
+    "directional_press": 1,
+    "manual_press": 2
+  },
+  "code_license": "MIT",
+  "data_license": "CC-BY-4.0",
+  "force_N_per_g": 0.00980665,
+  "Hall_span_N": 49.03325,
+  "common_benchmark_span_N": 39.29524655,
+  "measurement_bytes": "All included gzip members decompress to the original measurement CSV bytes.",
+  "reference_scale": "CRW-7024 indications (1 g display step), compared with a verified retail scale; see analysis/reference_scale_check.csv.",
+  "manuscript": "A modular Hall-effect force-sensing head for algometry: bench characterization and recalibration after spring exchange"
+}

@@ -1,0 +1,60 @@
+{
+  "state": {
+    "spec": {
+      "kind": "interpolation",
+      "out_of_range": "reject",
+      "monotonic": "increasing"
+    },
+    "bounds": [
+      0.0,
+      1196.397897897898
+    ],
+    "reference_bounds_N": [
+      0.0,
+      49.033249999999995
+    ],
+    "x_mean": 262.8447327327327,
+    "x_scale": 333.84132347735925,
+    "numpy_version": "2.3.4",
+    "training_rows": 13,
+    "duplicate_inputs": [],
+    "continuity": "Continuous mathematical mapping on fitted support; not hardware validation",
+    "raw_anchor_diagnostics": {
+      "negative_force_steps_with_increasing_input": 0,
+      "positive_force_steps_with_increasing_input": 12,
+      "note": "Raw observed pairs are not corrected; step signs describe sorted inputs, not temporal hysteresis"
+    },
+    "x_knots": [
+      0.0,
+      9.651059559559599,
+      20.204613113113055,
+      51.73709159159171,
+      74.24127277277285,
+      87.74064914914925,
+      139.6442112112111,
+      169.21454554554543,
+      200.7885685685685,
+      272.24806856856844,
+      491.4614439439438,
+      703.6521036036036,
+      1196.397897897898
+    ],
+    "y_knots_N": [
+      0.0,
+      0.4903325,
+      0.980665,
+      2.9518016499999997,
+      4.903325,
+      6.8842683,
+      9.80665,
+      11.79739995,
+      14.7295883,
+      19.64271995,
+      29.468983249999997,
+      39.295246549999995,
+      49.033249999999995
+    ],
+    "monotonic_check": "All adjacent anchor slopes; repeated force values permitted"
+  },
+  "model_id": "99694dad1977d80a87ecbe9e56e88cdba47832427412184bc201f99d4c207572"
+}

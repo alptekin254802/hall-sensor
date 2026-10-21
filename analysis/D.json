@@ -1,0 +1,1118 @@
+{
+  "blocks": [
+    {
+      "reference_mass_g": 542,
+      "block": 1,
+      "center_start_id": "073e1d82954f4d659db2a3fedcf59746",
+      "center_end_id": "7a9a7eb4311f470fb1283718a42905c8"
+    },
+    {
+      "reference_mass_g": 1042,
+      "block": 1,
+      "center_start_id": "f231d4d45c094235a847da6b4902c7c8",
+      "center_end_id": "9bdb392572f14c0dba1bad53b043f353"
+    },
+    {
+      "reference_mass_g": 542,
+      "block": 2,
+      "center_start_id": "8f236949f9844f4192134792bd2de9fa",
+      "center_end_id": "c5f94f46bd4d4eba9d93e09c838edce8"
+    },
+    {
+      "reference_mass_g": 1042,
+      "block": 2,
+      "center_start_id": "f13167c7e110446ea97e1abb20f9ac06",
+      "center_end_id": "4895bf87b58b41ff926e537d974cbbfd"
+    }
+  ],
+  "position_effects": [
+    {
+      "capture_id": "cfb22bdf573944aca998d146ccc95ebe",
+      "record_code": "D_BOX_B1_WATER_0500_06_XP5",
+      "reference_mass_g": 542,
+      "block": 1,
+      "position": "XP5",
+      "x_mm": 5,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 1.6016456456455899,
+      "channel_delta_from_center_adc": [
+        -23.466483483483444,
+        25.592899899900203,
+        26.475569569569416,
+        -22.195403403403816
+      ]
+    },
+    {
+      "capture_id": "ac03584ed6644507ab9f9e7dfaae6a58",
+      "record_code": "D_BOX_B1_WATER_0500_04_XP10",
+      "reference_mass_g": 542,
+      "block": 1,
+      "position": "XP10",
+      "x_mm": 10,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 0.32937337337330064,
+      "channel_delta_from_center_adc": [
+        -25.06308008008,
+        25.303610610610576,
+        25.34844244244232,
+        -24.271479479479694
+      ]
+    },
+    {
+      "capture_id": "404050e82b1d48c88a8b85d68a27b303",
+      "record_code": "D_BOX_B1_WATER_0500_XP15",
+      "reference_mass_g": 542,
+      "block": 1,
+      "position": "XP15",
+      "x_mm": 15,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 6.373417417417386,
+      "channel_delta_from_center_adc": [
+        -19.15116816816817,
+        33.09740440440464,
+        31.396490490490578,
+        -19.849057057057507
+      ]
+    },
+    {
+      "capture_id": "aa21975eda024cb8b74f2b1420eef373",
+      "record_code": "D_BOX_B1_WATER_0500_XP20",
+      "reference_mass_g": 542,
+      "block": 1,
+      "position": "XP20",
+      "x_mm": 20,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 5.368162162162321,
+      "channel_delta_from_center_adc": [
+        -21.80382082082042,
+        32.839146146146504,
+        32.26736136136151,
+        -21.83003803803831
+      ]
+    },
+    {
+      "capture_id": "5173507a08fd44c3a6355f8164b028f3",
+      "record_code": "D_BOX_B1_WATER_0500_03_XM5",
+      "reference_mass_g": 542,
+      "block": 1,
+      "position": "XM5",
+      "x_mm": -5,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 1.4877817817817913,
+      "channel_delta_from_center_adc": [
+        -7.03605305305291,
+        -15.884577577577602,
+        8.463557557557579,
+        20.4082002002001
+      ]
+    },
+    {
+      "capture_id": "64bdbb64231d4be7ad32d3cc11b9029d",
+      "record_code": "D_BOX_B1_WATER_0500_08_XM10",
+      "reference_mass_g": 542,
+      "block": 1,
+      "position": "XM10",
+      "x_mm": -10,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 9.811247997998066,
+      "channel_delta_from_center_adc": [
+        -0.2740260260256946,
+        -10.519997997997962,
+        18.92096296296313,
+        31.11805305305279
+      ]
+    },
+    {
+      "capture_id": "c0ce8e41d1dd481eb80912502b4f3d0d",
+      "record_code": "D_BOX_B1_WATER_0500_XM15",
+      "reference_mass_g": 542,
+      "block": 1,
+      "position": "XM15",
+      "x_mm": -15,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 8.720514514514662,
+      "channel_delta_from_center_adc": [
+        -2.1371541541539045,
+        -16.2539469469466,
+        19.402496496496497,
+        33.87066266266265
+      ]
+    },
+    {
+      "capture_id": "e5faf4dac70448f0be70d2b58264b563",
+      "record_code": "D_BOX_B1_WATER_0500_XM20",
+      "reference_mass_g": 542,
+      "block": 1,
+      "position": "XM20",
+      "x_mm": -20,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 11.076370370370455,
+      "channel_delta_from_center_adc": [
+        0.7567397397401692,
+        -12.11881181181161,
+        20.30740140140142,
+        35.36015215215184
+      ]
+    },
+    {
+      "capture_id": "f015539ab0664544ae9f81098343ee30",
+      "record_code": "D_BOX_B1_WATER_0500_09_YP5",
+      "reference_mass_g": 542,
+      "block": 1,
+      "position": "YP5",
+      "x_mm": 0,
+      "y_mm": 5,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": -0.7737520020018565,
+      "channel_delta_from_center_adc": [
+        -30.805026026025644,
+        12.481002002002242,
+        30.212962962963047,
+        -14.983946946947071
+      ]
+    },
+    {
+      "capture_id": "f76f7bbc27004f41a25fdf948c2f548d",
+      "record_code": "D_BOX_B1_WATER_0500_02_YP10",
+      "reference_mass_g": 542,
+      "block": 1,
+      "position": "YP10",
+      "x_mm": 0,
+      "y_mm": 10,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": -0.43163763763755014,
+      "channel_delta_from_center_adc": [
+        -33.6636806806805,
+        2.579886886886925,
+        34.63773173173195,
+        -5.280488488488572
+      ]
+    },
+    {
+      "capture_id": "b981d6dbf1b645c9bc3291d6afd304da",
+      "record_code": "D_BOX_B1_WATER_0500_YP15",
+      "reference_mass_g": 542,
+      "block": 1,
+      "position": "YP15",
+      "x_mm": 0,
+      "y_mm": 15,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 3.423467467467617,
+      "channel_delta_from_center_adc": [
+        -30.39641341341303,
+        5.546853853853918,
+        39.9210150150152,
+        -1.3775855855856207
+      ]
+    },
+    {
+      "capture_id": "90a266f6e0984cd8881022ac9c98fe9e",
+      "record_code": "D_BOX_B1_WATER_0500_YP20",
+      "reference_mass_g": 542,
+      "block": 1,
+      "position": "YP20",
+      "x_mm": 0,
+      "y_mm": 20,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 2.0025465465465686,
+      "channel_delta_from_center_adc": [
+        -32.40942642642631,
+        4.381688688688882,
+        39.46055455455462,
+        -3.4226306306309198
+      ]
+    },
+    {
+      "capture_id": "0e6d722553de431fa3a4e8dac3520bdb",
+      "record_code": "D_BOX_B1_WATER_0500_05_YM5",
+      "reference_mass_g": 542,
+      "block": 1,
+      "position": "YM5",
+      "x_mm": 0,
+      "y_mm": -5,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 6.487781781781791,
+      "channel_delta_from_center_adc": [
+        8.74973273273281,
+        4.826133133133226,
+        4.199293293293522,
+        8.175967967967608
+      ]
+    },
+    {
+      "capture_id": "484618c3d55a4ff4905880724d07a421",
+      "record_code": "D_BOX_B1_WATER_0500_07_YM10",
+      "reference_mass_g": 542,
+      "block": 1,
+      "position": "YM10",
+      "x_mm": 0,
+      "y_mm": -10,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 6.615747997998142,
+      "channel_delta_from_center_adc": [
+        9.118973973974335,
+        5.616002002002006,
+        3.724962962963218,
+        8.003053053053009
+      ]
+    },
+    {
+      "capture_id": "b46b52ff09a74908ba0dd7441d88482b",
+      "record_code": "D_BOX_B1_WATER_0500_YM15",
+      "reference_mass_g": 542,
+      "block": 1,
+      "position": "YM15",
+      "x_mm": 0,
+      "y_mm": -15,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 9.533577577577603,
+      "channel_delta_from_center_adc": [
+        14.214197197197336,
+        7.844151151151436,
+        5.124218218218175,
+        10.951743743743464
+      ]
+    },
+    {
+      "capture_id": "6c7f1092eadf4ba6aab7ce000d84307a",
+      "record_code": "D_BOX_B1_WATER_0500_YM20",
+      "reference_mass_g": 542,
+      "block": 1,
+      "position": "YM20",
+      "x_mm": 0,
+      "y_mm": -20,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 5.9827479979981035,
+      "channel_delta_from_center_adc": [
+        10.209973973974229,
+        4.408002002002377,
+        2.2429629629627925,
+        7.070053053053016
+      ]
+    },
+    {
+      "capture_id": "308dac27909f416bacf9db65e2ca03ec",
+      "record_code": "D_BOX_B1_WATER_1000_06_XP5",
+      "reference_mass_g": 1042,
+      "block": 1,
+      "position": "XP5",
+      "x_mm": 5,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 2.470382382382354,
+      "channel_delta_from_center_adc": [
+        -28.05686336336339,
+        34.300964464464414,
+        32.69051351351345,
+        -29.05308508508506
+      ]
+    },
+    {
+      "capture_id": "a5c5a85ebaad4b798bbdb9cd881dfb0c",
+      "record_code": "D_BOX_B1_WATER_1000_04_XP10",
+      "reference_mass_g": 1042,
+      "block": 1,
+      "position": "XP10",
+      "x_mm": 10,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 5.466128128127934,
+      "channel_delta_from_center_adc": [
+        -28.29810460460476,
+        40.33900250250235,
+        38.4963193193189,
+        -28.672704704704756
+      ]
+    },
+    {
+      "capture_id": "cca7b6ebafa74dee80f7ca22fff09aaf",
+      "record_code": "D_BOX_B1_WATER_1000_XP15",
+      "reference_mass_g": 1042,
+      "block": 1,
+      "position": "XP15",
+      "x_mm": 15,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 32.20086286286278,
+      "channel_delta_from_center_adc": [
+        -2.1719784784786498,
+        70.4881516516516,
+        66.13395695695681,
+        -5.646678678678654
+      ]
+    },
+    {
+      "capture_id": "20d6d0c9a562418ca342e39a058d06c0",
+      "record_code": "D_BOX_B1_WATER_1000_XP20",
+      "reference_mass_g": 1042,
+      "block": 1,
+      "position": "XP20",
+      "x_mm": 20,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 33.78067592592595,
+      "channel_delta_from_center_adc": [
+        -1.1558933933933986,
+        73.68374824824832,
+        68.0088978978979,
+        -5.4140490490490265
+      ]
+    },
+    {
+      "capture_id": "73cde10e6c604e6799a520083f2579c1",
+      "record_code": "D_BOX_B1_WATER_1000_03_XM5",
+      "reference_mass_g": 1042,
+      "block": 1,
+      "position": "XM5",
+      "x_mm": -5,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 2.1811759259257997,
+      "channel_delta_from_center_adc": [
+        -9.776893393393493,
+        -18.000251751751875,
+        11.90689789789758,
+        24.594950950950988
+      ]
+    },
+    {
+      "capture_id": "d1f714bc77764869aaa60b8f3e4e8e4a",
+      "record_code": "D_BOX_B1_WATER_1000_08_XM10",
+      "reference_mass_g": 1042,
+      "block": 1,
+      "position": "XM10",
+      "x_mm": -10,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 27.127039039039005,
+      "channel_delta_from_center_adc": [
+        14.826019519519377,
+        4.009673173173269,
+        37.727550550550404,
+        51.94491291291297
+      ]
+    },
+    {
+      "capture_id": "e3b2507409384bc8aca3a2c296c2f32b",
+      "record_code": "D_BOX_B1_WATER_1000_XM15",
+      "reference_mass_g": 1042,
+      "block": 1,
+      "position": "XM15",
+      "x_mm": -15,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 28.33199399399382,
+      "channel_delta_from_center_adc": [
+        13.197390890890802,
+        3.3610245245245096,
+        41.95978278278244,
+        54.809777777777526
+      ]
+    },
+    {
+      "capture_id": "35c9d54f632340f5b6de136465dd67af",
+      "record_code": "D_BOX_B1_WATER_1000_XM20",
+      "reference_mass_g": 1042,
+      "block": 1,
+      "position": "XM20",
+      "x_mm": -20,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 32.19610810810809,
+      "channel_delta_from_center_adc": [
+        18.086279779779943,
+        5.758421921922036,
+        44.72254554554547,
+        60.21718518518492
+      ]
+    },
+    {
+      "capture_id": "12eb7b5365834999a320c4f486ae3278",
+      "record_code": "D_BOX_B1_WATER_1000_09_YP5",
+      "reference_mass_g": 1042,
+      "block": 1,
+      "position": "YP5",
+      "x_mm": 0,
+      "y_mm": 5,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 6.0286759259258815,
+      "channel_delta_from_center_adc": [
+        -36.141893393393275,
+        13.358748248248048,
+        48.82689789789765,
+        -1.9290490490488992
+      ]
+    },
+    {
+      "capture_id": "0b404c0bd8fa4326aac9486b224906a0",
+      "record_code": "D_BOX_B1_WATER_1000_02_YP10",
+      "reference_mass_g": 1042,
+      "block": 1,
+      "position": "YP10",
+      "x_mm": 0,
+      "y_mm": 10,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 10.50117592592585,
+      "channel_delta_from_center_adc": [
+        -33.658893393393555,
+        21.233748248248048,
+        56.988897897897914,
+        -2.5590490490490083
+      ]
+    },
+    {
+      "capture_id": "16bf35749e2f40c6b68e138bd2553cf4",
+      "record_code": "D_BOX_B1_WATER_1000_YP15",
+      "reference_mass_g": 1042,
+      "block": 1,
+      "position": "YP15",
+      "x_mm": 0,
+      "y_mm": 15,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 7.395925925925781,
+      "channel_delta_from_center_adc": [
+        -38.322893393393315,
+        17.938748248247975,
+        55.94289789789764,
+        -5.975049049049176
+      ]
+    },
+    {
+      "capture_id": "81e92d6625d141beab929c21f7b7496a",
+      "record_code": "D_BOX_B1_WATER_1000_YP20",
+      "reference_mass_g": 1042,
+      "block": 1,
+      "position": "YP20",
+      "x_mm": 0,
+      "y_mm": 20,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 9.693105105105133,
+      "channel_delta_from_center_adc": [
+        -36.50030680680675,
+        20.51918268268264,
+        59.56138438438438,
+        -4.807839839839744
+      ]
+    },
+    {
+      "capture_id": "2eac8080693941169f982f028f9a955f",
+      "record_code": "D_BOX_B1_WATER_1000_05_YM5",
+      "reference_mass_g": 1042,
+      "block": 1,
+      "position": "YM5",
+      "x_mm": 0,
+      "y_mm": -5,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": -2.055324074074065,
+      "channel_delta_from_center_adc": [
+        -0.2668933933932749,
+        -0.04525175175194818,
+        -3.6451021021021006,
+        -4.264049049048936
+      ]
+    },
+    {
+      "capture_id": "c776048498654a32a0f6dbffcab5c562",
+      "record_code": "D_BOX_B1_WATER_1000_07_YM10",
+      "reference_mass_g": 1042,
+      "block": 1,
+      "position": "YM10",
+      "x_mm": 0,
+      "y_mm": -10,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 0.5452072072069996,
+      "channel_delta_from_center_adc": [
+        2.98918268268244,
+        2.7734369369368324,
+        -2.0041811811815933,
+        -1.5776096096096808
+      ]
+    },
+    {
+      "capture_id": "df3f68063ad54b6d97766b7353daeb0c",
+      "record_code": "D_BOX_B1_WATER_1000_YM15",
+      "reference_mass_g": 1042,
+      "block": 1,
+      "position": "YM15",
+      "x_mm": 0,
+      "y_mm": -15,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 15.188425925925799,
+      "channel_delta_from_center_adc": [
+        19.703106606606525,
+        12.728748248247939,
+        15.554897897897717,
+        12.766950950951014
+      ]
+    },
+    {
+      "capture_id": "935c14e821a94d04b66ba44789ba4142",
+      "record_code": "D_BOX_B1_WATER_1000_YM20",
+      "reference_mass_g": 1042,
+      "block": 1,
+      "position": "YM20",
+      "x_mm": 0,
+      "y_mm": -20,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 23.3382502502501,
+      "channel_delta_from_center_adc": [
+        30.802996496496235,
+        23.5482117117117,
+        18.30813113113072,
+        20.693661661661736
+      ]
+    },
+    {
+      "capture_id": "800bc4e93f074929b09cea58e2e5872c",
+      "record_code": "D_BOX_B2_WATER_0500_02_YM5",
+      "reference_mass_g": 542,
+      "block": 2,
+      "position": "YM5",
+      "x_mm": 0,
+      "y_mm": -5,
+      "reference": "pre_intervention_start_center",
+      "mean_delta_from_center_adc": 2.4741926926928954,
+      "channel_delta_from_center_adc": [
+        8.950426426426475,
+        -3.385760760760604,
+        -4.074012012011735,
+        8.406117117117446
+      ]
+    },
+    {
+      "capture_id": "807eac38f0cb47299cebb3c0479376aa",
+      "record_code": "D_BOX_B2_WATER_0500_08_YM10",
+      "reference_mass_g": 542,
+      "block": 2,
+      "position": "YM10",
+      "x_mm": 0,
+      "y_mm": -10,
+      "reference": "pre_intervention_start_center",
+      "mean_delta_from_center_adc": 5.939908408408314,
+      "channel_delta_from_center_adc": [
+        16.257733733733403,
+        -1.4027777777778283,
+        -4.208146146146191,
+        13.112823823823874
+      ]
+    },
+    {
+      "capture_id": "fb5eedc319cb43b3b87c988b0ff423f7",
+      "record_code": "D_BOX_B2_WATER_0500_YM15",
+      "reference_mass_g": 542,
+      "block": 2,
+      "position": "YM15",
+      "x_mm": 0,
+      "y_mm": -15,
+      "reference": "pre_intervention_start_center",
+      "mean_delta_from_center_adc": 9.86283133133145,
+      "channel_delta_from_center_adc": [
+        20.86634234234225,
+        2.816441441441384,
+        -0.7566946946944881,
+        16.52523623623665
+      ]
+    },
+    {
+      "capture_id": "0f9f6615b2d649ad8a329a9272fd968f",
+      "record_code": "D_BOX_B2_WATER_0500_YM20",
+      "reference_mass_g": 542,
+      "block": 2,
+      "position": "YM20",
+      "x_mm": 0,
+      "y_mm": -20,
+      "reference": "pre_intervention_start_center",
+      "mean_delta_from_center_adc": 9.641250000000014,
+      "channel_delta_from_center_adc": [
+        21.936999999999898,
+        1.9279999999998836,
+        -1.375999999999749,
+        16.076000000000022
+      ]
+    },
+    {
+      "capture_id": "d4ab63db8173415da4691dd8f4d0b2dd",
+      "record_code": "D_BOX_B2_WATER_0500_04_YP5",
+      "reference_mass_g": 542,
+      "block": 2,
+      "position": "YP5",
+      "x_mm": 0,
+      "y_mm": 5,
+      "reference": "pre_intervention_start_center",
+      "mean_delta_from_center_adc": 0.2355000000001155,
+      "channel_delta_from_center_adc": [
+        -21.795000000000073,
+        13.31100000000015,
+        23.356000000000222,
+        -13.929999999999836
+      ]
+    },
+    {
+      "capture_id": "79bf8d5ce5ac442190345ca224eb0a98",
+      "record_code": "D_BOX_B2_WATER_0500_06_YP10",
+      "reference_mass_g": 542,
+      "block": 2,
+      "position": "YP10",
+      "x_mm": 0,
+      "y_mm": 10,
+      "reference": "pre_intervention_start_center",
+      "mean_delta_from_center_adc": -0.6429244244243364,
+      "channel_delta_from_center_adc": [
+        -24.630154154154297,
+        7.173798798798998,
+        25.59565765765774,
+        -10.710999999999785
+      ]
+    },
+    {
+      "capture_id": "274530f4ae8f490bace7f8934a081755",
+      "record_code": "D_BOX_B2_WATER_0500_YP15",
+      "reference_mass_g": 542,
+      "block": 2,
+      "position": "YP15",
+      "x_mm": 0,
+      "y_mm": 15,
+      "reference": "pre_intervention_start_center",
+      "mean_delta_from_center_adc": 11.768000000000029,
+      "channel_delta_from_center_adc": [
+        -13.070000000000164,
+        22.590000000000146,
+        39.802000000000135,
+        -2.25
+      ]
+    },
+    {
+      "capture_id": "5d095d90926b4c38893893224f869ba9",
+      "record_code": "D_BOX_B2_WATER_0500_YP20",
+      "reference_mass_g": 542,
+      "block": 2,
+      "position": "YP20",
+      "x_mm": 0,
+      "y_mm": 20,
+      "reference": "pre_intervention_start_center",
+      "mean_delta_from_center_adc": 13.39211061061053,
+      "channel_delta_from_center_adc": [
+        -11.94046446446464,
+        25.755380380380302,
+        41.91797997997992,
+        -2.1644534534534614
+      ]
+    },
+    {
+      "capture_id": "da1f0b17279e4ac5be295b47c7026dae",
+      "record_code": "D_BOX_B2_WATER_0500_09_XM5",
+      "reference_mass_g": 542,
+      "block": 2,
+      "position": "XM5",
+      "x_mm": -5,
+      "y_mm": 0,
+      "reference": "pre_intervention_start_center",
+      "mean_delta_from_center_adc": 1.9481666666666797,
+      "channel_delta_from_center_adc": [
+        5.31178778778758,
+        -15.341716716716746,
+        -1.6776156156156503,
+        19.500211211211536
+      ]
+    },
+    {
+      "capture_id": "85ff7efe5b54408f92cc4db79abdbc68",
+      "record_code": "D_BOX_B2_WATER_0500_05_XM10",
+      "reference_mass_g": 542,
+      "block": 2,
+      "position": "XM10",
+      "x_mm": -10,
+      "y_mm": 0,
+      "reference": "pre_intervention_start_center",
+      "mean_delta_from_center_adc": 8.095564064064092,
+      "channel_delta_from_center_adc": [
+        6.857333333333372,
+        -16.46383883883891,
+        8.436498498498622,
+        33.552263263263285
+      ]
+    },
+    {
+      "capture_id": "34ad573c90de4ac3b0f75820ea0b7ae7",
+      "record_code": "D_BOX_B2_WATER_0500_XM15",
+      "reference_mass_g": 542,
+      "block": 2,
+      "position": "XM15",
+      "x_mm": -15,
+      "y_mm": 0,
+      "reference": "pre_intervention_start_center",
+      "mean_delta_from_center_adc": 10.324543043043036,
+      "channel_delta_from_center_adc": [
+        8.411887887887588,
+        -16.162537537537446,
+        11.31938138138139,
+        37.72944044044061
+      ]
+    },
+    {
+      "capture_id": "d4f9089eecda4441acc459cc7ec88151",
+      "record_code": "D_BOX_B2_WATER_0500_XM20",
+      "reference_mass_g": 542,
+      "block": 2,
+      "position": "XM20",
+      "x_mm": -20,
+      "y_mm": 0,
+      "reference": "post_intervention_end_center",
+      "mean_delta_from_center_adc": 9.534784784784733,
+      "channel_delta_from_center_adc": [
+        5.724724724724638,
+        -8.583583583583732,
+        11.959959959960088,
+        29.03803803803794
+      ]
+    },
+    {
+      "capture_id": "07de74f4450b4bd6949e9f75df3b9393",
+      "record_code": "D_BOX_B2_WATER_0500_07_XP5",
+      "reference_mass_g": 542,
+      "block": 2,
+      "position": "XP5",
+      "x_mm": 5,
+      "y_mm": 0,
+      "reference": "post_intervention_end_center",
+      "mean_delta_from_center_adc": 1.9869304304303341,
+      "channel_delta_from_center_adc": [
+        -18.99522422422433,
+        30.050061061061115,
+        23.36247447447431,
+        -26.46958958958976
+      ]
+    },
+    {
+      "capture_id": "34cba83e07494e4b99d04440633244e9",
+      "record_code": "D_BOX_B2_WATER_0500_03_XP10",
+      "reference_mass_g": 542,
+      "block": 2,
+      "position": "XP10",
+      "x_mm": 10,
+      "y_mm": 0,
+      "reference": "post_intervention_end_center",
+      "mean_delta_from_center_adc": 2.014930430430468,
+      "channel_delta_from_center_adc": [
+        -19.001224224224188,
+        30.662061061061195,
+        23.41847447447435,
+        -27.019589589589486
+      ]
+    },
+    {
+      "capture_id": "6444ede4cd29464b8dc2cb8816acf1af",
+      "record_code": "D_BOX_B2_WATER_0500_XP15",
+      "reference_mass_g": 542,
+      "block": 2,
+      "position": "XP15",
+      "x_mm": 15,
+      "y_mm": 0,
+      "reference": "post_intervention_end_center",
+      "mean_delta_from_center_adc": 3.681430430430396,
+      "channel_delta_from_center_adc": [
+        -17.706224224224115,
+        33.520061061060915,
+        25.73447447447461,
+        -26.822589589589825
+      ]
+    },
+    {
+      "capture_id": "94b0fcbeab2041e5b4c9fac26e850384",
+      "record_code": "D_BOX_B2_WATER_0500_XP20",
+      "reference_mass_g": 542,
+      "block": 2,
+      "position": "XP20",
+      "x_mm": 20,
+      "y_mm": 0,
+      "reference": "post_intervention_end_center",
+      "mean_delta_from_center_adc": 4.756180430430504,
+      "channel_delta_from_center_adc": [
+        -17.137224224224155,
+        35.43206106106118,
+        27.26047447447445,
+        -26.530589589589454
+      ]
+    },
+    {
+      "capture_id": "1d7aa87de72f4dff878c27b61ccc1d2f",
+      "record_code": "D_BOX_B2_WATER_1000_02_YM5",
+      "reference_mass_g": 1042,
+      "block": 2,
+      "position": "YM5",
+      "x_mm": 0,
+      "y_mm": -5,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 2.78403403403388,
+      "channel_delta_from_center_adc": [
+        17.927427427427574,
+        19.804304304304424,
+        -11.149149149149707,
+        -15.446446446446771
+      ]
+    },
+    {
+      "capture_id": "ad427f84725f48f6a6cc87413b1322bb",
+      "record_code": "D_BOX_B2_WATER_1000_08_YM10",
+      "reference_mass_g": 1042,
+      "block": 2,
+      "position": "YM10",
+      "x_mm": 0,
+      "y_mm": -10,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 0.40015015014989785,
+      "channel_delta_from_center_adc": [
+        18.008508508508385,
+        20.747247247247287,
+        -15.589589589590105,
+        -21.565565565565976
+      ]
+    },
+    {
+      "capture_id": "472c14c79d124f43bfa5a319ca9f1fff",
+      "record_code": "D_BOX_B2_WATER_1000_YM15",
+      "reference_mass_g": 1042,
+      "block": 2,
+      "position": "YM15",
+      "x_mm": 0,
+      "y_mm": -15,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 4.05005005004989,
+      "channel_delta_from_center_adc": [
+        23.567067067067,
+        24.454954954955156,
+        -13.423423423423628,
+        -18.398398398398967
+      ]
+    },
+    {
+      "capture_id": "a5f38d74c9974d27a84fa4d6f6d412a8",
+      "record_code": "D_BOX_B2_WATER_1000_YM20",
+      "reference_mass_g": 1042,
+      "block": 2,
+      "position": "YM20",
+      "x_mm": 0,
+      "y_mm": -20,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 26.372622622622544,
+      "channel_delta_from_center_adc": [
+        50.69819819819804,
+        45.66016016016056,
+        5.985985985985735,
+        3.1461461461458384
+      ]
+    },
+    {
+      "capture_id": "d367aea94025466a806eaf36781d725e",
+      "record_code": "D_BOX_B2_WATER_1000_04_YP5",
+      "reference_mass_g": 1042,
+      "block": 2,
+      "position": "YP5",
+      "x_mm": 0,
+      "y_mm": 5,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": -5.504754754754913,
+      "channel_delta_from_center_adc": [
+        -31.803303303303437,
+        19.552052052052204,
+        24.654654654654223,
+        -34.42242242242264
+      ]
+    },
+    {
+      "capture_id": "d9aae23ac13a4d5a87830b82061aa053",
+      "record_code": "D_BOX_B2_WATER_1000_06_YP10",
+      "reference_mass_g": 1042,
+      "block": 2,
+      "position": "YP10",
+      "x_mm": 0,
+      "y_mm": 10,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": -6.866366366366492,
+      "channel_delta_from_center_adc": [
+        -33.94344344344336,
+        18.02252252252265,
+        25.02502502502466,
+        -36.56956956956992
+      ]
+    },
+    {
+      "capture_id": "56d179dd640e4071a54159735d6525d4",
+      "record_code": "D_BOX_B2_WATER_1000_YP15",
+      "reference_mass_g": 1042,
+      "block": 2,
+      "position": "YP15",
+      "x_mm": 0,
+      "y_mm": 15,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": -7.099542428199811,
+      "channel_delta_from_center_adc": [
+        -35.002657968589574,
+        17.95974732247305,
+        26.034232629422604,
+        -37.389491696105324
+      ]
+    },
+    {
+      "capture_id": "318c21aadb5347af82d0a0e81d8bb555",
+      "record_code": "D_BOX_B2_WATER_1000_YP20",
+      "reference_mass_g": 1042,
+      "block": 2,
+      "position": "YP20",
+      "x_mm": 0,
+      "y_mm": 20,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 40.6856856856856,
+      "channel_delta_from_center_adc": [
+        7.65815815815813,
+        71.73323323323348,
+        79.99199199199165,
+        3.359359359359132
+      ]
+    },
+    {
+      "capture_id": "e0b3eb65edf149e8aeff6ff506146e30",
+      "record_code": "D_BOX_B2_WATER_1000_09_XM5",
+      "reference_mass_g": 1042,
+      "block": 2,
+      "position": "XM5",
+      "x_mm": -5,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": -0.08733733733754434,
+      "channel_delta_from_center_adc": [
+        3.2587587587586313,
+        -1.1776776776773659,
+        -4.024024024024584,
+        1.5935935935931411
+      ]
+    },
+    {
+      "capture_id": "0e2022a48c6447198f1f53b387d58736",
+      "record_code": "D_BOX_B2_WATER_1000_05_XM10",
+      "reference_mass_g": 1042,
+      "block": 2,
+      "position": "XM10",
+      "x_mm": -10,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 27.67492492492488,
+      "channel_delta_from_center_adc": [
+        30.88338338338326,
+        23.786286286286668,
+        24.48648648648623,
+        31.543543543543365
+      ]
+    },
+    {
+      "capture_id": "da5cb3c43295460d91d3624702b6941e",
+      "record_code": "D_BOX_B2_WATER_1000_XM15",
+      "reference_mass_g": 1042,
+      "block": 2,
+      "position": "XM15",
+      "x_mm": -15,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 31.67167167167156,
+      "channel_delta_from_center_adc": [
+        32.69919919919903,
+        26.156656656657105,
+        30.398398398398058,
+        37.43243243243205
+      ]
+    },
+    {
+      "capture_id": "06593d274c5346dda84c66830c79f380",
+      "record_code": "D_BOX_B2_WATER_1000_XM20",
+      "reference_mass_g": 1042,
+      "block": 2,
+      "position": "XM20",
+      "x_mm": -20,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 64.26701701701688,
+      "channel_delta_from_center_adc": [
+        64.02252252252265,
+        57.531031031031034,
+        61.12712712712664,
+        74.38738738738721
+      ]
+    },
+    {
+      "capture_id": "f5944423ec0f4bb4b07dc6663d6c43f0",
+      "record_code": "D_BOX_B2_WATER_1000_07_XP5",
+      "reference_mass_g": 1042,
+      "block": 2,
+      "position": "XP5",
+      "x_mm": 5,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 4.954565788233026,
+      "channel_delta_from_center_adc": [
+        -13.095844341335123,
+        57.16616014812416,
+        23.741647459081832,
+        -47.99370011293877
+      ]
+    },
+    {
+      "capture_id": "3e26fc4cb3f94568a04048086bba4826",
+      "record_code": "D_BOX_B2_WATER_1000_03_XP10",
+      "reference_mass_g": 1042,
+      "block": 2,
+      "position": "XP10",
+      "x_mm": 10,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 4.104604604604447,
+      "channel_delta_from_center_adc": [
+        -14.342842842842856,
+        57.787287287287654,
+        23.285285285284772,
+        -50.31131131131178
+      ]
+    },
+    {
+      "capture_id": "1db2d43f6bb0405494be3d109188729e",
+      "record_code": "D_BOX_B2_WATER_1000_XP15",
+      "reference_mass_g": 1042,
+      "block": 2,
+      "position": "XP15",
+      "x_mm": 15,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 21.801343343343206,
+      "channel_delta_from_center_adc": [
+        3.616652652652647,
+        77.24117217217236,
+        40.397835835835394,
+        -34.050287287287574
+      ]
+    },
+    {
+      "capture_id": "9448e9cd15cf4fc599629d8f0e37c17c",
+      "record_code": "D_BOX_B2_WATER_1000_XP20",
+      "reference_mass_g": 1042,
+      "block": 2,
+      "position": "XP20",
+      "x_mm": 20,
+      "y_mm": 0,
+      "reference": "mean_of_start_and_end_loaded_centers",
+      "mean_delta_from_center_adc": 4.083343343343245,
+      "channel_delta_from_center_adc": [
+        -14.823347347347408,
+        60.15217217217241,
+        23.903835835835707,
+        -52.899287287287734
+      ]
+    }
+  ]
+}

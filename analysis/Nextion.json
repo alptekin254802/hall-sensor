@@ -1,0 +1,112 @@
+{
+  "summary": {
+    "capture_id": "586aec83cda84995bf66d52770ef569b",
+    "duration_s": 370.28,
+    "sample_count": 37028,
+    "frame_sum_mismatches": []
+  },
+  "phases": [
+    {
+      "stage_id": "N_QC_ZERO_00",
+      "reference_mass_g": 0,
+      "device_window_s": [
+        10.9,
+        70.89
+      ],
+      "device_mass_mean_g": 3.7496779661016943,
+      "device_mass_sd_g": 3.1183117417352717,
+      "channel_mean_adc": [
+        2648.4073333333336,
+        2591.4785,
+        2573.028333333333,
+        2711.617333333333
+      ],
+      "display_frames": 59
+    },
+    {
+      "stage_id": "N_WATER_0500_C",
+      "reference_mass_g": 500,
+      "device_window_s": [
+        105.78,
+        125.77
+      ],
+      "device_mass_mean_g": 545.3516315789473,
+      "device_mass_sd_g": 2.77672707438342,
+      "channel_mean_adc": [
+        2617.842,
+        2526.8915,
+        2483.357,
+        2659.682
+      ],
+      "display_frames": 19
+    },
+    {
+      "stage_id": "N_WATER_1000_C",
+      "reference_mass_g": 1000,
+      "device_window_s": [
+        158.61,
+        178.6
+      ],
+      "device_mass_mean_g": 1023.0271052631579,
+      "device_mass_sd_g": 3.6830317960243533,
+      "channel_mean_adc": [
+        2532.663,
+        2480.7765,
+        2434.339,
+        2566.819
+      ],
+      "display_frames": 19
+    },
+    {
+      "stage_id": "N_WATER_1500_C",
+      "reference_mass_g": 1502,
+      "device_window_s": [
+        251.45,
+        271.45
+      ],
+      "device_mass_mean_g": 1508.5081052631579,
+      "device_mass_sd_g": 1.59433542040205,
+      "channel_mean_adc": [
+        2466.569715142429,
+        2417.2543728135934,
+        2363.928035982009,
+        2493.9100449775115
+      ],
+      "display_frames": 19
+    },
+    {
+      "stage_id": "N_ZERO_RETURN_01",
+      "reference_mass_g": 0,
+      "device_window_s": [
+        303.4,
+        323.4
+      ],
+      "device_mass_mean_g": 17.68015789473684,
+      "device_mass_sd_g": 3.3369113174237754,
+      "channel_mean_adc": [
+        2646.9775112443776,
+        2584.2218890554723,
+        2571.5732133933034,
+        2715.439780109945
+      ],
+      "display_frames": 19
+    },
+    {
+      "stage_id": "N_ZERO_TARE_01",
+      "reference_mass_g": 0,
+      "device_window_s": [
+        344.03,
+        364.02
+      ],
+      "device_mass_mean_g": 1.0479473684210527,
+      "device_mass_sd_g": 3.2402447348187247,
+      "channel_mean_adc": [
+        2646.679,
+        2584.0775,
+        2571.64,
+        2715.5585
+      ],
+      "display_frames": 19
+    }
+  ]
+}

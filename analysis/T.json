@@ -1,0 +1,3785 @@
+{
+  "observations": [
+    {
+      "record_code": "T_BLUE_CAL1_WATER_0500_C",
+      "capture_id": "c799fbb326cc4221a831e4487d892784",
+      "mass_g": 500,
+      "repetition": 1,
+      "data_role": "calibration",
+      "zero_capture_id": "da985a3023bf4a4ea8639d2c3f138549",
+      "response_adc": [
+        19.374374374374383,
+        29.93793793793793,
+        39.295295295295546,
+        27.554554554554215
+      ],
+      "feature_adc": 29.04054054054052
+    },
+    {
+      "record_code": "T_BLUE_CAL1_WATER_1500_C",
+      "capture_id": "d2bd5d6372c94d9eaf3ff91beba1a780",
+      "mass_g": 1502,
+      "repetition": 1,
+      "data_role": "calibration",
+      "zero_capture_id": "da985a3023bf4a4ea8639d2c3f138549",
+      "response_adc": [
+        99.29329329329357,
+        95.13613613613597,
+        109.74574574574581,
+        114.43743743743744
+      ],
+      "feature_adc": 104.6531531531532
+    },
+    {
+      "record_code": "T_BLUE_CAL1_WATER_3000_C",
+      "capture_id": "5ebddbfea9cb40d58a345830566cbeac",
+      "mass_g": 3005,
+      "repetition": 1,
+      "data_role": "calibration",
+      "zero_capture_id": "da985a3023bf4a4ea8639d2c3f138549",
+      "response_adc": [
+        250.0450450450453,
+        234.9739739739739,
+        249.49749749749753,
+        269.7807807807808
+      ],
+      "feature_adc": 251.07432432432438
+    },
+    {
+      "record_code": "T_BLUE_CAL1_WATER_5000_C",
+      "capture_id": "21ee5583736d4a4e95195d5f43c44215",
+      "mass_g": 5000,
+      "repetition": 1,
+      "data_role": "calibration",
+      "zero_capture_id": "da985a3023bf4a4ea8639d2c3f138549",
+      "response_adc": [
+        545.1309859859862,
+        526.6823203203203,
+        575.3241721721724,
+        605.2295425425423
+      ],
+      "feature_adc": 563.0917552552553
+    },
+    {
+      "record_code": "T_BLUE_CAL2_WATER_3000_C",
+      "capture_id": "2981920e50594af294a66c447384835a",
+      "mass_g": 3005,
+      "repetition": 2,
+      "data_role": "calibration",
+      "zero_capture_id": "d2daed1f8af548c8abb44f47f21eb7e5",
+      "response_adc": [
+        249.08395695695708,
+        232.15612512512507,
+        255.83502302302304,
+        272.9870810810812
+      ],
+      "feature_adc": 252.5155465465466
+    },
+    {
+      "record_code": "T_BLUE_CAL2_WATER_0500_C",
+      "capture_id": "2df84b8cfcbe477eb820a67c65551a54",
+      "mass_g": 500,
+      "repetition": 2,
+      "data_role": "calibration",
+      "zero_capture_id": "d2daed1f8af548c8abb44f47f21eb7e5",
+      "response_adc": [
+        33.99086386386398,
+        45.231200200199964,
+        34.021209209209246,
+        24.792886886886663
+      ],
+      "feature_adc": 34.50904004003996
+    },
+    {
+      "record_code": "T_BLUE_CAL2_WATER_5000_C",
+      "capture_id": "848466b814524fe5b9054ec573ea9752",
+      "mass_g": 5000,
+      "repetition": 2,
+      "data_role": "calibration",
+      "zero_capture_id": "d2daed1f8af548c8abb44f47f21eb7e5",
+      "response_adc": [
+        528.3121851851852,
+        575.7977667667667,
+        526.3375255255255,
+        496.8569509509507
+      ],
+      "feature_adc": 531.826107107107
+    },
+    {
+      "record_code": "T_BLUE_CAL2_WATER_1500_C",
+      "capture_id": "d4fafcd8410a4ed495ac7b3361e3b840",
+      "mass_g": 1502,
+      "repetition": 2,
+      "data_role": "calibration",
+      "zero_capture_id": "d2daed1f8af548c8abb44f47f21eb7e5",
+      "response_adc": [
+        79.39927227227236,
+        125.97594494494479,
+        139.5066946946945,
+        90.54263663663642
+      ],
+      "feature_adc": 108.85613713713701
+    },
+    {
+      "record_code": "T_BLUE_TEST1_WATER_1100_C",
+      "capture_id": "211e0b7926bc4328a73695fef00bbd0c",
+      "mass_g": 1100,
+      "repetition": 1,
+      "data_role": "final_evaluation",
+      "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+      "response_adc": [
+        72.76103303303307,
+        70.47744244244223,
+        75.3344924924927,
+        78.46983383383395
+      ],
+      "feature_adc": 74.26070045045049
+    },
+    {
+      "record_code": "T_BLUE_TEST1_WATER_4000_C",
+      "capture_id": "d48c1d068606434c8ff294fb2803da84",
+      "mass_g": 4007,
+      "repetition": 1,
+      "data_role": "final_evaluation",
+      "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+      "response_adc": [
+        354.6529249249252,
+        458.73570070070036,
+        427.0301881881883,
+        330.5929569569571
+      ],
+      "feature_adc": 392.7529426926927
+    },
+    {
+      "record_code": "T_BLUE_TEST1_WATER_0400_C",
+      "capture_id": "3637f16dacdd43d2b781875704e686d9",
+      "mass_g": 401,
+      "repetition": 1,
+      "data_role": "final_evaluation",
+      "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+      "response_adc": [
+        24.25500000000011,
+        21.48999999999978,
+        25.66000000000031,
+        27.605999999999767
+      ],
+      "feature_adc": 24.752749999999992
+    },
+    {
+      "record_code": "T_BLUE_TEST1_WATER_2500_C",
+      "capture_id": "7551b72df9c6451884d18a30d3eddf97",
+      "mass_g": 2506,
+      "repetition": 1,
+      "data_role": "final_evaluation",
+      "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+      "response_adc": [
+        174.27154354354343,
+        208.33630130130132,
+        225.22638438438435,
+        190.12849249249257
+      ],
+      "feature_adc": 199.49068043043042
+    },
+    {
+      "record_code": "T_BLUE_TEST2_WATER_2500_C",
+      "capture_id": "545c6f8805bf428e9231d5ea7540a1e2",
+      "mass_g": 2506,
+      "repetition": 2,
+      "data_role": "final_evaluation",
+      "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+      "response_adc": [
+        202.9347303215036,
+        207.23994134414943,
+        185.80824511886658,
+        185.51872714397769
+      ],
+      "feature_adc": 195.37541098212432
+    },
+    {
+      "record_code": "T_BLUE_TEST2_WATER_0400_C",
+      "capture_id": "545d219bc58a4ba3a45d5c78195794b7",
+      "mass_g": 401,
+      "repetition": 2,
+      "data_role": "final_evaluation",
+      "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+      "response_adc": [
+        16.931931931931558,
+        26.2872872872872,
+        36.6866866866867,
+        28.821821821821686
+      ],
+      "feature_adc": 27.181931931931786
+    },
+    {
+      "record_code": "T_BLUE_TEST2_WATER_4000_C",
+      "capture_id": "43e9203aab9345e6994fb9e400e859db",
+      "mass_g": 4007,
+      "repetition": 2,
+      "data_role": "final_evaluation",
+      "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+      "response_adc": [
+        329.6651391391388,
+        433.2955385385385,
+        414.3333713713714,
+        319.9553103103103
+      ],
+      "feature_adc": 374.31233983983975
+    },
+    {
+      "record_code": "T_BLUE_TEST2_WATER_1100_C",
+      "capture_id": "40524600d58d45b8b1b175b9d7ace9ba",
+      "mass_g": 1100,
+      "repetition": 2,
+      "data_role": "final_evaluation",
+      "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+      "response_adc": [
+        73.25825825825814,
+        74.23223223223204,
+        86.69269269269262,
+        90.50250250250247
+      ],
+      "feature_adc": 81.17142142142131
+    },
+    {
+      "record_code": "T_RED_CAL2_WATER_3000_C",
+      "capture_id": "0c9541c3bccc484cb9d0a9fc36f3b495",
+      "mass_g": 3005,
+      "repetition": 2,
+      "data_role": "calibration",
+      "zero_capture_id": "7468919437604bc0ae4fbe93a12b8f19",
+      "response_adc": [
+        192.49507807807777,
+        248.6582532532534,
+        208.60486886886883,
+        162.29433333333327
+      ],
+      "feature_adc": 203.01313338338332
+    },
+    {
+      "record_code": "T_RED_CAL2_WATER_0500_C",
+      "capture_id": "efe7b688f9a54b828cfba7c5ed2f45b7",
+      "mass_g": 500,
+      "repetition": 2,
+      "data_role": "calibration",
+      "zero_capture_id": "7468919437604bc0ae4fbe93a12b8f19",
+      "response_adc": [
+        21.187078078077775,
+        33.0622532532534,
+        35.40886886886892,
+        25.51733333333368
+      ],
+      "feature_adc": 28.793883383383445
+    },
+    {
+      "record_code": "T_RED_CAL2_WATER_5000_C",
+      "capture_id": "65f897b7289743a294c22ee22c5d39d7",
+      "mass_g": 5000,
+      "repetition": 2,
+      "data_role": "calibration",
+      "zero_capture_id": "7468919437604bc0ae4fbe93a12b8f19",
+      "response_adc": [
+        438.2812812812813,
+        407.76576576576554,
+        351.1951951951951,
+        387.29429429429456
+      ],
+      "feature_adc": 396.1341341341341
+    },
+    {
+      "record_code": "T_RED_CAL2_WATER_1500_C",
+      "capture_id": "707060bc793b41ef893f1c672f9da56a",
+      "mass_g": 1502,
+      "repetition": 2,
+      "data_role": "calibration",
+      "zero_capture_id": "7468919437604bc0ae4fbe93a12b8f19",
+      "response_adc": [
+        78.15915915915912,
+        96.02102102102117,
+        103.80180180180196,
+        88.40540540540542
+      ],
+      "feature_adc": 91.59684684684692
+    },
+    {
+      "record_code": "T_RED_TEST1_WATER_1100_C",
+      "capture_id": "3fe859dd93a941ae8a51cbd5170651de",
+      "mass_g": 1100,
+      "repetition": 1,
+      "data_role": "final_evaluation",
+      "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+      "response_adc": [
+        52.97700800800794,
+        69.08082582582574,
+        77.9932292292292,
+        62.37123023023014
+      ],
+      "feature_adc": 65.60557332332326
+    },
+    {
+      "record_code": "T_RED_TEST1_WATER_4000_C",
+      "capture_id": "28e5ca60e1ff44ab96efa7badeda1f8b",
+      "mass_g": 4007,
+      "repetition": 1,
+      "data_role": "final_evaluation",
+      "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+      "response_adc": [
+        325.97697697697686,
+        285.4954954954951,
+        263.4074074074074,
+        311.33133133133106
+      ],
+      "feature_adc": 296.5528028028026
+    },
+    {
+      "record_code": "T_RED_TEST1_WATER_0400_C",
+      "capture_id": "e976f0bf2f3645328c2c452ccb9bf300",
+      "mass_g": 401,
+      "repetition": 1,
+      "data_role": "final_evaluation",
+      "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+      "response_adc": [
+        14.968008008007928,
+        22.60682582582558,
+        30.023229229228946,
+        20.472230230230252
+      ],
+      "feature_adc": 22.017573323323177
+    },
+    {
+      "record_code": "T_RED_TEST1_WATER_2500_C",
+      "capture_id": "c6d4c206156c456094e2c3421d717996",
+      "mass_g": 2506,
+      "repetition": 1,
+      "data_role": "final_evaluation",
+      "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+      "response_adc": [
+        178.08908908908916,
+        167.101101101101,
+        130.17217217217194,
+        149.8878878878877
+      ],
+      "feature_adc": 156.31256256256245
+    },
+    {
+      "record_code": "T_RED_TEST2_WATER_2500_C",
+      "capture_id": "6b77850cba3b4ce6b62ee19f4307b4d7",
+      "mass_g": 2506,
+      "repetition": 2,
+      "data_role": "final_evaluation",
+      "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+      "response_adc": [
+        180.7800000000002,
+        165.34500000000025,
+        134.92200000000003,
+        148.01999999999998
+      ],
+      "feature_adc": 157.26675000000012
+    },
+    {
+      "record_code": "T_RED_TEST2_WATER_0400_C",
+      "capture_id": "7e7d13038daf4674a4ec15da97064267",
+      "mass_g": 401,
+      "repetition": 2,
+      "data_role": "final_evaluation",
+      "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+      "response_adc": [
+        14.350033033033014,
+        27.041511511511544,
+        29.25897697697701,
+        18.428452452452348
+      ],
+      "feature_adc": 22.26974349349348
+    },
+    {
+      "record_code": "T_RED_TEST2_WATER_4000_C",
+      "capture_id": "7f7c2f443392466d9e20340791189bfc",
+      "mass_g": 4007,
+      "repetition": 2,
+      "data_role": "final_evaluation",
+      "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+      "response_adc": [
+        316.7444274274276,
+        303.93340340340364,
+        262.1859039039041,
+        279.06008408408434
+      ],
+      "feature_adc": 290.4809547047049
+    },
+    {
+      "record_code": "T_RED_TEST2_WATER_1100_C",
+      "capture_id": "131d7c42101e45a1902b9e600a735b11",
+      "mass_g": 1100,
+      "repetition": 2,
+      "data_role": "final_evaluation",
+      "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+      "response_adc": [
+        59.95864164164186,
+        57.596066066066214,
+        63.627345345345475,
+        79.66568968968977
+      ],
+      "feature_adc": 65.21193568568583
+    },
+    {
+      "record_code": "T_GREEN_RETURN_WATER_1000_C",
+      "capture_id": "373556101a1247fe84b3888db5769929",
+      "mass_g": 1000,
+      "repetition": 1,
+      "data_role": "development_validation",
+      "zero_capture_id": "a24178efa8b64acfbd1f2ff05cf5f2ac",
+      "response_adc": [
+        111.50021121121108,
+        108.32527527527509,
+        130.84484884884887,
+        135.73014514514534
+      ],
+      "feature_adc": 121.6001201201201
+    }
+  ],
+  "blue": {
+    "calibration_anchors": [
+      {
+        "mass_g": 0,
+        "feature_adc": 0.0,
+        "observations": 0,
+        "capture_ids": []
+      },
+      {
+        "mass_g": 500,
+        "feature_adc": 31.77479029029024,
+        "observations": 2,
+        "capture_ids": [
+          "c799fbb326cc4221a831e4487d892784",
+          "2df84b8cfcbe477eb820a67c65551a54"
+        ]
+      },
+      {
+        "mass_g": 1502,
+        "feature_adc": 106.7546451451451,
+        "observations": 2,
+        "capture_ids": [
+          "d2bd5d6372c94d9eaf3ff91beba1a780",
+          "d4fafcd8410a4ed495ac7b3361e3b840"
+        ]
+      },
+      {
+        "mass_g": 3005,
+        "feature_adc": 251.7949354354355,
+        "observations": 2,
+        "capture_ids": [
+          "5ebddbfea9cb40d58a345830566cbeac",
+          "2981920e50594af294a66c447384835a"
+        ]
+      },
+      {
+        "mass_g": 5000,
+        "feature_adc": 547.4589311811811,
+        "observations": 2,
+        "capture_ids": [
+          "21ee5583736d4a4e95195d5f43c44215",
+          "848466b814524fe5b9054ec573ea9752"
+        ]
+      }
+    ],
+    "models": {
+      "source_inverse_warp_two_point": {
+        "target_response_adc": [
+          0.0,
+          547.4589311811811
+        ],
+        "mass_g": [
+          0,
+          5000
+        ],
+        "green_response_adc": [
+          0.0,
+          1270.6296296296296
+        ],
+        "monotone": true,
+        "calibration_capture_ids": [
+          "21ee5583736d4a4e95195d5f43c44215",
+          "848466b814524fe5b9054ec573ea9752"
+        ]
+      },
+      "scratch_two_point": {
+        "target_response_adc": [
+          0.0,
+          547.4589311811811
+        ],
+        "mass_g": [
+          0,
+          5000
+        ],
+        "green_response_adc": [
+          0.0,
+          1270.6296296296296
+        ],
+        "monotone": true,
+        "calibration_capture_ids": [
+          "21ee5583736d4a4e95195d5f43c44215",
+          "848466b814524fe5b9054ec573ea9752"
+        ]
+      },
+      "source_inverse_warp_three_point": {
+        "target_response_adc": [
+          0.0,
+          106.7546451451451,
+          547.4589311811811
+        ],
+        "mass_g": [
+          0,
+          1502,
+          5000
+        ],
+        "green_response_adc": [
+          0.0,
+          194.79235773273263,
+          1270.6296296296296
+        ],
+        "monotone": true,
+        "calibration_capture_ids": [
+          "d2bd5d6372c94d9eaf3ff91beba1a780",
+          "d4fafcd8410a4ed495ac7b3361e3b840",
+          "21ee5583736d4a4e95195d5f43c44215",
+          "848466b814524fe5b9054ec573ea9752"
+        ]
+      },
+      "scratch_three_point": {
+        "target_response_adc": [
+          0.0,
+          106.7546451451451,
+          547.4589311811811
+        ],
+        "mass_g": [
+          0,
+          1502,
+          5000
+        ],
+        "green_response_adc": [
+          0.0,
+          194.79235773273263,
+          1270.6296296296296
+        ],
+        "monotone": true,
+        "calibration_capture_ids": [
+          "d2bd5d6372c94d9eaf3ff91beba1a780",
+          "d4fafcd8410a4ed495ac7b3361e3b840",
+          "21ee5583736d4a4e95195d5f43c44215",
+          "848466b814524fe5b9054ec573ea9752"
+        ]
+      },
+      "source_inverse_warp_five_point": {
+        "target_response_adc": [
+          0.0,
+          31.77479029029024,
+          106.7546451451451,
+          251.7949354354355,
+          547.4589311811811
+        ],
+        "mass_g": [
+          0,
+          500,
+          1502,
+          3005,
+          5000
+        ],
+        "green_response_adc": [
+          0.0,
+          53.32597434934934,
+          194.79235773273263,
+          539.2365365365365,
+          1270.6296296296296
+        ],
+        "monotone": true,
+        "calibration_capture_ids": [
+          "c799fbb326cc4221a831e4487d892784",
+          "2df84b8cfcbe477eb820a67c65551a54",
+          "d2bd5d6372c94d9eaf3ff91beba1a780",
+          "d4fafcd8410a4ed495ac7b3361e3b840",
+          "5ebddbfea9cb40d58a345830566cbeac",
+          "2981920e50594af294a66c447384835a",
+          "21ee5583736d4a4e95195d5f43c44215",
+          "848466b814524fe5b9054ec573ea9752"
+        ]
+      },
+      "scratch_five_point": {
+        "target_response_adc": [
+          0.0,
+          31.77479029029024,
+          106.7546451451451,
+          251.7949354354355,
+          547.4589311811811
+        ],
+        "mass_g": [
+          0,
+          500,
+          1502,
+          3005,
+          5000
+        ],
+        "green_response_adc": [
+          0.0,
+          53.32597434934934,
+          194.79235773273263,
+          539.2365365365365,
+          1270.6296296296296
+        ],
+        "monotone": true,
+        "calibration_capture_ids": [
+          "c799fbb326cc4221a831e4487d892784",
+          "2df84b8cfcbe477eb820a67c65551a54",
+          "d2bd5d6372c94d9eaf3ff91beba1a780",
+          "d4fafcd8410a4ed495ac7b3361e3b840",
+          "5ebddbfea9cb40d58a345830566cbeac",
+          "2981920e50594af294a66c447384835a",
+          "21ee5583736d4a4e95195d5f43c44215",
+          "848466b814524fe5b9054ec573ea9752"
+        ]
+      }
+    },
+    "metrics": {
+      "no_transfer": {
+        "count": 8,
+        "total": 8,
+        "coverage": 1.0,
+        "mae_g": 802.7053905208475,
+        "rmse_g": 986.9600111893484,
+        "bias_g": -802.7053905208475,
+        "max_abs_g": 1684.2190608377455,
+        "mae_N": 7.871850817951269,
+        "rmse_N": 9.678771393730024,
+        "rmse_pct_5000g_FS": 19.739200223786966,
+        "worst_record_code": "T_BLUE_TEST2_WATER_4000_C"
+      },
+      "source_inverse_warp_two_point": {
+        "count": 8,
+        "total": 8,
+        "coverage": 1.0,
+        "mae_g": 204.7035775832583,
+        "rmse_g": 218.7550145086429,
+        "bias_g": 204.7035775832583,
+        "max_abs_g": 366.48696606593944,
+        "mae_N": 2.00745633910686,
+        "rmse_N": 2.145253863031183,
+        "rmse_pct_5000g_FS": 4.375100290172858,
+        "worst_record_code": "T_BLUE_TEST2_WATER_1100_C"
+      },
+      "scratch_two_point": {
+        "count": 8,
+        "total": 8,
+        "coverage": 1.0,
+        "mae_g": 440.25696504469556,
+        "rmse_g": 483.68498589671054,
+        "bias_g": -440.25696504469556,
+        "max_abs_g": 721.6158219888007,
+        "mae_N": 4.317445966255564,
+        "rmse_N": 4.743329366943977,
+        "rmse_pct_5000g_FS": 9.67369971793421,
+        "worst_record_code": "T_BLUE_TEST2_WATER_2500_C"
+      },
+      "source_inverse_warp_three_point": {
+        "count": 8,
+        "total": 8,
+        "coverage": 1.0,
+        "mae_g": 73.3463354946114,
+        "rmse_g": 94.89668664113711,
+        "bias_g": 65.61759832854003,
+        "max_abs_g": 189.8333846876867,
+        "mae_N": 0.7192818409782309,
+        "rmse_N": 0.9306185920493072,
+        "rmse_pct_5000g_FS": 1.8979337328227421,
+        "worst_record_code": "T_BLUE_TEST1_WATER_4000_C"
+      },
+      "scratch_three_point": {
+        "count": 8,
+        "total": 8,
+        "coverage": 1.0,
+        "mae_g": 169.1636340077111,
+        "rmse_g": 215.25569747058825,
+        "bias_g": -158.65035538360206,
+        "max_abs_g": 381.3156027815153,
+        "mae_N": 1.65892855144172,
+        "rmse_N": 2.1109372855999444,
+        "rmse_pct_5000g_FS": 4.305113949411765,
+        "worst_record_code": "T_BLUE_TEST2_WATER_4000_C"
+      },
+      "source_inverse_warp_five_point": {
+        "count": 8,
+        "total": 8,
+        "coverage": 1.0,
+        "mae_g": 62.785153321627114,
+        "rmse_g": 87.30539031966318,
+        "bias_g": 43.3780272061312,
+        "max_abs_g": 179.1230495744785,
+        "mae_N": 0.6157120238215346,
+        "rmse_N": 0.8561734059783249,
+        "rmse_pct_5000g_FS": 1.7461078063932636,
+        "worst_record_code": "T_BLUE_TEST1_WATER_4000_C"
+      },
+      "scratch_five_point": {
+        "count": 8,
+        "total": 8,
+        "coverage": 1.0,
+        "mae_g": 60.67942877932372,
+        "rmse_g": 77.46712811312423,
+        "bias_g": -38.96836575209378,
+        "max_abs_g": 175.31083492162543,
+        "mae_N": 0.5950619202387549,
+        "rmse_N": 0.7596930119105698,
+        "rmse_pct_5000g_FS": 1.5493425622624846,
+        "worst_record_code": "T_BLUE_TEST2_WATER_4000_C"
+      }
+    },
+    "predictions": {
+      "no_transfer": [
+        {
+          "record_code": "T_BLUE_TEST1_WATER_1100_C",
+          "capture_id": "211e0b7926bc4328a73695fef00bbd0c",
+          "mass_g": 1100,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            72.76103303303307,
+            70.47744244244223,
+            75.3344924924927,
+            78.46983383383395
+          ],
+          "feature_adc": 74.26070045045049,
+          "method": "no_transfer",
+          "predicted_mass_g": 650.8987846166114,
+          "error_g": -449.10121538338865,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_4000_C",
+          "capture_id": "d48c1d068606434c8ff294fb2803da84",
+          "mass_g": 4007,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            354.6529249249252,
+            458.73570070070036,
+            427.0301881881883,
+            330.5929569569571
+          ],
+          "feature_adc": 392.7529426926927,
+          "method": "no_transfer",
+          "predicted_mass_g": 2399.0616245409524,
+          "error_g": -1607.9383754590476,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_0400_C",
+          "capture_id": "3637f16dacdd43d2b781875704e686d9",
+          "mass_g": 401,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            24.25500000000011,
+            21.48999999999978,
+            25.66000000000031,
+            27.605999999999767
+          ],
+          "feature_adc": 24.752749999999992,
+          "method": "no_transfer",
+          "predicted_mass_g": 240.27959990161398,
+          "error_g": -160.72040009838602,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_2500_C",
+          "capture_id": "7551b72df9c6451884d18a30d3eddf97",
+          "mass_g": 2506,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            174.27154354354343,
+            208.33630130130132,
+            225.22638438438435,
+            190.12849249249257
+          ],
+          "feature_adc": 199.49068043043042,
+          "method": "no_transfer",
+          "predicted_mass_g": 1525.0287404029448,
+          "error_g": -980.9712595970552,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_2500_C",
+          "capture_id": "545c6f8805bf428e9231d5ea7540a1e2",
+          "mass_g": 2506,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            202.9347303215036,
+            207.23994134414943,
+            185.80824511886658,
+            185.51872714397769
+          ],
+          "feature_adc": 195.37541098212432,
+          "method": "no_transfer",
+          "predicted_mass_g": 1504.8578245440472,
+          "error_g": -1001.1421754559528,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_0400_C",
+          "capture_id": "545d219bc58a4ba3a45d5c78195794b7",
+          "mass_g": 401,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            16.931931931931558,
+            26.2872872872872,
+            36.6866866866867,
+            28.821821821821686
+          ],
+          "feature_adc": 27.181931931931786,
+          "method": "no_transfer",
+          "predicted_mass_g": 262.7376791209247,
+          "error_g": -138.26232087907528,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_4000_C",
+          "capture_id": "43e9203aab9345e6994fb9e400e859db",
+          "mass_g": 4007,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            329.6651391391388,
+            433.2955385385385,
+            414.3333713713714,
+            319.9553103103103
+          ],
+          "feature_adc": 374.31233983983975,
+          "method": "no_transfer",
+          "predicted_mass_g": 2322.7809391622545,
+          "error_g": -1684.2190608377455,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_1100_C",
+          "capture_id": "40524600d58d45b8b1b175b9d7ace9ba",
+          "mass_g": 1100,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            73.25825825825814,
+            74.23223223223204,
+            86.69269269269262,
+            90.50250250250247
+          ],
+          "feature_adc": 81.17142142142131,
+          "method": "no_transfer",
+          "predicted_mass_g": 700.7116835438715,
+          "error_g": -399.28831645612854,
+          "prediction_status": "ok"
+        }
+      ],
+      "source_inverse_warp_two_point": [
+        {
+          "record_code": "T_BLUE_TEST1_WATER_1100_C",
+          "capture_id": "211e0b7926bc4328a73695fef00bbd0c",
+          "mass_g": 1100,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            72.76103303303307,
+            70.47744244244223,
+            75.3344924924927,
+            78.46983383383395
+          ],
+          "feature_adc": 74.26070045045049,
+          "method": "source_inverse_warp_two_point",
+          "predicted_mass_g": 1377.4411291205568,
+          "error_g": 277.44112912055675,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_4000_C",
+          "capture_id": "d48c1d068606434c8ff294fb2803da84",
+          "mass_g": 4007,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            354.6529249249252,
+            458.73570070070036,
+            427.0301881881883,
+            330.5929569569571
+          ],
+          "feature_adc": 392.7529426926927,
+          "method": "source_inverse_warp_two_point",
+          "predicted_mass_g": 4236.38619812861,
+          "error_g": 229.38619812860998,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_0400_C",
+          "capture_id": "3637f16dacdd43d2b781875704e686d9",
+          "mass_g": 401,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            24.25500000000011,
+            21.48999999999978,
+            25.66000000000031,
+            27.605999999999767
+          ],
+          "feature_adc": 24.752749999999992,
+          "method": "source_inverse_warp_two_point",
+          "predicted_mass_g": 529.7270447234074,
+          "error_g": 128.7270447234074,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_2500_C",
+          "capture_id": "7551b72df9c6451884d18a30d3eddf97",
+          "mass_g": 2506,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            174.27154354354343,
+            208.33630130130132,
+            225.22638438438435,
+            190.12849249249257
+          ],
+          "feature_adc": 199.49068043043042,
+          "method": "source_inverse_warp_two_point",
+          "predicted_mass_g": 2689.682815516803,
+          "error_g": 183.6828155168032,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_2500_C",
+          "capture_id": "545c6f8805bf428e9231d5ea7540a1e2",
+          "mass_g": 2506,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            202.9347303215036,
+            207.23994134414943,
+            185.80824511886658,
+            185.51872714397769
+          ],
+          "feature_adc": 195.37541098212432,
+          "method": "source_inverse_warp_two_point",
+          "predicted_mass_g": 2650.172983702961,
+          "error_g": 144.17298370296112,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_0400_C",
+          "capture_id": "545d219bc58a4ba3a45d5c78195794b7",
+          "mass_g": 401,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            16.931931931931558,
+            26.2872872872872,
+            36.6866866866867,
+            28.821821821821686
+          ],
+          "feature_adc": 27.181931931931786,
+          "method": "source_inverse_warp_two_point",
+          "predicted_mass_g": 570.3663180837062,
+          "error_g": 169.36631808370623,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_4000_C",
+          "capture_id": "43e9203aab9345e6994fb9e400e859db",
+          "mass_g": 4007,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            329.6651391391388,
+            433.2955385385385,
+            414.3333713713714,
+            319.9553103103103
+          ],
+          "feature_adc": 374.31233983983975,
+          "method": "source_inverse_warp_two_point",
+          "predicted_mass_g": 4145.365165324082,
+          "error_g": 138.36516532408223,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_1100_C",
+          "capture_id": "40524600d58d45b8b1b175b9d7ace9ba",
+          "mass_g": 1100,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            73.25825825825814,
+            74.23223223223204,
+            86.69269269269262,
+            90.50250250250247
+          ],
+          "feature_adc": 81.17142142142131,
+          "method": "source_inverse_warp_two_point",
+          "predicted_mass_g": 1466.4869660659394,
+          "error_g": 366.48696606593944,
+          "prediction_status": "ok"
+        }
+      ],
+      "scratch_two_point": [
+        {
+          "record_code": "T_BLUE_TEST1_WATER_1100_C",
+          "capture_id": "211e0b7926bc4328a73695fef00bbd0c",
+          "mass_g": 1100,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            72.76103303303307,
+            70.47744244244223,
+            75.3344924924927,
+            78.46983383383395
+          ],
+          "feature_adc": 74.26070045045049,
+          "method": "scratch_two_point",
+          "predicted_mass_g": 678.2307879262086,
+          "error_g": -421.76921207379144,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_4000_C",
+          "capture_id": "d48c1d068606434c8ff294fb2803da84",
+          "mass_g": 4007,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            354.6529249249252,
+            458.73570070070036,
+            427.0301881881883,
+            330.5929569569571
+          ],
+          "feature_adc": 392.7529426926927,
+          "method": "scratch_two_point",
+          "predicted_mass_g": 3587.0539352175756,
+          "error_g": -419.9460647824244,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_0400_C",
+          "capture_id": "3637f16dacdd43d2b781875704e686d9",
+          "mass_g": 401,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            24.25500000000011,
+            21.48999999999978,
+            25.66000000000031,
+            27.605999999999767
+          ],
+          "feature_adc": 24.752749999999992,
+          "method": "scratch_two_point",
+          "predicted_mass_g": 226.06946923483554,
+          "error_g": -174.93053076516446,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_2500_C",
+          "capture_id": "7551b72df9c6451884d18a30d3eddf97",
+          "mass_g": 2506,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            174.27154354354343,
+            208.33630130130132,
+            225.22638438438435,
+            190.12849249249257
+          ],
+          "feature_adc": 199.49068043043042,
+          "method": "scratch_two_point",
+          "predicted_mass_g": 1821.969366725055,
+          "error_g": -684.0306332749451,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_2500_C",
+          "capture_id": "545c6f8805bf428e9231d5ea7540a1e2",
+          "mass_g": 2506,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            202.9347303215036,
+            207.23994134414943,
+            185.80824511886658,
+            185.51872714397769
+          ],
+          "feature_adc": 195.37541098212432,
+          "method": "scratch_two_point",
+          "predicted_mass_g": 1784.3841780111993,
+          "error_g": -721.6158219888007,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_0400_C",
+          "capture_id": "545d219bc58a4ba3a45d5c78195794b7",
+          "mass_g": 401,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            16.931931931931558,
+            26.2872872872872,
+            36.6866866866867,
+            28.821821821821686
+          ],
+          "feature_adc": 27.181931931931786,
+          "method": "scratch_two_point",
+          "predicted_mass_g": 248.25544331960074,
+          "error_g": -152.74455668039926,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_4000_C",
+          "capture_id": "43e9203aab9345e6994fb9e400e859db",
+          "mass_g": 4007,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            329.6651391391388,
+            433.2955385385385,
+            414.3333713713714,
+            319.9553103103103
+          ],
+          "feature_adc": 374.31233983983975,
+          "method": "scratch_two_point",
+          "predicted_mass_g": 3418.633969786871,
+          "error_g": -588.3660302131289,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_1100_C",
+          "capture_id": "40524600d58d45b8b1b175b9d7ace9ba",
+          "mass_g": 1100,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            73.25825825825814,
+            74.23223223223204,
+            86.69269269269262,
+            90.50250250250247
+          ],
+          "feature_adc": 81.17142142142131,
+          "method": "scratch_two_point",
+          "predicted_mass_g": 741.3471294210898,
+          "error_g": -358.6528705789102,
+          "prediction_status": "ok"
+        }
+      ],
+      "source_inverse_warp_three_point": [
+        {
+          "record_code": "T_BLUE_TEST1_WATER_1100_C",
+          "capture_id": "211e0b7926bc4328a73695fef00bbd0c",
+          "mass_g": 1100,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            72.76103303303307,
+            70.47744244244223,
+            75.3344924924927,
+            78.46983383383395
+          ],
+          "feature_adc": 74.26070045045049,
+          "method": "source_inverse_warp_three_point",
+          "predicted_mass_g": 1127.947486188566,
+          "error_g": 27.947486188566018,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_4000_C",
+          "capture_id": "d48c1d068606434c8ff294fb2803da84",
+          "mass_g": 4007,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            354.6529249249252,
+            458.73570070070036,
+            427.0301881881883,
+            330.5929569569571
+          ],
+          "feature_adc": 392.7529426926927,
+          "method": "source_inverse_warp_three_point",
+          "predicted_mass_g": 4196.833384687687,
+          "error_g": 189.8333846876867,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_0400_C",
+          "capture_id": "3637f16dacdd43d2b781875704e686d9",
+          "mass_g": 401,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            24.25500000000011,
+            21.48999999999978,
+            25.66000000000031,
+            27.605999999999767
+          ],
+          "feature_adc": 24.752749999999992,
+          "method": "source_inverse_warp_three_point",
+          "predicted_mass_g": 426.2045482286222,
+          "error_g": 25.204548228622173,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_2500_C",
+          "capture_id": "7551b72df9c6451884d18a30d3eddf97",
+          "mass_g": 2506,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            174.27154354354343,
+            208.33630130130132,
+            225.22638438438435,
+            190.12849249249257
+          ],
+          "feature_adc": 199.49068043043042,
+          "method": "source_inverse_warp_three_point",
+          "predicted_mass_g": 2516.6413692174947,
+          "error_g": 10.641369217494685,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_2500_C",
+          "capture_id": "545c6f8805bf428e9231d5ea7540a1e2",
+          "mass_g": 2506,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            202.9347303215036,
+            207.23994134414943,
+            185.80824511886658,
+            185.51872714397769
+          ],
+          "feature_adc": 195.37541098212432,
+          "method": "source_inverse_warp_three_point",
+          "predicted_mass_g": 2475.0850513357145,
+          "error_g": -30.914948664285475,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_0400_C",
+          "capture_id": "545d219bc58a4ba3a45d5c78195794b7",
+          "mass_g": 401,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            16.931931931931558,
+            26.2872872872872,
+            36.6866866866867,
+            28.821821821821686
+          ],
+          "feature_adc": 27.181931931931786,
+          "method": "source_inverse_warp_three_point",
+          "predicted_mass_g": 466.2883717932167,
+          "error_g": 65.2883717932167,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_4000_C",
+          "capture_id": "43e9203aab9345e6994fb9e400e859db",
+          "mass_g": 4007,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            329.6651391391388,
+            433.2955385385385,
+            414.3333713713714,
+            319.9553103103103
+          ],
+          "feature_adc": 374.31233983983975,
+          "method": "source_inverse_warp_three_point",
+          "predicted_mass_g": 4101.097746252808,
+          "error_g": 94.09774625280807,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_1100_C",
+          "capture_id": "40524600d58d45b8b1b175b9d7ace9ba",
+          "mass_g": 1100,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            73.25825825825814,
+            74.23223223223204,
+            86.69269269269262,
+            90.50250250250247
+          ],
+          "feature_adc": 81.17142142142131,
+          "method": "source_inverse_warp_three_point",
+          "predicted_mass_g": 1242.8428289242113,
+          "error_g": 142.8428289242113,
+          "prediction_status": "ok"
+        }
+      ],
+      "scratch_three_point": [
+        {
+          "record_code": "T_BLUE_TEST1_WATER_1100_C",
+          "capture_id": "211e0b7926bc4328a73695fef00bbd0c",
+          "mass_g": 1100,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            72.76103303303307,
+            70.47744244244223,
+            75.3344924924927,
+            78.46983383383395
+          ],
+          "feature_adc": 74.26070045045049,
+          "method": "scratch_three_point",
+          "predicted_mass_g": 1044.82172110568,
+          "error_g": -55.1782788943201,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_4000_C",
+          "capture_id": "d48c1d068606434c8ff294fb2803da84",
+          "mass_g": 4007,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            354.6529249249252,
+            458.73570070070036,
+            427.0301881881883,
+            330.5929569569571
+          ],
+          "feature_adc": 392.7529426926927,
+          "method": "scratch_three_point",
+          "predicted_mass_g": 3772.0529051344824,
+          "error_g": -234.94709486551756,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_0400_C",
+          "capture_id": "3637f16dacdd43d2b781875704e686d9",
+          "mass_g": 401,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            24.25500000000011,
+            21.48999999999978,
+            25.66000000000031,
+            27.605999999999767
+          ],
+          "feature_adc": 24.752749999999992,
+          "method": "scratch_three_point",
+          "predicted_mass_g": 348.2624147122723,
+          "error_g": -52.73758528772771,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_2500_C",
+          "capture_id": "7551b72df9c6451884d18a30d3eddf97",
+          "mass_g": 2506,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            174.27154354354343,
+            208.33630130130132,
+            225.22638438438435,
+            190.12849249249257
+          ],
+          "feature_adc": 199.49068043043042,
+          "method": "scratch_three_point",
+          "predicted_mass_g": 2238.0732847544914,
+          "error_g": -267.9267152455086,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_2500_C",
+          "capture_id": "545c6f8805bf428e9231d5ea7540a1e2",
+          "mass_g": 2506,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            202.9347303215036,
+            207.23994134414943,
+            185.80824511886658,
+            185.51872714397769
+          ],
+          "feature_adc": 195.37541098212432,
+          "method": "scratch_three_point",
+          "predicted_mass_g": 2205.4091764480936,
+          "error_g": -300.5908235519064,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_0400_C",
+          "capture_id": "545d219bc58a4ba3a45d5c78195794b7",
+          "mass_g": 401,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            16.931931931931558,
+            26.2872872872872,
+            36.6866866866867,
+            28.821821821821686
+          ],
+          "feature_adc": 27.181931931931786,
+          "method": "scratch_three_point",
+          "predicted_mass_g": 382.44014306124313,
+          "error_g": -18.559856938756866,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_4000_C",
+          "capture_id": "43e9203aab9345e6994fb9e400e859db",
+          "mass_g": 4007,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            329.6651391391388,
+            433.2955385385385,
+            414.3333713713714,
+            319.9553103103103
+          ],
+          "feature_adc": 374.31233983983975,
+          "method": "scratch_three_point",
+          "predicted_mass_g": 3625.6843972184847,
+          "error_g": -381.3156027815153,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_1100_C",
+          "capture_id": "40524600d58d45b8b1b175b9d7ace9ba",
+          "mass_g": 1100,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            73.25825825825814,
+            74.23223223223204,
+            86.69269269269262,
+            90.50250250250247
+          ],
+          "feature_adc": 81.17142142142131,
+          "method": "scratch_three_point",
+          "predicted_mass_g": 1142.0531144964361,
+          "error_g": 42.05311449643614,
+          "prediction_status": "ok"
+        }
+      ],
+      "source_inverse_warp_five_point": [
+        {
+          "record_code": "T_BLUE_TEST1_WATER_1100_C",
+          "capture_id": "211e0b7926bc4328a73695fef00bbd0c",
+          "mass_g": 1100,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            72.76103303303307,
+            70.47744244244223,
+            75.3344924924927,
+            78.46983383383395
+          ],
+          "feature_adc": 74.26070045045049,
+          "method": "source_inverse_warp_five_point",
+          "predicted_mass_g": 1100.0941355722207,
+          "error_g": 0.09413557222069358,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_4000_C",
+          "capture_id": "d48c1d068606434c8ff294fb2803da84",
+          "mass_g": 4007,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            354.6529249249252,
+            458.73570070070036,
+            427.0301881881883,
+            330.5929569569571
+          ],
+          "feature_adc": 392.7529426926927,
+          "method": "source_inverse_warp_five_point",
+          "predicted_mass_g": 4186.1230495744785,
+          "error_g": 179.1230495744785,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_0400_C",
+          "capture_id": "3637f16dacdd43d2b781875704e686d9",
+          "mass_g": 401,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            24.25500000000011,
+            21.48999999999978,
+            25.66000000000031,
+            27.605999999999767
+          ],
+          "feature_adc": 24.752749999999992,
+          "method": "source_inverse_warp_five_point",
+          "predicted_mass_g": 393.42793275544443,
+          "error_g": -7.572067244555569,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_2500_C",
+          "capture_id": "7551b72df9c6451884d18a30d3eddf97",
+          "mass_g": 2506,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            174.27154354354343,
+            208.33630130130132,
+            225.22638438438435,
+            190.12849249249257
+          ],
+          "feature_adc": 199.49068043043042,
+          "method": "source_inverse_warp_five_point",
+          "predicted_mass_g": 2491.18511488211,
+          "error_g": -14.814885117889844,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_2500_C",
+          "capture_id": "545c6f8805bf428e9231d5ea7540a1e2",
+          "mass_g": 2506,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            202.9347303215036,
+            207.23994134414943,
+            185.80824511886658,
+            185.51872714397769
+          ],
+          "feature_adc": 195.37541098212432,
+          "method": "source_inverse_warp_five_point",
+          "predicted_mass_g": 2450.7584479004618,
+          "error_g": -55.24155209953824,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_0400_C",
+          "capture_id": "545d219bc58a4ba3a45d5c78195794b7",
+          "mass_g": 401,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            16.931931931931558,
+            26.2872872872872,
+            36.6866866866867,
+            28.821821821821686
+          ],
+          "feature_adc": 27.181931931931786,
+          "method": "source_inverse_warp_five_point",
+          "predicted_mass_g": 430.2951293958661,
+          "error_g": 29.295129395866127,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_4000_C",
+          "capture_id": "43e9203aab9345e6994fb9e400e859db",
+          "mass_g": 4007,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            329.6651391391388,
+            433.2955385385385,
+            414.3333713713714,
+            319.9553103103103
+          ],
+          "feature_adc": 374.31233983983975,
+          "method": "source_inverse_warp_five_point",
+          "predicted_mass_g": 4089.1107634921914,
+          "error_g": 82.11076349219138,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_1100_C",
+          "capture_id": "40524600d58d45b8b1b175b9d7ace9ba",
+          "mass_g": 1100,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            73.25825825825814,
+            74.23223223223204,
+            86.69269269269262,
+            90.50250250250247
+          ],
+          "feature_adc": 81.17142142142131,
+          "method": "source_inverse_warp_five_point",
+          "predicted_mass_g": 1234.0296440762766,
+          "error_g": 134.02964407627655,
+          "prediction_status": "ok"
+        }
+      ],
+      "scratch_five_point": [
+        {
+          "record_code": "T_BLUE_TEST1_WATER_1100_C",
+          "capture_id": "211e0b7926bc4328a73695fef00bbd0c",
+          "mass_g": 1100,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            72.76103303303307,
+            70.47744244244223,
+            75.3344924924927,
+            78.46983383383395
+          ],
+          "feature_adc": 74.26070045045049,
+          "method": "scratch_five_point",
+          "predicted_mass_g": 1067.764262319376,
+          "error_g": -32.23573768062397,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_4000_C",
+          "capture_id": "d48c1d068606434c8ff294fb2803da84",
+          "mass_g": 4007,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            354.6529249249252,
+            458.73570070070036,
+            427.0301881881883,
+            330.5929569569571
+          ],
+          "feature_adc": 392.7529426926927,
+          "method": "scratch_five_point",
+          "predicted_mass_g": 3956.117581188526,
+          "error_g": -50.882418811474054,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_0400_C",
+          "capture_id": "3637f16dacdd43d2b781875704e686d9",
+          "mass_g": 401,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            24.25500000000011,
+            21.48999999999978,
+            25.66000000000031,
+            27.605999999999767
+          ],
+          "feature_adc": 24.752749999999992,
+          "method": "scratch_five_point",
+          "predicted_mass_g": 389.50296404574465,
+          "error_g": -11.497035954255352,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST1_WATER_2500_C",
+          "capture_id": "7551b72df9c6451884d18a30d3eddf97",
+          "mass_g": 2506,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "c54a16a2f6ef49418e3b0b618fef018f",
+          "zero_record_code": "T_BLUE_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            174.27154354354343,
+            208.33630130130132,
+            225.22638438438435,
+            190.12849249249257
+          ],
+          "feature_adc": 199.49068043043042,
+          "method": "scratch_five_point",
+          "predicted_mass_g": 2462.9899480676554,
+          "error_g": -43.010051932344595,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_2500_C",
+          "capture_id": "545c6f8805bf428e9231d5ea7540a1e2",
+          "mass_g": 2506,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            202.9347303215036,
+            207.23994134414943,
+            185.80824511886658,
+            185.51872714397769
+          ],
+          "feature_adc": 195.37541098212432,
+          "method": "scratch_five_point",
+          "predicted_mass_g": 2420.3449011746534,
+          "error_g": -85.65509882534661,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_0400_C",
+          "capture_id": "545d219bc58a4ba3a45d5c78195794b7",
+          "mass_g": 401,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            16.931931931931558,
+            26.2872872872872,
+            36.6866866866867,
+            28.821821821821686
+          ],
+          "feature_adc": 27.181931931931786,
+          "method": "scratch_five_point",
+          "predicted_mass_g": 427.72795168121155,
+          "error_g": 26.72795168121155,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_4000_C",
+          "capture_id": "43e9203aab9345e6994fb9e400e859db",
+          "mass_g": 4007,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            329.6651391391388,
+            433.2955385385385,
+            414.3333713713714,
+            319.9553103103103
+          ],
+          "feature_adc": 374.31233983983975,
+          "method": "scratch_five_point",
+          "predicted_mass_g": 3831.6891650783746,
+          "error_g": -175.31083492162543,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_BLUE_TEST2_WATER_1100_C",
+          "capture_id": "40524600d58d45b8b1b175b9d7ace9ba",
+          "mass_g": 1100,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "BLUE_P0",
+          "zero_capture_id": "bb2af5e1811d4f5594bc936c53e6800d",
+          "zero_record_code": "T_BLUE_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            73.25825825825814,
+            74.23223223223204,
+            86.69269269269262,
+            90.50250250250247
+          ],
+          "feature_adc": 81.17142142142131,
+          "method": "scratch_five_point",
+          "predicted_mass_g": 1160.1163004277082,
+          "error_g": 60.11630042770821,
+          "prediction_status": "ok"
+        }
+      ]
+    },
+    "paired_test_differences": {
+      "no_transfer": [
+        {
+          "mass_g": 401,
+          "difference_g": 22.458079219310747
+        },
+        {
+          "mass_g": 1100,
+          "difference_g": 49.81289892726011
+        },
+        {
+          "mass_g": 2506,
+          "difference_g": -20.170915858897615
+        },
+        {
+          "mass_g": 4007,
+          "difference_g": -76.28068537869785
+        }
+      ],
+      "source_inverse_warp_two_point": [
+        {
+          "mass_g": 401,
+          "difference_g": 40.63927336029883
+        },
+        {
+          "mass_g": 1100,
+          "difference_g": 89.04583694538269
+        },
+        {
+          "mass_g": 2506,
+          "difference_g": -39.509831813842084
+        },
+        {
+          "mass_g": 4007,
+          "difference_g": -91.02103280452775
+        }
+      ],
+      "scratch_two_point": [
+        {
+          "mass_g": 401,
+          "difference_g": 22.185974084765206
+        },
+        {
+          "mass_g": 1100,
+          "difference_g": 63.116341494881226
+        },
+        {
+          "mass_g": 2506,
+          "difference_g": -37.58518871385559
+        },
+        {
+          "mass_g": 4007,
+          "difference_g": -168.41996543070445
+        }
+      ],
+      "source_inverse_warp_three_point": [
+        {
+          "mass_g": 401,
+          "difference_g": 40.083823564594525
+        },
+        {
+          "mass_g": 1100,
+          "difference_g": 114.89534273564527
+        },
+        {
+          "mass_g": 2506,
+          "difference_g": -41.55631788178016
+        },
+        {
+          "mass_g": 4007,
+          "difference_g": -95.73563843487864
+        }
+      ],
+      "scratch_three_point": [
+        {
+          "mass_g": 401,
+          "difference_g": 34.177728348970845
+        },
+        {
+          "mass_g": 1100,
+          "difference_g": 97.23139339075624
+        },
+        {
+          "mass_g": 2506,
+          "difference_g": -32.66410830639779
+        },
+        {
+          "mass_g": 4007,
+          "difference_g": -146.36850791599772
+        }
+      ],
+      "source_inverse_warp_five_point": [
+        {
+          "mass_g": 401,
+          "difference_g": 36.867196640421696
+        },
+        {
+          "mass_g": 1100,
+          "difference_g": 133.93550850405586
+        },
+        {
+          "mass_g": 2506,
+          "difference_g": -40.426666981648395
+        },
+        {
+          "mass_g": 4007,
+          "difference_g": -97.01228608228712
+        }
+      ],
+      "scratch_five_point": [
+        {
+          "mass_g": 401,
+          "difference_g": 38.2249876354669
+        },
+        {
+          "mass_g": 1100,
+          "difference_g": 92.35203810833218
+        },
+        {
+          "mass_g": 2506,
+          "difference_g": -42.64504689300202
+        },
+        {
+          "mass_g": 4007,
+          "difference_g": -124.42841611015137
+        }
+      ]
+    }
+  },
+  "red": {
+    "calibration_anchors": [
+      {
+        "mass_g": 0,
+        "feature_adc": 0.0,
+        "observations": 0,
+        "capture_ids": []
+      },
+      {
+        "mass_g": 500,
+        "feature_adc": 28.793883383383445,
+        "observations": 1,
+        "capture_ids": [
+          "efe7b688f9a54b828cfba7c5ed2f45b7"
+        ]
+      },
+      {
+        "mass_g": 1502,
+        "feature_adc": 91.59684684684692,
+        "observations": 1,
+        "capture_ids": [
+          "707060bc793b41ef893f1c672f9da56a"
+        ]
+      },
+      {
+        "mass_g": 3005,
+        "feature_adc": 203.01313338338332,
+        "observations": 1,
+        "capture_ids": [
+          "0c9541c3bccc484cb9d0a9fc36f3b495"
+        ]
+      },
+      {
+        "mass_g": 5000,
+        "feature_adc": 396.1341341341341,
+        "observations": 1,
+        "capture_ids": [
+          "65f897b7289743a294c22ee22c5d39d7"
+        ]
+      }
+    ],
+    "models": {
+      "source_inverse_warp_two_point": {
+        "target_response_adc": [
+          0.0,
+          396.1341341341341
+        ],
+        "mass_g": [
+          0,
+          5000
+        ],
+        "green_response_adc": [
+          0.0,
+          1270.6296296296296
+        ],
+        "monotone": true,
+        "calibration_capture_ids": [
+          "65f897b7289743a294c22ee22c5d39d7"
+        ]
+      },
+      "scratch_two_point": {
+        "target_response_adc": [
+          0.0,
+          396.1341341341341
+        ],
+        "mass_g": [
+          0,
+          5000
+        ],
+        "green_response_adc": [
+          0.0,
+          1270.6296296296296
+        ],
+        "monotone": true,
+        "calibration_capture_ids": [
+          "65f897b7289743a294c22ee22c5d39d7"
+        ]
+      },
+      "source_inverse_warp_three_point": {
+        "target_response_adc": [
+          0.0,
+          91.59684684684692,
+          396.1341341341341
+        ],
+        "mass_g": [
+          0,
+          1502,
+          5000
+        ],
+        "green_response_adc": [
+          0.0,
+          194.79235773273263,
+          1270.6296296296296
+        ],
+        "monotone": true,
+        "calibration_capture_ids": [
+          "707060bc793b41ef893f1c672f9da56a",
+          "65f897b7289743a294c22ee22c5d39d7"
+        ]
+      },
+      "scratch_three_point": {
+        "target_response_adc": [
+          0.0,
+          91.59684684684692,
+          396.1341341341341
+        ],
+        "mass_g": [
+          0,
+          1502,
+          5000
+        ],
+        "green_response_adc": [
+          0.0,
+          194.79235773273263,
+          1270.6296296296296
+        ],
+        "monotone": true,
+        "calibration_capture_ids": [
+          "707060bc793b41ef893f1c672f9da56a",
+          "65f897b7289743a294c22ee22c5d39d7"
+        ]
+      },
+      "source_inverse_warp_five_point": {
+        "target_response_adc": [
+          0.0,
+          28.793883383383445,
+          91.59684684684692,
+          203.01313338338332,
+          396.1341341341341
+        ],
+        "mass_g": [
+          0,
+          500,
+          1502,
+          3005,
+          5000
+        ],
+        "green_response_adc": [
+          0.0,
+          53.32597434934934,
+          194.79235773273263,
+          539.2365365365365,
+          1270.6296296296296
+        ],
+        "monotone": true,
+        "calibration_capture_ids": [
+          "efe7b688f9a54b828cfba7c5ed2f45b7",
+          "707060bc793b41ef893f1c672f9da56a",
+          "0c9541c3bccc484cb9d0a9fc36f3b495",
+          "65f897b7289743a294c22ee22c5d39d7"
+        ]
+      },
+      "scratch_five_point": {
+        "target_response_adc": [
+          0.0,
+          28.793883383383445,
+          91.59684684684692,
+          203.01313338338332,
+          396.1341341341341
+        ],
+        "mass_g": [
+          0,
+          500,
+          1502,
+          3005,
+          5000
+        ],
+        "green_response_adc": [
+          0.0,
+          53.32597434934934,
+          194.79235773273263,
+          539.2365365365365,
+          1270.6296296296296
+        ],
+        "monotone": true,
+        "calibration_capture_ids": [
+          "efe7b688f9a54b828cfba7c5ed2f45b7",
+          "707060bc793b41ef893f1c672f9da56a",
+          "0c9541c3bccc484cb9d0a9fc36f3b495",
+          "65f897b7289743a294c22ee22c5d39d7"
+        ]
+      }
+    },
+    "metrics": {
+      "no_transfer": {
+        "count": 8,
+        "total": 8,
+        "coverage": 1.0,
+        "mae_g": 983.4575064922208,
+        "rmse_g": 1210.2172298837427,
+        "bias_g": -983.4575064922208,
+        "max_abs_g": 2035.9841403040868,
+        "mae_N": 9.644423556041938,
+        "rmse_N": 11.868176797439405,
+        "rmse_pct_5000g_FS": 24.204344597674854,
+        "worst_record_code": "T_RED_TEST2_WATER_4000_C"
+      },
+      "source_inverse_warp_two_point": {
+        "count": 8,
+        "total": 8,
+        "coverage": 1.0,
+        "mae_g": 335.9809813911724,
+        "rmse_g": 348.38295068457904,
+        "bias_g": 335.9809813911724,
+        "max_abs_g": 478.6708651196666,
+        "mae_N": 3.294847891159741,
+        "rmse_N": 3.4164696633309273,
+        "rmse_pct_5000g_FS": 6.967659013691581,
+        "worst_record_code": "T_RED_TEST1_WATER_1100_C"
+      },
+      "scratch_two_point": {
+        "count": 8,
+        "total": 8,
+        "coverage": 1.0,
+        "mae_g": 306.28780089352045,
+        "rmse_g": 339.3579729418403,
+        "bias_g": -306.28780089352045,
+        "max_abs_g": 533.0248245051032,
+        "mae_N": 3.0036572626324425,
+        "rmse_N": 3.327964865350098,
+        "rmse_pct_5000g_FS": 6.787159458836806,
+        "worst_record_code": "T_RED_TEST1_WATER_2500_C"
+      },
+      "source_inverse_warp_three_point": {
+        "count": 8,
+        "total": 8,
+        "coverage": 1.0,
+        "mae_g": 92.2971304261905,
+        "rmse_g": 120.91661830611262,
+        "bias_g": 92.2971304261905,
+        "max_abs_g": 244.85935346931365,
+        "mae_N": 0.9051256540940011,
+        "rmse_N": 1.1857869549116393,
+        "rmse_pct_5000g_FS": 2.4183323661222524,
+        "worst_record_code": "T_RED_TEST1_WATER_4000_C"
+      },
+      "scratch_three_point": {
+        "count": 8,
+        "total": 8,
+        "coverage": 1.0,
+        "mae_g": 126.5469999539689,
+        "rmse_g": 160.50322793800458,
+        "bias_g": -126.5469999539689,
+        "max_abs_g": 260.65728623890936,
+        "mae_N": 1.241002137098589,
+        "rmse_N": 1.5739989802582326,
+        "rmse_pct_5000g_FS": 3.2100645587600916,
+        "worst_record_code": "T_RED_TEST1_WATER_2500_C"
+      },
+      "source_inverse_warp_five_point": {
+        "count": 8,
+        "total": 8,
+        "coverage": 1.0,
+        "mae_g": 75.7756859512595,
+        "rmse_g": 97.55739275145065,
+        "bias_g": 23.529070824787482,
+        "max_abs_g": 190.95545225162914,
+        "mae_N": 0.743105630633919,
+        "rmse_N": 0.9567112056260135,
+        "rmse_pct_5000g_FS": 1.951147855029013,
+        "worst_record_code": "T_RED_TEST1_WATER_4000_C"
+      },
+      "scratch_five_point": {
+        "count": 8,
+        "total": 8,
+        "coverage": 1.0,
+        "mae_g": 55.98061539126212,
+        "rmse_g": 73.4387531034304,
+        "bias_g": -55.98061539126212,
+        "max_abs_g": 130.98830894149614,
+        "mae_N": 0.5489823019267207,
+        "rmse_N": 0.7201881481217557,
+        "rmse_pct_5000g_FS": 1.468775062068608,
+        "worst_record_code": "T_RED_TEST1_WATER_2500_C"
+      }
+    },
+    "predictions": {
+      "no_transfer": [
+        {
+          "record_code": "T_RED_TEST1_WATER_1100_C",
+          "capture_id": "3fe859dd93a941ae8a51cbd5170651de",
+          "mass_g": 1100,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            52.97700800800794,
+            69.08082582582574,
+            77.9932292292292,
+            62.37123023023014
+          ],
+          "feature_adc": 65.60557332332326,
+          "method": "no_transfer",
+          "predicted_mass_g": 588.5120995518822,
+          "error_g": -511.4879004481178,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_4000_C",
+          "capture_id": "28e5ca60e1ff44ab96efa7badeda1f8b",
+          "mass_g": 4007,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            325.97697697697686,
+            285.4954954954951,
+            263.4074074074074,
+            311.33133133133106
+          ],
+          "feature_adc": 296.5528028028026,
+          "method": "no_transfer",
+          "predicted_mass_g": 2000.7769090350148,
+          "error_g": -2006.2230909649852,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_0400_C",
+          "capture_id": "e976f0bf2f3645328c2c452ccb9bf300",
+          "mass_g": 401,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            14.968008008007928,
+            22.60682582582558,
+            30.023229229228946,
+            20.472230230230252
+          ],
+          "feature_adc": 22.017573323323177,
+          "method": "no_transfer",
+          "predicted_mass_g": 214.9925624524388,
+          "error_g": -186.0074375475612,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_2500_C",
+          "capture_id": "c6d4c206156c456094e2c3421d717996",
+          "mass_g": 2506,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            178.08908908908916,
+            167.101101101101,
+            130.17217217217194,
+            149.8878878878877
+          ],
+          "feature_adc": 156.31256256256245,
+          "method": "no_transfer",
+          "predicted_mass_g": 1288.3732760297232,
+          "error_g": -1217.6267239702768,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_2500_C",
+          "capture_id": "6b77850cba3b4ce6b62ee19f4307b4d7",
+          "mass_g": 2506,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            180.7800000000002,
+            165.34500000000025,
+            134.92200000000003,
+            148.01999999999998
+          ],
+          "feature_adc": 157.26675000000012,
+          "method": "no_transfer",
+          "predicted_mass_g": 1293.6705998697269,
+          "error_g": -1212.3294001302731,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_0400_C",
+          "capture_id": "7e7d13038daf4674a4ec15da97064267",
+          "mass_g": 401,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            14.350033033033014,
+            27.041511511511544,
+            29.25897697697701,
+            18.428452452452348
+          ],
+          "feature_adc": 22.26974349349348,
+          "method": "no_transfer",
+          "predicted_mass_g": 217.32390601464292,
+          "error_g": -183.67609398535708,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_4000_C",
+          "capture_id": "7f7c2f443392466d9e20340791189bfc",
+          "mass_g": 4007,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            316.7444274274276,
+            303.93340340340364,
+            262.1859039039041,
+            279.06008408408434
+          ],
+          "feature_adc": 290.4809547047049,
+          "method": "no_transfer",
+          "predicted_mass_g": 1971.0158596959132,
+          "error_g": -2035.9841403040868,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_1100_C",
+          "capture_id": "131d7c42101e45a1902b9e600a735b11",
+          "mass_g": 1100,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            59.95864164164186,
+            57.596066066066214,
+            63.627345345345475,
+            79.66568968968977
+          ],
+          "feature_adc": 65.21193568568583,
+          "method": "no_transfer",
+          "predicted_mass_g": 585.6747354128922,
+          "error_g": -514.3252645871078,
+          "prediction_status": "ok"
+        }
+      ],
+      "source_inverse_warp_two_point": [
+        {
+          "record_code": "T_RED_TEST1_WATER_1100_C",
+          "capture_id": "3fe859dd93a941ae8a51cbd5170651de",
+          "mass_g": 1100,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            52.97700800800794,
+            69.08082582582574,
+            77.9932292292292,
+            62.37123023023014
+          ],
+          "feature_adc": 65.60557332332326,
+          "method": "source_inverse_warp_two_point",
+          "predicted_mass_g": 1578.6708651196666,
+          "error_g": 478.6708651196666,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_4000_C",
+          "capture_id": "28e5ca60e1ff44ab96efa7badeda1f8b",
+          "mass_g": 4007,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            325.97697697697686,
+            285.4954954954951,
+            263.4074074074074,
+            311.33133133133106
+          ],
+          "feature_adc": 296.5528028028026,
+          "method": "source_inverse_warp_two_point",
+          "predicted_mass_g": 4320.712142696853,
+          "error_g": 313.71214269685333,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_0400_C",
+          "capture_id": "e976f0bf2f3645328c2c452ccb9bf300",
+          "mass_g": 401,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            14.968008008007928,
+            22.60682582582558,
+            30.023229229228946,
+            20.472230230230252
+          ],
+          "feature_adc": 22.017573323323177,
+          "method": "source_inverse_warp_two_point",
+          "predicted_mass_g": 624.6780190423164,
+          "error_g": 223.67801904231635,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_2500_C",
+          "capture_id": "c6d4c206156c456094e2c3421d717996",
+          "mass_g": 2506,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            178.08908908908916,
+            167.101101101101,
+            130.17217217217194,
+            149.8878878878877
+          ],
+          "feature_adc": 156.31256256256245,
+          "method": "source_inverse_warp_two_point",
+          "predicted_mass_g": 2848.4212524269324,
+          "error_g": 342.42125242693237,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_2500_C",
+          "capture_id": "6b77850cba3b4ce6b62ee19f4307b4d7",
+          "mass_g": 2506,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            180.7800000000002,
+            165.34500000000025,
+            134.92200000000003,
+            148.01999999999998
+          ],
+          "feature_adc": 157.26675000000012,
+          "method": "source_inverse_warp_two_point",
+          "predicted_mass_g": 2861.0817238778595,
+          "error_g": 355.08172387785953,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_0400_C",
+          "capture_id": "7e7d13038daf4674a4ec15da97064267",
+          "mass_g": 401,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            14.350033033033014,
+            27.041511511511544,
+            29.25897697697701,
+            18.428452452452348
+          ],
+          "feature_adc": 22.26974349349348,
+          "method": "source_inverse_warp_two_point",
+          "predicted_mass_g": 630.5082919256255,
+          "error_g": 229.50829192562549,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_4000_C",
+          "capture_id": "7f7c2f443392466d9e20340791189bfc",
+          "mass_g": 4007,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            316.7444274274276,
+            303.93340340340364,
+            262.1859039039041,
+            279.06008408408434
+          ],
+          "feature_adc": 290.4809547047049,
+          "method": "source_inverse_warp_two_point",
+          "predicted_mass_g": 4279.293408589919,
+          "error_g": 272.2934085899187,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_1100_C",
+          "capture_id": "131d7c42101e45a1902b9e600a735b11",
+          "mass_g": 1100,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            59.95864164164186,
+            57.596066066066214,
+            63.627345345345475,
+            79.66568968968977
+          ],
+          "feature_adc": 65.21193568568583,
+          "method": "source_inverse_warp_two_point",
+          "predicted_mass_g": 1572.4821474502069,
+          "error_g": 472.48214745020687,
+          "prediction_status": "ok"
+        }
+      ],
+      "scratch_two_point": [
+        {
+          "record_code": "T_RED_TEST1_WATER_1100_C",
+          "capture_id": "3fe859dd93a941ae8a51cbd5170651de",
+          "mass_g": 1100,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            52.97700800800794,
+            69.08082582582574,
+            77.9932292292292,
+            62.37123023023014
+          ],
+          "feature_adc": 65.60557332332326,
+          "method": "scratch_two_point",
+          "predicted_mass_g": 828.0727116172814,
+          "error_g": -271.92728838271864,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_4000_C",
+          "capture_id": "28e5ca60e1ff44ab96efa7badeda1f8b",
+          "mass_g": 4007,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            325.97697697697686,
+            285.4954954954951,
+            263.4074074074074,
+            311.33133133133106
+          ],
+          "feature_adc": 296.5528028028026,
+          "method": "scratch_two_point",
+          "predicted_mass_g": 3743.085703167245,
+          "error_g": -263.9142968327551,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_0400_C",
+          "capture_id": "e976f0bf2f3645328c2c452ccb9bf300",
+          "mass_g": 401,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            14.968008008007928,
+            22.60682582582558,
+            30.023229229228946,
+            20.472230230230252
+          ],
+          "feature_adc": 22.017573323323177,
+          "method": "scratch_two_point",
+          "predicted_mass_g": 277.9055303003484,
+          "error_g": -123.0944696996516,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_2500_C",
+          "capture_id": "c6d4c206156c456094e2c3421d717996",
+          "mass_g": 2506,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            178.08908908908916,
+            167.101101101101,
+            130.17217217217194,
+            149.8878878878877
+          ],
+          "feature_adc": 156.31256256256245,
+          "method": "scratch_two_point",
+          "predicted_mass_g": 1972.9751754948968,
+          "error_g": -533.0248245051032,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_2500_C",
+          "capture_id": "6b77850cba3b4ce6b62ee19f4307b4d7",
+          "mass_g": 2506,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            180.7800000000002,
+            165.34500000000025,
+            134.92200000000003,
+            148.01999999999998
+          ],
+          "feature_adc": 157.26675000000012,
+          "method": "scratch_two_point",
+          "predicted_mass_g": 1985.018917187636,
+          "error_g": -520.9810828123641,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_0400_C",
+          "capture_id": "7e7d13038daf4674a4ec15da97064267",
+          "mass_g": 401,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            14.350033033033014,
+            27.041511511511544,
+            29.25897697697701,
+            18.428452452452348
+          ],
+          "feature_adc": 22.26974349349348,
+          "method": "scratch_two_point",
+          "predicted_mass_g": 281.0884189792235,
+          "error_g": -119.91158102077651,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_4000_C",
+          "capture_id": "7f7c2f443392466d9e20340791189bfc",
+          "mass_g": 4007,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            316.7444274274276,
+            303.93340340340364,
+            262.1859039039041,
+            279.06008408408434
+          ],
+          "feature_adc": 290.4809547047049,
+          "method": "scratch_two_point",
+          "predicted_mass_g": 3666.4469137409124,
+          "error_g": -340.55308625908765,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_1100_C",
+          "capture_id": "131d7c42101e45a1902b9e600a735b11",
+          "mass_g": 1100,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            59.95864164164186,
+            57.596066066066214,
+            63.627345345345475,
+            79.66568968968977
+          ],
+          "feature_adc": 65.21193568568583,
+          "method": "scratch_two_point",
+          "predicted_mass_g": 823.1042223642934,
+          "error_g": -276.8957776357066,
+          "prediction_status": "ok"
+        }
+      ],
+      "source_inverse_warp_three_point": [
+        {
+          "record_code": "T_RED_TEST1_WATER_1100_C",
+          "capture_id": "3fe859dd93a941ae8a51cbd5170651de",
+          "mass_g": 1100,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            52.97700800800794,
+            69.08082582582574,
+            77.9932292292292,
+            62.37123023023014
+          ],
+          "feature_adc": 65.60557332332326,
+          "method": "source_inverse_warp_three_point",
+          "predicted_mass_g": 1183.4395680793302,
+          "error_g": 83.43956807933023,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_4000_C",
+          "capture_id": "28e5ca60e1ff44ab96efa7badeda1f8b",
+          "mass_g": 4007,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            325.97697697697686,
+            285.4954954954951,
+            263.4074074074074,
+            311.33133133133106
+          ],
+          "feature_adc": 296.5528028028026,
+          "method": "source_inverse_warp_three_point",
+          "predicted_mass_g": 4251.859353469314,
+          "error_g": 244.85935346931365,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_0400_C",
+          "capture_id": "e976f0bf2f3645328c2c452ccb9bf300",
+          "mass_g": 401,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            14.968008008007928,
+            22.60682582582558,
+            30.023229229228946,
+            20.472230230230252
+          ],
+          "feature_adc": 22.017573323323177,
+          "method": "source_inverse_warp_three_point",
+          "predicted_mass_g": 441.1936202185491,
+          "error_g": 40.193620218549086,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_2500_C",
+          "capture_id": "c6d4c206156c456094e2c3421d717996",
+          "mass_g": 2506,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            178.08908908908916,
+            167.101101101101,
+            130.17217217217194,
+            149.8878878878877
+          ],
+          "feature_adc": 156.31256256256245,
+          "method": "source_inverse_warp_three_point",
+          "predicted_mass_g": 2525.889768095664,
+          "error_g": 19.88976809566384,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_2500_C",
+          "capture_id": "6b77850cba3b4ce6b62ee19f4307b4d7",
+          "mass_g": 2506,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            180.7800000000002,
+            165.34500000000025,
+            134.92200000000003,
+            148.01999999999998
+          ],
+          "feature_adc": 157.26675000000012,
+          "method": "source_inverse_warp_three_point",
+          "predicted_mass_g": 2539.8335081387795,
+          "error_g": 33.83350813877951,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_0400_C",
+          "capture_id": "7e7d13038daf4674a4ec15da97064267",
+          "mass_g": 401,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            14.350033033033014,
+            27.041511511511544,
+            29.25897697697701,
+            18.428452452452348
+          ],
+          "feature_adc": 22.26974349349348,
+          "method": "source_inverse_warp_three_point",
+          "predicted_mass_g": 446.04325539062546,
+          "error_g": 45.04325539062546,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_4000_C",
+          "capture_id": "7f7c2f443392466d9e20340791189bfc",
+          "mass_g": 4007,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            316.7444274274276,
+            303.93340340340364,
+            262.1859039039041,
+            279.06008408408434
+          ],
+          "feature_adc": 290.4809547047049,
+          "method": "source_inverse_warp_three_point",
+          "predicted_mass_g": 4206.2424059851255,
+          "error_g": 199.24240598512552,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_1100_C",
+          "capture_id": "131d7c42101e45a1902b9e600a735b11",
+          "mass_g": 1100,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            59.95864164164186,
+            57.596066066066214,
+            63.627345345345475,
+            79.66568968968977
+          ],
+          "feature_adc": 65.21193568568583,
+          "method": "source_inverse_warp_three_point",
+          "predicted_mass_g": 1171.8755640321367,
+          "error_g": 71.87556403213671,
+          "prediction_status": "ok"
+        }
+      ],
+      "scratch_three_point": [
+        {
+          "record_code": "T_RED_TEST1_WATER_1100_C",
+          "capture_id": "3fe859dd93a941ae8a51cbd5170651de",
+          "mass_g": 1100,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            52.97700800800794,
+            69.08082582582574,
+            77.9932292292292,
+            62.37123023023014
+          ],
+          "feature_adc": 65.60557332332326,
+          "method": "scratch_three_point",
+          "predicted_mass_g": 1075.7965423896424,
+          "error_g": -24.203457610357646,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_4000_C",
+          "capture_id": "28e5ca60e1ff44ab96efa7badeda1f8b",
+          "mass_g": 4007,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            325.97697697697686,
+            285.4954954954951,
+            263.4074074074074,
+            311.33133133133106
+          ],
+          "feature_adc": 296.5528028028026,
+          "method": "scratch_three_point",
+          "predicted_mass_g": 3856.181126127937,
+          "error_g": -150.8188738720628,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_0400_C",
+          "capture_id": "e976f0bf2f3645328c2c452ccb9bf300",
+          "mass_g": 401,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            14.968008008007928,
+            22.60682582582558,
+            30.023229229228946,
+            20.472230230230252
+          ],
+          "feature_adc": 22.017573323323177,
+          "method": "scratch_three_point",
+          "predicted_mass_g": 361.04294274371966,
+          "error_g": -39.957057256280336,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_2500_C",
+          "capture_id": "c6d4c206156c456094e2c3421d717996",
+          "mass_g": 2506,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            178.08908908908916,
+            167.101101101101,
+            130.17217217217194,
+            149.8878878878877
+          ],
+          "feature_adc": 156.31256256256245,
+          "method": "scratch_three_point",
+          "predicted_mass_g": 2245.3427137610906,
+          "error_g": -260.65728623890936,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_2500_C",
+          "capture_id": "6b77850cba3b4ce6b62ee19f4307b4d7",
+          "mass_g": 2506,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            180.7800000000002,
+            165.34500000000025,
+            134.92200000000003,
+            148.01999999999998
+          ],
+          "feature_adc": 157.26675000000012,
+          "method": "scratch_three_point",
+          "predicted_mass_g": 2256.302776109739,
+          "error_g": -249.69722389026083,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_0400_C",
+          "capture_id": "7e7d13038daf4674a4ec15da97064267",
+          "mass_g": 401,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            14.350033033033014,
+            27.041511511511544,
+            29.25897697697701,
+            18.428452452452348
+          ],
+          "feature_adc": 22.26974349349348,
+          "method": "scratch_three_point",
+          "predicted_mass_g": 365.1780151685281,
+          "error_g": -35.82198483147192,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_4000_C",
+          "capture_id": "7f7c2f443392466d9e20340791189bfc",
+          "mass_g": 4007,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            316.7444274274276,
+            303.93340340340364,
+            262.1859039039041,
+            279.06008408408434
+          ],
+          "feature_adc": 290.4809547047049,
+          "method": "scratch_three_point",
+          "predicted_mass_g": 3786.438189765897,
+          "error_g": -220.56181023410318,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_1100_C",
+          "capture_id": "131d7c42101e45a1902b9e600a735b11",
+          "mass_g": 1100,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            59.95864164164186,
+            57.596066066066214,
+            63.627345345345475,
+            79.66568968968977
+          ],
+          "feature_adc": 65.21193568568583,
+          "method": "scratch_three_point",
+          "predicted_mass_g": 1069.3416943016948,
+          "error_g": -30.658305698305185,
+          "prediction_status": "ok"
+        }
+      ],
+      "source_inverse_warp_five_point": [
+        {
+          "record_code": "T_RED_TEST1_WATER_1100_C",
+          "capture_id": "3fe859dd93a941ae8a51cbd5170651de",
+          "mass_g": 1100,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            52.97700800800794,
+            69.08082582582574,
+            77.9932292292292,
+            62.37123023023014
+          ],
+          "feature_adc": 65.60557332332326,
+          "method": "source_inverse_warp_five_point",
+          "predicted_mass_g": 1138.2302462232444,
+          "error_g": 38.23024622324442,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_4000_C",
+          "capture_id": "28e5ca60e1ff44ab96efa7badeda1f8b",
+          "mass_g": 4007,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            325.97697697697686,
+            285.4954954954951,
+            263.4074074074074,
+            311.33133133133106
+          ],
+          "feature_adc": 296.5528028028026,
+          "method": "source_inverse_warp_five_point",
+          "predicted_mass_g": 4197.955452251629,
+          "error_g": 190.95545225162914,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_0400_C",
+          "capture_id": "e976f0bf2f3645328c2c452ccb9bf300",
+          "mass_g": 401,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            14.968008008007928,
+            22.60682582582558,
+            30.023229229228946,
+            20.472230230230252
+          ],
+          "feature_adc": 22.017573323323177,
+          "method": "source_inverse_warp_five_point",
+          "predicted_mass_g": 386.51047083457627,
+          "error_g": -14.489529165423733,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_2500_C",
+          "capture_id": "c6d4c206156c456094e2c3421d717996",
+          "mass_g": 2506,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            178.08908908908916,
+            167.101101101101,
+            130.17217217217194,
+            149.8878878878877
+          ],
+          "feature_adc": 156.31256256256245,
+          "method": "source_inverse_warp_five_point",
+          "predicted_mass_g": 2407.7834549740164,
+          "error_g": -98.21654502598358,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_2500_C",
+          "capture_id": "6b77850cba3b4ce6b62ee19f4307b4d7",
+          "mass_g": 2506,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            180.7800000000002,
+            165.34500000000025,
+            134.92200000000003,
+            148.01999999999998
+          ],
+          "feature_adc": 157.26675000000012,
+          "method": "source_inverse_warp_five_point",
+          "predicted_mass_g": 2419.9858009984396,
+          "error_g": -86.01419900156043,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_0400_C",
+          "capture_id": "7e7d13038daf4674a4ec15da97064267",
+          "mass_g": 401,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            14.350033033033014,
+            27.041511511511544,
+            29.25897697697701,
+            18.428452452452348
+          ],
+          "feature_adc": 22.26974349349348,
+          "method": "source_inverse_warp_five_point",
+          "predicted_mass_g": 390.73381268707965,
+          "error_g": -10.266187312920351,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_4000_C",
+          "capture_id": "7f7c2f443392466d9e20340791189bfc",
+          "mass_g": 4007,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            316.7444274274276,
+            303.93340340340364,
+            262.1859039039041,
+            279.06008408408434
+          ],
+          "feature_adc": 290.4809547047049,
+          "method": "source_inverse_warp_five_point",
+          "predicted_mass_g": 4149.0517812851085,
+          "error_g": 142.05178128510852,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_1100_C",
+          "capture_id": "131d7c42101e45a1902b9e600a735b11",
+          "mass_g": 1100,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            59.95864164164186,
+            57.596066066066214,
+            63.627345345345475,
+            79.66568968968977
+          ],
+          "feature_adc": 65.21193568568583,
+          "method": "source_inverse_warp_five_point",
+          "predicted_mass_g": 1125.9815473442059,
+          "error_g": 25.981547344205865,
+          "prediction_status": "ok"
+        }
+      ],
+      "scratch_five_point": [
+        {
+          "record_code": "T_RED_TEST1_WATER_1100_C",
+          "capture_id": "3fe859dd93a941ae8a51cbd5170651de",
+          "mass_g": 1100,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            52.97700800800794,
+            69.08082582582574,
+            77.9932292292292,
+            62.37123023023014
+          ],
+          "feature_adc": 65.60557332332326,
+          "method": "scratch_five_point",
+          "predicted_mass_g": 1087.318038603039,
+          "error_g": -12.681961396961015,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_4000_C",
+          "capture_id": "28e5ca60e1ff44ab96efa7badeda1f8b",
+          "mass_g": 4007,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            325.97697697697686,
+            285.4954954954951,
+            263.4074074074074,
+            311.33133133133106
+          ],
+          "feature_adc": 296.5528028028026,
+          "method": "scratch_five_point",
+          "predicted_mass_g": 3971.2938767213072,
+          "error_g": -35.70612327869276,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_0400_C",
+          "capture_id": "e976f0bf2f3645328c2c452ccb9bf300",
+          "mass_g": 401,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            14.968008008007928,
+            22.60682582582558,
+            30.023229229228946,
+            20.472230230230252
+          ],
+          "feature_adc": 22.017573323323177,
+          "method": "scratch_five_point",
+          "predicted_mass_g": 382.33073722923416,
+          "error_g": -18.66926277076584,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST1_WATER_2500_C",
+          "capture_id": "c6d4c206156c456094e2c3421d717996",
+          "mass_g": 2506,
+          "repetition": 1,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "06618c8c352a456f83375d2d1af36561",
+          "zero_record_code": "T_RED_CAL_ZERO_02",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            178.08908908908916,
+            167.101101101101,
+            130.17217217217194,
+            149.8878878878877
+          ],
+          "feature_adc": 156.31256256256245,
+          "method": "scratch_five_point",
+          "predicted_mass_g": 2375.011691058504,
+          "error_g": -130.98830894149614,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_2500_C",
+          "capture_id": "6b77850cba3b4ce6b62ee19f4307b4d7",
+          "mass_g": 2506,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            180.7800000000002,
+            165.34500000000025,
+            134.92200000000003,
+            148.01999999999998
+          ],
+          "feature_adc": 157.26675000000012,
+          "method": "scratch_five_point",
+          "predicted_mass_g": 2387.8836307277415,
+          "error_g": -118.11636927225845,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_0400_C",
+          "capture_id": "7e7d13038daf4674a4ec15da97064267",
+          "mass_g": 401,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            14.350033033033014,
+            27.041511511511544,
+            29.25897697697701,
+            18.428452452452348
+          ],
+          "feature_adc": 22.26974349349348,
+          "method": "scratch_five_point",
+          "predicted_mass_g": 386.7096215709661,
+          "error_g": -14.290378429033922,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_4000_C",
+          "capture_id": "7f7c2f443392466d9e20340791189bfc",
+          "mass_g": 4007,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            316.7444274274276,
+            303.93340340340364,
+            262.1859039039041,
+            279.06008408408434
+          ],
+          "feature_adc": 290.4809547047049,
+          "method": "scratch_five_point",
+          "predicted_mass_g": 3908.56979747247,
+          "error_g": -98.43020252753013,
+          "prediction_status": "ok"
+        },
+        {
+          "record_code": "T_RED_TEST2_WATER_1100_C",
+          "capture_id": "131d7c42101e45a1902b9e600a735b11",
+          "mass_g": 1100,
+          "repetition": 2,
+          "data_role": "final_evaluation",
+          "power_segment": "RED_P1",
+          "zero_capture_id": "0231e323e3d34f278c68fe1d57e18aef",
+          "zero_record_code": "T_RED_TEST_ZERO_01",
+          "zero_policy_status": "same_segment_preceding_zero",
+          "response_adc": [
+            59.95864164164186,
+            57.596066066066214,
+            63.627345345345475,
+            79.66568968968977
+          ],
+          "feature_adc": 65.21193568568583,
+          "method": "scratch_five_point",
+          "predicted_mass_g": 1081.0376834866413,
+          "error_g": -18.9623165133587,
+          "prediction_status": "ok"
+        }
+      ]
+    },
+    "paired_test_differences": {
+      "no_transfer": [
+        {
+          "mass_g": 401,
+          "difference_g": 2.3313435622041254
+        },
+        {
+          "mass_g": 1100,
+          "difference_g": -2.837364138989983
+        },
+        {
+          "mass_g": 2506,
+          "difference_g": 5.297323840003628
+        },
+        {
+          "mass_g": 4007,
+          "difference_g": -29.761049339101646
+        }
+      ],
+      "source_inverse_warp_two_point": [
+        {
+          "mass_g": 401,
+          "difference_g": 5.830272883309135
+        },
+        {
+          "mass_g": 1100,
+          "difference_g": -6.18871766945972
+        },
+        {
+          "mass_g": 2506,
+          "difference_g": 12.660471450927162
+        },
+        {
+          "mass_g": 4007,
+          "difference_g": -41.41873410693461
+        }
+      ],
+      "scratch_two_point": [
+        {
+          "mass_g": 401,
+          "difference_g": 3.182888678875088
+        },
+        {
+          "mass_g": 1100,
+          "difference_g": -4.968489252987979
+        },
+        {
+          "mass_g": 2506,
+          "difference_g": 12.043741692739104
+        },
+        {
+          "mass_g": 4007,
+          "difference_g": -76.63878942633255
+        }
+      ],
+      "source_inverse_warp_three_point": [
+        {
+          "mass_g": 401,
+          "difference_g": 4.8496351720763755
+        },
+        {
+          "mass_g": 1100,
+          "difference_g": -11.56400404719352
+        },
+        {
+          "mass_g": 2506,
+          "difference_g": 13.943740043115668
+        },
+        {
+          "mass_g": 4007,
+          "difference_g": -45.61694748418813
+        }
+      ],
+      "scratch_three_point": [
+        {
+          "mass_g": 401,
+          "difference_g": 4.135072424808413
+        },
+        {
+          "mass_g": 1100,
+          "difference_g": -6.454848087947539
+        },
+        {
+          "mass_g": 2506,
+          "difference_g": 10.960062348648535
+        },
+        {
+          "mass_g": 4007,
+          "difference_g": -69.74293636204038
+        }
+      ],
+      "source_inverse_warp_five_point": [
+        {
+          "mass_g": 401,
+          "difference_g": 4.223341852503381
+        },
+        {
+          "mass_g": 1100,
+          "difference_g": -12.248698879038557
+        },
+        {
+          "mass_g": 2506,
+          "difference_g": 12.20234602442315
+        },
+        {
+          "mass_g": 4007,
+          "difference_g": -48.90367096652062
+        }
+      ],
+      "scratch_five_point": [
+        {
+          "mass_g": 401,
+          "difference_g": 4.3788843417319185
+        },
+        {
+          "mass_g": 1100,
+          "difference_g": -6.280355116397686
+        },
+        {
+          "mass_g": 2506,
+          "difference_g": 12.87193966923769
+        },
+        {
+          "mass_g": 4007,
+          "difference_g": -62.72407924883737
+        }
+      ]
+    }
+  },
+  "green_return": {
+    "observation": {
+      "record_code": "T_GREEN_RETURN_WATER_1000_C",
+      "capture_id": "373556101a1247fe84b3888db5769929",
+      "mass_g": 1000,
+      "repetition": 1,
+      "data_role": "development_validation",
+      "power_segment": "GREEN_REMOUNT_P0",
+      "zero_capture_id": "a24178efa8b64acfbd1f2ff05cf5f2ac",
+      "zero_record_code": "T_GREEN_RETURN_QC_00",
+      "zero_policy_status": "same_segment_preceding_zero",
+      "response_adc": [
+        111.50021121121108,
+        108.32527527527509,
+        130.84484884884887,
+        135.73014514514534
+      ],
+      "feature_adc": 121.6001201201201
+    },
+    "predicted_mass_g": 969.2019866366676,
+    "error_g": -30.798013363332416
+  }
+}
