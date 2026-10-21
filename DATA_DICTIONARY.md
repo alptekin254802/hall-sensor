@@ -32,7 +32,7 @@ presses have their own reported windows. Unloaded references are linked by ID.
 | E | Repeated loading plateaus and offline filter comparison |
 | F | One-hour holds and unloaded return |
 | R_small, R_range | Small additions and their bracketing references |
-| T | Replacement-spring calibration and fixed independent test placements |
+| T | Target-spring calibration and fixed independent test placements |
 | H | Strain-gauge load-cell scalar benchmark |
 | Nextion, manual_press | Display sequence and 18 manually referenced presses |
 | directional_press | Five rounds of center, tilted and marked-offset presses |
@@ -59,3 +59,18 @@ times 0.08611959950625428 N/ADC, the first frozen calibration-segment slope.
 
 `total_count` and `total_n` give the number of evaluated placements before
 model-domain exclusions; `coverage_n` is the number with a supported prediction.
+
+## Reproduced interval and noise summaries
+
+`analysis/bootstrap_intervals.json` records the original primary mass-group
+bootstrap and the paired alternative-minus-interpolation MAE differences.
+Both retain placements within their mass group and use 10,000 resamples.
+The primary calculation uses NumPy `default_rng` and linear percentiles.
+The paired calculation uses Python `random.Random`, a fresh seed per model,
+sorted mass groups, `choices`, and sorted draw indices 249 and 9749.
+
+`analysis/comparator_noise.json` lists the 70 complete, non-overlapping 10 s
+windows from all 33 comparator B records, including seven unloaded records.
+The SD is the within-window sample SD (`ddof=1`) converted through the frozen
+load-cell slope to N. The sampling-rate range is limited to the 26 loaded B
+records. These SDs do not estimate uncertainty of the averaged force.

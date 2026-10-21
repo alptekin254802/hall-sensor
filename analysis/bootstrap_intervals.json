@@ -1,0 +1,62 @@
+{
+  "primary": {
+    "seed": 20261016,
+    "replicates": 10000,
+    "mass_groups": 13,
+    "placements": 23,
+    "generator": "numpy.random.default_rng",
+    "percentile_rule": "numpy.percentile, method=linear",
+    "intervals_g": {
+      "mae": [
+        40.96141193597881,
+        84.46224339710254
+      ],
+      "rmse": [
+        54.95455072067061,
+        99.90722943715116
+      ]
+    },
+    "intervals_N": {
+      "mae": [
+        0.4016942303619666,
+        0.8282916592101957
+      ],
+      "rmse": [
+        0.5389200448248644,
+        0.9797552315598385
+      ]
+    }
+  },
+  "paired": {
+    "S1_S2_S3_S4_mlp8": {
+      "estimand": "alternative MAE minus interpolation MAE",
+      "observed_difference_N": -0.08455567266123527,
+      "percentile95_N": [
+        -0.17802827578102254,
+        0.0018811329201874646
+      ],
+      "seed": 20261019,
+      "replicates": 10000,
+      "mass_groups": 13,
+      "placements": 23,
+      "generator": "random.Random, fresh seed per alternative",
+      "percentile_rule": "sorted draw indices 249 and 9749 (zero-based)",
+      "scope": "Conditional on observed masses and frozen fits; exploratory, no retuning, no population equivalence claim."
+    },
+    "S1_S2_S3_S4_cubic": {
+      "estimand": "alternative MAE minus interpolation MAE",
+      "observed_difference_N": -0.0025523677098021193,
+      "percentile95_N": [
+        -0.19112363789087566,
+        0.15555037982056336
+      ],
+      "seed": 20261019,
+      "replicates": 10000,
+      "mass_groups": 13,
+      "placements": 23,
+      "generator": "random.Random, fresh seed per alternative",
+      "percentile_rule": "sorted draw indices 249 and 9749 (zero-based)",
+      "scope": "Conditional on observed masses and frozen fits; exploratory, no retuning, no population equivalence claim."
+    }
+  }
+}

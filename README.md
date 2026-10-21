@@ -29,6 +29,8 @@ python reproduce_quadratic.py
 python reproduce_stability.py
 python reproduce_additional.py
 python reproduce_channels.py
+python reproduce_bootstrap.py
+python reproduce_noise.py
 ```
 
 These commands read the included measurements and frozen models. They do not
@@ -38,6 +40,24 @@ A data and checks their B predictions and signed-error correlations. These
 additional comparisons were made after the original B evaluation. The quadratic
 spring comparator was added after the initial spring-test results were examined.
 Recorded resampling settings are in `bootstrap_settings.py`.
+The bootstrap script reproduces both primary intervals and paired model-MAE
+differences from `analysis/B.json`, preserving the original random generators
+and percentile rules. Results are stored in `analysis/bootstrap_intervals.json`.
+The noise script checks all 70 complete 10 s windows from the 26 loaded and seven
+unloaded comparator B records; its sample-SD range is stored in
+`analysis/comparator_noise.json`.
+
+To regenerate the directional-contrast figure, install the optional plotting
+dependencies and select an output directory:
+
+```sh
+python -m pip install -r requirements-figures.txt
+python plot_directional_contrasts.py --output-dir figures
+python plot_stability.py --output-dir figures
+```
+
+The figure groups each round explicitly by `condition` in the order `CENTER`,
+`TILT_XP`, `OFFSET_XP15`; acquisition order does not determine the x-axis labels.
 
 The main independent test has 23 placements at 13 held-out masses. Its frozen
 four-channel model gives MAE 0.606 N and RMSE 0.773 N. The load-cell
@@ -75,7 +95,7 @@ and [firmware instructions](firmware/README.md) for build and acquisition detail
 
 ## Data scope
 
-The package contains the recordings used in the reported analyses. Repeated acquisitions replaced under the same protocol, pilot runs and unreported exploratory series are not included. Analysis windows and unloaded references are defined in analysis/. The cycle-exclusion criterion of the loading-unloading test is given in Supplementary Material S5.
+The package contains the recordings used in the reported analyses. Repeated acquisitions superseded under the same protocol, pilot runs and unreported exploratory series are not included. Analysis windows and unloaded references are defined in analysis/. The reason for excluding one loading-unloading cycle is given in Supplementary Material S5: the stacked books did not load the head as intended. The following cycle used crosswise stacking centered on the tray mark.
 
 ## Licenses and citation
 

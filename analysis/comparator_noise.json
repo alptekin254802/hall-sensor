@@ -1,0 +1,786 @@
+{
+  "population": "All 33 comparator B records: 26 loaded and 7 unloaded",
+  "window_rule": "Every complete non-overlapping 10 s window starting at 0 s; sample SD, ddof=1",
+  "n_records": 33,
+  "n_windows": 70,
+  "sd_range_N": [
+    0.024020544975465213,
+    0.03882735724807825
+  ],
+  "loaded_B_rate_range_Hz": [
+    10.32547699214366,
+    10.33138284810771
+  ],
+  "windows": [
+    {
+      "capture_id": "394761b1d1e64718a7585af2502ec04a",
+      "record_code": "H_B_ZERO_00",
+      "load_state": "unloaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.032307903969826905
+    },
+    {
+      "capture_id": "394761b1d1e64718a7585af2502ec04a",
+      "record_code": "H_B_ZERO_00",
+      "load_state": "unloaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.027225028645847298
+    },
+    {
+      "capture_id": "394761b1d1e64718a7585af2502ec04a",
+      "record_code": "H_B_ZERO_00",
+      "load_state": "unloaded",
+      "window_s": [
+        20,
+        30
+      ],
+      "n": 103,
+      "sample_sd_N": 0.02968483389808797
+    },
+    {
+      "capture_id": "394761b1d1e64718a7585af2502ec04a",
+      "record_code": "H_B_ZERO_00",
+      "load_state": "unloaded",
+      "window_s": [
+        30,
+        40
+      ],
+      "n": 104,
+      "sample_sd_N": 0.030934590581963572
+    },
+    {
+      "capture_id": "394761b1d1e64718a7585af2502ec04a",
+      "record_code": "H_B_ZERO_00",
+      "load_state": "unloaded",
+      "window_s": [
+        40,
+        50
+      ],
+      "n": 103,
+      "sample_sd_N": 0.029720080083511742
+    },
+    {
+      "capture_id": "394761b1d1e64718a7585af2502ec04a",
+      "record_code": "H_B_ZERO_00",
+      "load_state": "unloaded",
+      "window_s": [
+        50,
+        60
+      ],
+      "n": 103,
+      "sample_sd_N": 0.03146740920760018
+    },
+    {
+      "capture_id": "6a140b9d30684a6c8c163a409cbd0c81",
+      "record_code": "H_B_R1_WATER_1400_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.03882735724807825
+    },
+    {
+      "capture_id": "6a140b9d30684a6c8c163a409cbd0c81",
+      "record_code": "H_B_R1_WATER_1400_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.03178176775295401
+    },
+    {
+      "capture_id": "1fdaec09467147c398937eba98f9c194",
+      "record_code": "H_B_R1_WATER_1850_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.02654687611541309
+    },
+    {
+      "capture_id": "1fdaec09467147c398937eba98f9c194",
+      "record_code": "H_B_R1_WATER_1850_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.03237678703022132
+    },
+    {
+      "capture_id": "0c74255b0b214cf5b74c099573aba6a9",
+      "record_code": "H_B_R1_WATER_4500_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.029135894474658888
+    },
+    {
+      "capture_id": "0c74255b0b214cf5b74c099573aba6a9",
+      "record_code": "H_B_R1_WATER_4500_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.032110294019849286
+    },
+    {
+      "capture_id": "2d1097d589e84ea0b67abe586f936083",
+      "record_code": "H_B_R1_WATER_1100_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.025404007063162943
+    },
+    {
+      "capture_id": "2d1097d589e84ea0b67abe586f936083",
+      "record_code": "H_B_R1_WATER_1100_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.029026643870325622
+    },
+    {
+      "capture_id": "a9d0318817a4459a9e0788bafed92bc8",
+      "record_code": "H_B_R1_WATER_0400_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.031571499548963336
+    },
+    {
+      "capture_id": "a9d0318817a4459a9e0788bafed92bc8",
+      "record_code": "H_B_R1_WATER_0400_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.02710442293704457
+    },
+    {
+      "capture_id": "de47b434aaaf421583f1f572516f2bdb",
+      "record_code": "H_B_R1_ZERO_05",
+      "load_state": "unloaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.031699080705201485
+    },
+    {
+      "capture_id": "de47b434aaaf421583f1f572516f2bdb",
+      "record_code": "H_B_R1_ZERO_05",
+      "load_state": "unloaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.029349960386761128
+    },
+    {
+      "capture_id": "dc2b129125814fdca17131bf03678cd4",
+      "record_code": "H_B_R1_WATER_0800_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.03662255159486804
+    },
+    {
+      "capture_id": "dc2b129125814fdca17131bf03678cd4",
+      "record_code": "H_B_R1_WATER_0800_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.032992021272294905
+    },
+    {
+      "capture_id": "658d8520aa2042b39856fdf809930cc1",
+      "record_code": "H_B_R1_WATER_0200_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.029053978231664505
+    },
+    {
+      "capture_id": "658d8520aa2042b39856fdf809930cc1",
+      "record_code": "H_B_R1_WATER_0200_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.025878795233611352
+    },
+    {
+      "capture_id": "7eb4d2bcf7ed44f5a2a5a886694e50d0",
+      "record_code": "H_B_R1_WATER_1300_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.0325495995587287
+    },
+    {
+      "capture_id": "7eb4d2bcf7ed44f5a2a5a886694e50d0",
+      "record_code": "H_B_R1_WATER_1300_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.02718106681985212
+    },
+    {
+      "capture_id": "0efc11b0c02943a8b184f766dc99043b",
+      "record_code": "H_B_R1_WATER_3500_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.03277675167250815
+    },
+    {
+      "capture_id": "0efc11b0c02943a8b184f766dc99043b",
+      "record_code": "H_B_R1_WATER_3500_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.029535813289426175
+    },
+    {
+      "capture_id": "c6bd265ce8ee45838c7493f7030026a7",
+      "record_code": "H_B_R1_WATER_0900_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.03346508169135666
+    },
+    {
+      "capture_id": "c6bd265ce8ee45838c7493f7030026a7",
+      "record_code": "H_B_R1_WATER_0900_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.03234176601990995
+    },
+    {
+      "capture_id": "5dee17bddfbf4388b00d8b97fb4e2907",
+      "record_code": "H_B_R1_ZERO_10",
+      "load_state": "unloaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.031588156267533515
+    },
+    {
+      "capture_id": "5dee17bddfbf4388b00d8b97fb4e2907",
+      "record_code": "H_B_R1_ZERO_10",
+      "load_state": "unloaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.033583247299789586
+    },
+    {
+      "capture_id": "0a9f35604f5441438a693f5089884682",
+      "record_code": "H_B_R1_WATER_2500_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.027696787913064545
+    },
+    {
+      "capture_id": "0a9f35604f5441438a693f5089884682",
+      "record_code": "H_B_R1_WATER_2500_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.024630194083865912
+    },
+    {
+      "capture_id": "ddd1ddcf134348b2922b438eaaf84b57",
+      "record_code": "H_B_R1_WATER_1600_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.031294010292376696
+    },
+    {
+      "capture_id": "ddd1ddcf134348b2922b438eaaf84b57",
+      "record_code": "H_B_R1_WATER_1600_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.031580929743719566
+    },
+    {
+      "capture_id": "4485de57897441b2a2bf415786798812",
+      "record_code": "H_B_R1_WATER_0600_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.03282403454157912
+    },
+    {
+      "capture_id": "4485de57897441b2a2bf415786798812",
+      "record_code": "H_B_R1_WATER_0600_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.029101015710988654
+    },
+    {
+      "capture_id": "1f08764330d14b7f8945cc703645f0a1",
+      "record_code": "H_B_R1_ZERO_13",
+      "load_state": "unloaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.028753456184990228
+    },
+    {
+      "capture_id": "1f08764330d14b7f8945cc703645f0a1",
+      "record_code": "H_B_R1_ZERO_13",
+      "load_state": "unloaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.027556280843731847
+    },
+    {
+      "capture_id": "ad02cc7d1299471fa1cce68963eafc4d",
+      "record_code": "H_B_R2_WATER_0600_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.030313134780739454
+    },
+    {
+      "capture_id": "ad02cc7d1299471fa1cce68963eafc4d",
+      "record_code": "H_B_R2_WATER_0600_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.03480178520259971
+    },
+    {
+      "capture_id": "6dece7b17e774916bb8dbf27aa6340b3",
+      "record_code": "H_B_R2_WATER_2500_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.027535579884836816
+    },
+    {
+      "capture_id": "6dece7b17e774916bb8dbf27aa6340b3",
+      "record_code": "H_B_R2_WATER_2500_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.0296077388852702
+    },
+    {
+      "capture_id": "2da40775b4444ae6b904971661db8ecd",
+      "record_code": "H_B_R2_WATER_1300_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.03244231376389252
+    },
+    {
+      "capture_id": "2da40775b4444ae6b904971661db8ecd",
+      "record_code": "H_B_R2_WATER_1300_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.024926112950586075
+    },
+    {
+      "capture_id": "06a7ff710243461481290b5af2583635",
+      "record_code": "H_B_R2_WATER_0200_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.027906979977147972
+    },
+    {
+      "capture_id": "06a7ff710243461481290b5af2583635",
+      "record_code": "H_B_R2_WATER_0200_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.03129981842649339
+    },
+    {
+      "capture_id": "43719c4fb1ce442fbd3496dbd63ec15d",
+      "record_code": "H_B_R2_WATER_1600_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.029049668272787127
+    },
+    {
+      "capture_id": "43719c4fb1ce442fbd3496dbd63ec15d",
+      "record_code": "H_B_R2_WATER_1600_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.033096473220794516
+    },
+    {
+      "capture_id": "4494e6b2c2434dd6b2f9f5de988eaf67",
+      "record_code": "H_B_R2_ZERO_05",
+      "load_state": "unloaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.03327345259924656
+    },
+    {
+      "capture_id": "4494e6b2c2434dd6b2f9f5de988eaf67",
+      "record_code": "H_B_R2_ZERO_05",
+      "load_state": "unloaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.030238915218624443
+    },
+    {
+      "capture_id": "90897bb8373a47a5ae03d49367af1462",
+      "record_code": "H_B_R2_WATER_4500_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.031877501887485026
+    },
+    {
+      "capture_id": "90897bb8373a47a5ae03d49367af1462",
+      "record_code": "H_B_R2_WATER_4500_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.031211164284165285
+    },
+    {
+      "capture_id": "c5c341cf1b594e10ba6ee6050f33dbcc",
+      "record_code": "H_B_R2_WATER_0800_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.03286725578407246
+    },
+    {
+      "capture_id": "c5c341cf1b594e10ba6ee6050f33dbcc",
+      "record_code": "H_B_R2_WATER_0800_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.0332761041701263
+    },
+    {
+      "capture_id": "d38add617c604ec0af851119c1641043",
+      "record_code": "H_B_R2_WATER_1100_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.024020544975465213
+    },
+    {
+      "capture_id": "d38add617c604ec0af851119c1641043",
+      "record_code": "H_B_R2_WATER_1100_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.032954355254515275
+    },
+    {
+      "capture_id": "2f69b24fa9214dfb9053958acdb8857c",
+      "record_code": "H_B_R2_WATER_3500_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.030482742134529547
+    },
+    {
+      "capture_id": "2f69b24fa9214dfb9053958acdb8857c",
+      "record_code": "H_B_R2_WATER_3500_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.028455366206540857
+    },
+    {
+      "capture_id": "990bd70eaf3942d2b0877b2706d6dda7",
+      "record_code": "H_B_R2_WATER_0400_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.03120898737318241
+    },
+    {
+      "capture_id": "990bd70eaf3942d2b0877b2706d6dda7",
+      "record_code": "H_B_R2_WATER_0400_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.02835714107603427
+    },
+    {
+      "capture_id": "3b0cac9d63c34e1b919b8e4335394444",
+      "record_code": "H_B_R2_ZERO_10",
+      "load_state": "unloaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.029432004407920702
+    },
+    {
+      "capture_id": "3b0cac9d63c34e1b919b8e4335394444",
+      "record_code": "H_B_R2_ZERO_10",
+      "load_state": "unloaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.030704578159381737
+    },
+    {
+      "capture_id": "77b28a62948843b7a34d1696efd120ee",
+      "record_code": "H_B_R2_WATER_1400_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.03682770289878094
+    },
+    {
+      "capture_id": "77b28a62948843b7a34d1696efd120ee",
+      "record_code": "H_B_R2_WATER_1400_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.03132668254902495
+    },
+    {
+      "capture_id": "39529710a42241219f125e217cabc524",
+      "record_code": "H_B_R2_WATER_1850_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.030872165839484274
+    },
+    {
+      "capture_id": "39529710a42241219f125e217cabc524",
+      "record_code": "H_B_R2_WATER_1850_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.033497614731507495
+    },
+    {
+      "capture_id": "74ed2a3649b6433291a5213951ff0979",
+      "record_code": "H_B_R2_WATER_0900_C",
+      "load_state": "loaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.03520540860647329
+    },
+    {
+      "capture_id": "74ed2a3649b6433291a5213951ff0979",
+      "record_code": "H_B_R2_WATER_0900_C",
+      "load_state": "loaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.030301179210107977
+    },
+    {
+      "capture_id": "eaa87c2008304b2e8eed777dbe643b6c",
+      "record_code": "H_B_R2_ZERO_13",
+      "load_state": "unloaded",
+      "window_s": [
+        0,
+        10
+      ],
+      "n": 104,
+      "sample_sd_N": 0.03437470932568935
+    },
+    {
+      "capture_id": "eaa87c2008304b2e8eed777dbe643b6c",
+      "record_code": "H_B_R2_ZERO_13",
+      "load_state": "unloaded",
+      "window_s": [
+        10,
+        20
+      ],
+      "n": 103,
+      "sample_sd_N": 0.026383367741238263
+    }
+  ]
+}
