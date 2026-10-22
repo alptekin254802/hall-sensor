@@ -32,6 +32,13 @@ def calculate():
         sd_range_N=[min(w['sample_sd_N'] for w in windows),max(w['sample_sd_N'] for w in windows)],
         loaded_B_rate_range_Hz=[min(rates),max(rates)],windows=windows)
 
+def same(a,b):
+    # Floats are compared to 1e-12 relative tolerance; standard-library SD can differ in the last bit between Python versions.
+    if isinstance(a,dict): return isinstance(b,dict) and a.keys()==b.keys() and all(same(a[k],b[k]) for k in a)
+    if isinstance(a,list): return isinstance(b,list) and len(a)==len(b) and all(same(x,y) for x,y in zip(a,b))
+    if isinstance(a,float) or isinstance(b,float): return abs(a-b)<=1e-12*max(1.0,abs(a),abs(b))
+    return a==b
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--write',action='store_true',help='Write the derived analysis summary')
@@ -40,7 +47,7 @@ def main():
     if args.write:path.write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')
     elif path.exists():
         stored=json.loads(path.read_text(encoding='utf-8'))
-        assert result==stored,'Comparator noise summary differs'
+        assert same(result,stored),'Comparator noise summary differs'
     print(json.dumps({k:v for k,v in result.items() if k!='windows'},indent=2))
 
 if __name__=='__main__':main()

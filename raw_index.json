@@ -1548,6 +1548,10 @@
       {
         "group": "C_books",
         "role": "analyzed_book_cycle"
+      },
+      {
+        "group": "C_books_excluded",
+        "role": "excluded_cycle_baseline"
       }
     ],
     "metadata": {
@@ -9172,6 +9176,1222 @@
         "bytes": 911,
         "original_sha256": "fcb8259eea6822a7c61645cbd869ea01e6ec3a6d97539a1ede93c3a75adca789",
         "original_bytes": 5651,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "0222278c67284e3e8c811b8e786d865e",
+    "uses": [
+      {
+        "group": "C_books_excluded",
+        "role": "excluded_cycle"
+      }
+    ],
+    "metadata": {
+      "record_code": "C_BOOK_R2_S1",
+      "cycle": 2,
+      "mass_g": 2501
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/0222278c67284e3e8c811b8e786d865e/samples.csv.gz",
+        "sha256": "4c89e6742f35674a3c38086a06de3d3e7f127563bf7ceaa4761f0f20e4a0899c",
+        "bytes": 34839,
+        "original_sha256": "10c304b1d425dba41ba3e95508946c9f52fd6825ad5596d8c5fba049db0c1bb3",
+        "original_bytes": 221780,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/0222278c67284e3e8c811b8e786d865e/temperatures.csv.gz",
+        "sha256": "5664c5f597c169e3e90a8b74bdae5563f9e476b548fd64c664184bfda49d911d",
+        "bytes": 907,
+        "original_sha256": "730894c637284dab0acd156be75a21d41d767f14c0baf4ca69bb585257b79d48",
+        "original_bytes": 5687,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "cecdcd2a91f94043a6bd4980ec89f202",
+    "uses": [
+      {
+        "group": "C_books_excluded",
+        "role": "excluded_cycle"
+      }
+    ],
+    "metadata": {
+      "record_code": "C_BOOK_R2_S2",
+      "cycle": 2,
+      "mass_g": 4297
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/cecdcd2a91f94043a6bd4980ec89f202/samples.csv.gz",
+        "sha256": "81b8ff8f53e5eb520bb33a00155eb96fc2249b1c22f63b744af4700c8abe46ee",
+        "bytes": 34779,
+        "original_sha256": "13baae6fe4272a40010c566a7540e59d3ab03becc8476bab1062b5ec7d9cb0e5",
+        "original_bytes": 221780,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/cecdcd2a91f94043a6bd4980ec89f202/temperatures.csv.gz",
+        "sha256": "ec3a8623d1f77ac81aa580be1c1c2708b67718316044c04fba89bca9156e80c6",
+        "bytes": 913,
+        "original_sha256": "20cd35cc04768962967cfd7490cac2942eaa2f98a3ed24e822f53cae1b8e72a9",
+        "original_bytes": 5687,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "12a29515fca74489b71f4bbc591ff74f",
+    "uses": [
+      {
+        "group": "C_books_excluded",
+        "role": "excluded_cycle"
+      }
+    ],
+    "metadata": {
+      "record_code": "C_BOOK_R2_S3",
+      "cycle": 2,
+      "mass_g": 4916
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/12a29515fca74489b71f4bbc591ff74f/samples.csv.gz",
+        "sha256": "5cd2404ab3e4016493331790d0887233283662c816713ed655bb2816c3fbb891",
+        "bytes": 34531,
+        "original_sha256": "08d37c60c73e645a9674dadaec05caef5012450654506f937551929db4069962",
+        "original_bytes": 221668,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/12a29515fca74489b71f4bbc591ff74f/temperatures.csv.gz",
+        "sha256": "3a68e7f2a19041ea7bf13b2aba6c29d9d71730ea0a6d654a33ca2c84cef90855",
+        "bytes": 912,
+        "original_sha256": "d1ac4ffd9173757ede7fd96fb730e79b51f00d01eb7d12bd07e799bee94cae9e",
+        "original_bytes": 5687,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "8c32377f8bbf4fe5abf667b32a5ddd57",
+    "uses": [
+      {
+        "group": "C_books_excluded",
+        "role": "excluded_cycle"
+      }
+    ],
+    "metadata": {
+      "record_code": "C_BOOK_R2_S4",
+      "cycle": 2,
+      "mass_g": 4297
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/8c32377f8bbf4fe5abf667b32a5ddd57/samples.csv.gz",
+        "sha256": "70a3301c9d7f7f2306e236be2ab573a90f6726a14fb7c3b0052eefd009029af6",
+        "bytes": 34512,
+        "original_sha256": "605b91c6f54759668afc76994358c04f4907ddf096276e4d57253e847fb49f1b",
+        "original_bytes": 221780,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/8c32377f8bbf4fe5abf667b32a5ddd57/temperatures.csv.gz",
+        "sha256": "556b702044f6ae29970ac89224bf29ef31a85cb2db33bf7e55bcb78c19be7267",
+        "bytes": 904,
+        "original_sha256": "24de9f13e3131357699cdc29b92e29c8e66b7e5caecdc873f82af0db9aa6f550",
+        "original_bytes": 5690,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "57e6f4e8548c4843900939fb8cb0624a",
+    "uses": [
+      {
+        "group": "C_books_excluded",
+        "role": "excluded_cycle"
+      }
+    ],
+    "metadata": {
+      "record_code": "C_BOOK_R2_S5",
+      "cycle": 2,
+      "mass_g": 2501
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/57e6f4e8548c4843900939fb8cb0624a/samples.csv.gz",
+        "sha256": "a903ebeb8f68583432b12f8c82c2e5d02542332cda382f6b3b19347ebe2f784c",
+        "bytes": 35624,
+        "original_sha256": "6571b20a5f21283f2d86b9a4a5cf059939f11e2472bcdd5731cbedb5166c536f",
+        "original_bytes": 221892,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/57e6f4e8548c4843900939fb8cb0624a/temperatures.csv.gz",
+        "sha256": "b6166510094ec17e1bdb184d5291065a43acbe631c872c12d7c5e77393bf541a",
+        "bytes": 911,
+        "original_sha256": "bbcbe9aeaa3ea6a95da2c04070b1888b75d639b5084197b83d4fa60949a74d5d",
+        "original_bytes": 5687,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "71de61ec6f4c4146802692eb6cad9470",
+    "uses": [
+      {
+        "group": "C_books_excluded",
+        "role": "excluded_cycle"
+      }
+    ],
+    "metadata": {
+      "record_code": "C_BOOK_R2_S6",
+      "cycle": 2,
+      "mass_g": 0
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/71de61ec6f4c4146802692eb6cad9470/samples.csv.gz",
+        "sha256": "81e999d7e35ddc5c90a443f716adda3571e463065420b115b7b601b741624d5a",
+        "bytes": 35023,
+        "original_sha256": "458196e45447b1e8642450d638c4a1cfa4c5d01a791c702a6ef6c620d4773bb3",
+        "original_bytes": 221892,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/71de61ec6f4c4146802692eb6cad9470/temperatures.csv.gz",
+        "sha256": "d3b3b9d75b4960786d36e1687f31321a00eabc35c809ec182411d3da31a02195",
+        "bytes": 912,
+        "original_sha256": "61efeb61da1e3dfc93920f03574abb4418712d1879f762b844aa76047ef0f5d4",
+        "original_bytes": 5687,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "506ceb3efdfc43299e3caf23c8bc920d",
+    "uses": [
+      {
+        "group": "S_sync",
+        "role": "simultaneous_hall"
+      }
+    ],
+    "metadata": {
+      "record_code": "S_R1",
+      "device": "Hall",
+      "paired_capture_id": "ba3f7c32724b465aa7df4030e8cb45e5",
+      "load_state": "transition",
+      "reference_mass_g": null,
+      "duration_s": 90,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/506ceb3efdfc43299e3caf23c8bc920d/samples.csv.gz",
+        "sha256": "450e4a6d9564c886633eac13149f5dfad1a3008247c432b26530a1ccc43f41d6",
+        "bytes": 161391,
+        "original_sha256": "3afd207407c86a7454f136adf4953280e88a1613f565b39997e6eddc5f829b67",
+        "original_bytes": 1014779,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/506ceb3efdfc43299e3caf23c8bc920d/temperatures.csv.gz",
+        "sha256": "1883c9eb3a0d5124df0ea7a429b6d57235ddd5b28d9f620ffae6ecc2ee0f38ac",
+        "bytes": 3503,
+        "original_sha256": "f2caaf3f0042301b030fb66c127559d67ff03a57ccb995ab51b1ea0c01bd25ce",
+        "original_bytes": 25732,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "ba3f7c32724b465aa7df4030e8cb45e5",
+    "uses": [
+      {
+        "group": "S_sync",
+        "role": "simultaneous_hx711"
+      }
+    ],
+    "metadata": {
+      "record_code": "S_R1",
+      "device": "HX711",
+      "paired_capture_id": "506ceb3efdfc43299e3caf23c8bc920d",
+      "load_state": "transition",
+      "reference_mass_g": null,
+      "duration_s": 90,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/ba3f7c32724b465aa7df4030e8cb45e5/samples.csv.gz",
+        "sha256": "f0134dbf8c121d1c1fd3cba1270a59626d595463938e52a8b769602207d833cb",
+        "bytes": 26980,
+        "original_sha256": "504192a811c162958d00a357ca115bb360f4fceea96f17195ae03ccb914e8482",
+        "original_bytes": 80286,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "e08d6454cb654d4299e838f585a49393",
+    "uses": [
+      {
+        "group": "S_sync",
+        "role": "simultaneous_hall"
+      }
+    ],
+    "metadata": {
+      "record_code": "S_R2",
+      "device": "Hall",
+      "paired_capture_id": "7b8a51a4e3024f9db961793483123506",
+      "load_state": "transition",
+      "reference_mass_g": null,
+      "duration_s": 90,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/e08d6454cb654d4299e838f585a49393/samples.csv.gz",
+        "sha256": "dd41fa9438d8b3460777bbdb3b38f230d960cbcf630aa7b52c15201ef84f7889",
+        "bytes": 161235,
+        "original_sha256": "ba72caa6448ddfff77356926a563052486d7bd768faf1def21f08f249d7dad71",
+        "original_bytes": 1014892,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/e08d6454cb654d4299e838f585a49393/temperatures.csv.gz",
+        "sha256": "88b65944dc510e766ce778fc335ab494b4e9ded55b865a36a17cb0fa6c5f30df",
+        "bytes": 3478,
+        "original_sha256": "9a2bc52a040d74d9dfaca2dded3089dd0b15f7d15a0b97198ee5440de63f9a20",
+        "original_bytes": 25725,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "7b8a51a4e3024f9db961793483123506",
+    "uses": [
+      {
+        "group": "S_sync",
+        "role": "simultaneous_hx711"
+      }
+    ],
+    "metadata": {
+      "record_code": "S_R2",
+      "device": "HX711",
+      "paired_capture_id": "e08d6454cb654d4299e838f585a49393",
+      "load_state": "transition",
+      "reference_mass_g": null,
+      "duration_s": 90,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/7b8a51a4e3024f9db961793483123506/samples.csv.gz",
+        "sha256": "176daefc4c06eba88b105ac95cafd32c914dbc5c2dd9742b1445c1a91910d837",
+        "bytes": 26964,
+        "original_sha256": "ff3d8b5b7e3b394105c715656ef3c7556d17d2b7d58747a293a57fd3e3f3fe82",
+        "original_bytes": 80354,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "c7601aa6e7674e7aa2270baede14f692",
+    "uses": [
+      {
+        "group": "S_sync",
+        "role": "simultaneous_hall"
+      }
+    ],
+    "metadata": {
+      "record_code": "S_R3",
+      "device": "Hall",
+      "paired_capture_id": "952f83cf420843b6a9973ef487a1c326",
+      "load_state": "transition",
+      "reference_mass_g": null,
+      "duration_s": 90,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/c7601aa6e7674e7aa2270baede14f692/samples.csv.gz",
+        "sha256": "2b2c5f2e252061958f116b69c037cfefc1f9af7901e46504c51cf7db0ac947b9",
+        "bytes": 161093,
+        "original_sha256": "a8515ba723eceedbd092971083964d26a0cadf87162ad008e05a9fcbc04b89af",
+        "original_bytes": 1014779,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/c7601aa6e7674e7aa2270baede14f692/temperatures.csv.gz",
+        "sha256": "70962c96e618fdbfbcd45dc7e66efe66184e10765ce25cb271b3074498035d51",
+        "bytes": 3444,
+        "original_sha256": "1f47832bfbae614e5a4011ec01abb87d2c88dc24667549335b820d756d1863b4",
+        "original_bytes": 25625,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "952f83cf420843b6a9973ef487a1c326",
+    "uses": [
+      {
+        "group": "S_sync",
+        "role": "simultaneous_hx711"
+      }
+    ],
+    "metadata": {
+      "record_code": "S_R3",
+      "device": "HX711",
+      "paired_capture_id": "c7601aa6e7674e7aa2270baede14f692",
+      "load_state": "transition",
+      "reference_mass_g": null,
+      "duration_s": 90,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/952f83cf420843b6a9973ef487a1c326/samples.csv.gz",
+        "sha256": "8db1f76b3802a96cc1cdf043be40604ce371a0a9d26f260e7252dc35621f2746",
+        "bytes": 27134,
+        "original_sha256": "90c5ff16a0e7b30b219e44d6f353e193f7cb7b546966fffdf7fef72617a88e69",
+        "original_bytes": 80987,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "7a4adea027cd4e8eaaed7a759ca496f7",
+    "uses": [
+      {
+        "group": "S_sync",
+        "role": "simultaneous_hall"
+      }
+    ],
+    "metadata": {
+      "record_code": "S_R4",
+      "device": "Hall",
+      "paired_capture_id": "45641906f39c40b8ac451f5e7da78aca",
+      "load_state": "transition",
+      "reference_mass_g": null,
+      "duration_s": 90,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/7a4adea027cd4e8eaaed7a759ca496f7/samples.csv.gz",
+        "sha256": "dad31f91f306735f51f1bd8a5245b914a0fe6ac619f2873ba3bc3e37ce68307b",
+        "bytes": 161332,
+        "original_sha256": "81ac114165463ad107446f2ff7654fd1aabfde0c811e288905f96a66958356dc",
+        "original_bytes": 1014892,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/7a4adea027cd4e8eaaed7a759ca496f7/temperatures.csv.gz",
+        "sha256": "b522690679862c5222b0f494e16cd07b02a2421839d4222bc10646d945164fba",
+        "bytes": 3439,
+        "original_sha256": "28e92a0bb31555dca133c09dd5d011e05d6a15e6b9120f51fe4e2a32afb82edb",
+        "original_bytes": 25633,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "45641906f39c40b8ac451f5e7da78aca",
+    "uses": [
+      {
+        "group": "S_sync",
+        "role": "simultaneous_hx711"
+      }
+    ],
+    "metadata": {
+      "record_code": "S_R4",
+      "device": "HX711",
+      "paired_capture_id": "7a4adea027cd4e8eaaed7a759ca496f7",
+      "load_state": "transition",
+      "reference_mass_g": null,
+      "duration_s": 90,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/45641906f39c40b8ac451f5e7da78aca/samples.csv.gz",
+        "sha256": "5d944ccc4ca97df56a9b7f60ef7b2ec5be667d488a8a202161d92970bd4faf7b",
+        "bytes": 27178,
+        "original_sha256": "dca4abdc85718df80c2d97a0536984b8507d0df3dd7756c1fbd6ec0ec755fade",
+        "original_bytes": 81135,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "f29882bbd2064530ab01ea60c5437ecb",
+    "uses": [
+      {
+        "group": "S_sync",
+        "role": "simultaneous_hall"
+      }
+    ],
+    "metadata": {
+      "record_code": "S_R5",
+      "device": "Hall",
+      "paired_capture_id": "1b992053f1264d7aae0327fbbf3d45b0",
+      "load_state": "transition",
+      "reference_mass_g": null,
+      "duration_s": 90,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/f29882bbd2064530ab01ea60c5437ecb/samples.csv.gz",
+        "sha256": "27a2c8f68f8582d2fcb6338af0479f08e1eff9a8b2a44733adcfc2c22c210d10",
+        "bytes": 164408,
+        "original_sha256": "0d32224b7c82bcd25750d3cbb1d34383aaa9df7b7bd5acefe8b2aa84721c888a",
+        "original_bytes": 1014779,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/f29882bbd2064530ab01ea60c5437ecb/temperatures.csv.gz",
+        "sha256": "017a913d1d9b29077ee7ec646cb55733e49f8415b0b8a539402e5b9ced868798",
+        "bytes": 3440,
+        "original_sha256": "4c55b577692730487fd282b94cf0f609ba34ba9a94cfa3cb45b04b358cb1a711",
+        "original_bytes": 25529,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "1b992053f1264d7aae0327fbbf3d45b0",
+    "uses": [
+      {
+        "group": "S_sync",
+        "role": "simultaneous_hx711"
+      }
+    ],
+    "metadata": {
+      "record_code": "S_R5",
+      "device": "HX711",
+      "paired_capture_id": "f29882bbd2064530ab01ea60c5437ecb",
+      "load_state": "transition",
+      "reference_mass_g": null,
+      "duration_s": 90,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/1b992053f1264d7aae0327fbbf3d45b0/samples.csv.gz",
+        "sha256": "cbc6e5730f88218d7d8f49bf52979550255b719f923ca1ef93334645d4d1f8e0",
+        "bytes": 27052,
+        "original_sha256": "e9c73e58ce6ab0cb649e4f77ee048999320715fadaf79c3d00193b60a4e7ba57",
+        "original_bytes": 81051,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "246bb06282714f088e0d58df6d1e6325",
+    "uses": [
+      {
+        "group": "S_sync",
+        "role": "simultaneous_hall"
+      }
+    ],
+    "metadata": {
+      "record_code": "S_LADDER",
+      "device": "Hall",
+      "paired_capture_id": "701812a5f05c48b0b6c4d86bd10c2906",
+      "load_state": "transition",
+      "reference_mass_g": null,
+      "duration_s": 90,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/246bb06282714f088e0d58df6d1e6325/samples.csv.gz",
+        "sha256": "127b49e55d5ab1de887647cca2f6fedbf6e714be13728a1f605701d8ee9de4e1",
+        "bytes": 160283,
+        "original_sha256": "35b9384b6c2d6d173df73cc72e1adb25080fea6713d169190a29a566e9adaa6c",
+        "original_bytes": 1014892,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/246bb06282714f088e0d58df6d1e6325/temperatures.csv.gz",
+        "sha256": "82fe545ff032e2acb35d1dad610ef89f7550896fccd521073d26ee99deb7d92f",
+        "bytes": 3480,
+        "original_sha256": "1fd64433c68feb9e5a7656f86b0e8e3c5c2f8d98b6a289776b5bf2ea007dd944",
+        "original_bytes": 25608,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "701812a5f05c48b0b6c4d86bd10c2906",
+    "uses": [
+      {
+        "group": "S_sync",
+        "role": "simultaneous_hx711"
+      }
+    ],
+    "metadata": {
+      "record_code": "S_LADDER",
+      "device": "HX711",
+      "paired_capture_id": "246bb06282714f088e0d58df6d1e6325",
+      "load_state": "transition",
+      "reference_mass_g": null,
+      "duration_s": 90,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/701812a5f05c48b0b6c4d86bd10c2906/samples.csv.gz",
+        "sha256": "9fe1fd292abc6bb9b353d3991c90f7be69837840398948532aabc5247b1ab04f",
+        "bytes": 27146,
+        "original_sha256": "389a30896c1dc246a4b6a0617f6d14816e4b259640144362625df0b285106455",
+        "original_bytes": 81069,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "f1283d1c78704d3fa7515264b8833344",
+    "uses": [
+      {
+        "group": "SC_static",
+        "role": "simultaneous_hall"
+      }
+    ],
+    "metadata": {
+      "record_code": "SC_Z0",
+      "device": "Hall",
+      "paired_capture_id": "a948825a5b034fc4bfaf0b685daa9208",
+      "load_state": "unloaded",
+      "reference_mass_g": 0,
+      "duration_s": 20,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/f1283d1c78704d3fa7515264b8833344/samples.csv.gz",
+        "sha256": "887fa7d44c36add440c4ac7148c79e1deaa65f30398fce18a4e040dbc785dcdf",
+        "bytes": 34972,
+        "original_sha256": "53afb2e67752b2f8c201fd4f227da18243deb58ac1e8b6e6b760f1e4e055ce6d",
+        "original_bytes": 223892,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/f1283d1c78704d3fa7515264b8833344/temperatures.csv.gz",
+        "sha256": "2ea8242d63850e156754a93a90cea498e1f1a3d64eefc6ce410ee87c2166e35e",
+        "bytes": 910,
+        "original_sha256": "4fa84fa2380d3e264c590e5de2438aa9e28b511527a1cf63aa64247ce6ab864f",
+        "original_bytes": 5763,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "a948825a5b034fc4bfaf0b685daa9208",
+    "uses": [
+      {
+        "group": "SC_static",
+        "role": "simultaneous_hx711"
+      }
+    ],
+    "metadata": {
+      "record_code": "SC_Z0",
+      "device": "HX711",
+      "paired_capture_id": "f1283d1c78704d3fa7515264b8833344",
+      "load_state": "unloaded",
+      "reference_mass_g": 0,
+      "duration_s": 20,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/a948825a5b034fc4bfaf0b685daa9208/samples.csv.gz",
+        "sha256": "e577abe93a6569377aa954f9fec22d1872345a9c46d6051606fb6c7dd128500b",
+        "bytes": 5909,
+        "original_sha256": "571835defc0681f8727c7db42417eb8edccb92b931794233fdaebd48fea63db4",
+        "original_bytes": 17623,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "01a1d3e033054337b5bc26a7d2552c04",
+    "uses": [
+      {
+        "group": "SC_static",
+        "role": "simultaneous_hall"
+      }
+    ],
+    "metadata": {
+      "record_code": "SC_1000_A",
+      "device": "Hall",
+      "paired_capture_id": "28546d6a0b0a43a0816f2a9c11748c41",
+      "load_state": "loaded",
+      "reference_mass_g": 1000,
+      "duration_s": 20,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/01a1d3e033054337b5bc26a7d2552c04/samples.csv.gz",
+        "sha256": "59a3003def0b5298446a497dadac67d0db6c3b2d54b080946d796765ccc4ad35",
+        "bytes": 34911,
+        "original_sha256": "529310ca8e5213b01310a94f4fb8603365f8faca5cd891c9e61bcb76a7e4d755",
+        "original_bytes": 223779,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/01a1d3e033054337b5bc26a7d2552c04/temperatures.csv.gz",
+        "sha256": "45ea90acec1cef214a7c07609e1a3537ecb376aa1dbd4ad18bef57d3404b11d0",
+        "bytes": 918,
+        "original_sha256": "2828c068e3cd5596183e0a944f0211d388abb0b5e3e1fd2eab69424fa74c1b0b",
+        "original_bytes": 5746,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "28546d6a0b0a43a0816f2a9c11748c41",
+    "uses": [
+      {
+        "group": "SC_static",
+        "role": "simultaneous_hx711"
+      }
+    ],
+    "metadata": {
+      "record_code": "SC_1000_A",
+      "device": "HX711",
+      "paired_capture_id": "01a1d3e033054337b5bc26a7d2552c04",
+      "load_state": "loaded",
+      "reference_mass_g": 1000,
+      "duration_s": 20,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/28546d6a0b0a43a0816f2a9c11748c41/samples.csv.gz",
+        "sha256": "22a7ad61f2df34263c05058fbf1f75bb88685d25a26f4cd305c5a0ac1eb9b068",
+        "bytes": 6027,
+        "original_sha256": "cd460082988a0a88683cbbbf5445517383a79cc2cee795e2b8affb4c738f109c",
+        "original_bytes": 17877,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "c5a426a954b846cea410e8601dbce883",
+    "uses": [
+      {
+        "group": "SC_static",
+        "role": "simultaneous_hall"
+      }
+    ],
+    "metadata": {
+      "record_code": "SC_Z1",
+      "device": "Hall",
+      "paired_capture_id": "03072da775fe473582393eef0c30837e",
+      "load_state": "unloaded",
+      "reference_mass_g": 0,
+      "duration_s": 20,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/c5a426a954b846cea410e8601dbce883/samples.csv.gz",
+        "sha256": "9aa9024b8b9cab065173e59dcff630e41dca30d2d8b5a668f50db8f9c0a30c7d",
+        "bytes": 34815,
+        "original_sha256": "6649b237a774ff236949ffb15b3ee8b0cc55ebe48ce77dfde7f4c094c952838b",
+        "original_bytes": 223892,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/c5a426a954b846cea410e8601dbce883/temperatures.csv.gz",
+        "sha256": "495926a5e5a147b70fbaadad023ebb39549ec76daf1c473c2afa8f2bbd4b366a",
+        "bytes": 946,
+        "original_sha256": "0b6708ca6fc0e73d0c5659afe2e73c0c425a980219d0ddcd2223605cb7d57723",
+        "original_bytes": 5722,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "03072da775fe473582393eef0c30837e",
+    "uses": [
+      {
+        "group": "SC_static",
+        "role": "simultaneous_hx711"
+      }
+    ],
+    "metadata": {
+      "record_code": "SC_Z1",
+      "device": "HX711",
+      "paired_capture_id": "c5a426a954b846cea410e8601dbce883",
+      "load_state": "unloaded",
+      "reference_mass_g": 0,
+      "duration_s": 20,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/03072da775fe473582393eef0c30837e/samples.csv.gz",
+        "sha256": "8058c6f3ef3e4afd35151b13008f933f063e2e819eb104bddfca74d61727e2f8",
+        "bytes": 5909,
+        "original_sha256": "9c3aaf79d844ef2324b7d3e910bf30d67f9d44f187d9ebf59ae98d166eb6cd1d",
+        "original_bytes": 17607,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "ea6b9302b4884e819f8731aa7c097afe",
+    "uses": [
+      {
+        "group": "SC_static",
+        "role": "simultaneous_hall"
+      }
+    ],
+    "metadata": {
+      "record_code": "SC_1000_B",
+      "device": "Hall",
+      "paired_capture_id": "91c757b606e74075b05ce036f722c5f0",
+      "load_state": "loaded",
+      "reference_mass_g": 1000,
+      "duration_s": 20,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/ea6b9302b4884e819f8731aa7c097afe/samples.csv.gz",
+        "sha256": "9a615fd73144d4775d8ba6df3f56698032ba2d1c48beb6b7efbf5b1b67173ac9",
+        "bytes": 34700,
+        "original_sha256": "06d06360fd5240b4b44b97b32296bd10c1553816cdb712b3e43c09840df4df29",
+        "original_bytes": 223892,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/ea6b9302b4884e819f8731aa7c097afe/temperatures.csv.gz",
+        "sha256": "cea41b6dc7501e97433446152e177bda66db3fc561b81e06e57dcc860624909f",
+        "bytes": 934,
+        "original_sha256": "2b39913513ef8a4b8b39cca48f0d234b9aababd891a8b25ec4e401f86c7ff4d5",
+        "original_bytes": 5676,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "91c757b606e74075b05ce036f722c5f0",
+    "uses": [
+      {
+        "group": "SC_static",
+        "role": "simultaneous_hx711"
+      }
+    ],
+    "metadata": {
+      "record_code": "SC_1000_B",
+      "device": "HX711",
+      "paired_capture_id": "ea6b9302b4884e819f8731aa7c097afe",
+      "load_state": "loaded",
+      "reference_mass_g": 1000,
+      "duration_s": 20,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/91c757b606e74075b05ce036f722c5f0/samples.csv.gz",
+        "sha256": "d317c3eb296e07d6330f8e326dd76e56a75337c40c06c459e77efd60a8789c41",
+        "bytes": 6026,
+        "original_sha256": "f127a6c1bfa3ea04e79485722fba15b3959a04612b56e9348145b4251d058088",
+        "original_bytes": 17854,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "277ae666240a476d92aefe273e89c1ab",
+    "uses": [
+      {
+        "group": "SC_static",
+        "role": "simultaneous_hall"
+      }
+    ],
+    "metadata": {
+      "record_code": "SC_Z2",
+      "device": "Hall",
+      "paired_capture_id": "957aede6436a4677b931312ace7e26c7",
+      "load_state": "unloaded",
+      "reference_mass_g": 0,
+      "duration_s": 20,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/277ae666240a476d92aefe273e89c1ab/samples.csv.gz",
+        "sha256": "ab50c2d8331aa053b44b87f82138762fc65db3bbccc1141b8a93611755f151ed",
+        "bytes": 35288,
+        "original_sha256": "b19f2e439350db1dde10834301dea943d2248e08fa6207c580efc756e66af86e",
+        "original_bytes": 223892,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/277ae666240a476d92aefe273e89c1ab/temperatures.csv.gz",
+        "sha256": "64900da72e55400e7a8fe657ea8413226014ab0737a91f5a64d9a835213f14b4",
+        "bytes": 936,
+        "original_sha256": "628cc34a0610d92913c166c68529b9f77842d34f6c63835a5c5bcc9e130389eb",
+        "original_bytes": 5742,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "957aede6436a4677b931312ace7e26c7",
+    "uses": [
+      {
+        "group": "SC_static",
+        "role": "simultaneous_hx711"
+      }
+    ],
+    "metadata": {
+      "record_code": "SC_Z2",
+      "device": "HX711",
+      "paired_capture_id": "277ae666240a476d92aefe273e89c1ab",
+      "load_state": "unloaded",
+      "reference_mass_g": 0,
+      "duration_s": 20,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/957aede6436a4677b931312ace7e26c7/samples.csv.gz",
+        "sha256": "0555efea6c85f3710c037c9763138a112dc8262a9180f02c72583812c200b1d0",
+        "bytes": 5989,
+        "original_sha256": "c2f1372e7aeb31e64a77a63bc61f52a9f8621a6952795ac3c1fc44e87d462d98",
+        "original_bytes": 17821,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "8934d20e737940db9239930b8a011601",
+    "uses": [
+      {
+        "group": "SC_static",
+        "role": "simultaneous_hall"
+      }
+    ],
+    "metadata": {
+      "record_code": "SC_2003_A",
+      "device": "Hall",
+      "paired_capture_id": "b529bd563c1249c6981c6176f6358342",
+      "load_state": "loaded",
+      "reference_mass_g": 2003,
+      "duration_s": 20,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/8934d20e737940db9239930b8a011601/samples.csv.gz",
+        "sha256": "1439b16f49a3834e11f78bc35e380c3e34d3ae56fc1a7a3d3a2eee54499aa48f",
+        "bytes": 34854,
+        "original_sha256": "19907fda6b9e9f83b040258b5586e2a31bb8a25f6a426e82635542ba021b6a27",
+        "original_bytes": 223892,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/8934d20e737940db9239930b8a011601/temperatures.csv.gz",
+        "sha256": "88310e4d95eb020e52c499567e209f20daa3c9e8f28f88e98ade8e170a7e31e0",
+        "bytes": 920,
+        "original_sha256": "58af70a04dcabb469d70a669366893eadce2baec5d2d8792283af518988d4bf4",
+        "original_bytes": 5735,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "b529bd563c1249c6981c6176f6358342",
+    "uses": [
+      {
+        "group": "SC_static",
+        "role": "simultaneous_hx711"
+      }
+    ],
+    "metadata": {
+      "record_code": "SC_2003_A",
+      "device": "HX711",
+      "paired_capture_id": "8934d20e737940db9239930b8a011601",
+      "load_state": "loaded",
+      "reference_mass_g": 2003,
+      "duration_s": 20,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/b529bd563c1249c6981c6176f6358342/samples.csv.gz",
+        "sha256": "5867a354cecccffdd27256861c2d96e0d559eced595577240530c5dd3cad9f4c",
+        "bytes": 6088,
+        "original_sha256": "067f8bb8737ed771aa5ee0357cb738a8bb18b6991aa1bab39fd64e1f755f66f5",
+        "original_bytes": 18099,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "e66f335de1b34d84ab6797aa9e92d735",
+    "uses": [
+      {
+        "group": "SC_static",
+        "role": "simultaneous_hall"
+      }
+    ],
+    "metadata": {
+      "record_code": "SC_Z3",
+      "device": "Hall",
+      "paired_capture_id": "d4ba3289012244e9830a0388b4e65d2c",
+      "load_state": "unloaded",
+      "reference_mass_g": 0,
+      "duration_s": 20,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/e66f335de1b34d84ab6797aa9e92d735/samples.csv.gz",
+        "sha256": "76c8bfc85949c5278503c52a4c0fe5f21806305d081ddfd02d8a47d0a5a52a33",
+        "bytes": 35024,
+        "original_sha256": "ac9c9e71d2a3bdba710c7dfd9b0ace10e2b028f964366cdac3087413d953acdf",
+        "original_bytes": 223666,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/e66f335de1b34d84ab6797aa9e92d735/temperatures.csv.gz",
+        "sha256": "0468691194878d2236afe983ecb2ff84bbc53bb32d708b688338cd214d4a6a61",
+        "bytes": 944,
+        "original_sha256": "86fe2e903f4ba22a9f9d7cdcc8454359f97e19de49dde0915c9925b98cf70cbe",
+        "original_bytes": 5738,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "d4ba3289012244e9830a0388b4e65d2c",
+    "uses": [
+      {
+        "group": "SC_static",
+        "role": "simultaneous_hx711"
+      }
+    ],
+    "metadata": {
+      "record_code": "SC_Z3",
+      "device": "HX711",
+      "paired_capture_id": "e66f335de1b34d84ab6797aa9e92d735",
+      "load_state": "unloaded",
+      "reference_mass_g": 0,
+      "duration_s": 20,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/d4ba3289012244e9830a0388b4e65d2c/samples.csv.gz",
+        "sha256": "0111301b3184610c91e71860d67eb92c717d55637784dfe1973555b05dc1f615",
+        "bytes": 6019,
+        "original_sha256": "f0aee30eff681cac78a277af716c790f106ad21a0ac30c42dae23dbba7c6c955",
+        "original_bytes": 17866,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "24b0d1c997b14092ae0016a2be517007",
+    "uses": [
+      {
+        "group": "SC_static",
+        "role": "simultaneous_hall"
+      }
+    ],
+    "metadata": {
+      "record_code": "SC_2003_B",
+      "device": "Hall",
+      "paired_capture_id": "60332ed81d8c498f9549205931122cc1",
+      "load_state": "loaded",
+      "reference_mass_g": 2003,
+      "duration_s": 20,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/24b0d1c997b14092ae0016a2be517007/samples.csv.gz",
+        "sha256": "9eee4dd9103edbb4c3d16b1a513f1fe67ca0990eb44673eafba890bf9e121b8c",
+        "bytes": 34831,
+        "original_sha256": "e53bd32c8c649c6618159e496fbb1dd10df04b5a01d18af3d2f919388d925519",
+        "original_bytes": 223892,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/24b0d1c997b14092ae0016a2be517007/temperatures.csv.gz",
+        "sha256": "a76ffe39051eaec273ddb6b379aad4fcd10371637231ea6ca1e152597398a910",
+        "bytes": 928,
+        "original_sha256": "de2b9e7b04a91500371aba5814713dfd558d29d1452b71b6a72f779d867eecd5",
+        "original_bytes": 5747,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "60332ed81d8c498f9549205931122cc1",
+    "uses": [
+      {
+        "group": "SC_static",
+        "role": "simultaneous_hx711"
+      }
+    ],
+    "metadata": {
+      "record_code": "SC_2003_B",
+      "device": "HX711",
+      "paired_capture_id": "24b0d1c997b14092ae0016a2be517007",
+      "load_state": "loaded",
+      "reference_mass_g": 2003,
+      "duration_s": 20,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/60332ed81d8c498f9549205931122cc1/samples.csv.gz",
+        "sha256": "f115e47e3ffdd7a6823a2778c3cc1bb8051a69a8822959bf59dd22a748a45517",
+        "bytes": 6080,
+        "original_sha256": "b5a398b0cc25f47cbd803c1e284124770bff777377070403a6241a3e3e929ac5",
+        "original_bytes": 18105,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "d03586e7f3d84b03a197c5bf31fc55e6",
+    "uses": [
+      {
+        "group": "SX_ramps",
+        "role": "simultaneous_hall"
+      }
+    ],
+    "metadata": {
+      "record_code": "SX_RAMP1",
+      "device": "Hall",
+      "paired_capture_id": "759f91bc7ebf416bb2d4c27e06b52fdc",
+      "load_state": "transition",
+      "reference_mass_g": null,
+      "duration_s": 90,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/d03586e7f3d84b03a197c5bf31fc55e6/samples.csv.gz",
+        "sha256": "ee0f9f0f7f21ecfea73f2569c61ec49e9e24563794cd45d397084d0a340881bc",
+        "bytes": 165107,
+        "original_sha256": "7f887fa7a2ca70a773081d5ac8de6c57795122e38ee217ec7d3c3c6277d5fe3e",
+        "original_bytes": 1014892,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/d03586e7f3d84b03a197c5bf31fc55e6/temperatures.csv.gz",
+        "sha256": "e51f55a32ac087159f7ec68069018d260b9ca24a3b73f10c10b98650ab63292d",
+        "bytes": 3470,
+        "original_sha256": "44182566e7e40b3c344a9363152e83a1f39dba8000c59ee0d426a6f8fbd38e3e",
+        "original_bytes": 25789,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "759f91bc7ebf416bb2d4c27e06b52fdc",
+    "uses": [
+      {
+        "group": "SX_ramps",
+        "role": "simultaneous_hx711"
+      }
+    ],
+    "metadata": {
+      "record_code": "SX_RAMP1",
+      "device": "HX711",
+      "paired_capture_id": "d03586e7f3d84b03a197c5bf31fc55e6",
+      "load_state": "transition",
+      "reference_mass_g": null,
+      "duration_s": 90,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/759f91bc7ebf416bb2d4c27e06b52fdc/samples.csv.gz",
+        "sha256": "d9485fade5a19537e002b5b1f8b8b317619e3dc4a8f520d65689b8e0a8392cf0",
+        "bytes": 27148,
+        "original_sha256": "2be11768b5678b6ae193740034cee6f1bfd744b1d660ce75ccefb020a129e3f4",
+        "original_bytes": 81027,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "15a9eaab9aa34d259fc66848981f751f",
+    "uses": [
+      {
+        "group": "SX_ramps",
+        "role": "simultaneous_hall"
+      }
+    ],
+    "metadata": {
+      "record_code": "SX_RAMP2",
+      "device": "Hall",
+      "paired_capture_id": "64a6e029bcbe45009c62bc846de2ff2a",
+      "load_state": "transition",
+      "reference_mass_g": null,
+      "duration_s": 90,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/15a9eaab9aa34d259fc66848981f751f/samples.csv.gz",
+        "sha256": "d4ab42ad600ea65a997086537493f091a889a53f917cff98fecd47d0e1349fc5",
+        "bytes": 166645,
+        "original_sha256": "3c7fa1cb9335b125df4f5a9c8d288f5f41bc781ea27b0e9441fec01aab2accf3",
+        "original_bytes": 1014892,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/15a9eaab9aa34d259fc66848981f751f/temperatures.csv.gz",
+        "sha256": "ea862f66c053ecbaa117e408613069eea6be9b20b1b19c1105a5325157f66e10",
+        "bytes": 3472,
+        "original_sha256": "4ebf056c96a03092e26aeb2786a6aeb7396e57990935d426891831c0f08a5bd6",
+        "original_bytes": 25618,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "64a6e029bcbe45009c62bc846de2ff2a",
+    "uses": [
+      {
+        "group": "SX_ramps",
+        "role": "simultaneous_hx711"
+      }
+    ],
+    "metadata": {
+      "record_code": "SX_RAMP2",
+      "device": "HX711",
+      "paired_capture_id": "15a9eaab9aa34d259fc66848981f751f",
+      "load_state": "transition",
+      "reference_mass_g": null,
+      "duration_s": 90,
+      "plate_mass_g": 111
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/64a6e029bcbe45009c62bc846de2ff2a/samples.csv.gz",
+        "sha256": "49ff4ac023e6fc14d70ba0f6c5cf8d95a0115185467f5d730a6b5e0a2e8a7870",
+        "bytes": 27072,
+        "original_sha256": "3c504be013d5d64f40f3ff900ec520f51c6d32de70a94112b53073ecfbe54a72",
+        "original_bytes": 81082,
         "compression": "gzip"
       }
     }

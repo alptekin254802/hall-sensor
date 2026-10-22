@@ -6,3 +6,4 @@ build/
 **/Debug/
 .DS_Store
 Thumbs.db
+figures/

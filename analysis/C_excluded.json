@@ -1,0 +1,42 @@
+{
+  "analysis_type": "excluded_cycle_record",
+  "used_in_reported_results": false,
+  "reason": "The stacked books did not load the head as intended: the final 619 g addition changed the response by 4.37 ADC counts, compared with 228-286 ADC counts in the analyzed cycles.",
+  "baseline_capture_id": "2a49546a212e4fc6b7a666f9bbbe86af",
+  "capture_ids_in_sequence": [
+    "2a49546a212e4fc6b7a666f9bbbe86af",
+    "0222278c67284e3e8c811b8e786d865e",
+    "cecdcd2a91f94043a6bd4980ec89f202",
+    "12a29515fca74489b71f4bbc591ff74f",
+    "8c32377f8bbf4fe5abf667b32a5ddd57",
+    "57e6f4e8548c4843900939fb8cb0624a",
+    "71de61ec6f4c4146802692eb6cad9470"
+  ],
+  "masses_g": [
+    0,
+    2501,
+    4297,
+    4916,
+    4297,
+    2501,
+    0
+  ],
+  "window_s": [
+    10,
+    20
+  ],
+  "q": [
+    0.0,
+    355.19405005005046,
+    868.7986546546549,
+    873.1715551102207,
+    871.0846906906909,
+    396.31950000000006,
+    -0.613999999999578
+  ],
+  "final_increment_adc": 4.372900455565741,
+  "analyzed_cycle_final_increments_adc": [
+    286.49981569746114,
+    228.35118168168174
+  ]
+}

@@ -28,22 +28,28 @@ def main():
     thermal=read('G774');expected=thermal['verified_force_results']
     zero=expected['initial_zero_adc'];start=None
     fig,axes=plt.subplots(2,1,figsize=(7,4.8),sharex=True,layout='constrained')
-    for i,record in enumerate(expected['records']):
+    records=expected['records']
+    for i,record in enumerate(records):
         cid=record['capture_id']
+        # The final loaded record pairs with the final unloaded record for the
+        # fresh-zero endpoint; the fixed-reference trace ends before it.
+        plotted=i<len(records)-1
+        # The first loaded record began before the book was placed (settled by 90 s).
+        first_minute=2 if i==0 else 0
         a=np.loadtxt(raw_path(cid),delimiter=',',skiprows=1,usecols=(1,2,3,4,5,6,11))
         temps=temperatures(cid)
         if start is None:start=a[0,-1]/1e9
         for rom,label,color in [(thermal['head_probe_rom'],'Head probe','#b64b32'),(thermal['ambient_probe_rom'],'Ambient probe','#427d9c')]:
             values=np.array([[int(r['host_utc_ns'])/1e9,float(r['temperature_c'])] for r in temps if r['rom']==rom and int(r['status'])==0])
-            axes[0].plot((values[:,0]-start)/3600,values[:,1],color=color,lw=1,label=label if i==0 else None)
+            if plotted:axes[0].plot((values[:,0]-start)/3600,values[:,1],color=color,lw=1,label=label if i==0 else None)
         sec=(a[:,1]-a[0,1])/1e6;bins=np.floor(sec/60).astype(int)
         times=[];values=[]
-        for b in range(int(sec[-1]//60)):
+        for b in range(first_minute,int(sec[-1]//60)):
             w=a[bins==b];times.append((w[:,-1].mean()/1e9-start)/3600)
             values.append(float(force(zero-w[:,2:6].mean())))
         end60=float(force(zero-a[a[:,1]>=a[-1,1]-60e6,2:6].mean()))
         assert abs(end60-record['indication_last60s_N'])<1e-9
-        axes[1].plot(times,values,color='#235f58',lw=1.4)
+        if plotted:axes[1].plot(times,values,color='#235f58',lw=1.4)
     axes[0].set_ylabel('Temperature (°C)');axes[0].legend(loc='lower right',frameon=False,ncol=2)
     axes[1].set_ylabel('Indication (N)\ninitial unloaded reference')
     axes[1].set_xlabel('Time from first loaded record (h)')

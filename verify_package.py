@@ -15,6 +15,7 @@ manifest = json.loads((ROOT / 'manifest.json').read_text(encoding='utf-8'))
 listed = {f['path'] for f in manifest['files']}
 actual = {p.relative_to(ROOT).as_posix() for p in ROOT.rglob('*')
           if p.is_file() and '__pycache__' not in p.parts and '.git' not in p.parts
+          and p.relative_to(ROOT).parts[0] != 'figures'
           and p.name != 'manifest.json'}
 assert listed == actual, (sorted(listed-actual), sorted(actual-listed))
 for f in manifest['files']:
@@ -37,6 +38,7 @@ rows('A', analysis('A_calibration_observations'), ['capture_id', 'preceding_zero
 rows('A_REFINE', analysis('A_REFINE')['observations'], ['capture_id', 'preceding_zero_capture_id'])
 rows('B', analysis('B')['observations'], ['capture_id', 'zero_capture_id'])
 groups['C_books'] = set(analysis('C_selected')['capture_ids_in_sequence'])
+groups['C_books_excluded'] = set(analysis('C_excluded')['capture_ids_in_sequence'])
 d = analysis('D')
 groups['D'] = {r['capture_id'] for r in d['position_effects']} | {
     b[k] for b in d['blocks'] for k in ('center_start_id', 'center_end_id')}
@@ -53,6 +55,9 @@ rows('T', analysis('T')['observations'], ['capture_id', 'zero_capture_id'])
 groups['Nextion'] = {analysis('Nextion')['summary']['capture_id']}
 rows('directional_press', analysis('directional_press')['trials'], ['capture_id'])
 groups['manual_press'] = {p.stem.removeprefix('manual_') for p in (ROOT/'analysis').glob('manual_*.json')}
+sync = analysis('synchronized_press')
+for name, key in (('S_sync', 'S'), ('SC_static', 'SC'), ('SX_ramps', 'SX')):
+    groups[name] = {r[k] for r in sync[key]['records'] for k in ('hall_capture_id', 'loadcell_capture_id')}
 required = set.union(*groups.values())
 assert required == {r['capture_id'] for r in index}
 assert required == {p.name for p in (ROOT/'raw').iterdir() if p.is_dir()}

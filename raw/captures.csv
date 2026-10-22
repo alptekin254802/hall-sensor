@@ -66,7 +66,7 @@ f246faa5b4514b2f9b85e59bfe24c633,A_REFINE,sensitivity_only,A_REFINE_T2_WATER_500
 6af20b88a78c49bc9c275c57e4c9235f,A_REFINE,sensitivity_only,A_REFINE_ZERO_01,0,,,,samples; temperatures
 c11d3c31ad6c4bc08a77087af2ff9405,A_REFINE,sensitivity_only,B_SUPP_ZERO_01,0,,,,samples; temperatures
 1d74cc4b9b8f484a8b65c8fa7246900c,C_books,analyzed_book_cycle,,,,1,,samples; temperatures
-2a49546a212e4fc6b7a666f9bbbe86af,C_books,analyzed_book_cycle,,,,1,,samples; temperatures
+2a49546a212e4fc6b7a666f9bbbe86af,C_books; C_books_excluded,analyzed_book_cycle; excluded_cycle_baseline,,,,1,,samples; temperatures
 3ac6ed5833dd4132a0669dca5d5b6519,C_books,analyzed_book_cycle,,,,2,,samples; temperatures
 62d868abbbd542f988f77c165b46b51b,C_books,analyzed_book_cycle,,,,1,,samples; temperatures
 63debe7154b84a76a10822f32f824354,C_books,analyzed_book_cycle,,,,1,,samples; temperatures
@@ -79,6 +79,12 @@ b692de381fc04b038a4951421a2688d6,C_books,analyzed_book_cycle,,,,1,,samples; temp
 efa465e1244b464fad717e5e3d8a1a72,C_books,analyzed_book_cycle,,,,2,,samples; temperatures
 f6bb9eb7064444b696f2d327981dfe25,C_books,analyzed_book_cycle,,,,1,,samples; temperatures
 fde163a384664b358abf9ead8e660d40,C_books,analyzed_book_cycle,,,,2,,samples; temperatures
+0222278c67284e3e8c811b8e786d865e,C_books_excluded,excluded_cycle,C_BOOK_R2_S1,2501,,2,,samples; temperatures
+cecdcd2a91f94043a6bd4980ec89f202,C_books_excluded,excluded_cycle,C_BOOK_R2_S2,4297,,2,,samples; temperatures
+12a29515fca74489b71f4bbc591ff74f,C_books_excluded,excluded_cycle,C_BOOK_R2_S3,4916,,2,,samples; temperatures
+8c32377f8bbf4fe5abf667b32a5ddd57,C_books_excluded,excluded_cycle,C_BOOK_R2_S4,4297,,2,,samples; temperatures
+57e6f4e8548c4843900939fb8cb0624a,C_books_excluded,excluded_cycle,C_BOOK_R2_S5,2501,,2,,samples; temperatures
+71de61ec6f4c4146802692eb6cad9470,C_books_excluded,excluded_cycle,C_BOOK_R2_S6,0,,2,,samples; temperatures
 073e1d82954f4d659db2a3fedcf59746,D,position_or_center,D_BOX_B1_WATER_0500_01_CENTER,542,,,,samples; temperatures
 f76f7bbc27004f41a25fdf948c2f548d,D,position_or_center,D_BOX_B1_WATER_0500_02_YP10,542,YP10,,,samples; temperatures
 5173507a08fd44c3a6355f8164b028f3,D,position_or_center,D_BOX_B1_WATER_0500_03_XM5,542,XM5,,,samples; temperatures
@@ -299,3 +305,35 @@ debe145672c545e1b22126dbc81054ea,G774,thermal_trajectory_or_reference,G_RESTART_
 89e5e56f5d6a416b93207773efdd9f94,G1000_check,check_or_reference,ONE_KG_ZERO_AFTER_01,0,,,,samples; temperatures
 757e127da0e147e59be1000e4766e470,G1000_check,check_or_reference,ONE_KG_ZERO_BEFORE_01,0,,,,samples; temperatures
 c63780206e4542219c915513be61a42c,G_three_hour,1080000_scan_excerpt,,0,,,,samples; temperatures
+506ceb3efdfc43299e3caf23c8bc920d,S_sync,simultaneous_hall,S_R1,,,,,samples; temperatures
+ba3f7c32724b465aa7df4030e8cb45e5,S_sync,simultaneous_hx711,S_R1,,,,,samples
+e08d6454cb654d4299e838f585a49393,S_sync,simultaneous_hall,S_R2,,,,,samples; temperatures
+7b8a51a4e3024f9db961793483123506,S_sync,simultaneous_hx711,S_R2,,,,,samples
+c7601aa6e7674e7aa2270baede14f692,S_sync,simultaneous_hall,S_R3,,,,,samples; temperatures
+952f83cf420843b6a9973ef487a1c326,S_sync,simultaneous_hx711,S_R3,,,,,samples
+7a4adea027cd4e8eaaed7a759ca496f7,S_sync,simultaneous_hall,S_R4,,,,,samples; temperatures
+45641906f39c40b8ac451f5e7da78aca,S_sync,simultaneous_hx711,S_R4,,,,,samples
+f29882bbd2064530ab01ea60c5437ecb,S_sync,simultaneous_hall,S_R5,,,,,samples; temperatures
+1b992053f1264d7aae0327fbbf3d45b0,S_sync,simultaneous_hx711,S_R5,,,,,samples
+246bb06282714f088e0d58df6d1e6325,S_sync,simultaneous_hall,S_LADDER,,,,,samples; temperatures
+701812a5f05c48b0b6c4d86bd10c2906,S_sync,simultaneous_hx711,S_LADDER,,,,,samples
+f1283d1c78704d3fa7515264b8833344,SC_static,simultaneous_hall,SC_Z0,0,,,,samples; temperatures
+a948825a5b034fc4bfaf0b685daa9208,SC_static,simultaneous_hx711,SC_Z0,0,,,,samples
+01a1d3e033054337b5bc26a7d2552c04,SC_static,simultaneous_hall,SC_1000_A,1000,,,,samples; temperatures
+28546d6a0b0a43a0816f2a9c11748c41,SC_static,simultaneous_hx711,SC_1000_A,1000,,,,samples
+c5a426a954b846cea410e8601dbce883,SC_static,simultaneous_hall,SC_Z1,0,,,,samples; temperatures
+03072da775fe473582393eef0c30837e,SC_static,simultaneous_hx711,SC_Z1,0,,,,samples
+ea6b9302b4884e819f8731aa7c097afe,SC_static,simultaneous_hall,SC_1000_B,1000,,,,samples; temperatures
+91c757b606e74075b05ce036f722c5f0,SC_static,simultaneous_hx711,SC_1000_B,1000,,,,samples
+277ae666240a476d92aefe273e89c1ab,SC_static,simultaneous_hall,SC_Z2,0,,,,samples; temperatures
+957aede6436a4677b931312ace7e26c7,SC_static,simultaneous_hx711,SC_Z2,0,,,,samples
+8934d20e737940db9239930b8a011601,SC_static,simultaneous_hall,SC_2003_A,2003,,,,samples; temperatures
+b529bd563c1249c6981c6176f6358342,SC_static,simultaneous_hx711,SC_2003_A,2003,,,,samples
+e66f335de1b34d84ab6797aa9e92d735,SC_static,simultaneous_hall,SC_Z3,0,,,,samples; temperatures
+d4ba3289012244e9830a0388b4e65d2c,SC_static,simultaneous_hx711,SC_Z3,0,,,,samples
+24b0d1c997b14092ae0016a2be517007,SC_static,simultaneous_hall,SC_2003_B,2003,,,,samples; temperatures
+60332ed81d8c498f9549205931122cc1,SC_static,simultaneous_hx711,SC_2003_B,2003,,,,samples
+d03586e7f3d84b03a197c5bf31fc55e6,SX_ramps,simultaneous_hall,SX_RAMP1,,,,,samples; temperatures
+759f91bc7ebf416bb2d4c27e06b52fdc,SX_ramps,simultaneous_hx711,SX_RAMP1,,,,,samples
+15a9eaab9aa34d259fc66848981f751f,SX_ramps,simultaneous_hall,SX_RAMP2,,,,,samples; temperatures
+64a6e029bcbe45009c62bc846de2ff2a,SX_ramps,simultaneous_hx711,SX_RAMP2,,,,,samples

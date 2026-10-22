@@ -6,12 +6,16 @@ the compressed relative path, SHA-256 and byte length, plus the original CSV has
 and byte length. `schemas.json` enumerates every actual header variant.
 
 Hall `s1_adc` through `s4_adc` are signed-channel inputs retained as raw ADC counts;
-they are not force readings. Channel responses are unloaded-reference minus
+they are not force readings. Channels S1-S4 (PA0, PA1, PA5, PA6) sit at the
+-Y, +X, +Y and -X tray marks; the ADC reference is the STM32 3.3 V analog supply,
+while the Hall devices are powered from the 5 V regulator through the breadboard wiring. Channel responses are unloaded-reference minus
 loaded response. `seq` is the device sample sequence and `t_us` is device time in
 microseconds. Host timestamps support alignment and are not calibrated aperture
 times. Temperature CSVs identify DS18B20 probes by ROM; `temperature_c` is degrees
 Celsius and `status == 0` is the valid reading used in the summaries. HX711 ADC
-values are signed converter counts. Display files record numerical firmware
+values are signed converter counts. Synchronized HX711 captures also carry
+`host_utc_ns` and `host_monotonic_ns`; in `raw_index.json`, `paired_capture_id` links
+each Hall capture to its simultaneous load-cell capture. Display files record numerical firmware
 outputs and source sequence windows.
 
 ## Units and analysis groups
@@ -28,9 +32,10 @@ presses have their own reported windows. Unloaded references are linked by ID.
 | A, B | Source calibration and independent central test |
 | A_REFINE | Anchor sensitivity, separate from the primary model |
 | C_books | Two analyzed stack cycles, Cycle 1 and Cycle 2 in acquisition order |
+| C_books_excluded | Excluded stack cycle (Supplementary Material S5); not used in reported results |
 | D | Two-axis position experiment |
 | E | Repeated loading plateaus and offline filter comparison |
-| F | One-hour holds and unloaded return |
+| F | One-hour holds and unloaded return; the loaded hold is analyzed from 240 s (`analysis_start_s`) |
 | R_small, R_range | Small additions and their bracketing references |
 | T | Target-spring calibration and fixed independent test placements |
 | H | Strain-gauge load-cell scalar benchmark |
@@ -38,6 +43,9 @@ presses have their own reported windows. Unloaded references are linked by ID.
 | directional_press | Five rounds of center, tilted and marked-offset presses |
 | G774, G1000_check | Fixed 774 g thermal cycle and subsequent 1000 g check |
 | G_three_hour | Retained three-hour unloaded interval |
+| S_sync | Hand presses recorded simultaneously by the head and the load cell beneath it |
+| SC_static | Static control on the same assembly (1000 and 2003 g, two placements each) |
+| SX_ramps | Exploratory synchronized hand ramps, reported descriptively |
 
 The fixed load in G774 is 774 g. Historical acquisition codes such as WATER or BOOK
 are identifiers; reference loads as a group comprised closed containers, books
@@ -49,8 +57,9 @@ and printed parts.
 |---|---|---|
 | One-hour holds, 15 October | `28a2d27f912506a3`, taped below the sensing region | `28e88f40912506b2`, approximately 1 m away |
 | Thermal cycle and three-hour interval | `28128e9900000030`, three-lead sensor beside the Hall carrier | `28e88f40912506b2`, unchanged |
+| Synchronized load-cell series | `28128e9900000030`, unchanged | `28e88f40912506b2`, unchanged |
 
-Stability summaries use the first 60 s as
+Stability summaries use the first 60 s of the analyzed interval as
 reference, final 60 s as endpoint and complete one-minute means for maximum
 deviation. For unloaded records, the N equivalent is minus the raw ADC change
 times 0.08611959950625428 N/ADC, the first frozen calibration-segment slope.

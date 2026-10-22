@@ -73,7 +73,8 @@ for mass in (542,1042):
         result['D_max_center_change_N'][str(mass)][str(offset)]=max(abs(force(q0+r['mean_delta_from_center_adc'])-mass*G) for r in rows)
 
 f=report('F'); loaded=f['loaded']; duration=loaded['duration_s']
-first=mean_raw(loaded['capture_id'],(0,60))
+start=loaded.get('analysis_start_s',0.0)  # first 4 min contained a step change
+first=mean_raw(loaded['capture_id'],(start,start+60))
 # The source report includes the boundary at max(t)-60.
 with open_raw(loaded['capture_id'], 'samples.csv') as stream:
     tail=[ [float(row[f's{i}_adc']) for i in range(1,5)] for row in csv.DictReader(stream) if float(row['t_us'])/1e6>=duration-60]
@@ -136,6 +137,21 @@ for j,cy in enumerate(c["cycles"]):
     np.testing.assert_allclose(q,cy["q"],atol=1e-8,rtol=0)
     maximum=max(abs(force(q[b])-force(q[a])) for a,b in [(1,5),(2,4)])
     assert abs(maximum-cy["max_N"])<1e-9
+    assert abs((q[3]-q[2])-cy["final_increment_adc"])<1e-8
+
+# Excluded book-stack cycle (not used in reported results): final 619 g increment.
+cx=report("C_excluded"); ids=cx["capture_ids_in_sequence"]
+z=mean_raw(ids[0]).mean()
+qx=[0]+[z-mean_raw(cid).mean() for cid in ids[1:]]
+np.testing.assert_allclose(qx,cx["q"],atol=1e-8,rtol=0)
+assert abs((qx[3]-qx[2])-cx["final_increment_adc"])<1e-8
+result["C_final_increment_adc"]={"analyzed_cycles":[cy["final_increment_adc"] for cy in c["cycles"]],"excluded_cycle":qx[3]-qx[2]}
+
+# E: final unloaded mean minus initial unloaded mean.
+e=report("E"); zr=e["zero_return"]
+ez=(mean_raw(e["capture_id"],zr["final_window_s"])-mean_raw(e["capture_id"],zr["initial_window_s"])).mean()
+assert abs(ez-zr["final_minus_initial_four_channel_mean_adc"])<1e-9
+result["E_final_minus_initial_adc"]=ez
 
 # H: counts-to-mass verification on calibration, all tests and common tests.
 h=report("H"); hm=read("models/H_loadcell.json")

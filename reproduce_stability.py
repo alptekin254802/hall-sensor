@@ -13,9 +13,11 @@ for row in expected["records"]:
     folder=ROOT/"raw"/row["capture_id"]
     a=np.loadtxt(raw_path(row["capture_id"], "samples.csv"),delimiter=",",skiprows=1,usecols=(2,3,4,5,6))
     t=a[:,0]/1e6; raw=a[:,1:].mean(axis=1)
+    start=row.get("analysis_start_s",0.0); end=t[-1]
+    keep=t>=start; t=t[keep]-start; raw=raw[keep]
     first=raw[t<60].mean()
     endpoint=raw[t>=t[-1]-60].mean()-first
-    minutes=180 if row["name"]=="three_hour_unloaded" else 60
+    minutes=row.get("minute_count",180 if row["name"]=="three_hour_unloaded" else 60)
     delta=np.array([raw[(t>=i*60)&(t<(i+1)*60)].mean()-first for i in range(minutes)])
     if row["mass_g"]:
         force0=row["mass_g"]*.00980665; q0=np.interp(force0,y,x)
@@ -28,10 +30,10 @@ for row in expected["records"]:
     for key,value in got.items():
         assert abs(value-row[key])<1e-9,(row["name"],key,value,row[key])
     with open_raw(row["capture_id"], "temperatures.csv") as f:temps=list(csv.DictReader(f))
-    head="28128e9900000030" if minutes==180 else "28a2d27f912506a3"
+    head="28128e9900000030" if row["name"]=="three_hour_unloaded" else "28a2d27f912506a3"
     for role,rom in [("head_probe",head),("ambient_probe","28e88f40912506b2")]:
         values=[float(z["temperature_c"]) for z in temps if z["rom"]==rom and int(z["status"])==0
-                and 0<=int(z["read_us"])/1e6<=t[-1]]
+                and start<=int(z["read_us"])/1e6<=end]
         assert [min(values),max(values)]==row["temperature_ranges_C"][role]
     results.append(dict(record=row["name"],**got))
 print(json.dumps(results,indent=2))

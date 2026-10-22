@@ -489,12 +489,23 @@
     "plateau_rule": "load crossing +2 s to unload crossing -1 s; fixed rule for all cycles",
     "extra_cycle_policy": "Keep all 11; first ten are planned primary sequence, eleventh supplementary. No quality-based replacement.",
     "acquisition_role": "development_validation",
-    "outcome": "Suitable for manual transition and offline filter development; filter selection not completed in this descriptive review",
+    "outcome": "Suitable for manual transition and offline filter comparison",
     "limitations": [
       "No synchronized force reference or saved browser cue log",
       "Observed transitions do not establish intrinsic sensor response time",
       "One physical session, not independent final evaluation",
       "No mechanical observation was supplied; no capacity or contact-clearance claim"
     ]
+  },
+  "zero_return": {
+    "initial_window_s": [
+      2,
+      10
+    ],
+    "final_window_s": [
+      230,
+      240
+    ],
+    "final_minus_initial_four_channel_mean_adc": 0.40200000000015734
   }
 }

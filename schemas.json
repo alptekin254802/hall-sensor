@@ -18,7 +18,7 @@
       "host_monotonic_ns"
     ],
     "example_capture": "01f08f9c47f9438482d61015505a85b8",
-    "capture_count": 238
+    "capture_count": 260
   },
   {
     "device": "Hall",
@@ -39,7 +39,7 @@
       "host_monotonic_ns"
     ],
     "example_capture": "01f08f9c47f9438482d61015505a85b8",
-    "capture_count": 238
+    "capture_count": 260
   },
   {
     "device": "HX711",
@@ -73,5 +73,21 @@
     ],
     "example_capture": "15a216a084594cd28d0df6cc6a5b0010",
     "capture_count": 3
+  },
+  {
+    "device": "HX711",
+    "file": "samples.csv",
+    "columns": [
+      "host_elapsed_s",
+      "elapsed_s",
+      "sequence",
+      "device_micros",
+      "raw_counts",
+      "device_dropped",
+      "host_utc_ns",
+      "host_monotonic_ns"
+    ],
+    "example_capture": "ba3f7c32724b465aa7df4030e8cb45e5",
+    "capture_count": 16
   }
 ]

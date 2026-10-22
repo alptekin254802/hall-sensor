@@ -21,11 +21,12 @@
     "capture_id": "8be2ab630c034d8a9f9e2b0eab3efd3e",
     "record_code": "F_LOAD_1042_HOLD_01",
     "duration_s": 3600.16,
+    "analysis_start_s": 240.0,
     "first_60s_mean_adc": [
-      2544.7085,
-      2428.134666666667,
-      2408.497,
-      2593.6016666666665
+      2543.7458333333334,
+      2425.967166666667,
+      2411.936,
+      2598.8438333333334
     ],
     "last_60s_mean_adc": [
       2544.211464755874,
@@ -33,7 +34,7 @@
       2412.209965005832,
       2599.5887352107984
     ],
-    "equal_channel_mean_last_minus_first_60s_adc": 1.845361530022842
+    "equal_channel_mean_last_minus_first_60s_adc": 0.45761153002285937
   },
   "unloaded_return": {
     "capture_id": "0c9534921d5f4e1f8bb4a73333a194cd",

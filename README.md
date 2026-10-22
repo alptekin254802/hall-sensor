@@ -4,7 +4,7 @@ Bench measurements, frozen calibration models, analysis code and acquisition
 firmware accompanying *A modular Hall-effect force-sensing head for algometry:
 bench characterization and recalibration after spring exchange*.
 
-Version **2026.10.21** contains **300 measurement captures**.
+Version **2026.10.21** contains **338 measurement captures**.
 The tested central range is 0 to 49.03 N; this is not a rated device capacity.
 Reference loads consisted of closed containers, books and printed parts.
 Mass values are uncorrected CRW-7024 indications with a 1 g display step.
@@ -31,6 +31,8 @@ python reproduce_additional.py
 python reproduce_channels.py
 python reproduce_bootstrap.py
 python reproduce_noise.py
+python reproduce_revision_checks.py
+python reproduce_synchronized.py
 ```
 
 These commands read the included measurements and frozen models. They do not
@@ -47,22 +49,39 @@ The noise script checks all 70 complete 10 s windows from the 26 loaded and seve
 unloaded comparator B records; its sample-SD range is stored in
 `analysis/comparator_noise.json`.
 
-To regenerate the directional-contrast figure, install the optional plotting
+To regenerate the figures, install the optional plotting
 dependencies and select an output directory:
 
 ```sh
 python -m pip install -r requirements-figures.txt
 python plot_directional_contrasts.py --output-dir figures
 python plot_stability.py --output-dir figures
+python plot_synchronized_ramps.py --output-dir figures
 ```
 
 The figure groups each round explicitly by `condition` in the order `CENTER`,
 `TILT_XP`, `OFFSET_XP15`; acquisition order does not determine the x-axis labels.
 
+The scripts recompute the primary calibration and test results, the channel,
+quadratic, stability, bootstrap and noise analyses, and the figures listed above.
+`reproduce_revision_checks.py` recomputes the checks added during revision
+(`analysis/revision_checks.json`): off-center change by channel configuration with
+each configuration's own cubic calibration, the 10 s Allan deviation of the unloaded
+hold, MLP seed sensitivity, book-cycle unloaded return, local anchor sensitivity and
+expected small-addition responses.
+`reproduce_synchronized.py` recomputes the hand presses recorded simultaneously with
+the load cell, the static control on the same assembly and the exploratory ramps
+(`analysis/synchronized_press.json`; specification in `protocols/synchronized_press_plan.json`).
+Other figures and some secondary summaries (calibration sensitivity analyses,
+position statistics, the thermal regression and comparator repeat summaries) are
+provided as precomputed values in `analysis/`.
+
 The main independent test has 23 placements at 13 held-out masses. Its frozen
 four-channel model gives MAE 0.606 N and RMSE 0.773 N. The load-cell
 comparison uses 21 common placements. The directional hand-press series retains
 all 15 presses in five rounds; the earlier manual comparison retains all 18 pairs.
+The synchronized load-cell series retains all 18 presses, the four static-control
+placements with their unloaded references and both exploratory ramp records.
 
 On the common 22 cubic-supported placements, single-channel MAEs range from
 1.165 to 2.061 N, pair MAEs from 0.615 to 0.642 N, and the four-channel MAE is
@@ -81,7 +100,7 @@ Section 3.2).
 | `analysis/` | Analysis windows, reference capture links, predictions and derived summaries |
 | `models/` | Frozen central calibration models and load-cell calibration |
 | `force_analysis/` | Calibration model implementations |
-| `protocols/` | Export of the directional test's pre-data analysis plan |
+| `protocols/` | Exports of the directional and synchronized-press analysis plans |
 | `firmware/` | Historical STM32 0.4.0 and 0.5.0 sources/binaries and HX711 Uno sketch |
 | `acquisition/` | Optional Hall serial recorder, protocol and readout checks |
 | `manifest.json` | SHA-256 inventory of the package, excluding the manifest itself |
@@ -95,7 +114,7 @@ and [firmware instructions](firmware/README.md) for build and acquisition detail
 
 ## Data scope
 
-The package contains the recordings used in the reported analyses. Repeated acquisitions superseded under the same protocol, pilot runs and unreported exploratory series are not included. Analysis windows and unloaded references are defined in analysis/. The reason for excluding one loading-unloading cycle is given in Supplementary Material S5: the stacked books did not load the head as intended. The following cycle used crosswise stacking centered on the tray mark.
+The package contains the recordings used in the reported analyses. Repeated acquisitions superseded under the same protocol, pilot runs and unreported exploratory series are not included. Analysis windows and unloaded references are defined in analysis/. The reason for excluding one loading-unloading cycle is given in Supplementary Material S5: the stacked books did not load the head as intended. Its records are included as group `C_books_excluded` so that the exclusion value can be checked; they do not enter any reported result. The following cycle used crosswise stacking centered on the tray mark.
 
 ## Licenses and citation
 

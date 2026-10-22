@@ -38,7 +38,7 @@
   },
   "analysis": {
     "frozen_before_new_acquisition": true,
-    "model_path": "force_analysis/frozen/b_independent_20261016/S1_S2_S3_S4_interpolation.json",
+    "model_path": "models/S1_S2_S3_S4_interpolation.json",
     "model_sha256": "803a626843bb398596ee5d62d9360f9e0003d3ae281c5811f9bc941e7e5336ac",
     "unit": "One press, not individual ADC samples; five planned presses per condition in five interleaved blocks",
     "baseline": "Final 5 s before actual PRESS_GO cue of each press, while hand is removed; report its drift and return separately",
