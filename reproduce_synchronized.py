@@ -7,7 +7,11 @@ S   Five rounds of centered, tilted and 15 mm offset hand presses at about 2.5 k
 SC  Static control on the same assembly: 1000 and 2003 g placed twice, each with its
     preceding unloaded record. Added after the S analysis; its analysis was fixed before
     acquisition.
-SX  Two exploratory slow hand ramps, reported descriptively.
+SX  Two exploratory records of slow hand ramps, reported descriptively.
+
+Post hoc sensitivity (S): the Hall leads the load cell by a median rising-edge lag, so the planned
+host-time windows let the Hall plateau window reach into its release. The same windows are also
+evaluated with the Hall windows shifted by the median lag (key 'w1_lag_aligned').
 
 Hall indications use the frozen primary interpolation (models/S1_S2_S3_S4_interpolation.json);
 load-cell forces use the frozen comparator slope (models/H_loadcell.json).
@@ -112,7 +116,7 @@ def analyze_S():
     spec = PLAN['S']
     rules = spec['analysis']['press_detection']
     zero_s, gap_s = spec['analysis']['zero_window_s'], spec['analysis']['zero_gap_s']
-    presses = []
+    presses, cache = [], []
     for rec in spec['records']:
         _, th, xh = read_hall(rec['hall_capture_id'])
         _, tl, cl = read_lc(rec['loadcell_capture_id'])
@@ -142,6 +146,19 @@ def analyze_S():
             pl1 = wmean(tl, cl, p['t_rel']-1, p['t_rel'])[0]
             out['lag_s'] = rise_time(th[sh], qh, 0.5*out['w1']['q_adc'])-rise_time(tl[sl], ql, 0.5*B*(pl1-zl))
             presses.append(out)
+            cache.append((th, xh, tl, cl, p, out))
+    lag = med([r['lag_s'] for r in presses if np.isfinite(r['lag_s'])])
+    for th, xh, tl, cl, p, out in cache:
+        zh, _ = wmean(th, xh, p['t_on']-zero_s-gap_s+lag, p['t_on']-gap_s+lag)
+        zl, _ = wmean(tl, cl, p['t_on']-zero_s-gap_s, p['t_on']-gap_s)
+        ph, nph = wmean(th, xh, p['t_rel']-1+lag, p['t_rel']+lag)
+        pl, npl = wmean(tl, cl, p['t_rel']-1, p['t_rel'])
+        r = zh-ph
+        q = float(r.mean())
+        F_h, F_l = hall_force(q), float(B*(pl-zl)*G)
+        out['w1_lag_aligned'] = dict(n_hall=nph, n_lc=npl, q_adc=q, hall_N=F_h, lc_N=F_l, diff_N=F_h-F_l,
+                                     c24=float(r[1]-r[3]), c31=float(r[2]-r[0]),
+                                     Q=float(np.hypot(r[1]-r[3], r[2]-r[0])))
     summary = {}
     for cond in spec['conditions']:
         rows = [r for r in presses if r['condition'] == cond]
@@ -163,7 +180,28 @@ def analyze_S():
                              diff_N_max=max(r['w1']['diff_N'] for r in rounds),
                              lc_N_min=min(r['w1']['lc_N'] for r in rounds),
                              lc_N_max=max(r['w1']['lc_N'] for r in rounds))
-    summary['lag_s_median'] = med([r['lag_s'] for r in presses if np.isfinite(r['lag_s'])])
+    summary['lag_s_median'] = lag
+    al = 'w1_lag_aligned'
+    summary['lag_aligned'] = {cond: dict(n=len([r for r in presses if r['condition'] == cond]),
+                                         median_diff_N=med([r[al]['diff_N'] for r in presses if r['condition'] == cond]),
+                                         median_rel_diff=med([r[al]['diff_N']/r[al]['lc_N'] for r in presses if r['condition'] == cond]),
+                                         median_Q=med([r[al]['Q'] for r in presses if r['condition'] == cond]))
+                              for cond in spec['conditions']}
+    summary['lag_aligned']['ladder_diffs_N'] = [r[al]['diff_N'] for r in lad]
+    summary['lag_aligned']['rounds'] = dict(n_hall_below=int(sum(r[al]['diff_N'] < 0 for r in rounds)),
+                                            diff_N_min=min(r[al]['diff_N'] for r in rounds),
+                                            diff_N_max=max(r[al]['diff_N'] for r in rounds))
+    counts = {}
+    for cond in spec['conditions'][1:]:
+        c = dict(rounds=0, Q_above_center=0, Q_over_q_above_center=0)
+        for code in sorted({r['code'] for r in rounds}):
+            ctr = next(r for r in rounds if r['code'] == code and r['condition'] == spec['conditions'][0])['w1']
+            alt = next(r for r in rounds if r['code'] == code and r['condition'] == cond)['w1']
+            c['rounds'] += 1
+            c['Q_above_center'] += int(alt['Q'] > ctr['Q'])
+            c['Q_over_q_above_center'] += int(alt['Q']/alt['q_adc'] > ctr['Q']/ctr['q_adc'])
+        counts[cond] = c
+    summary['contrast_rounds'] = counts
     return dict(records=spec['records'], presses=presses, summary=summary)
 
 

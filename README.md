@@ -71,7 +71,8 @@ hold, MLP seed sensitivity, book-cycle unloaded return, local anchor sensitivity
 expected small-addition responses.
 `reproduce_synchronized.py` recomputes the hand presses recorded simultaneously with
 the load cell, the static control on the same assembly and the exploratory ramps
-(`analysis/synchronized_press.json`; specification in `protocols/synchronized_press_plan.json`).
+(`analysis/synchronized_press.json`; specification in `protocols/synchronized_press_plan.json`),
+including a post hoc sensitivity with the Hall windows shifted by the median edge lag.
 Other figures and some secondary summaries (calibration sensitivity analyses,
 position statistics, the thermal regression and comparator repeat summaries) are
 provided as precomputed values in `analysis/`.
@@ -114,7 +115,7 @@ and [firmware instructions](firmware/README.md) for build and acquisition detail
 
 ## Data scope
 
-The package contains the recordings used in the reported analyses. Repeated acquisitions superseded under the same protocol, pilot runs and unreported exploratory series are not included. Analysis windows and unloaded references are defined in analysis/. The reason for excluding one loading-unloading cycle is given in Supplementary Material S5: the stacked books did not load the head as intended. Its records are included as group `C_books_excluded` so that the exclusion value can be checked; they do not enter any reported result. The following cycle used crosswise stacking centered on the tray mark.
+The package contains the recordings used in the reported analyses. Repeated acquisitions superseded under the same protocol, pilot runs and unreported exploratory series are not included. Analysis windows and unloaded references are defined in analysis/. The reason for excluding one loading-unloading cycle is given in Supplementary Material S5: the book stack was misplaced on the tray. Its records are included as group `C_books_excluded` so that the exclusion value can be checked; they do not enter any reported result. The following cycle used crosswise stacking centered on the tray mark.
 
 ## Licenses and citation
 

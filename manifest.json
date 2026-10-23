@@ -4084,8 +4084,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7122,
-      "sha256": "1df3d3314d8fc6092f208753eb363deedacb409800abe6b1373246646a764330"
+      "bytes": 7199,
+      "sha256": "548879cb7f55583521808a5fff65468d5af9d85460a9767751a629f273d7a079"
     },
     {
       "path": "release_metadata.json",
@@ -4474,8 +4474,8 @@
     },
     {
       "path": "reproduce_synchronized.py",
-      "bytes": 12934,
-      "sha256": "8f6ba08cf4abf29f771f1c548a13066435066358d55c07be62706862a4dd2b91"
+      "bytes": 15541,
+      "sha256": "9c2a2fc6db7859536971e789f21b9f35f1b47a023b0f3362c28e637371016f0d"
     },
     {
       "path": "plot_synchronized_ramps.py",
@@ -4484,8 +4484,8 @@
     },
     {
       "path": "analysis/synchronized_press.json",
-      "bytes": 30992,
-      "sha256": "2d53830823c27093304c2213744609a7def6e475fd0622e02558248316dd478a"
+      "bytes": 38389,
+      "sha256": "1aa8514b9f599c313967d6c0130a78946fb45cfa09a414541816b078b074f4e6"
     },
     {
       "path": "protocols/synchronized_press_plan.json",
