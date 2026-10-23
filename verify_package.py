@@ -7,6 +7,7 @@ import hashlib
 import json
 
 ROOT = Path(__file__).resolve().parent
+ANONYMIZED_AUTHOR_FILES = frozenset({'CITATION.cff', 'LICENSE', 'DATA_LICENSE.md'})
 
 def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -21,8 +22,12 @@ assert listed == actual, (sorted(listed-actual), sorted(actual-listed))
 for f in manifest['files']:
     p = ROOT / f['path']
     assert p.is_file(), f['path']
+    if f['path'] in ANONYMIZED_AUTHOR_FILES:
+        continue
     assert p.stat().st_size == f['bytes'], f['path']
     assert digest(p) == f['sha256'], f['path']
+print('Author names may be masked in anonymous copies; CITATION.cff, LICENSE and '
+      'DATA_LICENSE.md are checked for presence only. All other integrity checks remain unchanged.')
 index = json.loads((ROOT / 'raw_index.json').read_text(encoding='utf-8'))
 assert len({r['capture_id'] for r in index}) == len(index)
 

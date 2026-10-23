@@ -37,6 +37,7 @@ python reproduce_synchronized.py
 
 These commands read the included measurements and frozen models. They do not
 connect to a device, change the data, or refit the primary calibration.
+Verification checks only the presence of `CITATION.cff`, `LICENSE` and `DATA_LICENSE.md`, whose author names may be masked in anonymous copies; all other inventory and measurement-integrity checks remain unchanged.
 The channel script reconstructs all seven subset fits in memory using the original
 A data and checks their B predictions and signed-error correlations. These
 additional comparisons were made after the original B evaluation. The quadratic

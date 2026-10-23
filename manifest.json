@@ -1349,8 +1349,8 @@
     },
     {
       "path": "plot_stability.py",
-      "bytes": 4750,
-      "sha256": "5d1bb5e1cdae03b1086721cecff85b3dbca062937b4947430c92da455f340b23"
+      "bytes": 4686,
+      "sha256": "c318a5264262b1a3e1615ba3bb421bf78ea73901b6f195e111a02a6967c628a3"
     },
     {
       "path": "protocols/directional_analysis_plan.json",
@@ -4084,8 +4084,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7199,
-      "sha256": "548879cb7f55583521808a5fff65468d5af9d85460a9767751a629f273d7a079"
+      "bytes": 7415,
+      "sha256": "f1b68b813d958444221ff4eb37fd200af31890c5ead9a76f0784cc9d2c19d4c7"
     },
     {
       "path": "release_metadata.json",
@@ -4154,8 +4154,8 @@
     },
     {
       "path": "verify_package.py",
-      "bytes": 5305,
-      "sha256": "a5cafc8ff0fd84e199be1756cfb21c4174558c760658c92fa0bba74e85eb738f"
+      "bytes": 5640,
+      "sha256": "836c65df02ae5aab733843e778f047233f4ec54ed57f61032e310651bb2745d6"
     },
     {
       "path": "analysis/C_excluded.json",
