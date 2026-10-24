@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "static": {
+    "n_placements": 23,
+    "force_unit": "N",
+    "filters": {
+      "EMA0.25": {
+        "MAE0": 0.6056428193524246,
+        "MAE1": 0.6055798934823018,
+        "max_abs_change": 0.0003416552067578571
+      },
+      "MA32": {
+        "MAE0": 0.6056428193524246,
+        "MAE1": 0.6057054497556599,
+        "max_abs_change": 0.001842493789439431
+      }
+    },
+    "mae_change_N": {
+      "EMA0.25": -6.29258701227986e-05,
+      "MA32": 6.263040323528646e-05
+    },
+    "method": "Apply each causal filter to the full four-channel mean stream before the window mean; adjust the stored B error by F(q_filtered)-F(q_raw).",
+    "windows": "Relative to first t_us: [20,50) s for recordings longer than 40 s; otherwise [10,20) s."
+  },
+  "SX_loading": {
+    "n_points": 623,
+    "lag_s_used": -0.18331234767538263,
+    "difference": "filtered Hall force minus raw Hall force, in N",
+    "rate_N_per_s": {
+      "median": 1.997808104636107,
+      "p90": 4.943466426343961,
+      "maximum": 13.707106785430032
+    },
+    "filters": {
+      "EMA0.25": {
+        "median_diff_N": -0.006931120458961715,
+        "p5_diff_N": -0.2703003906688779,
+        "minimum_diff_N": -0.8113159183767444,
+        "implied_lag_s": 0.021452495239786405
+      },
+      "MA32": {
+        "median_diff_N": -0.025610757403210727,
+        "p5_diff_N": -1.245617157222489,
+        "minimum_diff_N": -2.542792429601807,
+        "implied_lag_s": 0.0976113270362396
+      }
+    },
+    "records": [
+      {
+        "code": "SX_RAMP1",
+        "attempt_id": "a278836e4aec41eaad716b91014de4af",
+        "hall_capture_id": "d03586e7f3d84b03a197c5bf31fc55e6",
+        "loadcell_capture_id": "759f91bc7ebf416bb2d4c27e06b52fdc"
+      },
+      {
+        "code": "SX_RAMP2",
+        "attempt_id": "bcdb1791f29443749983d598a1c753d7",
+        "hall_capture_id": "15a9eaab9aa34d259fc66848981f751f",
+        "loadcell_capture_id": "64a6e029bcbe45009c62bc846de2ff2a"
+      }
+    ],
+    "selection": {
+      "zero_s": 3,
+      "min_force_N": 1.0,
+      "rate_threshold_N_per_s": 0.2,
+      "loadcell_smoothing_samples": 5,
+      "hall_half_window_s": 0.05
+    }
+  },
+  "filter_initialization": {
+    "EMA0_25": "First output equals first input.",
+    "MA32": "Trailing arithmetic mean; expanding window for the first 31 samples."
+  },
+  "input_sha256": {
+    "analysis/B.json": "834045ac1e4f5fa8655072030824d9f909b58456dc4c25bd2a7d177dce0c12f0",
+    "analysis/synchronized_press.json": "1aa8514b9f599c313967d6c0130a78946fb45cfa09a414541816b078b074f4e6",
+    "protocols/synchronized_press_plan.json": "6606a8e2f51450d1e586d6d62c54340828597189f8bcb00aed61f91662a94604",
+    "models/S1_S2_S3_S4_interpolation.json": "803a626843bb398596ee5d62d9360f9e0003d3ae281c5811f9bc941e7e5336ac",
+    "models/H_loadcell.json": "2f416d08e4008985546b5466d6b1fb0e71cfe10e5ef2175055e0fabe39ac7d7a",
+    "reproduce_synchronized.py": "9c2a2fc6db7859536971e789f21b9f35f1b47a023b0f3362c28e637371016f0d"
+  }
+}

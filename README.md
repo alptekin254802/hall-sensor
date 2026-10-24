@@ -51,6 +51,8 @@ The noise script checks all 70 complete 10 s windows from the 26 loaded and seve
 unloaded comparator B records; its sample-SD range is stored in
 `analysis/comparator_noise.json`.
 
+Run `python reproduce_filter_effect.py` to verify `analysis/filter_effect.json`: static B MAE changes and filter-induced differences on the SX loading branches.
+
 To regenerate the figures, install the optional plotting
 dependencies and select an output directory:
 

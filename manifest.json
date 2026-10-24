@@ -4084,8 +4084,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7989,
-      "sha256": "10518789b488a4a5c4805b694e450fafb9aaf837f2969f346de8c86962d09983"
+      "bytes": 8153,
+      "sha256": "b0f67f1024a3719a2205a0d9cf62fd7c5436410f3f5f10c3d4f947f74fc865b7"
     },
     {
       "path": "release_metadata.json",
@@ -4526,6 +4526,16 @@
       "path": "reviewer_response/offset_absolute_errors.py",
       "bytes": 8298,
       "sha256": "b9d69364504a18eb2db1f0c2fc23a5bbb85d616c6d3e74487cd8baef4d33a834"
+    },
+    {
+      "path": "reproduce_filter_effect.py",
+      "bytes": 7281,
+      "sha256": "51cea41f68ce15cf42a0189c1e18964f4b8fc719a0e8801b9dbd9d846b7acfe5"
+    },
+    {
+      "path": "analysis/filter_effect.json",
+      "bytes": 3060,
+      "sha256": "157228cead6620e2c924610bbbcbcd3a3f093896e887e9f1ca43ee9f1a565d3e"
     }
   ]
 }
