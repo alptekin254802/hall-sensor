@@ -4,7 +4,7 @@ Bench measurements, frozen calibration models, analysis code and acquisition
 firmware accompanying *A modular Hall-effect force-sensing head for algometry:
 bench characterization and recalibration after spring exchange*.
 
-Version **2026.10.21** contains **338 measurement captures**.
+Version **2026.10.21** contains **340 measurement captures**.
 The tested central range is 0 to 49.03 N; this is not a rated device capacity.
 Reference loads consisted of closed containers, books and printed parts.
 Mass values are uncorrected CRW-7024 indications with a 1 g display step.
@@ -33,6 +33,7 @@ python reproduce_bootstrap.py
 python reproduce_noise.py
 python reproduce_revision_checks.py
 python reproduce_synchronized.py
+python reviewer_response/offset_absolute_errors.py
 ```
 
 These commands read the included measurements and frozen models. They do not
@@ -78,6 +79,12 @@ Other figures and some secondary summaries (calibration sensitivity analyses,
 position statistics, the thermal regression and comparator repeat summaries) are
 provided as precomputed values in `analysis/`.
 
+The separate [`reviewer_response/`](reviewer_response/) folder reproduces the
+absolute force-error analysis cited only in Reviewer 4, comment 1 of the response
+letter, not in the manuscript. It covers 43 selected D offsets with the frozen
+four-channel interpolation and two unloaded references (group `RR_D_zero`, role
+`reviewer_response_only`); the manuscript's position analysis remains unchanged.
+
 The main independent test has 23 placements at 13 held-out masses. Its frozen
 four-channel model gives MAE 0.606 N and RMSE 0.773 N. The load-cell
 comparison uses 21 common placements. The directional hand-press series retains
@@ -100,6 +107,7 @@ Section 3.2).
 | `raw/` | Losslessly compressed measurement CSVs, grouped by capture ID; `raw/captures.csv` lists all captures |
 | `raw_index.json` | Analysis roles, metadata, compressed and original file hashes |
 | `analysis/` | Analysis windows, reference capture links, predictions and derived summaries |
+| `reviewer_response/` | Reviewer 4, comment 1 analysis and reproduction script; not reported in the manuscript |
 | `models/` | Frozen central calibration models and load-cell calibration |
 | `force_analysis/` | Calibration model implementations |
 | `protocols/` | Exports of the directional and synchronized-press analysis plans |

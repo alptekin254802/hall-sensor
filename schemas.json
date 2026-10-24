@@ -18,7 +18,7 @@
       "host_monotonic_ns"
     ],
     "example_capture": "01f08f9c47f9438482d61015505a85b8",
-    "capture_count": 260
+    "capture_count": 262
   },
   {
     "device": "Hall",
@@ -39,7 +39,7 @@
       "host_monotonic_ns"
     ],
     "example_capture": "01f08f9c47f9438482d61015505a85b8",
-    "capture_count": 260
+    "capture_count": 262
   },
   {
     "device": "HX711",

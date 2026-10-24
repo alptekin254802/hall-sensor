@@ -1,8 +1,8 @@
 {
   "version": "2026.10.21",
   "created": "2026-10-21",
-  "capture_count": 338,
-  "measurement_files": 601,
+  "capture_count": 340,
+  "measurement_files": 605,
   "analysis_groups": {
     "A": 30,
     "A_REFINE": 8,
@@ -24,7 +24,8 @@
     "manual_press": 2,
     "S_sync": 12,
     "SC_static": 16,
-    "SX_ramps": 4
+    "SX_ramps": 4,
+    "RR_D_zero": 2
   },
   "code_license": "MIT",
   "data_license": "CC-BY-4.0",

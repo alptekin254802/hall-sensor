@@ -63,6 +63,24 @@ groups['manual_press'] = {p.stem.removeprefix('manual_') for p in (ROOT/'analysi
 sync = analysis('synchronized_press')
 for name, key in (('S_sync', 'S'), ('SC_static', 'SC'), ('SX_ramps', 'SX')):
     groups[name] = {r[k] for r in sync[key]['records'] for k in ('hall_capture_id', 'loadcell_capture_id')}
+rr = json.loads((ROOT/'reviewer_response/offset_absolute_errors.json').read_text(encoding='utf-8'))
+assert rr['role'] == 'reviewer_response_only'
+assert 'not reported in the manuscript' in rr['scope']
+assert rr['references']['primary']['capture_id'] == '43902f60258f44b193994385c76ce99d'
+assert rr['references']['alternative']['capture_id'] == '8a41d11b7403432fa562c11860d39efc'
+groups['RR_D_zero'] = {r['capture_id'] for r in rr['references'].values()}
+assert len(groups['RR_D_zero']) == 2
+assert rr['n_offsets'] == len(rr['offsets']) == 43 and rr['positive_errors'] == 42
+assert len({r['capture_id'] for r in rr['offsets']}) == 43
+assert {r['capture_id'] for r in rr['offsets']} <= groups['D']
+assert rr['model_sha256'] == digest(ROOT/rr['model_file'])
+assert rr['offset_source_sha256'] == digest(ROOT/'analysis/D.json')
+assert rr['windows']['unloaded_s'] == [5, 10] and rr['windows']['offset_s'] == [10, 20]
+for row in index:
+    if row['capture_id'] in groups['RR_D_zero']:
+        assert row['uses'] == [{'group': 'RR_D_zero', 'role': 'reviewer_response_only'}]
+        assert row['metadata']['load_state'] == 'unloaded'
+        assert row['metadata']['analysis_window_s'] == [5, 10]
 required = set.union(*groups.values())
 assert required == {r['capture_id'] for r in index}
 assert required == {p.name for p in (ROOT/'raw').iterdir() if p.is_dir()}

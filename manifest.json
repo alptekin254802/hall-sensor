@@ -1,6 +1,6 @@
 {
   "version": "2026.10.21",
-  "captures": 338,
+  "captures": 340,
   "files": [
     {
       "path": ".gitattributes",
@@ -3509,8 +3509,8 @@
     },
     {
       "path": "raw/captures.csv",
-      "bytes": 36461,
-      "sha256": "9168795c7067e79dd219246cc662b236218daa3efbd44263b2696166a6315d8b"
+      "bytes": 36699,
+      "sha256": "7447e3603a2fa34606d9bf01c39fb8082c5e0e598cf479fba28ba78adb6b1a49"
     },
     {
       "path": "raw/cca7b6ebafa74dee80f7ca22fff09aaf/samples.csv.gz",
@@ -4079,18 +4079,18 @@
     },
     {
       "path": "raw_index.json",
-      "bytes": 349177,
-      "sha256": "06543d30ce699d1734e7ca1ac2fa13d078ad04ac40e25ec215b45107bac44566"
+      "bytes": 351659,
+      "sha256": "7096e48aa439413ec2234329f4276bd50e20f640542116d589d9c082443e61a5"
     },
     {
       "path": "README.md",
-      "bytes": 7415,
-      "sha256": "f1b68b813d958444221ff4eb37fd200af31890c5ead9a76f0784cc9d2c19d4c7"
+      "bytes": 7989,
+      "sha256": "10518789b488a4a5c4805b694e450fafb9aaf837f2969f346de8c86962d09983"
     },
     {
       "path": "release_metadata.json",
-      "bytes": 1092,
-      "sha256": "adadc9c9d4469bec3febfd682b925e68e7cad837d3a95638bcbe210b99f2098c"
+      "bytes": 1113,
+      "sha256": "964341bfeffc392d573add983e643986b9f313b705a8904ccbcd9b3d36fe8493"
     },
     {
       "path": "reproduce.py",
@@ -4145,7 +4145,7 @@
     {
       "path": "schemas.json",
       "bytes": 1903,
-      "sha256": "c35769f7838e5b7520b53a2ad65e71f1e0883009c2a0675339eb61e80431b7cb"
+      "sha256": "883d42cf7822cc95099bc3c01938f63c1e55a44f17a0668f58d433019c530df4"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -4154,8 +4154,8 @@
     },
     {
       "path": "verify_package.py",
-      "bytes": 5640,
-      "sha256": "836c65df02ae5aab733843e778f047233f4ec54ed57f61032e310651bb2745d6"
+      "bytes": 6847,
+      "sha256": "85f958ce749b5cdd2bde90cf59997157dfef71a8c164001f35ff0df2a07dd853"
     },
     {
       "path": "analysis/C_excluded.json",
@@ -4491,6 +4491,41 @@
       "path": "protocols/synchronized_press_plan.json",
       "bytes": 10443,
       "sha256": "6606a8e2f51450d1e586d6d62c54340828597189f8bcb00aed61f91662a94604"
+    },
+    {
+      "path": "raw/43902f60258f44b193994385c76ce99d/samples.csv.gz",
+      "bytes": 16311,
+      "sha256": "b509febeb6a4027149f3970e41d77cfc4baa4cb683070558d597d329e2058e6b"
+    },
+    {
+      "path": "raw/43902f60258f44b193994385c76ce99d/temperatures.csv.gz",
+      "bytes": 547,
+      "sha256": "02c93dc38b61d45280144f4f4e1335f7f317c0faa146b628e538ad6706852217"
+    },
+    {
+      "path": "raw/8a41d11b7403432fa562c11860d39efc/samples.csv.gz",
+      "bytes": 16441,
+      "sha256": "fddaa55d3956f82c08b5df0ef1c8d846b85f7b3f915531f6dd9efb8805f1d710"
+    },
+    {
+      "path": "raw/8a41d11b7403432fa562c11860d39efc/temperatures.csv.gz",
+      "bytes": 547,
+      "sha256": "83f1369ba4c59f57686727010accc11192dd6611c257046fd0c643702bb3cd85"
+    },
+    {
+      "path": "reviewer_response/README.md",
+      "bytes": 1369,
+      "sha256": "7ef450b21d7768e5e85d4e33ae3130208b6835c9cf05e8a321f2bc54c10ec765"
+    },
+    {
+      "path": "reviewer_response/offset_absolute_errors.json",
+      "bytes": 45787,
+      "sha256": "1559dd3d9b04a203f94303adc8c45e04ea7fba0d369bffa34fcc2d1bd7becdad"
+    },
+    {
+      "path": "reviewer_response/offset_absolute_errors.py",
+      "bytes": 8298,
+      "sha256": "b9d69364504a18eb2db1f0c2fc23a5bbb85d616c6d3e74487cd8baef4d33a834"
     }
   ]
 }

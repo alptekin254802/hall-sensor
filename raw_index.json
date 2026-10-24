@@ -10395,5 +10395,81 @@
         "compression": "gzip"
       }
     }
+  },
+  {
+    "capture_id": "43902f60258f44b193994385c76ce99d",
+    "uses": [
+      {
+        "group": "RR_D_zero",
+        "role": "reviewer_response_only"
+      }
+    ],
+    "metadata": {
+      "record_code": "RR_D_ZERO_PRIMARY",
+      "load_state": "unloaded",
+      "reference_mass_g": 0,
+      "duration_s": 10,
+      "analysis_window_s": [
+        5,
+        10
+      ],
+      "reference_role": "primary"
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/43902f60258f44b193994385c76ce99d/samples.csv.gz",
+        "sha256": "b509febeb6a4027149f3970e41d77cfc4baa4cb683070558d597d329e2058e6b",
+        "bytes": 16311,
+        "original_sha256": "574324fd9b4c13d1b78e4e43015bc08a605db037de86e34646b2e9bba65da5ef",
+        "original_bytes": 108892,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/43902f60258f44b193994385c76ce99d/temperatures.csv.gz",
+        "sha256": "02c93dc38b61d45280144f4f4e1335f7f317c0faa146b628e538ad6706852217",
+        "bytes": 547,
+        "original_sha256": "96052bfd222d20c77c3aa2119f5ecd02f40ffdae488e0b479e8face555c8d693",
+        "original_bytes": 2866,
+        "compression": "gzip"
+      }
+    }
+  },
+  {
+    "capture_id": "8a41d11b7403432fa562c11860d39efc",
+    "uses": [
+      {
+        "group": "RR_D_zero",
+        "role": "reviewer_response_only"
+      }
+    ],
+    "metadata": {
+      "record_code": "RR_D_ZERO_ALTERNATIVE",
+      "load_state": "unloaded",
+      "reference_mass_g": 0,
+      "duration_s": 10,
+      "analysis_window_s": [
+        5,
+        10
+      ],
+      "reference_role": "alternative"
+    },
+    "measurement_files": {
+      "samples.csv": {
+        "path": "raw/8a41d11b7403432fa562c11860d39efc/samples.csv.gz",
+        "sha256": "fddaa55d3956f82c08b5df0ef1c8d846b85f7b3f915531f6dd9efb8805f1d710",
+        "bytes": 16441,
+        "original_sha256": "6a615fccc98943e4030d4e5c6a8193cb5775004551014e60bfa2b21e33004d61",
+        "original_bytes": 108784,
+        "compression": "gzip"
+      },
+      "temperatures.csv": {
+        "path": "raw/8a41d11b7403432fa562c11860d39efc/temperatures.csv.gz",
+        "sha256": "83f1369ba4c59f57686727010accc11192dd6611c257046fd0c643702bb3cd85",
+        "bytes": 547,
+        "original_sha256": "3f3f34404b27eed0e59ecda357a374a261b7131b18cc3187440cbea473e0e74f",
+        "original_bytes": 2863,
+        "compression": "gzip"
+      }
+    }
   }
 ]

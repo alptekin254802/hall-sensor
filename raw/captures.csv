@@ -337,3 +337,5 @@ d03586e7f3d84b03a197c5bf31fc55e6,SX_ramps,simultaneous_hall,SX_RAMP1,,,,,samples
 759f91bc7ebf416bb2d4c27e06b52fdc,SX_ramps,simultaneous_hx711,SX_RAMP1,,,,,samples
 15a9eaab9aa34d259fc66848981f751f,SX_ramps,simultaneous_hall,SX_RAMP2,,,,,samples; temperatures
 64a6e029bcbe45009c62bc846de2ff2a,SX_ramps,simultaneous_hx711,SX_RAMP2,,,,,samples
+43902f60258f44b193994385c76ce99d,RR_D_zero,reviewer_response_only,RR_D_ZERO_PRIMARY,0,center,,,samples; temperatures
+8a41d11b7403432fa562c11860d39efc,RR_D_zero,reviewer_response_only,RR_D_ZERO_ALTERNATIVE,0,center,,,samples; temperatures
