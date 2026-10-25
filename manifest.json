@@ -9,8 +9,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 88,
-      "sha256": "340073603f7fdc67bf0ffe59713a58a090bbaf9f3778578ddc99343109273669"
+      "bytes": 153,
+      "sha256": "c11e29614cc13c8954a3e6e267da54ed963d1df181f016c3085b7c83dded68c2"
     },
     {
       "path": "acquisition/__init__.py",
@@ -39,8 +39,8 @@
     },
     {
       "path": "acquisition/loadcell.py",
-      "bytes": 11427,
-      "sha256": "fb49dc6e249f7ab273bea0bf8b8096c67ff3b3d01692e1b5814ba9253e34e459"
+      "bytes": 11451,
+      "sha256": "c6b52fa100727086ec3deb72212bb8f4922e52ace81a73f981469b1911a61e36"
     },
     {
       "path": "acquisition/protocol.py",
@@ -4084,8 +4084,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8153,
-      "sha256": "b0f67f1024a3719a2205a0d9cf62fd7c5436410f3f5f10c3d4f947f74fc865b7"
+      "bytes": 9579,
+      "sha256": "bfc4a8eeb4962a089d83392e83c6d8184caff7df5065437fd94152fb2f22ba0a"
     },
     {
       "path": "release_metadata.json",
@@ -4536,6 +4536,16 @@
       "path": "analysis/filter_effect.json",
       "bytes": 3060,
       "sha256": "157228cead6620e2c924610bbbcbcd3a3f093896e887e9f1ca43ee9f1a565d3e"
+    },
+    {
+      "path": "RECORDING_NOTES.md",
+      "bytes": 2838,
+      "sha256": "e0c2a2d3f2a8419f267b0466c0963ba2a0c2781eca43ff63c102c4e7279c9b96"
+    },
+    {
+      "path": "docs/figures/embedded_readout.png",
+      "bytes": 40113,
+      "sha256": "557adb19f786e90c9e901a74cb10fb6366a0c74d40e5edd809d7a83dca99a0df"
     }
   ]
 }

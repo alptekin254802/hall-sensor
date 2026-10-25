@@ -4,17 +4,29 @@ Bench measurements, frozen calibration models, analysis code and acquisition
 firmware accompanying *A modular Hall-effect force-sensing head for algometry:
 bench characterization and recalibration after spring exchange*.
 
-Version **2026.10.21** contains **340 measurement captures**.
-The tested central range is 0 to 49.03 N; this is not a rated device capacity.
-Reference loads consisted of closed containers, books and printed parts.
-Mass values are uncorrected CRW-7024 indications with a 1 g display step.
-CRW-7024 indications were compared with a periodically verified retail scale
-([analysis/reference_scale_check.csv](analysis/reference_scale_check.csv)).
-Five individual objects were weighed three times on each scale; `cas_g` records
-the identical CAS indication on all three repetitions. The CAS CL3000-P bore a
-2025 verification mark and had a 5 g interval over this range. A proportional
-fit to the paired means gave CRW-7024 indications 0.43% higher, with a maximum
-absolute residual of 1.7 g.
+The head is a printed spring-magnet assembly developed toward pressure
+algometry. One compression spring carries four pairs of NdFeB magnets toward
+four fixed UGN3503UA Hall sensors, and an STM32 records the four channels at
+100 scans/s. Together, the four outputs give a force estimate and indicate where and
+how evenly the load was applied. The spring can be exchanged to change
+compliance, and the upper interface is interchangeable.
+
+Main results:
+
+- On 23 placements at 13 masses not used for calibration, four-channel
+  interpolation estimated force with an MAE of 0.606 N over the tested central
+  range of 0 to 49.03 N.
+- Channel averaging gave lower central-force error than any single channel and
+  reduced the change caused by off-center loads.
+- Channel contrasts followed bench offsets within each position block and
+  increased for deliberately tilted and off-center hand presses.
+- After spring exchange, three target points including zero recalibrated the
+  head to errors similar in magnitude to the original calibration.
+- A strain-gauge load cell tested with the same reference loads is included as a
+  scalar-accuracy benchmark.
+
+Version **2026.10.21** contains **340 measurement captures**. The reference
+loads and their scale check are described under [Reference loads](#reference-loads).
 
 ## Reproduce the results
 
@@ -115,6 +127,7 @@ Section 3.2).
 | `protocols/` | Exports of the directional and synchronized-press analysis plans |
 | `firmware/` | Historical STM32 0.4.0 and 0.5.0 sources/binaries and HX711 Uno sketch |
 | `acquisition/` | Optional Hall serial recorder, protocol and readout checks |
+| [RECORDING_NOTES.md](RECORDING_NOTES.md) | Recording settings, fixtures, timing alignment and embedded-readout details |
 | `manifest.json` | SHA-256 inventory of the package, excluding the manifest itself |
 
 `data_access.py` opens compressed CSVs directly. The measurement files preserve
@@ -126,7 +139,21 @@ and [firmware instructions](firmware/README.md) for build and acquisition detail
 
 ## Data scope
 
-The package contains the recordings used in the reported analyses. Repeated acquisitions superseded under the same protocol, pilot runs and unreported exploratory series are not included. Analysis windows and unloaded references are defined in analysis/. The reason for excluding one loading-unloading cycle is given in Supplementary Material S5: the book stack was misplaced on the tray. Its records are included as group `C_books_excluded` so that the exclusion value can be checked; they do not enter any reported result. The following cycle used crosswise stacking centered on the tray mark.
+The package contains the recordings used in the reported analyses. Repeated acquisitions superseded after acquisition noise under the same protocol, pilot runs and unreported exploratory series are not included. Analysis windows and unloaded references are defined in analysis/. The reason for excluding one loading-unloading cycle is given in Supplementary Material S5: the book stack was misplaced on the tray. Its records are included as group `C_books_excluded` so that the exclusion value can be checked; they do not enter any reported result. The following cycle used crosswise stacking centered on the tray mark.
+
+## Reference loads
+
+Reference loads were closed containers, books and printed parts, each weighed as
+a complete load on a CRW-7024 scale with a 1 g display step. Reported masses are
+these uncorrected indications, converted to force with 0.00980665 N/g.
+
+To check this scale, five objects from 99 to 2506 g were weighed three times on
+the CRW-7024 and on a CAS CL3000-P retail scale bearing a 2025 verification mark
+(5 g interval in this range). The CAS showed the same indication on all three
+repetitions, recorded as `cas_g` in
+[analysis/reference_scale_check.csv](analysis/reference_scale_check.csv). A
+proportional fit to the paired means gave CRW-7024 indications 0.43% higher,
+with a maximum absolute residual of 1.7 g.
 
 ## Licenses and citation
 

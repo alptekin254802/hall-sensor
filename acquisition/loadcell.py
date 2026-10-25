@@ -48,20 +48,20 @@ def fixture_mass_for_capacity(context):
         value=moving
     else:
         if context.get('fixture_mass_basis')!='whole_fixture_measured_upper_bound':
-            raise ValueError('Kapasite için tartılmış üst takım veya komple düzenek toplamı gerekli.')
+            raise ValueError('A measured moving-assembly mass or whole-fixture mass is required for the capacity check.')
         value=context.get('fixture_mass_upper_bound_g')
     if not isinstance(value,(int,float)) or not math.isfinite(value) or value<=0:
-        raise ValueError('Tartılan toplamı pozitif gram olarak gir.')
+        raise ValueError('Enter the measured total mass as a positive value in grams.')
     return value
 
 def validate_context(row,capacity_g,platform_g):
     if not all(math.isfinite(x) and x>0 for x in (capacity_g,platform_g)):
-        raise ValueError('Kapasite ve hareketli platform kütlesini pozitif gram olarak gir.')
+        raise ValueError('Enter capacity and moving-platform mass as positive values in grams.')
     mass=row['reference_mass_g']
-    if mass is None or not math.isfinite(mass) or mass<0:raise ValueError('Geçersiz plan kütlesi.')
+    if mass is None or not math.isfinite(mass) or mass<0:raise ValueError('Invalid planned mass.')
     # A tare does not restore capacity. Keep a 100 g handling margin.
     if mass+platform_g>capacity_g-100:
-        raise ValueError(f"Bu satır kapasiteye uygun değil: {mass:g} + {platform_g:g} g. Bu ağırlığı koyma; satırı atla.")
+        raise ValueError(f"This row exceeds the allowed capacity: {mass:g} + {platform_g:g} g. Do not apply this load; skip the row.")
 
 class Tracker:
     def __init__(self,token):
@@ -118,14 +118,14 @@ class Connection:
             try:f=parse(line)
             except ValueError:continue
             if f['kind']=='M':return f
-        self.close();raise RuntimeError('HX711 firmware yanıtı yok; port/kart ve yüklenen yazılımı kontrol et.')
+        self.close();raise RuntimeError('No HX711 firmware response; check the port, board and installed firmware.')
     def close(self):
         if self.serial:
             try:self.serial.write(b'STOP\n')
             except Exception:pass
             self.serial.close();self.serial=None
     def record(self,row,context,stop_event,notify=lambda _:None,out_root=None):
-        if not self.serial:raise RuntimeError('Önce Arduino bağlantısını aç.')
+        if not self.serial:raise RuntimeError('Open the Arduino connection first.')
         validate_context(row,context['capacity_g'],fixture_mass_for_capacity(context))
         out=(Path(out_root) if out_root else ROOT/'recordings/loadcell')/uuid.uuid4().hex
         out.mkdir(parents=True,exist_ok=False)
@@ -150,7 +150,7 @@ class Connection:
                         if record:
                             writer.writerow(record);table.flush();last_data=time.monotonic()
                             second=int(record['elapsed_s'])
-                            if second!=last_notice:notify(f"{row['record_code']} — {second}/{duration:g} s, {len(tracker.rows)} örnek");last_notice=second
+                            if second!=last_notice:notify(f"{row['record_code']}: {second}/{duration:g} s, {len(tracker.rows)} samples");last_notice=second
                     if tracker.rows and tracker.rows[-1]['elapsed_s']>=duration:
                         status='finished';break
                     if time.monotonic()-last_data>3:

@@ -7,3 +7,6 @@ build/
 .DS_Store
 Thumbs.db
 figures/
+!docs/figures/
+docs/figures/*
+!docs/figures/embedded_readout.png
