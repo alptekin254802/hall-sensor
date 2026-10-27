@@ -24,10 +24,27 @@ the [data dictionary](DATA_DICTIONARY.md#reproduced-interval-and-noise-summaries
 
 ## Hand-press assembly and clock alignment
 
+Series labels are synchronized presses (S), static controls on the same assembly
+(SC), exploratory ramps (SX), and held-out test (B).
+
 The centered hand-press series zeroed the CRW-7024 with the 343 g Hall assembly
-in place. For synchronized presses, the same assembly was fixed with double-sided
-tape at the center of a 111 g rigid plate on the load cell. The load-cell base was
-fixed to the bench, and hand force was applied to the Hall tray.
+in place. For synchronized presses, the same assembly rested on the 111 g
+load-cell platform without mechanical fastening. Hand force was applied to the Hall
+tray. A later setup check showed support deflection under load; its magnitude
+during the recorded trials was not measured.
+
+The `setup.description` in the preserved
+[synchronized plan export](protocols/synchronized_press_plan.json) describes the
+intended taped mounting, not the assembly used in these recordings. The actual
+arrangement is described above.
+
+Hand-loading observations ([HTML](docs/hand_loading_observations.html),
+[PDF](docs/hand_loading_observations.pdf)) presents every
+manual and synchronized press, the static controls and the ramp figure with their
+methods. The manual scale readings were approximate and their timing relative to
+the Hall windows was not independently verified. The synchronized setup did not
+isolate the head response from support movement. These observations are not used
+to quantify the force accuracy of the head itself or identify a friction mechanism.
 
 Each device clock was mapped to host time by linear regression. The synchronized
 records and alignment results are in

@@ -20,7 +20,7 @@ Main results:
   reduced the change caused by off-center loads.
 - Channel contrasts followed bench offsets within each position block and
   increased for deliberately tilted and off-center hand presses.
-- After spring exchange, three target points including zero recalibrated the
+- For both tested springs, three target points including zero recalibrated the
   head to errors similar in magnitude to the original calibration.
 - A strain-gauge load cell tested with the same reference loads is included as a
   scalar-accuracy benchmark.
@@ -29,6 +29,8 @@ Version **2026.10.21** contains **340 measurement captures**. The reference
 loads and their scale check are described under [Reference loads](#reference-loads).
 
 ## Reproduce the results
+
+Calibration set A and held-out test set B follow the manuscript.
 
 Use Python 3.11 or newer. The release was checked with Python 3.14 and NumPy 2.3.4.
 From this directory:
@@ -50,7 +52,7 @@ python reviewer_response/offset_absolute_errors.py
 
 These commands read the included measurements and frozen models. They do not
 connect to a device, change the data, or refit the primary calibration.
-Verification checks only the presence of `CITATION.cff`, `LICENSE` and `DATA_LICENSE.md`, whose author names may be masked in anonymous copies; all other inventory and measurement-integrity checks remain unchanged.
+`verify_package.py` and `reproduce.py` check only the presence of `CITATION.cff`, `LICENSE` and `DATA_LICENSE.md`, whose author names may be masked in anonymous copies; all other integrity checks remain unchanged.
 The channel script reconstructs all seven subset fits in memory using the original
 A data and checks their B predictions and signed-error correlations. These
 additional comparisons were made after the original B evaluation. The quadratic
@@ -63,7 +65,7 @@ The noise script checks all 70 complete 10 s windows from the 26 loaded and seve
 unloaded comparator B records; its sample-SD range is stored in
 `analysis/comparator_noise.json`.
 
-Run `python reproduce_filter_effect.py` to verify `analysis/filter_effect.json`: static B MAE changes and filter-induced differences on the SX loading branches.
+Run `python reproduce_filter_effect.py` to verify `analysis/filter_effect.json`: static B MAE changes and filter-induced differences on the loading branches of the exploratory ramps.
 
 To regenerate the figures, install the optional plotting
 dependencies and select an output directory:
@@ -74,9 +76,6 @@ python plot_directional_contrasts.py --output-dir figures
 python plot_stability.py --output-dir figures
 python plot_synchronized_ramps.py --output-dir figures
 ```
-
-The figure groups each round explicitly by `condition` in the order `CENTER`,
-`TILT_XP`, `OFFSET_XP15`; acquisition order does not determine the x-axis labels.
 
 The scripts recompute the primary calibration and test results, the channel,
 quadratic, stability, bootstrap and noise analyses, and the figures listed above.
@@ -101,10 +100,18 @@ four-channel interpolation and two unloaded references (group `RR_D_zero`, role
 
 The main independent test has 23 placements at 13 held-out masses. Its frozen
 four-channel model gives MAE 0.606 N and RMSE 0.773 N. The load-cell
-comparison uses 21 common placements. The directional hand-press series retains
-all 15 presses in five rounds; the earlier manual comparison retains all 18 pairs.
-The synchronized load-cell series retains all 18 presses, the four static-control
-placements with their unloaded references and both exploratory ramp records.
+comparison uses 21 common placements. The package includes all 15 directional presses in five rounds, 18 manual pairs,
+18 synchronized presses, four static-control placements with their unloaded
+references and both exploratory ramp records.
+The complete tables, ramp figure, methods and setup description are collected in
+Hand-loading observations ([HTML](docs/hand_loading_observations.html),
+[PDF](docs/hand_loading_observations.pdf)), referenced by
+Supplementary Material S7. The manual readings had unverified temporal matching;
+the synchronized assembly used an unfastened head on a platform whose deflection
+was not measured during acquisition. These comparisons are separate from the
+static accuracy benchmark. The preserved plan export describes the intended
+mounting; [recording notes](RECORDING_NOTES.md#hand-press-assembly-and-clock-alignment)
+describe the actual assembly.
 
 On the common 22 cubic-supported placements, single-channel MAEs range from
 1.165 to 2.061 N, pair MAEs from 0.615 to 0.642 N, and the four-channel MAE is
@@ -128,6 +135,7 @@ Section 3.2).
 | `firmware/` | Historical STM32 0.4.0 and 0.5.0 sources/binaries and HX711 Uno sketch |
 | `acquisition/` | Optional Hall serial recorder, protocol and readout checks |
 | [RECORDING_NOTES.md](RECORDING_NOTES.md) | Recording settings, fixtures, timing alignment and embedded-readout details |
+| Hand-loading observations ([HTML](docs/hand_loading_observations.html), [PDF](docs/hand_loading_observations.pdf)) | Complete manual and synchronized tables, static controls, ramp figure and methods |
 | `manifest.json` | SHA-256 inventory of the package, excluding the manifest itself |
 
 `data_access.py` opens compressed CSVs directly. The measurement files preserve
@@ -139,7 +147,7 @@ and [firmware instructions](firmware/README.md) for build and acquisition detail
 
 ## Data scope
 
-The package contains the recordings used in the reported analyses. Repeated acquisitions superseded after acquisition noise under the same protocol, pilot runs and unreported exploratory series are not included. Analysis windows and unloaded references are defined in analysis/. The reason for excluding one loading-unloading cycle is given in Supplementary Material S5: the book stack was misplaced on the tray. Its records are included as group `C_books_excluded` so that the exclusion value can be checked; they do not enter any reported result. The following cycle used crosswise stacking centered on the tray mark.
+The package contains the recordings used in the reported analyses. Recordings repeated because of acquisition noise, pilot runs and unreported exploratory series are not included. Analysis windows and unloaded references are defined in analysis/. The reason for excluding one loading-unloading cycle is given in Supplementary Material S5: the book stack was misplaced on the tray. Its records are included as group `C_books_excluded` so that the exclusion value can be checked; they do not enter any reported result. The following cycle used crosswise stacking centered on the tray mark.
 
 ## Reference loads
 

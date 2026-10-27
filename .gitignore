@@ -10,3 +10,4 @@ figures/
 !docs/figures/
 docs/figures/*
 !docs/figures/embedded_readout.png
+!docs/figures/synchronized_ramps.png

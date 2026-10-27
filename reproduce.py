@@ -29,9 +29,16 @@ def mean_raw(cid,window=(10,20)):
         cache[key]=data[keep,1:].mean(axis=0)
     return cache[key]
 
+ANONYMIZED_AUTHOR_FILES = frozenset({'CITATION.cff', 'LICENSE', 'DATA_LICENSE.md'})
 manifest=read('manifest.json')
 for f in manifest['files']:
-    assert hashlib.sha256((ROOT/f['path']).read_bytes()).hexdigest()==f['sha256'], f['path']
+    path = ROOT/f['path']
+    assert path.is_file(), f['path']
+    if f['path'] in ANONYMIZED_AUTHOR_FILES:
+        continue
+    assert hashlib.sha256(path.read_bytes()).hexdigest()==f['sha256'], f['path']
+print('Author names may be masked in anonymous copies; CITATION.cff, LICENSE and '
+      'DATA_LICENSE.md are checked for presence only. All other integrity checks remain unchanged.')
 
 model=Calibrator.load(ROOT/'models/S1_S2_S3_S4_interpolation.json')
 state=read('models/S1_S2_S3_S4_interpolation.json')['state']
